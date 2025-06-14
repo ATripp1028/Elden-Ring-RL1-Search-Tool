@@ -12,27 +12,27 @@ const arcane = ref(10);
   <div class="search-form">
     <div class="form-group">
       <label for="field1">Strength</label>
-      <input type="text" id="field1" v-model="strength" placeholder="Enter text...">
+      <input type="text" id="field1" v-model="strength" placeholder="Enter Strength">
     </div>
     
     <div class="form-group">
       <label for="field2">Dexterity</label>
-      <input type="text" id="field2" v-model="dexterity" placeholder="Enter text...">
+      <input type="text" id="field2" v-model="dexterity" placeholder="Enter Dexterity">
     </div>
     
     <div class="form-group">
       <label for="field3">Intelligence</label>
-      <input type="text" id="field3" v-model="intelligence" placeholder="Enter text...">
+      <input type="text" id="field3" v-model="intelligence" placeholder="Enter Intelligence">
     </div>
     
     <div class="form-group">
       <label for="field4">Faith</label>
-      <input type="text" id="field4" v-model="faith" placeholder="Enter text...">
+      <input type="text" id="field4" v-model="faith" placeholder="Enter Faith">
     </div>
     
     <div class="form-group">
       <label for="field5">Arcane</label>
-      <input type="text" id="field5" v-model="arcane" placeholder="Enter text...">
+      <input type="text" id="field5" v-model="arcane" placeholder="Enter Arcane">
     </div>
   </div>
 </template>
