@@ -30,5 +30,20 @@ export const daggers: Weapon[] = [
         wikiGGLink: "https://eldenring.wiki.gg/wiki/Parrying_Dagger",
         wikiFextralifeLink: "https://eldenring.wiki.fextralife.com/Parrying+Dagger",
         dlcExclusive: false,
-    }
+    },
+    {
+        name: "Miséricorde",
+        type: WeaponType.Dagger,
+        imgPath: "weapons/daggers/miséricorde.webp",
+        stats: {
+            strength: 7,
+            dexterity: 12,
+            intelligence: 0,
+            faith: 0,
+            arcane: 0,
+        },
+        wikiGGLink: "https://eldenring.wiki.gg/wiki/Miséricorde",
+        wikiFextralifeLink: "https://eldenring.wiki.fextralife.com/Miséricorde",
+        dlcExclusive: false,
+    },
 ];
