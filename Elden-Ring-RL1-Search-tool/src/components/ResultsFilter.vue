@@ -1,11 +1,14 @@
 <script setup lang="ts">
+import { useFilterStore } from '../stores/filter'
+
+const filter = useFilterStore()
 </script>
 
 <template>
   <div class="results-filter">
     <div class="filter-group">
       <label for="filter1">Search Results</label>
-      <input type="text" id="filter1" v-model="filter1" placeholder="Filter...">
+      <input type="text" id="filter1" v-model="filter.searchQuery" placeholder="Filter...">
     </div>
   </div>
 </template>

@@ -1,38 +1,52 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { useStatsStore } from '../stores/stats'
+import { useFilterStore } from '../stores/filter'
 
-const strength = ref(10);
-const dexterity = ref(10);
-const intelligence = ref(10);
-const faith = ref(10);
-const arcane = ref(10);
+const stats = useStatsStore()
+const filter = useFilterStore()
 </script>
 
 <template>
   <div class="search-form">
     <div class="form-group">
       <label for="field1">Strength</label>
-      <input type="text" id="field1" v-model="strength" placeholder="Enter Strength">
+      <input type="number" id="field1" v-model="stats.strength" placeholder="Enter Strength">
     </div>
     
     <div class="form-group">
       <label for="field2">Dexterity</label>
-      <input type="text" id="field2" v-model="dexterity" placeholder="Enter Dexterity">
+      <input type="number" id="field2" v-model="stats.dexterity" placeholder="Enter Dexterity">
     </div>
     
     <div class="form-group">
       <label for="field3">Intelligence</label>
-      <input type="text" id="field3" v-model="intelligence" placeholder="Enter Intelligence">
+      <input type="number" id="field3" v-model="stats.intelligence" placeholder="Enter Intelligence">
     </div>
     
     <div class="form-group">
       <label for="field4">Faith</label>
-      <input type="text" id="field4" v-model="faith" placeholder="Enter Faith">
+      <input type="number" id="field4" v-model="stats.faith" placeholder="Enter Faith">
     </div>
     
     <div class="form-group">
       <label for="field5">Arcane</label>
-      <input type="text" id="field5" v-model="arcane" placeholder="Enter Arcane">
+      <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane">
+    </div>
+
+    <div class="debug-section">
+      <h3>Debug Info</h3>
+      <pre>{{ JSON.stringify({
+        stats: {
+          strength: stats.strength,
+          dexterity: stats.dexterity,
+          intelligence: stats.intelligence,
+          faith: stats.faith,
+          arcane: stats.arcane
+        },
+        filter: {
+          searchQuery: filter.searchQuery
+        }
+      }, null, 2) }}</pre>
     </div>
   </div>
 </template>
@@ -47,6 +61,7 @@ const arcane = ref(10);
   left: 0;
   top: 0;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
 }
 
 .form-group {
@@ -72,5 +87,27 @@ input:focus {
   outline: none;
   border-color: #666;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.debug-section {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.debug-section h3 {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.debug-section pre {
+  margin: 0;
+  font-size: 12px;
+  color: #333;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 </style>
