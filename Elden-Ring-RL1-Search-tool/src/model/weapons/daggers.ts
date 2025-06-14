@@ -166,5 +166,20 @@ export const daggers: Weapon[] = [
         wikiFextralifeLink: "https://eldenring.wiki.fextralife.com/Ivory+Sickle",
         dlcExclusive: false,
     },
+    {
+        name: "Crystal Knife",
+        type: WeaponType.Dagger,
+        imgPath: "weapons/daggers/crystal_knife.webp",
+        stats: {
+            strength: 8,
+            dexterity: 12,
+            intelligence: 9,
+            faith: 0,
+            arcane: 0,
+        },
+        wikiGGLink: "https://eldenring.wiki.gg/wiki/Crystal_Knife",
+        wikiFextralifeLink: "https://eldenring.wiki.fextralife.com/Crystal+Knife",
+        dlcExclusive: false,
+    },
     
 ];
