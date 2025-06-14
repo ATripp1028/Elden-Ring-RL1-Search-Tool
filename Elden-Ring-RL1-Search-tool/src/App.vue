@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import SearchForm from './components/SearchForm.vue'
 import ResultsFilter from './components/ResultsFilter.vue'
+import WeaponsTable from './components/WeaponsTable.vue'
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import ResultsFilter from './components/ResultsFilter.vue'
     <SearchForm />
     <ResultsFilter />
     <main class="main-content">
-      <!-- Main content will go here -->
+      <WeaponsTable />
     </main>
   </div>
 </template>
@@ -17,11 +18,14 @@ import ResultsFilter from './components/ResultsFilter.vue'
 .app {
   display: flex;
   min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .main-content {
   flex: 1;
   margin-left: 300px; /* Same as the sidebar width */
-  padding: 20px;
+  padding-top: 60px; /* Space for the filter bar */
+  width: calc(100vw - 300px);
 }
 </style>
