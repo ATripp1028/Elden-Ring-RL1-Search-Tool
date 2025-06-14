@@ -4,18 +4,8 @@
 <template>
   <div class="results-filter">
     <div class="filter-group">
-      <label for="filter1">Filter 1</label>
+      <label for="filter1">Search Results</label>
       <input type="text" id="filter1" v-model="filter1" placeholder="Filter...">
-    </div>
-    
-    <div class="filter-group">
-      <label for="filter2">Filter 2</label>
-      <input type="text" id="filter2" v-model="filter2" placeholder="Filter...">
-    </div>
-    
-    <div class="filter-group">
-      <label for="filter3">Filter 3</label>
-      <input type="text" id="filter3" v-model="filter3" placeholder="Filter...">
     </div>
   </div>
 </template>

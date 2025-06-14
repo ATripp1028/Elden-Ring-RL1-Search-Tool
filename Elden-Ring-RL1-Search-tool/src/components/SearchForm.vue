@@ -1,31 +1,38 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+
+const strength = ref(10);
+const dexterity = ref(10);
+const intelligence = ref(10);
+const faith = ref(10);
+const arcane = ref(10);
 </script>
 
 <template>
   <div class="search-form">
     <div class="form-group">
-      <label for="field1">Field 1</label>
-      <input type="text" id="field1" v-model="field1" placeholder="Enter text...">
+      <label for="field1">Strength</label>
+      <input type="text" id="field1" v-model="strength" placeholder="Enter text...">
     </div>
     
     <div class="form-group">
-      <label for="field2">Field 2</label>
-      <input type="text" id="field2" v-model="field2" placeholder="Enter text...">
+      <label for="field2">Dexterity</label>
+      <input type="text" id="field2" v-model="dexterity" placeholder="Enter text...">
     </div>
     
     <div class="form-group">
-      <label for="field3">Field 3</label>
-      <input type="text" id="field3" v-model="field3" placeholder="Enter text...">
+      <label for="field3">Intelligence</label>
+      <input type="text" id="field3" v-model="intelligence" placeholder="Enter text...">
     </div>
     
     <div class="form-group">
-      <label for="field4">Field 4</label>
-      <input type="text" id="field4" v-model="field4" placeholder="Enter text...">
+      <label for="field4">Faith</label>
+      <input type="text" id="field4" v-model="faith" placeholder="Enter text...">
     </div>
     
     <div class="form-group">
-      <label for="field5">Field 5</label>
-      <input type="text" id="field5" v-model="field5" placeholder="Enter text...">
+      <label for="field5">Arcane</label>
+      <input type="text" id="field5" v-model="arcane" placeholder="Enter text...">
     </div>
   </div>
 </template>
