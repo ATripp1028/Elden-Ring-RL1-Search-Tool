@@ -37,12 +37,13 @@ const filteredWeapons = computed(() => {
           <th class="stat-col">Intelligence</th>
           <th class="stat-col">Faith</th>
           <th class="stat-col">Arcane</th>
-          <th class="links-col">Links</th>
+          <th class="wiki-link-cell">Wiki.gg</th>
+          <th class="wiki-link-cell">Fextralife</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="weapon in filteredWeapons" :key="weapon.name">
-          <td class="image-cell">
+          <td>
             <img :src="weapon.imgPath" :alt="weapon.name" class="weapon-image">
           </td>
           <td>{{ weapon.name }}</td>
@@ -51,8 +52,10 @@ const filteredWeapons = computed(() => {
           <td>{{ weapon.stats.intelligence }}</td>
           <td>{{ weapon.stats.faith }}</td>
           <td>{{ weapon.stats.arcane }}</td>
-          <td class="links-cell">
+          <td>
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
+          </td>
+          <td>
             <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer">Fextralife</a>
           </td>
         </tr>
@@ -82,12 +85,16 @@ table {
 
 th, td {
   padding: 12px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   color: black;
+}
+
+td {
+    text-align: center;
 }
 
 th {
@@ -97,43 +104,41 @@ th {
 }
 
 .image-col {
-  width: 100px;
+  width: 10%;
 }
 
 .name-col {
-  width: 200px;
+  width: 20%;
 }
 
 .stat-col {
-  width: 100px;
+  width: 10%;
+  text-align: center;
 }
 
 .links-col {
-  width: 150px;
-}
-
-.image-cell {
-  width: 100px;
-  padding: 8px;
+  width: 10%;
 }
 
 .weapon-image {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
-.links-cell {
-  white-space: nowrap;
+.wiki-link-cell {
+    width: 10%;
+    text-align: center;
+    white-space: nowrap;
 }
 
-.links-cell a {
+.wiki-link-cell a {
   margin-right: 10px;
   color: black;
   text-decoration: none;
 }
 
-.links-cell a:hover {
+.wiki-link-cell a:hover {
   text-decoration: underline;
 }
 
