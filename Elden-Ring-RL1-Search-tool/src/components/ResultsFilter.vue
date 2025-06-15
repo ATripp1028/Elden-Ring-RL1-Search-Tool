@@ -22,6 +22,9 @@ const filter = useFilterStore()
   border-bottom: 1px solid #ddd;
   align-items: center;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .filter-group {

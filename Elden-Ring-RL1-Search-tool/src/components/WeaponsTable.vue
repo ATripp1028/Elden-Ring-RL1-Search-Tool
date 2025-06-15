@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useStatsStore } from '../stores/stats'
 import { useFilterStore } from '../stores/filter'
 import weapons from '../model/weapons'
 
 const stats = useStatsStore()
 const filter = useFilterStore()
+
+const currentPage = ref(1)
+const itemsPerPage = ref(10)
 
 const filteredWeapons = computed(() => {
   return weapons.filter(weapon => {
@@ -23,10 +26,59 @@ const filteredWeapons = computed(() => {
     return matchesSearch && meetsRequirements
   })
 })
+
+const paginatedWeapons = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value
+  const end = start + itemsPerPage.value
+  return filteredWeapons.value.slice(start, end)
+})
+
+const totalPages = computed(() => {
+  return Math.ceil(filteredWeapons.value.length / itemsPerPage.value)
+})
+
+const changePage = (page: number) => {
+  if (page >= 1 && page <= totalPages.value) {
+    currentPage.value = page
+  }
+}
+
+const changeItemsPerPage = (newSize: number) => {
+  itemsPerPage.value = newSize
+  currentPage.value = 1 // Reset to first page when changing items per page
+}
 </script>
 
 <template>
   <div class="weapons-table">
+    <div class="pagination-controls">
+      <div class="items-per-page">
+        <label for="itemsPerPage">Items per page:</label>
+        <select id="itemsPerPage" v-model="itemsPerPage" @change="changeItemsPerPage(Number(itemsPerPage))">
+          <option :value="10">10</option>
+          <option :value="20">20</option>
+          <option :value="40">40</option>
+        </select>
+      </div>
+      <div class="page-navigation">
+        <button 
+          @click="changePage(currentPage - 1)"
+          :disabled="currentPage === 1"
+          class="page-button"
+        >
+          Previous
+        </button>
+        <span class="page-info">Page {{ currentPage }} of {{ totalPages }}</span>
+        <button 
+          @click="changePage(currentPage + 1)"
+          :disabled="currentPage === totalPages"
+          class="page-button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+
     <table>
       <thead>
         <tr>
@@ -42,7 +94,7 @@ const filteredWeapons = computed(() => {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="weapon in filteredWeapons" :key="weapon.name">
+        <tr v-for="weapon in paginatedWeapons" :key="weapon.name">
           <td>
             <img :src="weapon.imgPath" :alt="weapon.name" class="weapon-image">
           </td>
@@ -101,6 +153,7 @@ th {
   background-color: #f5f5f5;
   font-weight: 600;
   color: black;
+  position: sticky;
 }
 
 .image-col {
@@ -144,5 +197,55 @@ th {
 
 tr:hover {
   background-color: #f9f9f9;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.items-per-page {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.items-per-page select {
+  padding: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.page-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.page-button:hover:not(:disabled) {
+  background-color: #f0f0f0;
+}
+
+.page-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-info {
+  font-size: 0.9rem;
+  color: #666;
 }
 </style> 

@@ -34,7 +34,7 @@ export const daggers: Weapon[] = [
     {
         name: "Miséricorde",
         type: WeaponType.Dagger,
-        imgPath: "weapons/daggers/miséricorde.webp",
+        imgPath: "weapons/daggers/misericorde.webp",
         stats: {
             strength: 7,
             dexterity: 12,
@@ -139,7 +139,7 @@ export const daggers: Weapon[] = [
     {
         name: "Celebrant's Sickle",
         type: WeaponType.Dagger,
-        imgPath: "weapons/daggers/celebrant_sickle.webp",
+        imgPath: "weapons/daggers/celebrant_sickle.png",
         stats: {
             strength: 6,
             dexterity: 11,
