@@ -2,47 +2,39 @@
 import { computed, onMounted, ref } from 'vue'
 import { useStatsStore } from '../stores/stats'
 import { useFilterStore } from '../stores/filter'
-import weapons from '../model/weapons'
+import { useWeaponsStore } from '../stores/weapons'
 
 const stats = useStatsStore()
 const filter = useFilterStore()
-
-const currentPage = ref(1)
-const itemsPerPage = ref(10)
+const weaponsStore = useWeaponsStore()
 
 onMounted(() => {
-  fetch(`https://eldenring.fanapis.com/api/weapons?page=${currentPage.value}&limit=${itemsPerPage.value}`)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data)
-    })
-    .catch(error => {
-      console.error('Error fetching weapons:', error)
-    })
+  weaponsStore.fetchWeapons()
 })
 
 const filteredWeapons = computed(() => {
-  return weapons.filter(weapon => {
+  return weaponsStore.weapons.filter(weapon => {
     // Check if weapon name contains the search query
     const matchesSearch = weapon.name.toLowerCase().includes(filter.searchQuery.toLowerCase())
     
     // Check if weapon stats are less than or equal to current stats
     const meetsRequirements = 
-      weapon.stats.strength <= stats.strength &&
-      weapon.stats.dexterity <= stats.dexterity &&
-      weapon.stats.intelligence <= stats.intelligence &&
-      weapon.stats.faith <= stats.faith &&
-      weapon.stats.arcane <= stats.arcane
+      weapon.requiredAttributes.strength <= stats.strength &&
+      weapon.requiredAttributes.dexterity <= stats.dexterity &&
+      weapon.requiredAttributes.intelligence <= stats.intelligence &&
+      weapon.requiredAttributes.faith <= stats.faith &&
+      weapon.requiredAttributes.arcane <= stats.arcane
 
     return matchesSearch && meetsRequirements
   })
 })
-
 </script>
 
 <template>
   <div class="weapons-table">
-    <table>
+    <div v-if="weaponsStore.loading" class="loading">Loading weapons...</div>
+    <div v-else-if="weaponsStore.error" class="error">{{ weaponsStore.error }}</div>
+    <table v-else>
       <thead>
         <tr>
           <th class="image-col">Image</th>
@@ -57,16 +49,16 @@ const filteredWeapons = computed(() => {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="weapon in filteredWeapons" :key="weapon.name">
+        <tr v-for="weapon in filteredWeapons" :key="weapon.id">
           <td>
-            <img :src="weapon.imgPath" :alt="weapon.name" class="weapon-image">
+            <img :src="weapon.image" :alt="weapon.name" class="weapon-image">
           </td>
           <td>{{ weapon.name }}</td>
-          <td>{{ weapon.stats.strength }}</td>
-          <td>{{ weapon.stats.dexterity }}</td>
-          <td>{{ weapon.stats.intelligence }}</td>
-          <td>{{ weapon.stats.faith }}</td>
-          <td>{{ weapon.stats.arcane }}</td>
+          <td>{{ weapon.requiredAttributes.strength }}</td>
+          <td>{{ weapon.requiredAttributes.dexterity }}</td>
+          <td>{{ weapon.requiredAttributes.intelligence }}</td>
+          <td>{{ weapon.requiredAttributes.faith }}</td>
+          <td>{{ weapon.requiredAttributes.arcane }}</td>
           <td>
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
           </td>
@@ -162,4 +154,13 @@ tr:hover {
   background-color: #f9f9f9;
 }
 
+.loading, .error {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.error {
+  color: red;
+}
 </style> 
