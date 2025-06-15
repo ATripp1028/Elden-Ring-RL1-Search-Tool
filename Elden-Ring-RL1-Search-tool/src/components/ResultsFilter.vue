@@ -22,7 +22,7 @@ const filter = useFilterStore()
   border-bottom: 1px solid #ddd;
   align-items: center;
   position: absolute;
-  left: 300px;
+  left: 17%;
   right: 0;
   top: 0;
 }

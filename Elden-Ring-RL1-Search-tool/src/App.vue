@@ -24,8 +24,8 @@ import WeaponsTable from './components/WeaponsTable.vue'
 
 .main-content {
   flex: 1;
-  margin-left: 300px; /* Same as the sidebar width */
+  margin-left: 17%; /* Same as the sidebar width */
   padding-top: 60px; /* Space for the filter bar */
-  width: calc(100vw - 300px);
+  width: calc(100vw - 17%);
 }
 </style>
