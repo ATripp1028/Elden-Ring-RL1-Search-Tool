@@ -8,6 +8,10 @@ const stats = useStatsStore()
 const filter = useFilterStore()
 const weaponsStore = useWeaponsStore()
 
+const totalPages = computed(() => {
+  return Math.ceil(weaponsStore.totalItems / weaponsStore.itemsPerPage)
+})
+
 onMounted(() => {
   weaponsStore.fetchWeapons()
 })
@@ -32,6 +36,36 @@ const filteredWeapons = computed(() => {
 
 <template>
   <div class="weapons-table">
+    <div class="pagination-controls">
+      <div class="items-per-page">
+        <label for="itemsPerPage">Items per page:</label>
+        <select 
+          id="itemsPerPage" 
+          :value="weaponsStore.itemsPerPage"
+          @change="(e: Event) => weaponsStore.setItemsPerPage(Number((e.target as HTMLSelectElement).value))"
+        >
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="40">40</option>
+        </select>
+      </div>
+      <div class="page-navigation">
+        <button 
+          :disabled="weaponsStore.currentPage === 1"
+          @click="weaponsStore.setPage(weaponsStore.currentPage - 1)"
+        >
+          Previous
+        </button>
+        <span>Page {{ weaponsStore.currentPage }} of {{ totalPages }}</span>
+        <button 
+          :disabled="weaponsStore.currentPage >= totalPages"
+          @click="weaponsStore.setPage(weaponsStore.currentPage + 1)"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+
     <div v-if="weaponsStore.loading" class="loading">Loading weapons...</div>
     <div v-else-if="weaponsStore.error" class="error">{{ weaponsStore.error }}</div>
     <table v-else>
@@ -162,5 +196,49 @@ tr:hover {
 
 .error {
   color: red;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.items-per-page {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.items-per-page select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.page-navigation button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.page-navigation button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-navigation button:hover:not(:disabled) {
+  background-color: #f5f5f5;
 }
 </style> 

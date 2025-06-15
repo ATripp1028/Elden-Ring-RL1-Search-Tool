@@ -43,13 +43,17 @@ export const useWeaponsStore = defineStore('weapons', () => {
   const loading = ref(false)
   const error = ref<string | null>(null)
 
+  const currentPage = ref(1)
+  const itemsPerPage = ref(10)
+  const totalItems = ref(0)
+
   async function fetchWeapons() {
     loading.value = true
     error.value = null
     
     try {
       const response = await fetch(
-        `https://eldenring.fanapis.com/api/weapons?limit=400`
+        `https://eldenring.fanapis.com/api/weapons?limit=${itemsPerPage.value}&page=${currentPage.value}`
       )
       const data = await response.json()
       
@@ -94,6 +98,7 @@ export const useWeaponsStore = defineStore('weapons', () => {
           wikiGGLink: `https://eldenring.wiki.gg/wiki/${weapon.name.replace(/\s+/g, '_')}`,
           wikiFextralifeLink: `https://eldenring.wiki.fextralife.com/${weapon.name.replace(/\s+/g, '+')}`
         }))
+        totalItems.value = data.count || 0
       } else {
         throw new Error('Failed to fetch weapons')
       }
@@ -104,10 +109,26 @@ export const useWeaponsStore = defineStore('weapons', () => {
     }
   }
 
+  function setItemsPerPage(value: number) {
+    itemsPerPage.value = value
+    currentPage.value = 1 // Reset to first page when changing items per page
+    fetchWeapons()
+  }
+
+  function setPage(page: number) {
+    currentPage.value = page
+    fetchWeapons()
+  }
+
   return {
     weapons,
     loading,
     error,
-    fetchWeapons
+    currentPage,
+    itemsPerPage,
+    totalItems,
+    fetchWeapons,
+    setItemsPerPage,
+    setPage
   }
 })
