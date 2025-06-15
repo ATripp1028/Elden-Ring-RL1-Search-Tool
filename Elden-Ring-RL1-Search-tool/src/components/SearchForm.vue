@@ -53,11 +53,11 @@ const filter = useFilterStore()
 
 <style scoped>
 .search-form {
-  width: 17%;
+  width: 100%;
   padding: 20px;
   background-color: #f5f5f5;
   height: 100vh;
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);

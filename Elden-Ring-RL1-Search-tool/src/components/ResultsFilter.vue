@@ -21,10 +21,7 @@ const filter = useFilterStore()
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   align-items: center;
-  position: absolute;
-  left: 17%;
-  right: 0;
-  top: 0;
+  width: 100%;
 }
 
 .filter-group {

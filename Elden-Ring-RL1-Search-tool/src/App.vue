@@ -6,9 +6,11 @@ import WeaponsTable from './components/WeaponsTable.vue'
 
 <template>
   <div class="app">
-    <SearchForm />
-    <ResultsFilter />
+    <div class="sidebar">
+      <SearchForm />
+    </div>
     <main class="main-content">
+      <ResultsFilter />
       <WeaponsTable />
     </main>
   </div>
@@ -19,13 +21,16 @@ import WeaponsTable from './components/WeaponsTable.vue'
   display: flex;
   min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+}
+
+.sidebar {
+  width: 17%;
+  background-color: white;
 }
 
 .main-content {
   flex: 1;
-  margin-left: 17%; /* Same as the sidebar width */
-  padding-top: 60px; /* Space for the filter bar */
-  width: calc(100vw - 17%);
+  width: 83%;
+  background-color: white;
 }
 </style>
