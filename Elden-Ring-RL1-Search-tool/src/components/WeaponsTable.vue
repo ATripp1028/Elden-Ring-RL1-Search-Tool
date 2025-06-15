@@ -8,12 +8,11 @@ const stats = useStatsStore()
 const filter = useFilterStore()
 const weaponsStore = useWeaponsStore()
 
-const totalPages = computed(() => {
-  return Math.ceil(weaponsStore.totalItems / weaponsStore.itemsPerPage)
-})
+const currentPage = ref(1)
+const itemsPerPage = ref(10)
 
-onMounted(() => {
-  weaponsStore.fetchWeapons()
+const totalPages = computed(() => {
+  return Math.ceil(filteredWeapons.value.length / itemsPerPage.value)
 })
 
 const filteredWeapons = computed(() => {
@@ -32,6 +31,16 @@ const filteredWeapons = computed(() => {
     return matchesSearch && meetsRequirements
   })
 })
+
+const paginatedWeapons = computed(() => {
+  const start = (currentPage.value - 1) * itemsPerPage.value
+  const end = start + itemsPerPage.value
+  return filteredWeapons.value.slice(start, end)
+})
+
+onMounted(() => {
+  weaponsStore.fetchWeapons()
+})
 </script>
 
 <template>
@@ -41,8 +50,8 @@ const filteredWeapons = computed(() => {
         <label for="itemsPerPage">Items per page:</label>
         <select 
           id="itemsPerPage" 
-          :value="weaponsStore.itemsPerPage"
-          @change="(e: Event) => weaponsStore.setItemsPerPage(Number((e.target as HTMLSelectElement).value))"
+          :value="itemsPerPage"
+          @change="(e: Event) => itemsPerPage = Number((e.target as HTMLSelectElement).value)"
         >
           <option value="10">10</option>
           <option value="20">20</option>
@@ -51,15 +60,15 @@ const filteredWeapons = computed(() => {
       </div>
       <div class="page-navigation">
         <button 
-          :disabled="weaponsStore.currentPage === 1"
-          @click="weaponsStore.setPage(weaponsStore.currentPage - 1)"
+          :disabled="currentPage === 1"
+          @click="currentPage--"
         >
           Previous
         </button>
-        <span>Page {{ weaponsStore.currentPage }} of {{ totalPages }}</span>
+        <span>Page {{ currentPage }} of {{ totalPages }}</span>
         <button 
-          :disabled="weaponsStore.currentPage >= totalPages"
-          @click="weaponsStore.setPage(weaponsStore.currentPage + 1)"
+          :disabled="currentPage >= totalPages"
+          @click="currentPage++"
         >
           Next
         </button>
@@ -83,7 +92,7 @@ const filteredWeapons = computed(() => {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="weapon in filteredWeapons" :key="weapon.id">
+        <tr v-for="weapon in paginatedWeapons" :key="weapon.id">
           <td>
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image">
           </td>

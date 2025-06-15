@@ -4,6 +4,7 @@ import { useFilterStore } from '../stores/filter'
 
 const stats = useStatsStore()
 const filter = useFilterStore()
+
 </script>
 
 <template>
