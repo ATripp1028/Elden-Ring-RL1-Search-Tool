@@ -8,11 +8,8 @@ const stats = useStatsStore()
 const filter = useFilterStore()
 const weaponsStore = useWeaponsStore()
 
-const currentPage = ref(1)
-const itemsPerPage = ref(10)
-
 const totalPages = computed(() => {
-  return Math.ceil(filteredWeapons.value.length / itemsPerPage.value)
+  return Math.ceil(filteredWeapons.value.length / stats.itemsPerPage)
 })
 
 const filteredWeapons = computed(() => {
@@ -33,8 +30,8 @@ const filteredWeapons = computed(() => {
 })
 
 const paginatedWeapons = computed(() => {
-  const start = (currentPage.value - 1) * itemsPerPage.value
-  const end = start + itemsPerPage.value
+  const start = (stats.page - 1) * stats.itemsPerPage
+  const end = start + stats.itemsPerPage
   return filteredWeapons.value.slice(start, end)
 })
 
@@ -50,8 +47,8 @@ onMounted(() => {
         <label for="itemsPerPage">Items per page:</label>
         <select 
           id="itemsPerPage" 
-          :value="itemsPerPage"
-          @change="(e: Event) => itemsPerPage = Number((e.target as HTMLSelectElement).value)"
+          :value="stats.itemsPerPage"
+          @change="(e: Event) => stats.itemsPerPage = Number((e.target as HTMLSelectElement).value)"
         >
           <option value="10">10</option>
           <option value="20">20</option>
@@ -60,15 +57,15 @@ onMounted(() => {
       </div>
       <div class="page-navigation">
         <button 
-          :disabled="currentPage === 1"
-          @click="currentPage--"
+          :disabled="stats.page === 1"
+          @click="stats.page--"
         >
           Previous
         </button>
-        <span>Page {{ currentPage }} of {{ totalPages }}</span>
+        <span>Page {{ stats.page }} of {{ totalPages }}</span>
         <button 
-          :disabled="currentPage >= totalPages"
-          @click="currentPage++"
+          :disabled="stats.page >= totalPages"
+          @click="stats.page++"
         >
           Next
         </button>
