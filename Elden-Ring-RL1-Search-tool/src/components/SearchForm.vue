@@ -9,6 +9,8 @@ const filter = useFilterStore()
 
 <template>
   <div class="search-form">
+    <h1 class="title">Elden Ring RL1 Search Tool</h1>
+    <p class="subtitle">Enter stats to see what your options are.</p>
     <div class="form-group">
       <label for="field1">Strength</label>
       <input type="number" id="field1" v-model="stats.strength" placeholder="Enter Strength">
@@ -34,7 +36,7 @@ const filter = useFilterStore()
       <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane">
     </div>
 
-    <div class="debug-section">
+    <!-- <div class="debug-section">
       <h3>Debug Info</h3>
       <pre>{{ JSON.stringify({
         stats: {
@@ -48,7 +50,8 @@ const filter = useFilterStore()
           searchQuery: filter.searchQuery
         }
       }, null, 2) }}</pre>
-    </div>
+    </div> -->
+    <p class="made-by">Made by MrSporkMan</p>
   </div>
 </template>
 
@@ -63,6 +66,19 @@ const filter = useFilterStore()
   top: 0;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
 }
 
 .form-group {
@@ -110,5 +126,11 @@ input:focus {
   color: #333;
   white-space: pre-wrap;
   word-break: break-all;
+}
+
+.made-by {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
 }
 </style>
