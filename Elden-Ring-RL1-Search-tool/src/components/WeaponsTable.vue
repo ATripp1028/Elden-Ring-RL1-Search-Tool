@@ -55,7 +55,16 @@ onMounted(() => {
           <option value="40">40</option>
         </select>
       </div>
+      <div class="result-count">
+        {{ filteredWeapons.length }} weapon{{ filteredWeapons.length !== 1 ? 's' : '' }} found
+      </div>
       <div class="page-navigation">
+        <button 
+          :disabled="stats.page === 1"
+          @click="stats.page = 1"
+        >
+          First
+        </button>
         <button 
           :disabled="stats.page === 1"
           @click="stats.page--"
@@ -68,6 +77,12 @@ onMounted(() => {
           @click="stats.page++"
         >
           Next
+        </button>
+        <button 
+          :disabled="stats.page >= totalPages"
+          @click="stats.page = totalPages"
+        >
+          Last
         </button>
       </div>
     </div>
@@ -223,6 +238,11 @@ tr:hover {
   padding: 0.25rem 0.5rem;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+.result-count {
+  font-weight: 500;
+  color: #666;
 }
 
 .page-navigation {
