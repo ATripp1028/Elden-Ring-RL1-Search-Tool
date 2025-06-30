@@ -13,7 +13,10 @@
     "faith": 0,
     "arcane": 0
   },
-  "damage_types": null,
+  "damage_types": {
+    "major": "Physical",
+    "minor": []
+  },
   "image": {
     "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Dagger.png/300px-ER_Icon_weapon_Dagger.png?f0ed9a",
     "alt": "ER Icon weapon Dagger.png",

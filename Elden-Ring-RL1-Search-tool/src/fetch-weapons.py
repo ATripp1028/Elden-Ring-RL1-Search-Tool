@@ -8,35 +8,172 @@ from bs4 import BeautifulSoup
 import json
 import os
 from urllib.parse import urljoin
+import time
+import gzip
+import zlib
+
+# Global rate limiting for bulk scraping
+last_request_time = 0
+MIN_REQUEST_INTERVAL = 15  # Minimum 15 seconds between requests
+
+# Weapon types array based on gallery order
+WEAPON_TYPES = [
+    "Daggers",
+    "Throwing Blades", 
+    "Straight Swords",
+    "Light Greatswords",
+    "Greatswords",
+    "Colossal Swords",
+    "Thrusting Swords",
+    "Heavy Thrusting Swords",
+    "Curved Swords",
+    "Curved Greatswords",
+    "Backhand Blades",
+    "Katanas",
+    "Great Katanas",
+    "Twinblades",
+    "Axes",
+    "Greataxes",
+    "Hammers",
+    "Flails",
+    "Great Hammers",
+    "Colossal Weapons",
+    "Spears",
+    "Great Spears",
+    "Halberds",
+    "Reapers",
+    "Whips",
+    "Fists",
+    "Hand-to-Hand",
+    "Claws",
+    "Beast Claws",
+    "Perfume Bottles",
+    "Light Bows",
+    "Bows",
+    "Greatbows",
+    "Crossbows",
+    "Ballistas",
+    "Staves",
+    "Sacred Seals",
+    "Torches",
+    "Small Shields",
+    "Medium Shields",
+    "Greatshields",
+    "Thrusting Shields"
+]
+
+def rate_limit():
+    """
+    Ensure minimum time between requests to respect rate limits.
+    """
+    global last_request_time
+    current_time = time.time()
+    time_since_last = current_time - last_request_time
+    
+    if time_since_last < MIN_REQUEST_INTERVAL:
+        wait_time = MIN_REQUEST_INTERVAL - time_since_last
+        print(f"Rate limiting: waiting {wait_time:.1f} seconds...")
+        time.sleep(wait_time)
+    
+    last_request_time = time.time()
+
+def get_headers():
+    """
+    Get consistent headers for all requests.
+    """
+    return {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate, br',  # Request compressed content
+        'DNT': '1',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Cache-Control': 'max-age=0',
+    }
+
+def decompress_content(response):
+    """
+    Decompress response content based on encoding.
+    """
+    content_encoding = response.headers.get('content-encoding', '').lower()
+    
+    if content_encoding == 'gzip':
+        try:
+            decompressed_content = gzip.decompress(response.content).decode('utf-8')
+            print(f"Successfully fetched and decompressed {len(decompressed_content)} characters (was {len(response.content)} compressed)")
+            return decompressed_content
+        except Exception as e:
+            print(f"Gzip decompression failed: {e}. Falling back to raw content.")
+            return response.text
+    
+    elif content_encoding == 'deflate':
+        try:
+            decompressed_content = zlib.decompress(response.content).decode('utf-8')
+            print(f"Successfully fetched and decompressed {len(decompressed_content)} characters (was {len(response.content)} compressed)")
+            return decompressed_content
+        except Exception as e:
+            print(f"Deflate decompression failed: {e}. Falling back to raw content.")
+            return response.text
+    
+    elif content_encoding == 'br':
+        try:
+            import brotli
+            decompressed_content = brotli.decompress(response.content).decode('utf-8')
+            print(f"Successfully fetched and decompressed {len(decompressed_content)} characters (was {len(response.content)} compressed)")
+            return decompressed_content
+        except ImportError:
+            print("Brotli compression detected but brotli library not installed. Falling back to uncompressed.")
+            return response.text
+        except Exception as e:
+            print(f"Brotli decompression failed: {e}. Falling back to raw content.")
+            return response.text
+    
+    else:
+        print(f"Successfully fetched {len(response.text)} characters (uncompressed)")
+        return response.text
 
 def fetch_wiki_page(url):
     """
     Fetch HTML content from a wiki page with proper headers to avoid being blocked.
+    Uses compression to reduce bandwidth and potentially avoid rate limiting.
     """
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Accept-Encoding': 'gzip, deflate',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-    }
+    # Apply rate limiting
+    rate_limit()
     
-    try:
-        print(f"Fetching content from: {url}")
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        
-        # Check if we got HTML content
-        if 'text/html' in response.headers.get('content-type', ''):
-            return response.text
-        else:
-            print(f"Warning: Response is not HTML. Content-Type: {response.headers.get('content-type')}")
-            return response.text
+    session = requests.Session()
+    session.headers.update(get_headers())
+    
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            print(f"Fetching content from: {url} (attempt {attempt + 1}/{max_retries})")
+            response = session.get(url, timeout=30)
+            response.raise_for_status()
             
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching {url}: {e}")
-        return None
+            # Check if we got HTML content
+            if 'text/html' in response.headers.get('content-type', ''):
+                return decompress_content(response)
+            else:
+                print(f"Warning: Response is not HTML. Content-Type: {response.headers.get('content-type')}")
+                return response.text
+                
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching {url} (attempt {attempt + 1}): {e}")
+            if attempt < max_retries - 1:
+                # Longer wait time between retries to be respectful
+                wait_time = (attempt + 1) * 30  # 30, 60, 90 seconds
+                print(f"Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print("All retry attempts failed")
+                return None
+    
+    return None
 
 def save_html_content(html_content, filename):
     """
@@ -261,9 +398,7 @@ def save_gallery_data(gallery_data, filename):
         return False
 
 def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
-    """
-    Fetch the webpage for the 1st item in the 1st gallery list.
-    """
+    """Fetch the webpage for the 1st item in the 1st gallery list."""
     if not gallery_data or len(gallery_data) == 0:
         print("No gallery data available")
         return None
@@ -279,7 +414,6 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
     print(f"Text: {first_item['text']}")
     print(f"Number of links: {len(first_item['links'])}")
     
-    # Find the first valid link
     weapon_link = None
     for link in first_item['links']:
         if link['href'] and link['href'].startswith('/wiki/'):
@@ -291,35 +425,26 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
         return None
     
     print(f"Selected link: {weapon_link['text']} -> {weapon_link['href']}")
-    
-    # Construct full URL
     weapon_url = urljoin(base_url, weapon_link['href'])
     print(f"Full URL: {weapon_url}")
     
-    # Fetch the weapon page
     weapon_html = fetch_wiki_page(weapon_url)
     
     if weapon_html:
-        # Extract weapon data first
         print(f"\n=== Extracting Weapon Data ===")
         weapon_name = extract_weapon_name(weapon_html)
-        weapon_type = extract_weapon_type(weapon_html)
+        weapon_type = get_weapon_type_from_gallery(0)  # First gallery (index 0)
         attributes = extract_weapon_attributes(weapon_html)
         damage_types = extract_damage_types(weapon_html)
         image = extract_weapon_images(weapon_html, weapon_name)
         
-        # Check if weapon is DLC-exclusive
         print(f"\n=== Checking DLC Status ===")
         dlc_exclusive = check_dlc_exclusive(gallery_data, weapon_link)
         
-        # Use extracted weapon name or fallback to link text
         final_weapon_name = weapon_name or weapon_link['text']
-        
-        # Create filenames using the weapon name
         weapon_filename = f"weapon_{final_weapon_name.replace(' ', '_').replace('/', '_').lower()}.html"
         weapon_data_filename = f"weapon_{final_weapon_name.replace(' ', '_').replace('/', '_').lower()}_data.json"
         
-        # Save the weapon page HTML
         save_html_content(weapon_html, weapon_filename)
         
         weapon_data = {
@@ -333,7 +458,6 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
             'dlc_exclusive': dlc_exclusive
         }
         
-        # Save weapon data with attributes
         with open(weapon_data_filename, 'w', encoding='utf-8') as f:
             json.dump(weapon_data, f, indent=2, ensure_ascii=False)
         print(f"Weapon data saved to: {weapon_data_filename}")
@@ -563,10 +687,7 @@ def extract_damage_types(html_content):
             minor_types.append(damage_type)
     
     result = {
-        'major': {
-            'type': major_type,
-            'value': major_value
-        },
+        'major': major_type,
         'minor': minor_types
     }
     
@@ -574,6 +695,145 @@ def extract_damage_types(html_content):
     print(f"Minor damage types: {minor_types}")
     
     return result
+
+def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
+    """Fetch all weapons from all galleries with progress tracking and resume capability."""
+    all_weapons = []
+    total_weapons = sum(len(gallery['list_items']) for gallery in gallery_data)
+    processed_count = 0
+    
+    print(f"\n=== Starting Bulk Weapon Fetch ===")
+    print(f"Total weapons to process: {total_weapons}")
+    print(f"Estimated time: {total_weapons * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
+    
+    progress_file = "weapon_fetch_progress.json"
+    processed_weapons = set()
+    
+    if os.path.exists(progress_file):
+        try:
+            with open(progress_file, 'r') as f:
+                progress_data = json.load(f)
+                processed_weapons = set(progress_data.get('processed_weapons', []))
+                print(f"Resuming from previous run. Already processed: {len(processed_weapons)} weapons")
+        except:
+            print("Could not load progress file, starting fresh")
+    
+    for gallery_index, gallery in enumerate(gallery_data):
+        print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)} ---")
+        
+        for item_index, item in enumerate(gallery['list_items']):
+            processed_count += 1
+            
+            weapon_link = None
+            for link in item['links']:
+                if link['href'] and link['href'].startswith('/wiki/'):
+                    weapon_link = link
+                    break
+            
+            if not weapon_link:
+                print(f"Skipping item {item_index + 1} - no valid link")
+                continue
+            
+            weapon_id = weapon_link['href']
+            if weapon_id in processed_weapons:
+                print(f"Skipping {weapon_link['text']} - already processed")
+                continue
+            
+            print(f"\n[{processed_count}/{total_weapons}] Processing: {weapon_link['text']}")
+            weapon_url = urljoin(base_url, weapon_link['href'])
+            weapon_html = fetch_wiki_page(weapon_url)
+            
+            if weapon_html:
+                weapon_name = extract_weapon_name(weapon_html)
+                weapon_type = get_weapon_type_from_gallery(gallery_index)
+                attributes = extract_weapon_attributes(weapon_html)
+                damage_types = extract_damage_types(weapon_html)
+                image = extract_weapon_images(weapon_html, weapon_name)
+                dlc_exclusive = check_dlc_exclusive(gallery_data, weapon_link)
+                
+                final_weapon_name = weapon_name or weapon_link['text']
+                
+                weapon_data = {
+                    'weapon_name': final_weapon_name,
+                    'weapon_type': weapon_type,
+                    'weapon_url': weapon_url,
+                    'attributes': attributes,
+                    'damage_types': damage_types,
+                    'image': image,
+                    'dlc_exclusive': dlc_exclusive
+                }
+                
+                all_weapons.append(weapon_data)
+                processed_weapons.add(weapon_id)
+                
+                # Save progress
+                with open(progress_file, 'w') as f:
+                    json.dump({
+                        'processed_weapons': list(processed_weapons),
+                        'total_processed': len(processed_weapons)
+                    }, f, indent=2)
+                
+                print(f"✓ Processed: {final_weapon_name}")
+            else:
+                print(f"✗ Failed to fetch: {weapon_link['text']}")
+    
+    print(f"\n=== Bulk Fetch Complete ===")
+    print(f"Successfully processed: {len(all_weapons)} weapons")
+    print(f"Total time: {len(all_weapons) * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
+    
+    return all_weapons
+
+def display_weapon_summary(weapon_data):
+    """
+    Display a formatted summary of weapon data.
+    """
+    print(f"\n=== Successfully fetched weapon from 1st gallery ===")
+    print(f"Weapon: {weapon_data['weapon_name']}")
+    print(f"Type: {weapon_data['weapon_type']}")
+    print(f"URL: {weapon_data['weapon_url']}")
+    print(f"HTML saved to: {weapon_data['filename']}")
+    
+    if weapon_data['attributes']:
+        print(f"\n=== Weapon Attributes ===")
+        for attr, value in weapon_data['attributes'].items():
+            if attr == 'strength' and isinstance(value, dict):
+                print(f"{attr.capitalize()}: {value['one_hand']} (1H) / {value['two_hand']} (2H)")
+            else:
+                print(f"{attr.capitalize()}: {value}")
+    else:
+        print("No attributes found")
+    
+    if weapon_data['damage_types']:
+        print(f"\n=== Damage Types ===")
+        damage = weapon_data['damage_types']
+        print(f"Major: {damage['major']}")
+        if damage['minor']:
+            print(f"Minor: {', '.join(damage['minor'])}")
+        else:
+            print("Minor: None")
+    else:
+        print("No damage types found")
+    
+    print(f"\n=== Weapon Status ===")
+    print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
+    
+    if weapon_data['image']:
+        print(f"\n=== Weapon Image ===")
+        img = weapon_data['image']
+        print(f"Image URL: {img['src']}")
+        if img['alt']:
+            print(f"Alt: {img['alt']}")
+        if img['title']:
+            print(f"Title: {img['title']}")
+    else:
+        print("No weapon image found")
+
+def get_weapon_type_from_gallery(gallery_index):
+    """Get weapon type based on gallery index."""
+    if 0 <= gallery_index < len(WEAPON_TYPES):
+        return WEAPON_TYPES[gallery_index]
+    else:
+        return "Unknown"
 
 def main():
     """
@@ -612,50 +872,38 @@ def main():
                 if len(gallery['list_items']) > 3:
                     print(f"  ... and {len(gallery['list_items']) - 3} more items")
             
-            # Fetch the first weapon page
-            weapon_data = fetch_first_weapon_page(gallery_data)
+            # Ask user what they want to do
+            print(f"\n=== Options ===")
+            print("1. Fetch single weapon (first from first gallery)")
+            print("2. Fetch all weapons (bulk mode)")
+            print("3. Exit")
             
-            if weapon_data:
-                print(f"\n=== Successfully fetched weapon from 1st gallery ===")
-                print(f"Weapon: {weapon_data['weapon_name']}")
-                print(f"Type: {weapon_data['weapon_type']}")
-                print(f"URL: {weapon_data['weapon_url']}")
-                print(f"HTML saved to: {weapon_data['filename']}")
+            choice = input("\nEnter your choice (1-3): ").strip()
+            
+            if choice == "1":
+                # Fetch the first weapon page
+                weapon_data = fetch_first_weapon_page(gallery_data)
                 
-                if weapon_data['attributes']:
-                    print(f"\n=== Weapon Attributes ===")
-                    for attr, value in weapon_data['attributes'].items():
-                        if attr == 'strength' and isinstance(value, dict):
-                            print(f"{attr.capitalize()}: {value['one_hand']} (1H) / {value['two_hand']} (2H)")
-                        else:
-                            print(f"{attr.capitalize()}: {value}")
-                else:
-                    print("No attributes found")
+                if weapon_data:
+                    display_weapon_summary(weapon_data)
+            
+            elif choice == "2":
+                # Fetch all weapons
+                all_weapons = fetch_all_weapons(gallery_data)
+                print(f"\n=== Bulk Fetch Summary ===")
+                print(f"Total weapons processed: {len(all_weapons)}")
                 
-                if weapon_data['damage_types']:
-                    print(f"\n=== Damage Types ===")
-                    damage = weapon_data['damage_types']
-                    print(f"Major: {damage['major']['type']} ({damage['major']['value']})")
-                    if damage['minor']:
-                        print(f"Minor: {', '.join(damage['minor'])}")
-                    else:
-                        print("Minor: None")
-                else:
-                    print("No damage types found")
-                
-                print(f"\n=== Weapon Status ===")
-                print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
-                
-                if weapon_data['image']:
-                    print(f"\n=== Weapon Image ===")
-                    img = weapon_data['image']
-                    print(f"Image URL: {img['src']}")
-                    if img['alt']:
-                        print(f"Alt: {img['alt']}")
-                    if img['title']:
-                        print(f"Title: {img['title']}")
-                else:
-                    print("No weapon image found")
+                # Save combined data
+                combined_filename = "all_weapons_data.json"
+                with open(combined_filename, 'w', encoding='utf-8') as f:
+                    json.dump(all_weapons, f, indent=2, ensure_ascii=False)
+                print(f"Combined data saved to: {combined_filename}")
+            
+            elif choice == "3":
+                print("Exiting...")
+            
+            else:
+                print("Invalid choice. Exiting...")
         else:
             print("No gallery data found")
     else:
