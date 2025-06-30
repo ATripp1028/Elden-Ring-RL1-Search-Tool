@@ -1,0 +1,23 @@
+{
+  "weapon_name": "Dagger",
+  "weapon_type": "Dagger",
+  "weapon_url": "https://eldenring.wiki.gg/wiki/Dagger",
+  "filename": "weapon_dagger.html",
+  "attributes": {
+    "strength": {
+      "one_hand": 5,
+      "two_hand": 5
+    },
+    "dexterity": 9,
+    "intelligence": 0,
+    "faith": 0,
+    "arcane": 0
+  },
+  "damage_types": null,
+  "image": {
+    "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Dagger.png/300px-ER_Icon_weapon_Dagger.png?f0ed9a",
+    "alt": "ER Icon weapon Dagger.png",
+    "title": "Dagger"
+  },
+  "dlc_exclusive": false
+}
