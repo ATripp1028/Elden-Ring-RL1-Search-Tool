@@ -1,7 +1,8 @@
 {
   "weapon_name": "Dagger",
   "weapon_type": "Daggers",
-  "weapon_url": "https://eldenring.wiki.gg/wiki/Dagger",
+  "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dagger",
+  "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dagger",
   "filename": "weapon_dagger.html",
   "attributes": {
     "strength": {
