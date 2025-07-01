@@ -565,66 +565,6 @@ def extract_weapon_images(html_content, weapon_name):
         print("No image found")
         return None
 
-def extract_weapon_type(html_content):
-    """
-    Extract weapon type from the div with data-source="type".
-    """
-    if not html_content:
-        return None
-    
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    # Find div with data-source="type"
-    type_div = soup.find('div', attrs={'data-source': 'type'})
-    
-    if type_div:
-        # Get the 2nd child of the div
-        children = list(type_div.children)
-        if len(children) >= 3:
-            third_child = children[3] # 2nd child is the weapon type. Index 3 because newlines are counted as children.
-            weapon_type = third_child.get_text(strip=True)
-            print(f"Found weapon type: {weapon_type}")
-            return weapon_type
-        else:
-            print(f"Not enough children in type div. Found: {len(children)}")
-    else:
-        print("No div with data-source='type' found")
-    
-    return None
-
-def check_dlc_exclusive(gallery_data, weapon_link):
-    """
-    Check if a weapon is DLC-exclusive by looking for "Elden Ring: Shadow of the Erdtree" title.
-    """
-    # Find the weapon's list item in the gallery data
-    for gallery in gallery_data:
-        for item in gallery['list_items']:
-            for link in item['links']:
-                if link['href'] == weapon_link['href']:
-                    # Found the matching weapon, now check its structure
-                    soup = BeautifulSoup(item['raw_html'], 'html.parser')
-                    
-                    # Look for the second child of the li element
-                    li_element = soup.find('li')
-                    if li_element:
-                        children = list(li_element.children)
-                        if len(children) >= 2:
-                            second_child = children[1]
-                            
-                            # Check if the second child has a child with the DLC title
-                            if hasattr(second_child, 'find'):
-                                dlc_element = second_child.find(title="Elden Ring: Shadow of the Erdtree")
-                                if dlc_element:
-                                    print(f"Found DLC indicator: {dlc_element.get('title', '')}")
-                                    return True
-                    
-                    # Alternative: search for the DLC title anywhere in the item
-                    if "Elden Ring: Shadow of the Erdtree" in item['raw_html']:
-                        print("Found DLC indicator in raw HTML")
-                        return True
-    
-    return False
-
 def extract_damage_types(html_content):
     """
     Extract damage types from the first table with mw-collapsible class.
@@ -714,193 +654,38 @@ def extract_damage_types(html_content):
     
     return result
 
-def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
-    """Fetch all weapons from all galleries with progress tracking and resume capability."""
-    all_weapons = []
-    total_weapons = sum(len(gallery['list_items']) for gallery in gallery_data)
-    processed_count = 0
-    
-    print(f"\n=== Starting Bulk Weapon Fetch ===")
-    print(f"Total weapons to process: {total_weapons}")
-    print(f"Estimated time: {total_weapons * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
-    
-    progress_file = "weapon_fetch_progress.json"
-    processed_weapons = set()
-    
-    if os.path.exists(progress_file):
-        try:
-            with open(progress_file, 'r') as f:
-                progress_data = json.load(f)
-                processed_weapons = set(progress_data.get('processed_weapons', []))
-                print(f"Resuming from previous run. Already processed: {len(processed_weapons)} weapons")
-        except:
-            print("Could not load progress file, starting fresh")
-    
-    # Dictionary to store weapons by gallery/type
-    weapons_by_gallery = {}
-    
-    for gallery_index, gallery in enumerate(gallery_data):
-        gallery_weapons = []
-        weapon_type = get_weapon_type_from_gallery(gallery_index)
-        
-        print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)}: {weapon_type} ---")
-        
-        for item_index, item in enumerate(gallery['list_items']):
-            processed_count += 1
-            
-            weapon_link = None
+def check_dlc_exclusive(gallery_data, weapon_link):
+    """
+    Check if a weapon is DLC-exclusive by looking for "Elden Ring: Shadow of the Erdtree" title.
+    """
+    # Find the weapon's list item in the gallery data
+    for gallery in gallery_data:
+        for item in gallery['list_items']:
             for link in item['links']:
-                if link['href'] and link['href'].startswith('/wiki/'):
-                    weapon_link = link
-                    break
-            
-            if not weapon_link:
-                print(f"Skipping item {item_index + 1} - no valid link")
-                continue
-            
-            weapon_id = weapon_link['href']
-            if weapon_id in processed_weapons:
-                print(f"Skipping {weapon_link['text']} - already processed")
-                continue
-            
-            print(f"\n[{processed_count}/{total_weapons}] Processing: {weapon_link['text']}")
-            weapon_url = urljoin(base_url, weapon_link['href'])
-            weapon_html = fetch_wiki_page(weapon_url)
-            
-            if weapon_html:
-                weapon_name = extract_weapon_name(weapon_html)
-                attributes = extract_weapon_attributes(weapon_html)
-                damage_types = extract_damage_types(weapon_html)
-                image = extract_weapon_images(weapon_html, weapon_name)
-                dlc_exclusive = check_dlc_exclusive(gallery_data, weapon_link)
-                
-                final_weapon_name = weapon_name or weapon_link['text']
-                
-                weapon_data = {
-                    'weapon_name': final_weapon_name,
-                    'weapon_type': weapon_type,
-                    'weapon_url': weapon_url,
-                    'attributes': attributes,
-                    'damage_types': damage_types,
-                    'attack_types': get_attack_types(final_weapon_name, weapon_type),
-                    'status_buildup': check_status_buildup(final_weapon_name),
-                    'image': image,
-                    'dlc_exclusive': dlc_exclusive
-                }
-                
-                gallery_weapons.append(weapon_data)
-                all_weapons.append(weapon_data)
-                processed_weapons.add(weapon_id)
-                
-                # Save progress
-                with open(progress_file, 'w') as f:
-                    json.dump({
-                        'processed_weapons': list(processed_weapons),
-                        'total_processed': len(processed_weapons)
-                    }, f, indent=2)
-                
-                print(f"✓ Processed: {final_weapon_name}")
-            else:
-                print(f"✗ Failed to fetch: {weapon_link['text']}")
-        
-        # Save gallery-specific JSON file
-        if gallery_weapons:
-            gallery_filename = f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
-            with open(gallery_filename, 'w', encoding='utf-8') as f:
-                json.dump(gallery_weapons, f, indent=2, ensure_ascii=False)
-            print(f"✓ Saved {len(gallery_weapons)} weapons to: {gallery_filename}")
-            weapons_by_gallery[weapon_type] = gallery_weapons
+                if link['href'] == weapon_link['href']:
+                    # Found the matching weapon, now check its structure
+                    soup = BeautifulSoup(item['raw_html'], 'html.parser')
+                    
+                    # Look for the second child of the li element
+                    li_element = soup.find('li')
+                    if li_element:
+                        children = list(li_element.children)
+                        if len(children) >= 2:
+                            second_child = children[1]
+                            
+                            # Check if the second child has a child with the DLC title
+                            if hasattr(second_child, 'find'):
+                                dlc_element = second_child.find(title="Elden Ring: Shadow of the Erdtree")
+                                if dlc_element:
+                                    print(f"Found DLC indicator: {dlc_element.get('title', '')}")
+                                    return True
+                    
+                    # Alternative: search for the DLC title anywhere in the item
+                    if "Elden Ring: Shadow of the Erdtree" in item['raw_html']:
+                        print("Found DLC indicator in raw HTML")
+                        return True
     
-    print(f"\n=== Bulk Fetch Complete ===")
-    print(f"Successfully processed: {len(all_weapons)} weapons")
-    print(f"Total time: {len(all_weapons) * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
-    
-    # Save combined file as well
-    combined_filename = "all_weapons_data.json"
-    with open(combined_filename, 'w', encoding='utf-8') as f:
-        json.dump(all_weapons, f, indent=2, ensure_ascii=False)
-    print(f"✓ Combined data saved to: {combined_filename}")
-    
-    # Save gallery summary
-    gallery_summary = {
-        'total_weapons': len(all_weapons),
-        'galleries': {}
-    }
-    
-    for weapon_type, weapons in weapons_by_gallery.items():
-        gallery_summary['galleries'][weapon_type] = {
-            'count': len(weapons),
-            'filename': f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
-        }
-    
-    with open("gallery_summary.json", 'w', encoding='utf-8') as f:
-        json.dump(gallery_summary, f, indent=2, ensure_ascii=False)
-    print(f"✓ Gallery summary saved to: gallery_summary.json")
-    
-    return all_weapons
-
-def display_weapon_summary(weapon_data):
-    """
-    Display a formatted summary of weapon data.
-    """
-    print(f"\n=== Successfully fetched weapon from 1st gallery ===")
-    print(f"Weapon: {weapon_data['weapon_name']}")
-    print(f"Type: {weapon_data['weapon_type']}")
-    print(f"URL: {weapon_data['weapon_url']}")
-    print(f"HTML saved to: {weapon_data['filename']}")
-    
-    if weapon_data['attributes']:
-        print(f"\n=== Weapon Attributes ===")
-        for attr, value in weapon_data['attributes'].items():
-            if attr == 'strength' and isinstance(value, dict):
-                print(f"{attr.capitalize()}: {value['one_hand']} (1H) / {value['two_hand']} (2H)")
-            else:
-                print(f"{attr.capitalize()}: {value}")
-    else:
-        print("No attributes found")
-    
-    if weapon_data['damage_types']:
-        print(f"\n=== Damage Types ===")
-        damage = weapon_data['damage_types']
-        print(f"Major: {damage['major']}")
-        if damage['minor']:
-            print(f"Minor: {', '.join(damage['minor'])}")
-        else:
-            print("Minor: None")
-    else:
-        print("No damage types found")
-    
-    if weapon_data['attack_types']:
-        print(f"\n=== Attack Types ===")
-        attack = weapon_data['attack_types']
-        print(f"Primary: {attack['primary']}")
-        print(f"Secondary: {attack['secondary']}")
-    else:
-        print("No attack types found")
-    
-    if weapon_data['status_buildup']:
-        print(f"\n=== Status Buildup ===")
-        status = weapon_data['status_buildup']
-        if status == "none":
-            print("Status: None")
-        else:
-            print(f"Status: {status.replace('_', ' ').title()}")
-    else:
-        print("No status buildup found")
-    
-    print(f"\n=== Weapon Status ===")
-    print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
-    
-    if weapon_data['image']:
-        print(f"\n=== Weapon Image ===")
-        img = weapon_data['image']
-        print(f"Image URL: {img['src']}")
-        if img['alt']:
-            print(f"Alt: {img['alt']}")
-        if img['title']:
-            print(f"Title: {img['title']}")
-    else:
-        print("No weapon image found")
+    return False
 
 def get_weapon_type_from_gallery(gallery_index):
     """Get weapon type based on gallery index."""
@@ -1388,6 +1173,194 @@ def check_status_buildup(weapon_name):
         return "madness"
     else:
         return "none"
+
+def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
+    """Fetch all weapons from all galleries with progress tracking and resume capability."""
+    all_weapons = []
+    total_weapons = sum(len(gallery['list_items']) for gallery in gallery_data)
+    processed_count = 0
+    
+    print(f"\n=== Starting Bulk Weapon Fetch ===")
+    print(f"Total weapons to process: {total_weapons}")
+    print(f"Estimated time: {total_weapons * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
+    
+    progress_file = "weapon_fetch_progress.json"
+    processed_weapons = set()
+    
+    if os.path.exists(progress_file):
+        try:
+            with open(progress_file, 'r') as f:
+                progress_data = json.load(f)
+                processed_weapons = set(progress_data.get('processed_weapons', []))
+                print(f"Resuming from previous run. Already processed: {len(processed_weapons)} weapons")
+        except:
+            print("Could not load progress file, starting fresh")
+    
+    # Dictionary to store weapons by gallery/type
+    weapons_by_gallery = {}
+    
+    for gallery_index, gallery in enumerate(gallery_data):
+        gallery_weapons = []
+        weapon_type = get_weapon_type_from_gallery(gallery_index)
+        
+        print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)}: {weapon_type} ---")
+        
+        for item_index, item in enumerate(gallery['list_items']):
+            processed_count += 1
+            
+            weapon_link = None
+            for link in item['links']:
+                if link['href'] and link['href'].startswith('/wiki/'):
+                    weapon_link = link
+                    break
+            
+            if not weapon_link:
+                print(f"Skipping item {item_index + 1} - no valid link")
+                continue
+            
+            weapon_id = weapon_link['href']
+            if weapon_id in processed_weapons:
+                print(f"Skipping {weapon_link['text']} - already processed")
+                continue
+            
+            print(f"\n[{processed_count}/{total_weapons}] Processing: {weapon_link['text']}")
+            weapon_url = urljoin(base_url, weapon_link['href'])
+            weapon_html = fetch_wiki_page(weapon_url)
+            
+            if weapon_html:
+                weapon_name = extract_weapon_name(weapon_html)
+                attributes = extract_weapon_attributes(weapon_html)
+                damage_types = extract_damage_types(weapon_html)
+                image = extract_weapon_images(weapon_html, weapon_name)
+                dlc_exclusive = check_dlc_exclusive(gallery_data, weapon_link)
+                
+                final_weapon_name = weapon_name or weapon_link['text']
+                
+                weapon_data = {
+                    'weapon_name': final_weapon_name,
+                    'weapon_type': weapon_type,
+                    'weapon_url': weapon_url,
+                    'attributes': attributes,
+                    'damage_types': damage_types,
+                    'attack_types': get_attack_types(final_weapon_name, weapon_type),
+                    'status_buildup': check_status_buildup(final_weapon_name),
+                    'image': image,
+                    'dlc_exclusive': dlc_exclusive
+                }
+                
+                gallery_weapons.append(weapon_data)
+                all_weapons.append(weapon_data)
+                processed_weapons.add(weapon_id)
+                
+                # Save progress
+                with open(progress_file, 'w') as f:
+                    json.dump({
+                        'processed_weapons': list(processed_weapons),
+                        'total_processed': len(processed_weapons)
+                    }, f, indent=2)
+                
+                print(f"✓ Processed: {final_weapon_name}")
+            else:
+                print(f"✗ Failed to fetch: {weapon_link['text']}")
+        
+        # Save gallery-specific JSON file
+        if gallery_weapons:
+            gallery_filename = f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
+            with open(gallery_filename, 'w', encoding='utf-8') as f:
+                json.dump(gallery_weapons, f, indent=2, ensure_ascii=False)
+            print(f"✓ Saved {len(gallery_weapons)} weapons to: {gallery_filename}")
+            weapons_by_gallery[weapon_type] = gallery_weapons
+    
+    print(f"\n=== Bulk Fetch Complete ===")
+    print(f"Successfully processed: {len(all_weapons)} weapons")
+    print(f"Total time: {len(all_weapons) * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
+    
+    # Save combined file as well
+    combined_filename = "all_weapons_data.json"
+    with open(combined_filename, 'w', encoding='utf-8') as f:
+        json.dump(all_weapons, f, indent=2, ensure_ascii=False)
+    print(f"✓ Combined data saved to: {combined_filename}")
+    
+    # Save gallery summary
+    gallery_summary = {
+        'total_weapons': len(all_weapons),
+        'galleries': {}
+    }
+    
+    for weapon_type, weapons in weapons_by_gallery.items():
+        gallery_summary['galleries'][weapon_type] = {
+            'count': len(weapons),
+            'filename': f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
+        }
+    
+    with open("gallery_summary.json", 'w', encoding='utf-8') as f:
+        json.dump(gallery_summary, f, indent=2, ensure_ascii=False)
+    print(f"✓ Gallery summary saved to: gallery_summary.json")
+    
+    return all_weapons
+
+def display_weapon_summary(weapon_data):
+    """
+    Display a formatted summary of weapon data.
+    """
+    print(f"\n=== Successfully fetched weapon from 1st gallery ===")
+    print(f"Weapon: {weapon_data['weapon_name']}")
+    print(f"Type: {weapon_data['weapon_type']}")
+    print(f"URL: {weapon_data['weapon_url']}")
+    print(f"HTML saved to: {weapon_data['filename']}")
+    
+    if weapon_data['attributes']:
+        print(f"\n=== Weapon Attributes ===")
+        for attr, value in weapon_data['attributes'].items():
+            if attr == 'strength' and isinstance(value, dict):
+                print(f"{attr.capitalize()}: {value['one_hand']} (1H) / {value['two_hand']} (2H)")
+            else:
+                print(f"{attr.capitalize()}: {value}")
+    else:
+        print("No attributes found")
+    
+    if weapon_data['damage_types']:
+        print(f"\n=== Damage Types ===")
+        damage = weapon_data['damage_types']
+        print(f"Major: {damage['major']}")
+        if damage['minor']:
+            print(f"Minor: {', '.join(damage['minor'])}")
+        else:
+            print("Minor: None")
+    else:
+        print("No damage types found")
+    
+    if weapon_data['attack_types']:
+        print(f"\n=== Attack Types ===")
+        attack = weapon_data['attack_types']
+        print(f"Primary: {attack['primary']}")
+        print(f"Secondary: {attack['secondary']}")
+    else:
+        print("No attack types found")
+    
+    if weapon_data['status_buildup']:
+        print(f"\n=== Status Buildup ===")
+        status = weapon_data['status_buildup']
+        if status == "none":
+            print("Status: None")
+        else:
+            print(f"Status: {status.replace('_', ' ').title()}")
+    else:
+        print("No status buildup found")
+    
+    print(f"\n=== Weapon Status ===")
+    print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
+    
+    if weapon_data['image']:
+        print(f"\n=== Weapon Image ===")
+        img = weapon_data['image']
+        print(f"Image URL: {img['src']}")
+        if img['alt']:
+            print(f"Alt: {img['alt']}")
+        if img['title']:
+            print(f"Title: {img['title']}")
+    else:
+        print("No weapon image found")
 
 def main():
     """
