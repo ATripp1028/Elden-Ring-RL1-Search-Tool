@@ -454,6 +454,7 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
             'filename': weapon_filename,
             'attributes': attributes,
             'damage_types': damage_types,
+            'attack_types': get_attack_types(final_weapon_name, weapon_type),
             'image': image,
             'dlc_exclusive': dlc_exclusive
         }
@@ -718,8 +719,14 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
         except:
             print("Could not load progress file, starting fresh")
     
+    # Dictionary to store weapons by gallery/type
+    weapons_by_gallery = {}
+    
     for gallery_index, gallery in enumerate(gallery_data):
-        print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)} ---")
+        gallery_weapons = []
+        weapon_type = get_weapon_type_from_gallery(gallery_index)
+        
+        print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)}: {weapon_type} ---")
         
         for item_index, item in enumerate(gallery['list_items']):
             processed_count += 1
@@ -745,7 +752,6 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
             
             if weapon_html:
                 weapon_name = extract_weapon_name(weapon_html)
-                weapon_type = get_weapon_type_from_gallery(gallery_index)
                 attributes = extract_weapon_attributes(weapon_html)
                 damage_types = extract_damage_types(weapon_html)
                 image = extract_weapon_images(weapon_html, weapon_name)
@@ -759,10 +765,12 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
                     'weapon_url': weapon_url,
                     'attributes': attributes,
                     'damage_types': damage_types,
+                    'attack_types': get_attack_types(final_weapon_name, weapon_type),
                     'image': image,
                     'dlc_exclusive': dlc_exclusive
                 }
                 
+                gallery_weapons.append(weapon_data)
                 all_weapons.append(weapon_data)
                 processed_weapons.add(weapon_id)
                 
@@ -776,10 +784,40 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
                 print(f"✓ Processed: {final_weapon_name}")
             else:
                 print(f"✗ Failed to fetch: {weapon_link['text']}")
+        
+        # Save gallery-specific JSON file
+        if gallery_weapons:
+            gallery_filename = f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
+            with open(gallery_filename, 'w', encoding='utf-8') as f:
+                json.dump(gallery_weapons, f, indent=2, ensure_ascii=False)
+            print(f"✓ Saved {len(gallery_weapons)} weapons to: {gallery_filename}")
+            weapons_by_gallery[weapon_type] = gallery_weapons
     
     print(f"\n=== Bulk Fetch Complete ===")
     print(f"Successfully processed: {len(all_weapons)} weapons")
     print(f"Total time: {len(all_weapons) * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
+    
+    # Save combined file as well
+    combined_filename = "all_weapons_data.json"
+    with open(combined_filename, 'w', encoding='utf-8') as f:
+        json.dump(all_weapons, f, indent=2, ensure_ascii=False)
+    print(f"✓ Combined data saved to: {combined_filename}")
+    
+    # Save gallery summary
+    gallery_summary = {
+        'total_weapons': len(all_weapons),
+        'galleries': {}
+    }
+    
+    for weapon_type, weapons in weapons_by_gallery.items():
+        gallery_summary['galleries'][weapon_type] = {
+            'count': len(weapons),
+            'filename': f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
+        }
+    
+    with open("gallery_summary.json", 'w', encoding='utf-8') as f:
+        json.dump(gallery_summary, f, indent=2, ensure_ascii=False)
+    print(f"✓ Gallery summary saved to: gallery_summary.json")
     
     return all_weapons
 
@@ -814,6 +852,14 @@ def display_weapon_summary(weapon_data):
     else:
         print("No damage types found")
     
+    if weapon_data['attack_types']:
+        print(f"\n=== Attack Types ===")
+        attack = weapon_data['attack_types']
+        print(f"Primary: {attack['primary']}")
+        print(f"Secondary: {attack['secondary']}")
+    else:
+        print("No attack types found")
+    
     print(f"\n=== Weapon Status ===")
     print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
     
@@ -834,6 +880,199 @@ def get_weapon_type_from_gallery(gallery_index):
         return WEAPON_TYPES[gallery_index]
     else:
         return "Unknown"
+
+def get_attack_types(weapon_name, weapon_type):
+    """
+    Determine primary and secondary attack types based on weapon type and name.
+    Returns a dictionary with 'primary' and 'secondary' attack types.
+    """
+    # Slash damage weapons (all weapons from these classes) - PRIMARY attack type
+    slash_weapon_types = {
+        "Backhand Blades",
+        "Beast Claws", 
+        "Claws",
+        "Curved Greatswords",
+        "Curved Swords",
+        "Daggers",
+        "Great Katanas",
+        "Katanas",
+        "Reapers"
+    }
+    
+    # Specific weapons that deal slash damage (exceptions in their classes) - PRIMARY attack type
+    slash_specific_weapons = {
+        "Glaive",
+        "Loretta's War Sickle", 
+        "Nightrider Glaive",
+        "Pest's Glaive",
+        "Poleblade of the Bud",
+        "Spirit Glaive",
+        "Urumi"
+    }
+    
+    # Pierce damage weapon classes (all weapons from these classes) - PRIMARY attack type
+    pierce_weapon_types = {
+        "Ballista",
+        "Bows",
+        "Crossbows", 
+        "Great Spears",
+        "Greatbows",
+        "Heavy Thrusting Swords",
+        "Light Bows",
+        "Spears",
+        "Throwing Blades",
+        "Thrusting Swords"
+    }
+    
+    # Pierce damage weapon classes (Pierce is SECONDARY attack type)
+    pierce_secondary_weapon_types = {
+        "Colossal Swords",
+        "Daggers",
+        "Great Katanas",
+        "Greatswords", 
+        "Halberds",
+        "Katanas",
+        "Light Greatswords",
+        "Straight Swords",
+        "Thrusting Shields",
+        "Twinblades"
+    }
+    
+    # Specific weapons that deal Pierce damage (exceptions in their classes) - PRIMARY attack type
+    pierce_specific_weapons = {
+        # Backhand Blades
+        # Colossal Weapons
+        "Fallingstar Beast Jaw",
+        # Hammers
+        "Flowerstone Gavel",
+        # Axes
+        "Forked Hatchet",
+        # Fists
+        "Katar",
+        "Pata",
+        "Thiollier's Hidden Needle",
+        "Veteran's Prosthesis",
+        # Halberds
+        "Lucerne",
+        # Great Hammers
+        "Pickaxe",
+        # Greataxes
+        "Rusted Anchor",
+        # Hammers
+        "Warpick"
+    }
+    
+    # Strike damage weapon classes (with exceptions) - PRIMARY attack type
+    strike_weapon_types = {
+        "Hammers",
+        "Fists", 
+        "Flails",
+        "Great Hammers",
+        "Hand-to-Hand",
+        "Greatshields",
+        "Shields",
+        "Torches",
+        "Whips"
+    }
+    
+    # Specific weapons that deal strike damage (exceptions in their classes) - PRIMARY attack type
+    strike_specific_weapons = {
+        # Colossal Weapons
+        "Anvil Hammer",
+        "Bloodfiend's Arm",
+        "Devonia's Hammer", 
+        "Envoy's Greathorn",
+        "Gazing Finger",
+        "Giant-Crusher",
+        "Great Club",
+        "Prelate's Inferno Crozier",
+        "Rotten Staff",
+        "Shadow Sunflower Blossom",
+        "Staff of the Avatar",
+        "Troll's Hammer",
+        "Watchdog's Staff",
+        # Other classes
+        "Jawbone Axe",
+        "Spiked Spear",
+        "Stone-Sheathed Sword"
+    }
+    
+    # Standard damage weapon classes (all weapons from these classes) - PRIMARY attack type
+    standard_weapon_types = {
+        "Axes",
+        "Colossal Swords",
+        "Greataxes", 
+        "Greatbows",
+        "Great Spears",
+        "Greatswords",
+        "Halberds",
+        "Spears",
+        "Straight Swords",
+        "Twinblades"
+    }
+    
+    # Standard damage weapon classes (Standard is SECONDARY attack type)
+    standard_secondary_weapon_types = {
+        "Heavy Thrusting Swords",
+        "Thrusting Swords"
+    }
+    
+    # Specific weapons that deal Standard damage (exceptions in their classes) - PRIMARY attack type
+    standard_specific_weapons = {
+        # Colossal Weapons
+        "Axe of Godfrey",
+        "Dragon Greatclaw", 
+        "Duelist Greataxe",
+        "Ghiza's Wheel",
+        "Golem's Halberd",
+        "Rotten Greataxe"
+    }
+    
+    # Weapons that DON'T deal Standard damage (exceptions to their classes)
+    non_standard_weapons = {
+        # Axes exceptions
+        "Jawbone Axe",
+        "Forked Hatchet",
+        # Greataxes exceptions
+        "Rusted Anchor",
+        # Spears exceptions
+        "Partisan",
+        "Spiked Spear", 
+        "Cross-Naginata",
+        # Straight Swords exceptions
+        "Coded Sword",
+        "Stone-Sheathed Sword"
+    }
+    
+    # Determine primary attack type
+    if (weapon_type in slash_weapon_types or weapon_name in slash_specific_weapons):
+        primary = "Slash"
+    elif (weapon_type in pierce_weapon_types or weapon_name in pierce_specific_weapons):
+        primary = "Pierce"
+    elif (weapon_type in strike_weapon_types or weapon_name in strike_specific_weapons):
+        primary = "Strike"
+    elif ((weapon_type in standard_weapon_types and weapon_name not in non_standard_weapons) or
+          weapon_name in standard_specific_weapons):
+        primary = "Standard"
+    else:
+        primary = "Standard"  # Default fallback
+    
+    # Determine secondary attack type
+    if weapon_type in pierce_secondary_weapon_types:
+        # These weapon types have Pierce as secondary
+        secondary = "Pierce"
+    elif weapon_type in standard_secondary_weapon_types:
+        # These weapon types have Standard as secondary
+        secondary = "Standard"
+    else:
+        # For now, set secondary to same as primary
+        # This can be expanded later when you research secondary attack patterns
+        secondary = primary
+    
+    return {
+        "primary": primary,
+        "secondary": secondary
+    }
 
 def main():
     """
