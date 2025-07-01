@@ -52,7 +52,7 @@ WEAPON_TYPES = [
     "Bows",
     "Greatbows",
     "Crossbows",
-    "Ballistas",
+    "Ballista",
     "Staves",
     "Sacred Seals",
     "Torches",
@@ -62,20 +62,21 @@ WEAPON_TYPES = [
     "Thrusting Shields"
 ]
 
-def rate_limit():
+def read_local_html(filename):
     """
-    Ensure minimum time between requests to respect rate limits.
+    Read HTML content from a local file.
     """
-    global last_request_time
-    current_time = time.time()
-    time_since_last = current_time - last_request_time
-    
-    if time_since_last < MIN_REQUEST_INTERVAL:
-        wait_time = MIN_REQUEST_INTERVAL - time_since_last
-        print(f"Rate limiting: waiting {wait_time:.1f} seconds...")
-        time.sleep(wait_time)
-    
-    last_request_time = time.time()
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            content = f.read()
+        print(f"Successfully read local HTML file: {filename} ({len(content)} characters)")
+        return content
+    except FileNotFoundError:
+        print(f"Local HTML file not found: {filename}")
+        return None
+    except Exception as e:
+        print(f"Error reading local HTML file {filename}: {e}")
+        return None
 
 def get_headers():
     """
@@ -174,6 +175,21 @@ def fetch_wiki_page(url):
                 return None
     
     return None
+
+def rate_limit():
+    """
+    Ensure minimum time between requests to respect rate limits.
+    """
+    global last_request_time
+    current_time = time.time()
+    time_since_last = current_time - last_request_time
+    
+    if time_since_last < MIN_REQUEST_INTERVAL:
+        wait_time = MIN_REQUEST_INTERVAL - time_since_last
+        print(f"Rate limiting: waiting {wait_time:.1f} seconds...")
+        time.sleep(wait_time)
+    
+    last_request_time = time.time()
 
 def save_html_content(html_content, filename):
     """
@@ -455,6 +471,7 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
             'attributes': attributes,
             'damage_types': damage_types,
             'attack_types': get_attack_types(final_weapon_name, weapon_type),
+            'status_buildup': check_status_buildup(final_weapon_name),
             'image': image,
             'dlc_exclusive': dlc_exclusive
         }
@@ -766,6 +783,7 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
                     'attributes': attributes,
                     'damage_types': damage_types,
                     'attack_types': get_attack_types(final_weapon_name, weapon_type),
+                    'status_buildup': check_status_buildup(final_weapon_name),
                     'image': image,
                     'dlc_exclusive': dlc_exclusive
                 }
@@ -859,6 +877,16 @@ def display_weapon_summary(weapon_data):
         print(f"Secondary: {attack['secondary']}")
     else:
         print("No attack types found")
+    
+    if weapon_data['status_buildup']:
+        print(f"\n=== Status Buildup ===")
+        status = weapon_data['status_buildup']
+        if status == "none":
+            print("Status: None")
+        else:
+            print(f"Status: {status.replace('_', ' ').title()}")
+    else:
+        print("No status buildup found")
     
     print(f"\n=== Weapon Status ===")
     print(f"DLC Exclusive: {weapon_data['dlc_exclusive']}")
@@ -1074,79 +1102,363 @@ def get_attack_types(weapon_name, weapon_type):
         "secondary": secondary
     }
 
+def get_blood_loss_weapons():
+    """
+    Get the list of weapons that have blood loss status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Great Spears
+        "Barbed Staff-Spear",
+        "Bloodfiend's Sacred Spear",
+        "Mohgwyn's Sacred Spear",
+        
+        # Beast Claws
+        "Beast Claw",
+        "Red Bear's Claw",
+        
+        # Colossal Weapons
+        "Bloodfiend's Arm",
+        "Ghiza's Wheel",
+        
+        # Spears
+        "Bloodfiend's Fork",
+        "Cross-Naginata",
+        "Inquisitor's Girandole",
+        "Spiked Spear",
+        
+        # Claws
+        "Bloodhound Claws",
+        "Claws of Night",
+        "Hookclaws",
+        "Raptor Talons",
+        
+        # Curved Greatswords
+        "Bloodhound's Fang",
+        "Morgott's Cursed Sword",
+        
+        # Daggers
+        "Bloodstained Dagger",
+        "Great Knife",
+        "Reduvia",
+        "Wakizashi",
+        
+        # Heavy Thrusting Swords
+        "Bloody Helice",
+        
+        # Greatshields
+        "Briar Greatshield",
+        "Spiked Palisade Shield",
+        
+        # Flails
+        "Chainlink Flail",
+        "Flail",
+        "Nightrider Flail",
+        
+        # Backhand Blades
+        "Curseblade's Cirque",
+        
+        # Great Katanas
+        "Dragon-Hunter's Great Katana",
+        "Great Katana",
+        "Rakshasa's Great Katana",
+        
+        # Twinblades
+        "Eleonora's Poleblade",
+        
+        # Curved Swords
+        "Falx",
+        "Scavenger's Curved Sword",
+        
+        # Axes
+        "Forked Hatchet",
+        "Forked-Tongue Hatchet",
+        
+        # Greatswords
+        "Flamberge",
+        "Forked Greatsword",
+        "Sword of Milos",
+        
+        # Greataxes
+        "Great Omenkiller Cleaver",
+        
+        # Great Hammers
+        "Great Stars",
+        
+        # Reapers
+        "Grave Scythe",
+        "Halo Scythe",
+        "Obsidian Lamina",
+        "Scythe",
+        "Winged Scythe",
+        
+        # Katanas
+        "Hand of Malenia",
+        "Meteoric Ore Blade",
+        "Moonveil",
+        "Nagakiba",
+        "Rivers of Blood",
+        "Star-Lined Sword",
+        "Sword of Night",
+        "Uchigatana",
+        
+        # Whips
+        "Hoslow's Petal Whip",
+        "Thorned Whip",
+        
+        # Medium Shields
+        "Marred Leather Shield",
+        "Marred Wooden Shield",
+        
+        # Hammers
+        "Morning Star",
+        "Spiked Club",
+        "Varré's Bouquet",
+        
+        # Small Shields
+        "Shield of the Guilty",
+        "Spiralhorn Shield",
+        
+        # Fists
+        "Spiked Caestus",
+        "Star Fist",
+        
+        # Staves
+        "Staff of the Guilty",
+        
+        # Halberds
+        "Vulgar Militia Saw"
+    }
+
+def get_poison_weapons():
+    """
+    Get the list of weapons that have poison status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Shields
+        "Ant's Skull Plate",
+        "Coil Shield",
+        
+        # Perfume Bottles
+        "Deadly Poison Perfume Bottle",
+        
+        # Fists
+        "Poisoned Hand",
+        
+        # Katanas
+        "Serpentbone Blade",
+        
+        # Bows
+        "Serpent Bow",
+        
+        # Whips
+        "Tooth Whip",
+        
+        # Claws
+        "Venomous Fang"
+    }
+
+def get_scarlet_rot_weapons():
+    """
+    Get the list of weapons that have scarlet rot status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Thrusting Swords
+        "Antspur Rapier",
+        
+        # Halberds
+        "Poleblade of the Bud",
+        
+        # Warhammers
+        "Rotten Battle Hammer",
+        
+        # Spears
+        "Rotten Crystal Spear",
+        
+        # Staves
+        "Rotten Crystal Staff",
+        
+        # Straight Swords
+        "Rotten Crystal Sword",
+        
+        # Colossal Weapons
+        "Rotten Greataxe",
+        "Rotten Staff",
+        
+        # Daggers
+        "Scorpion's Stinger"
+    }
+
+def get_frostbite_weapons():
+    """
+    Get the list of weapons that have frostbite status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Perfume Bottles
+        "Chilling Perfume Bottle",
+        
+        # Greatswords
+        "Dark Moon Greatsword",
+        "Death's Poker",
+        
+        # Thrusting Swords
+        "Frozen Needle",
+        
+        # Torches
+        "Ghostflame Torch",
+        
+        # Axes
+        "Icerind Hatchet",
+        
+        # Greataxes
+        "Putrescence Cleaver",
+        
+        # Curved Greatswords
+        "Zamor Curved Sword"
+    }
+
+def get_sleep_weapons():
+    """
+    Get the list of weapons that have sleep status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Torches
+        "St. Trina's Torch",
+        
+        # Straight Swords
+        "Sword of St Trina",
+        "Velvet Sword of St Trina",
+        
+        # Fists
+        "Thiollier's Hidden Needle"
+    }
+
+def get_madness_weapons():
+    """
+    Get the list of weapons that have madness status buildup.
+    Based on Fextralife data - only recording presence, not numbers.
+    """
+    return {
+        # Great Spears
+        "Vyke's War Spear",
+        
+        # Greatshields
+        "Fingerprint Stone Shield",
+        
+        # Seals
+        "Frenzied Flame Seal",
+        
+        # Perfume Bottles
+        "Frenzyflame Perfume Bottle",
+        
+        # Fists
+        "Madding Hand",
+        
+        # Torches
+        "Nanaya's Torch"
+    }
+
+def check_status_buildup(weapon_name):
+    """
+    Check if a weapon has any status buildup.
+    Returns the status type as a string, or "none" if no status.
+    """
+    blood_loss_weapons = get_blood_loss_weapons()
+    poison_weapons = get_poison_weapons()
+    scarlet_rot_weapons = get_scarlet_rot_weapons()
+    frostbite_weapons = get_frostbite_weapons()
+    sleep_weapons = get_sleep_weapons()
+    madness_weapons = get_madness_weapons()
+    
+    if weapon_name in blood_loss_weapons:
+        return "blood_loss"
+    elif weapon_name in poison_weapons:
+        return "poison"
+    elif weapon_name in scarlet_rot_weapons:
+        return "scarlet_rot"
+    elif weapon_name in frostbite_weapons:
+        return "frostbite"
+    elif weapon_name in sleep_weapons:
+        return "sleep"
+    elif weapon_name in madness_weapons:
+        return "madness"
+    else:
+        return "none"
+
 def main():
     """
     Main function to fetch the Weapons page HTML and extract gallery items.
     """
-    url = "https://eldenring.wiki.gg/wiki/Weapons"
+    # Try to read from local file first
+    html_content = read_local_html('weapons_page.html')
+    if not html_content:
+        print("Local weapons_page.html not found. Please run the script with option 2 first to download it.")
+        return
     
-    # Fetch the HTML content
-    html_content = fetch_wiki_page(url)
+    print("Using local weapons_page.html file")
+    print(f"Successfully read HTML content ({len(html_content)} characters)")
     
-    if html_content:
-        # Save raw HTML
-        save_html_content(html_content, 'weapons_page.html')
-        print(f"Successfully fetched and saved HTML content ({len(html_content)} characters)")
+    # Extract gallery items
+    gallery_data = extract_gallery_items(html_content)
+    
+    if gallery_data:
+        # Save gallery data
+        save_gallery_data(gallery_data, 'weapons_gallery_data.json')
         
-        # Extract gallery items
-        gallery_data = extract_gallery_items(html_content)
+        # Print summary
+        print(f"\n=== Gallery Summary ===")
+        print(f"Found {len(gallery_data)} gallery lists")
         
-        if gallery_data:
-            # Save gallery data
-            save_gallery_data(gallery_data, 'weapons_gallery_data.json')
+        total_items = sum(len(gallery['list_items']) for gallery in gallery_data)
+        print(f"Total items across all galleries: {total_items}")
+        
+        for i, gallery in enumerate(gallery_data):
+            print(f"Gallery {i}: {len(gallery['list_items'])} items")
             
-            # Print summary
-            print(f"\n=== Gallery Summary ===")
-            print(f"Found {len(gallery_data)} gallery lists")
+            # Show first few items as examples
+            for j, item in enumerate(gallery['list_items'][:3]):
+                print(f"  - Item {j}: {item['text'][:50]}...")
+            if len(gallery['list_items']) > 3:
+                print(f"  ... and {len(gallery['list_items']) - 3} more items")
+        
+        # Ask user what they want to do
+        print(f"\n=== Options ===")
+        print("1. Fetch single weapon (first from first gallery)")
+        print("2. Fetch all weapons (bulk mode)")
+        print("3. Exit")
+        
+        choice = input("\nEnter your choice (1-3): ").strip()
+        
+        if choice == "1":
+            # Fetch the first weapon page
+            weapon_data = fetch_first_weapon_page(gallery_data)
             
-            total_items = sum(len(gallery['list_items']) for gallery in gallery_data)
-            print(f"Total items across all galleries: {total_items}")
+            if weapon_data:
+                display_weapon_summary(weapon_data)
+        
+        elif choice == "2":
+            # Fetch all weapons
+            all_weapons = fetch_all_weapons(gallery_data)
+            print(f"\n=== Bulk Fetch Summary ===")
+            print(f"Total weapons processed: {len(all_weapons)}")
             
-            for i, gallery in enumerate(gallery_data):
-                print(f"Gallery {i}: {len(gallery['list_items'])} items")
-                
-                # Show first few items as examples
-                for j, item in enumerate(gallery['list_items'][:3]):
-                    print(f"  - Item {j}: {item['text'][:50]}...")
-                if len(gallery['list_items']) > 3:
-                    print(f"  ... and {len(gallery['list_items']) - 3} more items")
-            
-            # Ask user what they want to do
-            print(f"\n=== Options ===")
-            print("1. Fetch single weapon (first from first gallery)")
-            print("2. Fetch all weapons (bulk mode)")
-            print("3. Exit")
-            
-            choice = input("\nEnter your choice (1-3): ").strip()
-            
-            if choice == "1":
-                # Fetch the first weapon page
-                weapon_data = fetch_first_weapon_page(gallery_data)
-                
-                if weapon_data:
-                    display_weapon_summary(weapon_data)
-            
-            elif choice == "2":
-                # Fetch all weapons
-                all_weapons = fetch_all_weapons(gallery_data)
-                print(f"\n=== Bulk Fetch Summary ===")
-                print(f"Total weapons processed: {len(all_weapons)}")
-                
-                # Save combined data
-                combined_filename = "all_weapons_data.json"
-                with open(combined_filename, 'w', encoding='utf-8') as f:
-                    json.dump(all_weapons, f, indent=2, ensure_ascii=False)
-                print(f"Combined data saved to: {combined_filename}")
-            
-            elif choice == "3":
-                print("Exiting...")
-            
-            else:
-                print("Invalid choice. Exiting...")
+            # Save combined data
+            combined_filename = "all_weapons_data.json"
+            with open(combined_filename, 'w', encoding='utf-8') as f:
+                json.dump(all_weapons, f, indent=2, ensure_ascii=False)
+            print(f"Combined data saved to: {combined_filename}")
+        
+        elif choice == "3":
+            print("Exiting...")
+        
         else:
-            print("No gallery data found")
+            print("Invalid choice. Exiting...")
     else:
-        print("Failed to fetch HTML content")
+        print("No gallery data found")
 
 if __name__ == "__main__":
     main()
