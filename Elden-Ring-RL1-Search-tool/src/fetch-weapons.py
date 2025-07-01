@@ -466,7 +466,8 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
         weapon_data = {
             'weapon_name': final_weapon_name,
             'weapon_type': weapon_type,
-            'weapon_url': weapon_url,
+            'wikiGGLink': weapon_url,
+            'wikiFextralifeLink': f"https://eldenring.wiki.fextralife.com/{final_weapon_name.replace(' ', '+')}",
             'filename': weapon_filename,
             'attributes': attributes,
             'damage_types': damage_types,
@@ -1239,7 +1240,8 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
                 weapon_data = {
                     'weapon_name': final_weapon_name,
                     'weapon_type': weapon_type,
-                    'weapon_url': weapon_url,
+                    'wikiGGLink': weapon_url,
+                    'wikiFextralifeLink': f"https://eldenring.wiki.fextralife.com/{final_weapon_name.replace(' ', '+')}",
                     'attributes': attributes,
                     'damage_types': damage_types,
                     'attack_types': get_attack_types(final_weapon_name, weapon_type),
@@ -1306,7 +1308,8 @@ def display_weapon_summary(weapon_data):
     print(f"\n=== Successfully fetched weapon from 1st gallery ===")
     print(f"Weapon: {weapon_data['weapon_name']}")
     print(f"Type: {weapon_data['weapon_type']}")
-    print(f"URL: {weapon_data['weapon_url']}")
+    print(f"Wiki.gg URL: {weapon_data['wikiGGLink']}")
+    print(f"Fextralife URL: {weapon_data['wikiFextralifeLink']}")
     print(f"HTML saved to: {weapon_data['filename']}")
     
     if weapon_data['attributes']:
