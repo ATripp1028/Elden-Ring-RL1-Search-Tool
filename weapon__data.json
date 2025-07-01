@@ -1,0 +1,15 @@
+{
+  "weapon_name": "",
+  "weapon_type": "Daggers",
+  "weapon_url": "https://eldenring.wiki.gg/wiki/Dagger",
+  "filename": "weapon_.html",
+  "attributes": null,
+  "damage_types": null,
+  "attack_types": {
+    "primary": "Slash",
+    "secondary": "Pierce"
+  },
+  "status_buildup": "none",
+  "image": null,
+  "dlc_exclusive": false
+}
