@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useStatsStore } from '../stores/stats'
 import { useFilterStore } from '../stores/filter'
 import { useWeaponsStore } from '../stores/weapons'
@@ -13,12 +13,12 @@ const totalPages = computed(() => {
 })
 
 const filteredWeapons = computed(() => {
-  return weaponsStore.weapons.filter(weapon => {
+  return weaponsStore.weapons.filter((weapon) => {
     // Check if weapon name contains the search query
     const matchesSearch = weapon.name.toLowerCase().includes(filter.searchQuery.toLowerCase())
-    
+
     // Check if weapon stats are less than or equal to current stats
-    const meetsRequirements = 
+    const meetsRequirements =
       weapon.requiredAttributes.strength <= stats.strength &&
       weapon.requiredAttributes.dexterity <= stats.dexterity &&
       weapon.requiredAttributes.intelligence <= stats.intelligence &&
@@ -45,10 +45,12 @@ onMounted(() => {
     <div class="pagination-controls">
       <div class="items-per-page">
         <label for="itemsPerPage">Items per page:</label>
-        <select 
-          id="itemsPerPage" 
+        <select
+          id="itemsPerPage"
           :value="stats.itemsPerPage"
-          @change="(e: Event) => stats.itemsPerPage = Number((e.target as HTMLSelectElement).value)"
+          @change="
+            (e: Event) => (stats.itemsPerPage = Number((e.target as HTMLSelectElement).value))
+          "
         >
           <option value="10">10</option>
           <option value="20">20</option>
@@ -59,31 +61,11 @@ onMounted(() => {
         {{ filteredWeapons.length }} weapon{{ filteredWeapons.length !== 1 ? 's' : '' }} found
       </div>
       <div class="page-navigation">
-        <button 
-          :disabled="stats.page === 1"
-          @click="stats.page = 1"
-        >
-          First
-        </button>
-        <button 
-          :disabled="stats.page === 1"
-          @click="stats.page--"
-        >
-          Previous
-        </button>
+        <button :disabled="stats.page === 1" @click="stats.page = 1">First</button>
+        <button :disabled="stats.page === 1" @click="stats.page--">Previous</button>
         <span>Page {{ stats.page }} of {{ totalPages }}</span>
-        <button 
-          :disabled="stats.page >= totalPages"
-          @click="stats.page++"
-        >
-          Next
-        </button>
-        <button 
-          :disabled="stats.page >= totalPages"
-          @click="stats.page = totalPages"
-        >
-          Last
-        </button>
+        <button :disabled="stats.page >= totalPages" @click="stats.page++">Next</button>
+        <button :disabled="stats.page >= totalPages" @click="stats.page = totalPages">Last</button>
       </div>
     </div>
 
@@ -106,7 +88,7 @@ onMounted(() => {
       <tbody>
         <tr v-for="weapon in paginatedWeapons" :key="weapon.id">
           <td>
-            <img :src="weapon.image" :alt="weapon.name" class="weapon-image">
+            <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
           <td>{{ weapon.name }}</td>
           <td>{{ weapon.requiredAttributes.strength }}</td>
@@ -118,7 +100,9 @@ onMounted(() => {
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
           </td>
           <td>
-            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer">Fextralife</a>
+            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"
+              >Fextralife</a
+            >
           </td>
         </tr>
       </tbody>
@@ -145,7 +129,8 @@ table {
   padding: 0;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: center;
   border-bottom: 1px solid #ddd;
@@ -156,7 +141,7 @@ th, td {
 }
 
 td {
-    text-align: center;
+  text-align: center;
 }
 
 th {
@@ -190,9 +175,9 @@ th {
 }
 
 .wiki-link-cell {
-    width: 10%;
-    text-align: center;
-    white-space: nowrap;
+  width: 10%;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .wiki-link-cell a {
@@ -209,7 +194,8 @@ tr:hover {
   background-color: #f9f9f9;
 }
 
-.loading, .error {
+.loading,
+.error {
   text-align: center;
   padding: 20px;
   font-size: 1.2em;
@@ -267,4 +253,4 @@ tr:hover {
 .page-navigation button:hover:not(:disabled) {
   background-color: #f5f5f5;
 }
-</style> 
+</style>
