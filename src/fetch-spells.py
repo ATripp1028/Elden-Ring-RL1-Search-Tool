@@ -97,6 +97,239 @@ def get_madness_spells():
         "Unendurable Frenzy"
     }
 
+def get_fire_damage_spells():
+    """
+    Get the list of spells that deal fire damage.
+    """
+    return {
+        # Sorceries
+        "Gelmir's Fury",
+        "Magma Shot",
+        "Roiling Magma",
+        "Rykard's Rancor",
+        
+        # Incantations
+        "Agheel's Flame",
+        "Aspects of the Crucible: Breath",
+        "Bayle's Flame Lightning",
+        "Bayle's Tyranny",
+        "Black Flame",
+        "Black Flame Blade",
+        "Black Flame Ritual",
+        "Bloodboon",
+        "Bloodflame Blade",
+        "Bloodflame Talons",
+        "Burn O Flame!",
+        "Catch Flame",
+        "Dragonfire",
+        "Fire's Deadly Sin",
+        "Fire Serpent",
+        "Flame of the Fell God",
+        "Flame Sling",
+        "Flame, Fall Upon Them",
+        "Frenzied Burst",
+        "Furious Blade of Ansbach",
+        "Giantsflame Take Thee",
+        "Howl of Shabriri",
+        "Inescapable Frenzy",
+        "Magma Breath",
+        "Midra's Flame of Frenzy",
+        "Messmer's Orb",
+        "Noble Presence",
+        "O Flame!",
+        "Placidusax's Ruin",
+        "Rain of Fire",
+        "Scouring Black Flame",
+        "Surge O Flame!",
+        "The Flame of Frenzy",
+        "Theodorix's Magma",
+        "Unendurable Frenzy",
+        "Whirl O Flame!"
+    }
+
+def get_lightning_damage_spells():
+    """
+    Get the list of spells that deal lightning damage.
+    """
+    return {
+        # Incantations
+        "Ancient Dragons' Lightning Spear",
+        "Ancient Dragons' Lightning Strike",
+        "Bayle's Flame Lightning",
+        "Bayle's Tyranny",
+        "Death Lightning",
+        "Electrocharge",
+        "Electrify Armament",
+        "Frozen Lightning Spear",
+        "Fortissax's Lightning Spear",
+        "Honed Bolt",
+        "Knight's Lightning Spear",
+        "Lansseax's Glaive",
+        "Lightning Spear",
+        "Lightning Strike",
+        "Placidusax's Ruin",
+        "Vyke's Dragonbolt"
+    }
+
+def get_holy_damage_spells():
+    """
+    Get the list of spells that deal holy damage.
+    """
+    return {
+        # Incantations
+        "Aspects of the Crucible: Bloom",
+        "Black Blade",
+        "Discus of Light",
+        "Elden Stars",
+        "Giant Golden Arc",
+        "Golden Arcs",
+        "Land of Shadow",
+        "Law of Causality",
+        "Light of Miquella",
+        "Litany of Proper Death",
+        "Multilayered Ring of Light",
+        "Radagon's Rings of Light",
+        "Spira",
+        "Triple Rings of Light",
+        "Watchful Spirit",
+        "Wrath from Afar",
+        "Wrath of Gold"
+    }
+
+def get_physical_damage_spells():
+    """
+    Get the list of spells that deal physical damage.
+    """
+    return {
+        # Sorceries - Gravity Sorceries
+        "Blades of Stone",
+        "Meteorite",
+        "Meteorite of Astel",
+        "Rock Sling",
+        
+        # Incantations - Bestial Incantations
+        "Beast Claw",
+        "Bestial Sling",
+        "Gurranq's Beast Claw",
+        "Stone of Gurranq",
+        
+        # Incantations - Blood Incantations
+        "Swarm of Flies",
+        
+        # Incantations - Dragon Communion Incantations
+        "Dragonclaw",
+        "Dragonmaw",
+        "Rotten Breath",
+        "Ekzykes's Decay",
+        "Greyoll's Roar",
+        
+        # Incantations - Erdtree Incantations
+        "Aspects of the Crucible: Horns",
+        "Aspects of the Crucible: Tail",
+        
+        # Incantations - Frenzied Flame Incantations
+        "Howl of Shabriri",
+        
+        # Incantations - Servants of Rot Incantations
+        "Pest Threads",
+        "Scarlet Aeonia",
+        
+        # Incantations - Finger Sorceries
+        "Cherishing Fingers"
+    }
+
+def get_magic_damage_incantations():
+    """
+    Get the list of incantations that deal magic damage.
+    """
+    return {
+        "Borealis's Mist",
+        "Dragonice",
+        "Ghostflame Breath",
+        "Glintstone Breath",
+        "Smarag's Glintstone Breath"
+    }
+
+def get_magic_damage_sorcery_exceptions():
+    """
+    Get the list of sorceries that have magic bonuses but don't deal magic damage.
+    """
+    return {
+        # Carian exceptions
+        "Lucidity",
+        "Miriam's Vanishing",
+        
+        # Finger exceptions
+        "Cherishing Fingers",
+        
+        # Gravity exceptions
+        "Rock Sling",
+        "Blades of Stone",
+        
+        # Glintstone exceptions
+        "Scholar's Shield",
+        "Starlight",
+        "Thops's Barrier",
+        
+        # Night exceptions
+        "Night's Maiden Mist",
+        "Unseen Blade",
+        "Unseen Form"
+    }
+
+def get_magic_damage_sorcery_bonuses():
+    """
+    Get the list of bonus types that indicate magic damage for sorceries.
+    """
+    return {
+        "Thorn",
+        "Carian",
+        "Oracle",
+        "Crystalian",
+        "Cold",
+        "Death",
+        "Finger",
+        "Full Moon",
+        "Gravity",
+        "Glintstone",
+        "Night"
+    }
+
+def get_damage_types(spell_name, spell_type, bonus):
+    """
+    Determine the damage types for a spell.
+    Returns a dictionary with 'major' and 'minor' damage types.
+    """
+    fire_damage_spells = get_fire_damage_spells()
+    lightning_damage_spells = get_lightning_damage_spells()
+    holy_damage_spells = get_holy_damage_spells()
+    physical_damage_spells = get_physical_damage_spells()
+    magic_damage_incantations = get_magic_damage_incantations()
+    magic_damage_sorcery_exceptions = get_magic_damage_sorcery_exceptions()
+    magic_damage_sorcery_bonuses = get_magic_damage_sorcery_bonuses()
+    
+    damage_types = []
+    
+    if spell_name in fire_damage_spells:
+        damage_types.append("Fire")
+    
+    if spell_name in lightning_damage_spells:
+        damage_types.append("Lightning")
+    
+    if spell_name in holy_damage_spells:
+        damage_types.append("Holy")
+    
+    if spell_name in physical_damage_spells:
+        damage_types.append("Physical")
+    
+    # Check for magic damage
+    if spell_name in magic_damage_incantations:
+        damage_types.append("Magic")
+    elif spell_type == "Sorceries" and bonus in magic_damage_sorcery_bonuses and spell_name not in magic_damage_sorcery_exceptions:
+        damage_types.append("Magic")
+    
+    return damage_types
+
 def check_status_buildup(spell_name):
     """
     Check if a spell has any status buildup.
@@ -136,7 +369,7 @@ def read_local_html(filename):
     except Exception as e:
         print(f"Error reading local HTML file {filename}: {e}")
         return None
-
+    
 def extract_spells_from_table(html_content):
     """
     Extract spell names, types, and requirements from the table within the "tabcontent 1-tab" div.
@@ -154,7 +387,7 @@ def extract_spells_from_table(html_content):
     if not tab_content:
         print("No div with class 'tabcontent 1-tab' found")
         return None
-    
+
     # Find the table-responsive div within the tab content
     table_responsive = tab_content.find('div', class_='table-responsive')
     if not table_responsive:
@@ -184,7 +417,7 @@ def extract_spells_from_table(html_content):
     for i, row in enumerate(rows):
         # Get all cells in the row
         cells = row.find_all(['td', 'th'])
-        
+            
         if len(cells) >= 12:  # Need at least 12 cells for all data including DLC status
             # Get the first cell (spell name)
             first_cell = cells[0]
@@ -192,12 +425,15 @@ def extract_spells_from_table(html_content):
             
             # Get the second cell (spell type)
             second_cell = cells[1]
-            spell_type = second_cell.get_text(strip=True)
+            second_cell_text = second_cell.get_text(strip=True)
+            if (second_cell_text == "Incantations"): # resolve inconsistency in the wiki
+                second_cell_text = "Incantation"
+            spell_type = second_cell_text
             
             # Get requirements from cells 6, 7, 8 (intelligence, faith, arcane)
-            intelligence_cell = cells[5]  # 6th cell (index 5)
-            faith_cell = cells[6]         # 7th cell (index 6)
-            arcane_cell = cells[7]        # 8th cell (index 7)
+            intelligence_cell = cells[5].get_text(strip=True)  # 6th cell (index 5)
+            faith_cell = cells[6].get_text(strip=True)         # 7th cell (index 6)
+            arcane_cell = cells[7].get_text(strip=True)        # 8th cell (index 7)
             
             # Get bonus from cell 11 (index 10)
             bonus_cell = cells[10]        # 11th cell (index 10)
@@ -252,6 +488,7 @@ def extract_spells_from_table(html_content):
                 },
                 'bonus': spell_bonus,
                 'dlc_exclusive': is_dlc,
+                'damage_types': get_damage_types(spell_name, spell_type, spell_bonus),
                 'status_buildup': check_status_buildup(spell_name),
                 'wikiGGLink': wiki_gg_link,
                 'wikiFextralifeLink': wiki_fextralife_link,
@@ -323,6 +560,7 @@ def extract_spells_from_table(html_content):
                 },
                 'bonus': spell_bonus,
                 'dlc_exclusive': None,
+                'damage_types': get_damage_types(spell_name, spell_type, spell_bonus),
                 'status_buildup': check_status_buildup(spell_name),
                 'wikiGGLink': wiki_gg_link,
                 'wikiFextralifeLink': wiki_fextralife_link,
@@ -422,8 +660,8 @@ def main():
         
         if len(spells_data) > 5:
             print(f"  ... and {len(spells_data) - 5} more spells")
-    else:
-        print("No spells data found")
+        else:
+            print("No spells data found")
 
 if __name__ == "__main__":
     main()
