@@ -7,6 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Elden-Ring-RL1-Search-Tool/',
   plugins: [
     vue(),
     vueJsx(),
