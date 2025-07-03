@@ -400,7 +400,61 @@ def transform_spell_name(spell_name):
         return "Gurranq's Beast Claw"
     return spell_name
 
-def extract_spells_from_table(html_content):
+def extract_image_urls_from_wiki_gg(html_content):
+    """
+    Extract image URLs from the wiki.gg spells page by matching spell names.
+    Returns a dictionary mapping transformed spell names to their image URLs.
+    """
+    if not html_content:
+        return {}
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    image_map = {}
+    
+    # Find all tables in the page
+    tables = soup.find_all('table', class_='sortable wikitable')
+    
+    for table in tables:
+        # Find the table body
+        tbody = table.find('tbody')
+        if not tbody:
+            continue
+        
+        # Get all rows from the table body
+        rows = tbody.find_all('tr')
+        
+        for row in rows:
+            # Get all cells in the row
+            cells = row.find_all(['td', 'th'])
+            
+            if len(cells) >= 2:  # Need at least 2 cells: icon and name
+                # Get the first cell (icon with image)
+                icon_cell = cells[0]
+                
+                # Get the second cell (spell name)
+                name_cell = cells[1]
+                spell_name = name_cell.get_text(strip=True)
+                transformed_spell_name = transform_spell_name(spell_name)
+                
+                # Look for image within the icon cell
+                img = icon_cell.find('img')
+                if img and spell_name:
+                    src = img.get('src', '')
+                    if src:
+                        # Convert relative URLs to absolute URLs
+                        if src.startswith('//'):
+                            src = 'https:' + src
+                        elif src.startswith('/'):
+                            src = 'https://eldenring.wiki.gg' + src
+                        elif not src.startswith('http'):
+                            src = 'https://eldenring.wiki.gg/' + src
+                        
+                        image_map[transformed_spell_name] = src
+                        print(f"Found image for {transformed_spell_name}: {src}")
+    
+    return image_map
+
+def extract_spells_from_table(html_content, image_map=None):
     """
     Extract spell names, types, and requirements from the table within the "tabcontent 1-tab" div.
     Looks for div with classes "tabcontent 1-tab", then "table-responsive", then table.
@@ -493,6 +547,15 @@ def extract_spells_from_table(html_content):
             
             # Construct wiki.gg link using established convention
             wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_')}"
+
+            # Get image URL from image map or use fallback
+            image_url = None
+            if image_map and transformed_spell_name in image_map:
+                image_url = image_map[transformed_spell_name]
+            else:
+                # Fallback to hardcoded URL if not found in image map
+                image_url = f"https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_{spell_name.replace(' ', '_')}.png/300px-ER_Icon_Spell_{spell_name.replace(' ', '_')}.png"
+                print(f"Warning: No image found for {transformed_spell_name}, using fallback URL")
             
             spell_data = {
                 'spell_name': transformed_spell_name,
@@ -508,6 +571,7 @@ def extract_spells_from_table(html_content):
                 'status_buildup': check_status_buildup(transformed_spell_name),
                 'wikiGGLink': wiki_gg_link,
                 'wikiFextralifeLink': wiki_fextralife_link,
+                'imageUrl': image_url
             }
             
             spells_data.append(spell_data)
@@ -574,8 +638,18 @@ def main():
     print("Using local spells_page.html file")
     print(f"Successfully read HTML content ({len(html_content)} characters)")
     
+    # Read wiki.gg spells page for image URLs
+    wiki_gg_html_content = read_local_html('wiki_gg_spells_page.html')
+    image_map = {}
+    if wiki_gg_html_content:
+        print("Reading wiki.gg spells page for image URLs...")
+        image_map = extract_image_urls_from_wiki_gg(wiki_gg_html_content)
+        print(f"Found {len(image_map)} image URLs from wiki.gg page")
+    else:
+        print("Warning: wiki_gg_spells_page.html not found, will use fallback image URLs")
+    
     # Extract spells from the table
-    spells_data = extract_spells_from_table(html_content)
+    spells_data = extract_spells_from_table(html_content, image_map)
     
     if spells_data:
         # Save spells data by type
