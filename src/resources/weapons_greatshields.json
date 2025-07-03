@@ -1,0 +1,843 @@
+[
+  {
+    "weapon_name": "Wooden Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wooden_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Wooden+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f1/ER_Icon_shield_Wooden_Greatshield.png/300px-ER_Icon_shield_Wooden_Greatshield.png?2f273b",
+      "alt": "ER Icon shield Wooden Greatshield.png",
+      "title": "Wooden Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Lordsworn's Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lordsworn%27s_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lordsworn's+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_shield_Lordsworn%27s_Shield.png/300px-ER_Icon_shield_Lordsworn%27s_Shield.png?4b42e4",
+      "alt": "ER Icon shield Lordsworn's Shield.png",
+      "title": "Lordsworn's Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Briar Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briar_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Briar+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 21,
+        "two_hand": 14
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/60/ER_Icon_shield_Briar_Greatshield.png/300px-ER_Icon_shield_Briar_Greatshield.png?7a48d7",
+      "alt": "ER Icon shield Briar Greatshield.png",
+      "title": "Briar Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spiked Palisade Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiked_Palisade_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiked+Palisade+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_shield_Spiked_Palisade_Shield.png/300px-ER_Icon_shield_Spiked_Palisade_Shield.png?ff6a1d",
+      "alt": "ER Icon shield Spiked Palisade Shield.png",
+      "title": "Spiked Palisade Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Icon Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Icon_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Icon+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0a/ER_Icon_shield_Icon_Shield.png/300px-ER_Icon_shield_Icon_Shield.png?945850",
+      "alt": "ER Icon shield Icon Shield.png",
+      "title": "Icon Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Beast Crest Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Beast_Crest_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Beast+Crest+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_shield_Golden_Beast_Crest_Shield.png/300px-ER_Icon_shield_Golden_Beast_Crest_Shield.png?ab8851",
+      "alt": "ER Icon shield Golden Beast Crest Shield.png",
+      "title": "Golden Beast Crest Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Manor Towershield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Manor_Towershield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Manor+Towershield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/5a/ER_Icon_shield_Manor_Towershield.png/300px-ER_Icon_shield_Manor_Towershield.png?b8388f",
+      "alt": "ER Icon shield Manor Towershield.png",
+      "title": "Manor Towershield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crossed-Tree Towershield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crossed-Tree_Towershield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crossed-Tree+Towershield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ea/ER_Icon_shield_Crossed-Tree_Towershield.png/300px-ER_Icon_shield_Crossed-Tree_Towershield.png?fb883a",
+      "alt": "ER Icon shield Crossed-Tree Towershield.png",
+      "title": "Crossed-Tree Towershield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Inverted Hawk Towershield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Inverted_Hawk_Towershield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Inverted+Hawk+Towershield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_shield_Inverted_Hawk_Towershield.png/300px-ER_Icon_shield_Inverted_Hawk_Towershield.png?412c67",
+      "alt": "ER Icon shield Inverted Hawk Towershield.png",
+      "title": "Inverted Hawk Towershield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragon Towershield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon_Towershield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+Towershield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/db/ER_Icon_shield_Dragon_Towershield.png/300px-ER_Icon_shield_Dragon_Towershield.png?c9f213",
+      "alt": "ER Icon shield Dragon Towershield.png",
+      "title": "Dragon Towershield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Distinguished Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Distinguished_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Distinguished+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 32,
+        "two_hand": 22
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7b/ER_Icon_shield_Distinguished_Greatshield.png/300px-ER_Icon_shield_Distinguished_Greatshield.png?fedfbe",
+      "alt": "ER Icon shield Distinguished Greatshield.png",
+      "title": "Distinguished Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gilded Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gilded_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gilded+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 36,
+        "two_hand": 24
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_shield_Gilded_Greatshield.png/300px-ER_Icon_shield_Gilded_Greatshield.png?f671df",
+      "alt": "ER Icon shield Gilded Greatshield.png",
+      "title": "Gilded Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cuckoo Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cuckoo_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cuckoo+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 32,
+        "two_hand": 22
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1c/ER_Icon_shield_Cuckoo_Greatshield.png/300px-ER_Icon_shield_Cuckoo_Greatshield.png?306e53",
+      "alt": "ER Icon shield Cuckoo Greatshield.png",
+      "title": "Cuckoo Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Redmane Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Redmane_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Redmane+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_shield_Redmane_Greatshield.png/300px-ER_Icon_shield_Redmane_Greatshield.png?907491",
+      "alt": "ER Icon shield Redmane Greatshield.png",
+      "title": "Redmane Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f1/ER_Icon_shield_Golden_Greatshield.png/300px-ER_Icon_shield_Golden_Greatshield.png?efae77",
+      "alt": "ER Icon shield Golden Greatshield.png",
+      "title": "Golden Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Haligtree Crest Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Haligtree_Crest_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Haligtree+Crest+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 36,
+        "two_hand": 24
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_shield_Haligtree_Crest_Greatshield.png/300px-ER_Icon_shield_Haligtree_Crest_Greatshield.png?605482",
+      "alt": "ER Icon shield Haligtree Crest Greatshield.png",
+      "title": "Haligtree Crest Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Steel Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Steel_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Steel+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 35,
+        "two_hand": 24
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Black Steel Greatshield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Crucible Hornshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crucible_Hornshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crucible+Hornshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/54/ER_Icon_shield_Crucible_Hornshield.png/300px-ER_Icon_shield_Crucible_Hornshield.png?c88c51",
+      "alt": "ER Icon shield Crucible Hornshield.png",
+      "title": "Crucible Hornshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragonclaw Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonclaw_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragonclaw+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e7/ER_Icon_shield_Dragonclaw_Shield.png/300px-ER_Icon_shield_Dragonclaw_Shield.png?f24e1a",
+      "alt": "ER Icon shield Dragonclaw Shield.png",
+      "title": "Dragonclaw Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Fingerprint Stone Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fingerprint_Stone_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Fingerprint+Stone+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 48,
+        "two_hand": 32
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/69/ER_Icon_shield_Fingerprint_Stone_Shield.png/300px-ER_Icon_shield_Fingerprint_Stone_Shield.png?f8b0a9",
+      "alt": "ER Icon shield Fingerprint Stone Shield.png",
+      "title": "Fingerprint Stone Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Eclipse Crest Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eclipse_Crest_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Eclipse+Crest+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 32,
+        "two_hand": 22
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/39/ER_Icon_shield_Eclipse_Crest_Greatshield.png/300px-ER_Icon_shield_Eclipse_Crest_Greatshield.png?995f10",
+      "alt": "ER Icon shield Eclipse Crest Greatshield.png",
+      "title": "Eclipse Crest Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ant's Skull Plate",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ant%27s_Skull_Plate",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ant's+Skull+Plate",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_shield_Ant%27s_Skull_Plate.png/300px-ER_Icon_shield_Ant%27s_Skull_Plate.png?ed4fab",
+      "alt": "ER Icon shield Ant's Skull Plate.png",
+      "title": "Ant's Skull Plate"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Erdtree Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdtree_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Erdtree+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4f/ER_Icon_shield_Erdtree_Greatshield.png/300px-ER_Icon_shield_Erdtree_Greatshield.png?7d1062",
+      "alt": "ER Icon shield Erdtree Greatshield.png",
+      "title": "Erdtree Greatshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Jellyfish Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Jellyfish_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Jellyfish+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c9/ER_Icon_shield_Jellyfish_Shield.png/300px-ER_Icon_shield_Jellyfish_Shield.png?1ba3f0",
+      "alt": "ER Icon shield Jellyfish Shield.png",
+      "title": "Jellyfish Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Visage Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Visage_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Visage+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c0/ER_Icon_shield_Visage_Shield.png/300px-ER_Icon_shield_Visage_Shield.png?fbc522",
+      "alt": "ER Icon shield Visage Shield.png",
+      "title": "Visage Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "One-Eyed Shield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/One-Eyed_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/One-Eyed+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 36,
+        "two_hand": 24
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f0/ER_Icon_shield_One-Eyed_Shield.png/300px-ER_Icon_shield_One-Eyed_Shield.png?39719f",
+      "alt": "ER Icon shield One-Eyed Shield.png",
+      "title": "One-Eyed Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Verdigris Greatshield",
+    "weapon_type": "Greatshields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Verdigris_Greatshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Verdigris+Greatshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 49,
+        "two_hand": 33
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Verdigris Greatshield"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,533 @@
+[
+  {
+    "weapon_name": "Hand Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hand_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hand+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/29/ER_Icon_weapon_Hand_Axe.png/300px-ER_Icon_weapon_Hand_Axe.png?457195",
+      "alt": "ER Icon weapon Hand Axe.png",
+      "title": "Hand Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Forked Hatchet",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Forked_Hatchet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Forked+Hatchet",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ca/ER_Icon_weapon_Forked_Hatchet.png/300px-ER_Icon_weapon_Forked_Hatchet.png?abfdeb",
+      "alt": "ER Icon weapon Forked Hatchet.png",
+      "title": "Forked Hatchet"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Forked-Tongue Hatchet",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Forked-Tongue_Hatchet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Forked-Tongue Hatchet"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Battle Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Battle_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Battle+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2e/ER_Icon_weapon_Battle_Axe.png/300px-ER_Icon_weapon_Battle_Axe.png?ff7dc8",
+      "alt": "ER Icon weapon Battle Axe.png",
+      "title": "Battle Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Messmer Soldier's Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Messmer_Soldier%27s_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Messmer Soldier's Axe"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Warped Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Warped_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Warped+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Warped_Axe.png/300px-ER_Icon_weapon_Warped_Axe.png?bca673",
+      "alt": "ER Icon weapon Warped Axe.png",
+      "title": "Warped Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Jawbone Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Jawbone_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Jawbone+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/55/ER_Icon_weapon_Jawbone_Axe.png/300px-ER_Icon_weapon_Jawbone_Axe.png?a72669",
+      "alt": "ER Icon weapon Jawbone Axe.png",
+      "title": "Jawbone Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Iron Cleaver",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Iron_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Iron+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d0/ER_Icon_weapon_Iron_Cleaver.png/300px-ER_Icon_weapon_Iron_Cleaver.png?39bc36",
+      "alt": "ER Icon weapon Iron Cleaver.png",
+      "title": "Iron Cleaver"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Highland Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Highland_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Highland+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/84/ER_Icon_weapon_Highland_Axe.png/300px-ER_Icon_weapon_Highland_Axe.png?609770",
+      "alt": "ER Icon weapon Highland Axe.png",
+      "title": "Highland Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Smithscript Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Axe"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Celebrant's Cleaver",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Celebrant%27s_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Celebrant's+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Celebrant%27s_Cleaver.png/300px-ER_Icon_weapon_Celebrant%27s_Cleaver.png?9d366e",
+      "alt": "ER Icon weapon Celebrant's Cleaver.png",
+      "title": "Celebrant's Cleaver"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sacrificial Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sacrificial_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sacrificial+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/57/ER_Icon_weapon_Sacrificial_Axe.png/300px-ER_Icon_weapon_Sacrificial_Axe.png?9dd0b9",
+      "alt": "ER Icon weapon Sacrificial Axe.png",
+      "title": "Sacrificial Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Icerind Hatchet",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Icerind_Hatchet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Icerind+Hatchet",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Icerind_Hatchet.png/300px-ER_Icon_weapon_Icerind_Hatchet.png?cd3a10",
+      "alt": "ER Icon weapon Icerind Hatchet.png",
+      "title": "Icerind Hatchet"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ripple Blade",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ripple_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ripple+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 20
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1d/ER_Icon_weapon_Ripple_Blade.png/300px-ER_Icon_weapon_Ripple_Blade.png?5c5f2f",
+      "alt": "ER Icon weapon Ripple Blade.png",
+      "title": "Ripple Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Stormhawk Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stormhawk_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Stormhawk+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Stormhawk_Axe.png/300px-ER_Icon_weapon_Stormhawk_Axe.png?961bfe",
+      "alt": "ER Icon weapon Stormhawk Axe.png",
+      "title": "Stormhawk Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rosus' Axe",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rosus%27_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rosus'+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 10,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Rosus%27_Axe.png/300px-ER_Icon_weapon_Rosus%27_Axe.png?3c89de",
+      "alt": "ER Icon weapon Rosus' Axe.png",
+      "title": "Rosus' Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Death Knight's Twin Axes",
+    "weapon_type": "Axes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Death_Knight%27s_Twin_Axes",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Death+Knight's+Twin+Axes",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Death Knight's Twin Axes"
+    },
+    "dlc_exclusive": true
+  }
+]

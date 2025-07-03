@@ -1,0 +1,254 @@
+[
+  {
+    "weapon_name": "Longbow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Longbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Longbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/23/ER_Icon_weapon_Longbow.png/300px-ER_Icon_weapon_Longbow.png?3fd2c8",
+      "alt": "ER Icon weapon Longbow.png",
+      "title": "Longbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Albinauric Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Albinauric_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Albinauric+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b0/ER_Icon_weapon_Albinauric_Bow.png/300px-ER_Icon_weapon_Albinauric_Bow.png?43c7fe",
+      "alt": "ER Icon weapon Albinauric Bow.png",
+      "title": "Albinauric Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Black_Bow.png/300px-ER_Icon_weapon_Black_Bow.png?4fda3e",
+      "alt": "ER Icon weapon Black Bow.png",
+      "title": "Black Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ansbach's Longbow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ansbach%27s_Longbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ansbach's+Longbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 43,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Ansbach's Longbow"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Pulley Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pulley_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pulley+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Pulley_Bow.png/300px-ER_Icon_weapon_Pulley_Bow.png?834d9b",
+      "alt": "ER Icon weapon Pulley Bow.png",
+      "title": "Pulley Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Horn Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Horn_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Horn+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Horn_Bow.png/300px-ER_Icon_weapon_Horn_Bow.png?ef5145",
+      "alt": "ER Icon weapon Horn Bow.png",
+      "title": "Horn Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Serpent Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpent_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpent+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 11
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Serpent_Bow.png/300px-ER_Icon_weapon_Serpent_Bow.png?d7364e",
+      "alt": "ER Icon weapon Serpent Bow.png",
+      "title": "Serpent Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Erdtree Bow",
+    "weapon_type": "Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdtree_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Erdtree+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e2/ER_Icon_weapon_Erdtree_Bow.png/300px-ER_Icon_weapon_Erdtree_Bow.png?8fce6a",
+      "alt": "ER Icon weapon Erdtree Bow.png",
+      "title": "Erdtree Bow"
+    },
+    "dlc_exclusive": false
+  }
+]

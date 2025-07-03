@@ -1,0 +1,95 @@
+[
+  {
+    "weapon_name": "Backhand Blade",
+    "weapon_type": "Backhand Blades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Backhand_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Backhand+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_Weapon_Backhand_Blade.png/300px-ER_Icon_Weapon_Backhand_Blade.png?404b3e",
+      "alt": "ER Icon Weapon Backhand Blade.png",
+      "title": "Backhand Blade"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Smithscript Cirque",
+    "weapon_type": "Backhand Blades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Cirque",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Cirque",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Cirque"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Curseblade's Cirque",
+    "weapon_type": "Backhand Blades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Curseblade%27s_Cirque",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Curseblade's+Cirque",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Curseblade's Cirque"
+    },
+    "dlc_exclusive": true
+  }
+]

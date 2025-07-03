@@ -1,0 +1,95 @@
+[
+  {
+    "weapon_name": "Great Katana",
+    "weapon_type": "Great Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Katana",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Katana",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Great Katana"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Dragon Hunter's Great Katana",
+    "weapon_type": "Great Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon-Hunter%27s_Great_Katana",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+Hunter's+Great+Katana",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Dragon Hunter's Great Katana"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Rakshasa's Great Katana",
+    "weapon_type": "Great Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rakshasa%27s_Great_Katana",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rakshasa's+Great+Katana",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 27,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Rakshasa's Great Katana"
+    },
+    "dlc_exclusive": true
+  }
+]

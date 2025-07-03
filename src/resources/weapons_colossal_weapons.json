@@ -1,0 +1,640 @@
+[
+  {
+    "weapon_name": "Duelist Greataxe",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Duelist_Greataxe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Duelist+Greataxe",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_weapon_Duelist_Greataxe.png/300px-ER_Icon_weapon_Duelist_Greataxe.png?904087",
+      "alt": "ER Icon weapon Duelist Greataxe.png",
+      "title": "Duelist Greataxe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Greataxe",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Greataxe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Greataxe",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/13/ER_Icon_weapon_Rotten_Greataxe.png/300px-ER_Icon_weapon_Rotten_Greataxe.png?8c85b0",
+      "alt": "ER Icon weapon Rotten Greataxe.png",
+      "title": "Rotten Greataxe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golem's Halberd",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golem%27s_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golem's+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 36,
+        "two_hand": 24
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8a/ER_Icon_weapon_Golem%27s_Halberd.png/300px-ER_Icon_weapon_Golem%27s_Halberd.png?6b8aba",
+      "alt": "ER Icon weapon Golem's Halberd.png",
+      "title": "Golem's Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Giant-Crusher",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giant-Crusher",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Giant-Crusher",
+    "attributes": {
+      "strength": {
+        "one_hand": 60,
+        "two_hand": 40
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Giant-Crusher.png/300px-ER_Icon_weapon_Giant-Crusher.png?2b7ee9",
+      "alt": "ER Icon weapon Giant-Crusher.png",
+      "title": "Giant-Crusher"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Prelate's Inferno Crozier",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Prelate%27s_Inferno_Crozier",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Prelate's+Inferno+Crozier",
+    "attributes": {
+      "strength": {
+        "one_hand": 45,
+        "two_hand": 30
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e1/ER_Icon_weapon_Prelate%27s_Inferno_Crozier.png/300px-ER_Icon_weapon_Prelate%27s_Inferno_Crozier.png?136844",
+      "alt": "ER Icon weapon Prelate's Inferno Crozier.png",
+      "title": "Prelate's Inferno Crozier"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Club",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 35,
+        "two_hand": 24
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/10/ER_Icon_weapon_Great_Club.png/300px-ER_Icon_weapon_Great_Club.png?b2400d",
+      "alt": "ER Icon weapon Great Club.png",
+      "title": "Great Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Troll's Hammer",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Troll%27s_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Troll's+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/34/ER_Icon_weapon_Troll%27s_Hammer.png/300px-ER_Icon_weapon_Troll%27s_Hammer.png?260375",
+      "alt": "ER Icon weapon Troll's Hammer.png",
+      "title": "Troll's Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragon Greatclaw",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon_Greatclaw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+Greatclaw",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c0/ER_Icon_weapon_Dragon_Greatclaw.png/300px-ER_Icon_weapon_Dragon_Greatclaw.png?1015b6",
+      "alt": "ER Icon weapon Dragon Greatclaw.png",
+      "title": "Dragon Greatclaw"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bloodfiend's Arm",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodfiend%27s_Arm",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodfiend's+Arm",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 16
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Bloodfiend's Arm"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Watchdog's Staff",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Watchdog%27s_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Watchdog's+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_weapon_Watchdog%27s_Staff.png/300px-ER_Icon_weapon_Watchdog%27s_Staff.png?65a760",
+      "alt": "ER Icon weapon Watchdog's Staff.png",
+      "title": "Watchdog's Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Staff of the Avatar",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Staff_of_the_Avatar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Staff+of+the+Avatar",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Staff_of_the_Avatar.png/300px-ER_Icon_weapon_Staff_of_the_Avatar.png?d01837",
+      "alt": "ER Icon weapon Staff of the Avatar.png",
+      "title": "Staff of the Avatar"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Staff",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/75/ER_Icon_weapon_Rotten_Staff.png/300px-ER_Icon_weapon_Rotten_Staff.png?2d4c07",
+      "alt": "ER Icon weapon Rotten Staff.png",
+      "title": "Rotten Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Envoy's Greathorn",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Envoy%27s_Greathorn",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Envoy's+Greathorn",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3f/ER_Icon_weapon_Envoy%27s_Greathorn.png/300px-ER_Icon_weapon_Envoy%27s_Greathorn.png?80eb3e",
+      "alt": "ER Icon weapon Envoy's Greathorn.png",
+      "title": "Envoy's Greathorn"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ghiza's Wheel",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ghiza%27s_Wheel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ghiza's+Wheel",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e0/ER_Icon_weapon_Ghiza%27s_Wheel.png/300px-ER_Icon_weapon_Ghiza%27s_Wheel.png?a36a09",
+      "alt": "ER Icon weapon Ghiza's Wheel.png",
+      "title": "Ghiza's Wheel"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Fallingstar Beast Jaw",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fallingstar_Beast_Jaw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Fallingstar+Beast+Jaw",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 12,
+      "intelligence": 20,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/69/ER_Icon_weapon_Fallingstar_Beast_Jaw.png/300px-ER_Icon_weapon_Fallingstar_Beast_Jaw.png?f14e39",
+      "alt": "ER Icon weapon Fallingstar Beast Jaw.png",
+      "title": "Fallingstar Beast Jaw"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Anvil Hammer",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Anvil_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Anvil+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 39,
+        "two_hand": 26
+      },
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 20,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Anvil Hammer"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Devonia's Hammer",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Devonia%27s_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Devonia's+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 19,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Devonia's Hammer"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Axe of Godfrey",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Axe_of_Godfrey",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Axe+of+Godfrey",
+    "attributes": {
+      "strength": {
+        "one_hand": 42,
+        "two_hand": 28
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0d/ER_Icon_weapon_Axe_of_Godfrey.png/300px-ER_Icon_weapon_Axe_of_Godfrey.png?232ba7",
+      "alt": "ER Icon weapon Axe of Godfrey.png",
+      "title": "Axe of Godfrey"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Shadow Sunflower Blossom",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shadow_Sunflower_Blossom",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shadow+Sunflower+Blossom",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 25,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Shadow Sunflower Blossom"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Gazing Finger",
+    "weapon_type": "Colossal Weapons",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gazing_Finger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gazing+Finger",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 8,
+      "intelligence": 20,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Gazing Finger"
+    },
+    "dlc_exclusive": true
+  }
+]

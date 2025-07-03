@@ -1,0 +1,157 @@
+[
+  {
+    "weapon_name": "Firespark Perfume Bottle",
+    "weapon_type": "Perfume Bottles",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Firespark_Perfume_Bottle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Firespark+Perfume+Bottle",
+    "attributes": {
+      "strength": {
+        "one_hand": 3,
+        "two_hand": 3
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Firespark Perfume Bottle"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Lightning Perfume Bottle",
+    "weapon_type": "Perfume Bottles",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Perfume_Bottle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lightning+Perfume+Bottle",
+    "attributes": {
+      "strength": {
+        "one_hand": 3,
+        "two_hand": 3
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Lightning",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Lightning Perfume Bottle"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Chilling Perfume Bottle",
+    "weapon_type": "Perfume Bottles",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Chilling_Perfume_Bottle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Chilling+Perfume+Bottle",
+    "attributes": {
+      "strength": {
+        "one_hand": 3,
+        "two_hand": 3
+      },
+      "dexterity": 13,
+      "intelligence": 13,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Chilling Perfume Bottle"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Frenzyflame Perfume Bottle",
+    "weapon_type": "Perfume Bottles",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frenzyflame_Perfume_Bottle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Frenzyflame+Perfume+Bottle",
+    "attributes": {
+      "strength": {
+        "one_hand": 3,
+        "two_hand": 3
+      },
+      "dexterity": 10,
+      "intelligence": 12,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Frenzyflame Perfume Bottle"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Deadly Poison Perfume Bottle",
+    "weapon_type": "Perfume Bottles",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Deadly_Poison_Perfume_Bottle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Deadly+Poison+Perfume+Bottle",
+    "attributes": {
+      "strength": {
+        "one_hand": 3,
+        "two_hand": 3
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 18
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Deadly Poison Perfume Bottle"
+    },
+    "dlc_exclusive": true
+  }
+]

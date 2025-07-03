@@ -193,15 +193,23 @@ def rate_limit():
 
 def save_html_content(html_content, filename):
     """
-    Save HTML content to a file.
+    Save HTML content to a file in the progress folder.
     """
+    # Create progress folder if it doesn't exist
+    progress_dir = "progress"
+    if not os.path.exists(progress_dir):
+        os.makedirs(progress_dir)
+        print(f"Created progress directory: {progress_dir}")
+    
+    # Save file in progress folder
+    filepath = os.path.join(progress_dir, filename)
     try:
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(filepath, 'w', encoding='utf-8') as f:
             f.write(html_content)
-        print(f"HTML content saved to: {filename}")
+        print(f"HTML content saved to: {filepath}")
         return True
     except Exception as e:
-        print(f"Error saving file {filename}: {e}")
+        print(f"Error saving file {filepath}: {e}")
         return False
 
 def extract_weapon_name(html_content):
@@ -281,6 +289,9 @@ def extract_weapon_attributes(html_content):
                 else:
                     # If no spans, get the cell text directly
                     attribute_value = second_cell.get_text(strip=True)
+
+                if not attribute_value or attribute_value == "-" or attribute_value == "":
+                    attribute_value = 0
                 
                 # Special handling for strength attribute
                 if attribute_names[i] == 'strength':
@@ -424,7 +435,7 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
         print("No items in the first gallery")
         return None
     
-    first_item = first_gallery['list_items'][0]
+    first_item = first_gallery['list_items'][1]
     
     print(f"\n=== First Weapon from First Gallery Details ===")
     print(f"Text: {first_item['text']}")
@@ -458,17 +469,13 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
         dlc_exclusive = check_dlc_exclusive(gallery_data, weapon_link)
         
         final_weapon_name = weapon_name or weapon_link['text']
-        weapon_filename = f"weapon_{final_weapon_name.replace(' ', '_').replace('/', '_').lower()}.html"
         weapon_data_filename = f"weapon_{final_weapon_name.replace(' ', '_').replace('/', '_').lower()}_data.json"
-        
-        save_html_content(weapon_html, weapon_filename)
-        
+                
         weapon_data = {
             'weapon_name': final_weapon_name,
             'weapon_type': weapon_type,
             'wikiGGLink': weapon_url,
             'wikiFextralifeLink': f"https://eldenring.wiki.fextralife.com/{final_weapon_name.replace(' ', '+')}",
-            'filename': weapon_filename,
             'attributes': attributes,
             'damage_types': damage_types,
             'attack_types': get_attack_types(final_weapon_name, weapon_type),
@@ -477,9 +484,16 @@ def fetch_first_weapon_page(gallery_data, base_url="https://eldenring.wiki.gg"):
             'dlc_exclusive': dlc_exclusive
         }
         
-        with open(weapon_data_filename, 'w', encoding='utf-8') as f:
+        # Create progress folder if it doesn't exist
+        progress_dir = "progress"
+        if not os.path.exists(progress_dir):
+            os.makedirs(progress_dir)
+        
+        # Save weapon data in progress folder
+        weapon_data_filepath = os.path.join(progress_dir, weapon_data_filename)
+        with open(weapon_data_filepath, 'w', encoding='utf-8') as f:
             json.dump(weapon_data, f, indent=2, ensure_ascii=False)
-        print(f"Weapon data saved to: {weapon_data_filename}")
+        print(f"Weapon data saved to: {weapon_data_filepath}")
         
         return weapon_data
     else:
@@ -825,6 +839,12 @@ def get_attack_types(weapon_name, weapon_type):
         "Twinblades"
     }
     
+    # Spell damage weapon classes (Staves and Sacred Seals) - PRIMARY attack type
+    spell_weapon_types = {
+        "Staves",
+        "Sacred Seals"
+    }
+    
     # Standard damage weapon classes (Standard is SECONDARY attack type)
     standard_secondary_weapon_types = {
         "Heavy Thrusting Swords",
@@ -859,7 +879,9 @@ def get_attack_types(weapon_name, weapon_type):
     }
     
     # Determine primary attack type
-    if (weapon_type in slash_weapon_types or weapon_name in slash_specific_weapons):
+    if weapon_type in spell_weapon_types:
+        primary = "Spell"
+    elif (weapon_type in slash_weapon_types or weapon_name in slash_specific_weapons):
         primary = "Slash"
     elif (weapon_type in pierce_weapon_types or weapon_name in pierce_specific_weapons):
         primary = "Pierce"
@@ -1185,7 +1207,13 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
     print(f"Total weapons to process: {total_weapons}")
     print(f"Estimated time: {total_weapons * MIN_REQUEST_INTERVAL / 60:.1f} minutes")
     
-    progress_file = "weapon_fetch_progress.json"
+    # Create progress folder if it doesn't exist
+    progress_dir = "progress"
+    if not os.path.exists(progress_dir):
+        os.makedirs(progress_dir)
+        print(f"Created progress directory: {progress_dir}")
+    
+    progress_file = os.path.join(progress_dir, "weapon_fetch_progress.json")
     processed_weapons = set()
     
     if os.path.exists(progress_file):
@@ -1201,8 +1229,26 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
     weapons_by_gallery = {}
     
     for gallery_index, gallery in enumerate(gallery_data):
-        gallery_weapons = []
         weapon_type = get_weapon_type_from_gallery(gallery_index)
+        gallery_filename = f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
+        gallery_filepath = os.path.join(progress_dir, gallery_filename)
+        
+        # Load existing gallery data if it exists
+        existing_gallery_weapons = []
+        if os.path.exists(gallery_filepath):
+            try:
+                with open(gallery_filepath, 'r', encoding='utf-8') as f:
+                    existing_gallery_weapons = json.load(f)
+                print(f"Loaded {len(existing_gallery_weapons)} existing weapons from {gallery_filename}")
+            except Exception as e:
+                print(f"Error loading existing gallery data: {e}")
+                existing_gallery_weapons = []
+        
+        # Create a set of existing weapon names for quick lookup
+        existing_weapon_names = {weapon['weapon_name'] for weapon in existing_gallery_weapons}
+        
+        gallery_weapons = existing_gallery_weapons.copy()  # Start with existing weapons
+        newly_processed_count = 0
         
         print(f"\n--- Processing Gallery {gallery_index + 1}/{len(gallery_data)}: {weapon_type} ---")
         
@@ -1250,7 +1296,16 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
                     'dlc_exclusive': dlc_exclusive
                 }
                 
-                gallery_weapons.append(weapon_data)
+                # Only add to gallery if it's not already there
+                if final_weapon_name not in existing_weapon_names:
+                    gallery_weapons.append(weapon_data)
+                    newly_processed_count += 1
+                    
+                    # Save gallery file immediately after adding new weapon
+                    with open(gallery_filepath, 'w', encoding='utf-8') as f:
+                        json.dump(gallery_weapons, f, indent=2, ensure_ascii=False)
+                    print(f"✓ Updated gallery file: {gallery_filepath} ({len(gallery_weapons)} weapons total)")
+                
                 all_weapons.append(weapon_data)
                 processed_weapons.add(weapon_id)
                 
@@ -1265,13 +1320,10 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
             else:
                 print(f"✗ Failed to fetch: {weapon_link['text']}")
         
-        # Save gallery-specific JSON file
+        # Gallery file is now saved incrementally, just store the data for summary
         if gallery_weapons:
-            gallery_filename = f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
-            with open(gallery_filename, 'w', encoding='utf-8') as f:
-                json.dump(gallery_weapons, f, indent=2, ensure_ascii=False)
-            print(f"✓ Saved {len(gallery_weapons)} weapons to: {gallery_filename}")
             weapons_by_gallery[weapon_type] = gallery_weapons
+            print(f"✓ Gallery {weapon_type} complete: {len(gallery_weapons)} weapons total ({newly_processed_count} newly processed)")
     
     print(f"\n=== Bulk Fetch Complete ===")
     print(f"Successfully processed: {len(all_weapons)} weapons")
@@ -1295,9 +1347,10 @@ def fetch_all_weapons(gallery_data, base_url="https://eldenring.wiki.gg"):
             'filename': f"weapons_{weapon_type.lower().replace(' ', '_').replace('-', '_')}.json"
         }
     
-    with open("gallery_summary.json", 'w', encoding='utf-8') as f:
+    gallery_summary_filepath = os.path.join(progress_dir, "gallery_summary.json")
+    with open(gallery_summary_filepath, 'w', encoding='utf-8') as f:
         json.dump(gallery_summary, f, indent=2, ensure_ascii=False)
-    print(f"✓ Gallery summary saved to: gallery_summary.json")
+    print(f"✓ Gallery summary saved to: {gallery_summary_filepath}")
     
     return all_weapons
 
@@ -1310,7 +1363,6 @@ def display_weapon_summary(weapon_data):
     print(f"Type: {weapon_data['weapon_type']}")
     print(f"Wiki.gg URL: {weapon_data['wikiGGLink']}")
     print(f"Fextralife URL: {weapon_data['wikiFextralifeLink']}")
-    print(f"HTML saved to: {weapon_data['filename']}")
     
     if weapon_data['attributes']:
         print(f"\n=== Weapon Attributes ===")

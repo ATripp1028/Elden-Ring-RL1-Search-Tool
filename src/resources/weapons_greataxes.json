@@ -1,0 +1,440 @@
+[
+  {
+    "weapon_name": "Greataxe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greataxe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Greataxe",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_weapon_Greataxe.png/300px-ER_Icon_weapon_Greataxe.png?96515e",
+      "alt": "ER Icon weapon Greataxe.png",
+      "title": "Greataxe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crescent Moon Axe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crescent_Moon_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crescent+Moon+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 25,
+        "two_hand": 17
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f0/ER_Icon_weapon_Crescent_Moon_Axe.png/300px-ER_Icon_weapon_Crescent_Moon_Axe.png?c440ab",
+      "alt": "ER Icon weapon Crescent Moon Axe.png",
+      "title": "Crescent Moon Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Longhaft Axe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Longhaft_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Longhaft+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e0/ER_Icon_weapon_Longhaft_Axe.png/300px-ER_Icon_weapon_Longhaft_Axe.png?d4973f",
+      "alt": "ER Icon weapon Longhaft Axe.png",
+      "title": "Longhaft Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Executioner's Greataxe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Executioner%27s_Greataxe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Executioner's+Greataxe",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Executioner%27s_Greataxe.png/300px-ER_Icon_weapon_Executioner%27s_Greataxe.png?f12334",
+      "alt": "ER Icon weapon Executioner's Greataxe.png",
+      "title": "Executioner's Greataxe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Omenkiller Cleaver",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Omenkiller_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Omenkiller+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 23,
+        "two_hand": 16
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a0/ER_Icon_weapon_Great_Omenkiller_Cleaver.png/300px-ER_Icon_weapon_Great_Omenkiller_Cleaver.png?e5aee7",
+      "alt": "ER Icon weapon Great Omenkiller Cleaver.png",
+      "title": "Great Omenkiller Cleaver"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rusted Anchor",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rusted_Anchor",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rusted+Anchor",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_weapon_Rusted_Anchor.png/300px-ER_Icon_weapon_Rusted_Anchor.png?2031df",
+      "alt": "ER Icon weapon Rusted Anchor.png",
+      "title": "Rusted Anchor"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Butchering Knife",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Butchering_Knife",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Butchering+Knife",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/99/ER_Icon_weapon_Butchering_Knife.png/300px-ER_Icon_weapon_Butchering_Knife.png?c1b835",
+      "alt": "ER Icon weapon Butchering Knife.png",
+      "title": "Butchering Knife"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bonny Butchering Knife",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bonny_Butchering_Knife",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bonny+Butchering+Knife",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Bonny Butchering Knife"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Gargoyle's Great Axe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Great_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Great+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_weapon_Gargoyle%27s_Great_Axe.png/300px-ER_Icon_weapon_Gargoyle%27s_Great_Axe.png?72b621",
+      "alt": "ER Icon weapon Gargoyle's Great Axe.png",
+      "title": "Gargoyle's Great Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gargoyle's Black Axe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Black_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Black+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_weapon_Gargoyle%27s_Black_Axe.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Axe.png?b21227",
+      "alt": "ER Icon weapon Gargoyle's Black Axe.png",
+      "title": "Gargoyle's Black Axe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Death Knight's Longhaft Axe",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Death_Knight%27s_Longhaft_Axe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Death+Knight's+Longhaft+Axe",
+    "attributes": {
+      "strength": {
+        "one_hand": 23,
+        "two_hand": 16
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Death Knight's Longhaft Axe"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Winged Greathorn",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Winged_Greathorn",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Winged+Greathorn",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d1/ER_Icon_weapon_Winged_Greathorn.png/300px-ER_Icon_weapon_Winged_Greathorn.png?665cbe",
+      "alt": "ER Icon weapon Winged Greathorn.png",
+      "title": "Winged Greathorn"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Axe of Godrick",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Axe_of_Godrick",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Axe+of+Godrick",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_weapon_Axe_of_Godrick.png/300px-ER_Icon_weapon_Axe_of_Godrick.png?a29a5e",
+      "alt": "ER Icon weapon Axe of Godrick.png",
+      "title": "Axe of Godrick"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Putrescence Cleaver",
+    "weapon_type": "Greataxes",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Putrescence_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Putrescence+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 15
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Putrescence Cleaver"
+    },
+    "dlc_exclusive": true
+  }
+]

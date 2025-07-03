@@ -1,0 +1,33 @@
+[
+  {
+    "weapon_name": "Smithscript Dagger",
+    "weapon_type": "Throwing Blades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Dagger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Dagger",
+    "attributes": {
+      "strength": {
+        "one_hand": 5,
+        "two_hand": 5
+      },
+      "dexterity": 11,
+      "intelligence": 16,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Dagger"
+    },
+    "dlc_exclusive": true
+  }
+]

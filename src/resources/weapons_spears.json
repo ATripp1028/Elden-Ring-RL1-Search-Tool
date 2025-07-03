@@ -1,0 +1,607 @@
+[
+  {
+    "weapon_name": "Short Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Short_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Short+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b1/ER_Icon_weapon_Short_Spear.png/300px-ER_Icon_weapon_Short_Spear.png?f99f4a",
+      "alt": "ER Icon weapon Short Spear.png",
+      "title": "Short Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Iron Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Iron_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Iron+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0d/ER_Icon_weapon_Iron_Spear.png/300px-ER_Icon_weapon_Iron_Spear.png?58088a",
+      "alt": "ER Icon weapon Iron Spear.png",
+      "title": "Iron Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_weapon_Spear.png/300px-ER_Icon_weapon_Spear.png?7fc2e9",
+      "alt": "ER Icon weapon Spear.png",
+      "title": "Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Partisan",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Partisan",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Partisan",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8c/ER_Icon_weapon_Partisan.png/300px-ER_Icon_weapon_Partisan.png?ea6b03",
+      "alt": "ER Icon weapon Partisan.png",
+      "title": "Partisan"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pike",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pike",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pike",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Pike.png/300px-ER_Icon_weapon_Pike.png?69457a",
+      "alt": "ER Icon weapon Pike.png",
+      "title": "Pike"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Swift Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swift_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Swift+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 26,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Swift Spear"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Spiked Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiked_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiked+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_weapon_Spiked_Spear.png/300px-ER_Icon_weapon_Spiked_Spear.png?4faa1d",
+      "alt": "ER Icon weapon Spiked Spear.png",
+      "title": "Spiked Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cross-Naginata",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cross-Naginata",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cross-Naginata",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e5/ER_Icon_weapon_Cross-Naginata.png/300px-ER_Icon_weapon_Cross-Naginata.png?ab9c18",
+      "alt": "ER Icon weapon Cross-Naginata.png",
+      "title": "Cross-Naginata"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Clayman's Harpoon",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Clayman%27s_Harpoon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Clayman's+Harpoon",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a9/ER_Icon_weapon_Clayman%27s_Harpoon.png/300px-ER_Icon_weapon_Clayman%27s_Harpoon.png?42d3de",
+      "alt": "ER Icon weapon Clayman's Harpoon.png",
+      "title": "Clayman's Harpoon"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bloodfiend's Fork",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodfiend%27s_Fork",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodfiend's+Fork",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 13
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Bloodfiend's Fork"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Celebrant's Rib-Rake",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Celebrant%27s_Rib-Rake",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Celebrant's+Rib-Rake",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_weapon_Celebrant%27s_Rib-Rake.png/300px-ER_Icon_weapon_Celebrant%27s_Rib-Rake.png?53d9f2",
+      "alt": "ER Icon weapon Celebrant's Rib-Rake.png",
+      "title": "Celebrant's Rib-Rake"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Torchpole",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Torchpole",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Torchpole",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/ba/ER_Icon_weapon_Torchpole.png/300px-ER_Icon_weapon_Torchpole.png?c2eb83",
+      "alt": "ER Icon weapon Torchpole.png",
+      "title": "Torchpole"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Smithscript Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Spear"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Inquisitor's Girandole",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Inquisitor%27s_Girandole",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Inquisitor's+Girandole",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2e/ER_Icon_weapon_Inquisitor%27s_Girandole.png/300px-ER_Icon_weapon_Inquisitor%27s_Girandole.png?9d9248",
+      "alt": "ER Icon weapon Inquisitor's Girandole.png",
+      "title": "Inquisitor's Girandole"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crystal Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crystal+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/ad/ER_Icon_weapon_Crystal_Spear.png/300px-ER_Icon_weapon_Crystal_Spear.png?90acb0",
+      "alt": "ER Icon weapon Crystal Spear.png",
+      "title": "Crystal Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Crystal Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Crystal_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Crystal+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Rotten_Crystal_Spear.png/300px-ER_Icon_weapon_Rotten_Crystal_Spear.png?c4d298",
+      "alt": "ER Icon weapon Rotten Crystal Spear.png",
+      "title": "Rotten Crystal Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cleanrot Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cleanrot_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cleanrot+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e8/ER_Icon_weapon_Cleanrot_Spear.png/300px-ER_Icon_weapon_Cleanrot_Spear.png?9248e3",
+      "alt": "ER Icon weapon Cleanrot Spear.png",
+      "title": "Cleanrot Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Death Ritual Spear",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Death_Ritual_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Death+Ritual+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 20,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_weapon_Death_Ritual_Spear.png/300px-ER_Icon_weapon_Death_Ritual_Spear.png?3e2eba",
+      "alt": "ER Icon weapon Death Ritual Spear.png",
+      "title": "Death Ritual Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bolt of Gransax",
+    "weapon_type": "Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bolt_of_Gransax",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bolt+of+Gransax",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 40,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Bolt_of_Gransax.png/300px-ER_Icon_weapon_Bolt_of_Gransax.png?601cd0",
+      "alt": "ER Icon weapon Bolt of Gransax.png",
+      "title": "Bolt of Gransax"
+    },
+    "dlc_exclusive": false
+  }
+]

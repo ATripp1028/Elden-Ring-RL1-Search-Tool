@@ -1,0 +1,258 @@
+[
+  {
+    "weapon_name": "Twinblade",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Twinblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Twinblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Twinblade.png/300px-ER_Icon_weapon_Twinblade.png?ae2749",
+      "alt": "ER Icon weapon Twinblade.png",
+      "title": "Twinblade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Twinned Knight Swords",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Twinned_Knight_Swords",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Twinned+Knight+Swords",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/05/ER_Icon_weapon_Twinned_Knight_Swords.png/300px-ER_Icon_weapon_Twinned_Knight_Swords.png?237d3a",
+      "alt": "ER Icon weapon Twinned Knight Swords.png",
+      "title": "Twinned Knight Swords"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Steel Twinblade",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Steel_Twinblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Steel+Twinblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Black Steel Twinblade"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Godskin Peeler",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Godskin_Peeler",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Godskin+Peeler",
+    "attributes": {
+      "strength": {
+        "one_hand": 17,
+        "two_hand": 12
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Godskin_Peeler.png/300px-ER_Icon_weapon_Godskin_Peeler.png?433d9f",
+      "alt": "ER Icon weapon Godskin Peeler.png",
+      "title": "Godskin Peeler"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gargoyle's Twinblade",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Twinblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Twinblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/ad/ER_Icon_weapon_Gargoyle%27s_Twinblade.png/300px-ER_Icon_weapon_Gargoyle%27s_Twinblade.png?92c106",
+      "alt": "ER Icon weapon Gargoyle's Twinblade.png",
+      "title": "Gargoyle's Twinblade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gargoyle's Black Blades",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Black_Blades",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Black+Blades",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Gargoyle%27s_Black_Blades.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Blades.png?753fa1",
+      "alt": "ER Icon weapon Gargoyle's Black Blades.png",
+      "title": "Gargoyle's Black Blades"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Eleonora's Poleblade",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eleonora%27s_Poleblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Eleonora's+Poleblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 21,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 19
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Eleonora%27s_Poleblade.png/300px-ER_Icon_weapon_Eleonora%27s_Poleblade.png?d68b72",
+      "alt": "ER Icon weapon Eleonora's Poleblade.png",
+      "title": "Eleonora's Poleblade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Euporia",
+    "weapon_type": "Twinblades",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Euporia",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Euporia",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Euporia"
+    },
+    "dlc_exclusive": true
+  }
+]

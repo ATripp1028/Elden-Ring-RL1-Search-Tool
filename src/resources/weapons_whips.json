@@ -1,0 +1,223 @@
+[
+  {
+    "weapon_name": "Whip",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Whip",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Whip",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/76/ER_Icon_weapon_Whip.png/300px-ER_Icon_weapon_Whip.png?41b6aa",
+      "alt": "ER Icon weapon Whip.png",
+      "title": "Whip"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Thorned Whip",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Thorned_Whip",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Thorned+Whip",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Thorned_Whip.png/300px-ER_Icon_weapon_Thorned_Whip.png?606ae0",
+      "alt": "ER Icon weapon Thorned Whip.png",
+      "title": "Thorned Whip"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Urumi",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Urumi",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Urumi",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 19,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/32/ER_Icon_weapon_Urumi.png/300px-ER_Icon_weapon_Urumi.png?ef825e",
+      "alt": "ER Icon weapon Urumi.png",
+      "title": "Urumi"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Hoslow's Petal Whip",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hoslow%27s_Petal_Whip",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hoslow's+Petal+Whip",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/56/ER_Icon_weapon_Hoslow%27s_Petal_Whip.png/300px-ER_Icon_weapon_Hoslow%27s_Petal_Whip.png?76b445",
+      "alt": "ER Icon weapon Hoslow's Petal Whip.png",
+      "title": "Hoslow's Petal Whip"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Tooth Whip",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Tooth_Whip",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Tooth+Whip",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 24,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Tooth Whip"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Magma Whip Candlestick",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Whip_Candlestick",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Magma+Whip+Candlestick",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Magma_Whip_Candlestick.png/300px-ER_Icon_weapon_Magma_Whip_Candlestick.png?d3955f",
+      "alt": "ER Icon weapon Magma Whip Candlestick.png",
+      "title": "Magma Whip Candlestick"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Giant's Red Braid",
+    "weapon_type": "Whips",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giant%27s_Red_Braid",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Giant's+Red+Braid",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2b/ER_Icon_weapon_Giant%27s_Red_Braid.png/300px-ER_Icon_weapon_Giant%27s_Red_Braid.png?9c323a",
+      "alt": "ER Icon weapon Giant's Red Braid.png",
+      "title": "Giant's Red Braid"
+    },
+    "dlc_exclusive": false
+  }
+]

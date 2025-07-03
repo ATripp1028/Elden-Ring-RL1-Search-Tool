@@ -1,0 +1,740 @@
+[
+  {
+    "weapon_name": "Short Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Short_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Short+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b2/ER_Icon_weapon_Short_Sword.png/300px-ER_Icon_weapon_Short_Sword.png?988b16",
+      "alt": "ER Icon weapon Short Sword.png",
+      "title": "Short Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Longsword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Longsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Longsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Longsword.png/300px-ER_Icon_weapon_Longsword.png?470477",
+      "alt": "ER Icon weapon Longsword.png",
+      "title": "Longsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Broadsword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Broadsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Broadsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Broadsword.png/300px-ER_Icon_weapon_Broadsword.png?b0bf1f",
+      "alt": "ER Icon weapon Broadsword.png",
+      "title": "Broadsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Weathered Straight Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Weathered_Straight_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Weathered+Straight+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8c/ER_Icon_weapon_Weathered_Straight_Sword.png/300px-ER_Icon_weapon_Weathered_Straight_Sword.png?7481a5",
+      "alt": "ER Icon weapon Weathered Straight Sword.png",
+      "title": "Weathered Straight Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Lordsworn's Straight Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lordsworn%27s_Straight_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lordsworn's+Straight+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b0/ER_Icon_weapon_Lordsworn%27s_Straight_Sword.png/300px-ER_Icon_weapon_Lordsworn%27s_Straight_Sword.png?6f2bdd",
+      "alt": "ER Icon weapon Lordsworn's Straight Sword.png",
+      "title": "Lordsworn's Straight Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Noble's Slender Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Noble%27s_Slender_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Noble's+Slender+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e7/ER_Icon_weapon_Noble%27s_Slender_Sword.png/300px-ER_Icon_weapon_Noble%27s_Slender_Sword.png?40705a",
+      "alt": "ER Icon weapon Noble's Slender Sword.png",
+      "title": "Noble's Slender Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cane Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cane_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cane+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_weapon_Cane_Sword.png/300px-ER_Icon_weapon_Cane_Sword.png?64fd05",
+      "alt": "ER Icon weapon Cane Sword.png",
+      "title": "Cane Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Stone-Sheathed Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stone-Sheathed_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Stone-Sheathed+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Stone-Sheathed Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Warhawk's Talon",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Warhawk%27s_Talon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Warhawk's+Talon",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Warhawk%27s_Talon.png/300px-ER_Icon_weapon_Warhawk%27s_Talon.png?e534d6",
+      "alt": "ER Icon weapon Warhawk's Talon.png",
+      "title": "Warhawk's Talon"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Lazuli Glintstone Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lazuli_Glintstone_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lazuli+Glintstone+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 13,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Lazuli_Glintstone_Sword.png/300px-ER_Icon_weapon_Lazuli_Glintstone_Sword.png?83d775",
+      "alt": "ER Icon weapon Lazuli Glintstone Sword.png",
+      "title": "Lazuli Glintstone Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Knight's Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Knight%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Knight's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_weapon_Carian_Knight%27s_Sword.png/300px-ER_Icon_weapon_Carian_Knight%27s_Sword.png?230774",
+      "alt": "ER Icon weapon Carian Knight's Sword.png",
+      "title": "Carian Knight's Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crystal Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crystal+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 10,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Crystal_Sword.png/300px-ER_Icon_weapon_Crystal_Sword.png?2cee4c",
+      "alt": "ER Icon weapon Crystal Sword.png",
+      "title": "Crystal Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Crystal Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Crystal_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Crystal+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 10,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Rotten_Crystal_Sword.png/300px-ER_Icon_weapon_Rotten_Crystal_Sword.png?936e08",
+      "alt": "ER Icon weapon Rotten Crystal Sword.png",
+      "title": "Rotten Crystal Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Miquellan Knight's Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Miquellan_Knight%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Miquellan+Knight's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d6/ER_Icon_weapon_Miquellan_Knight%27s_Sword.png/300px-ER_Icon_weapon_Miquellan_Knight%27s_Sword.png?64a968",
+      "alt": "ER Icon weapon Miquellan Knight's Sword.png",
+      "title": "Miquellan Knight's Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ornamental Straight Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ornamental_Straight_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ornamental+Straight+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ee/ER_Icon_weapon_Ornamental_Straight_Sword.png/300px-ER_Icon_weapon_Ornamental_Straight_Sword.png?1663ff",
+      "alt": "ER Icon weapon Ornamental Straight Sword.png",
+      "title": "Ornamental Straight Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Epitaph",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Epitaph",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Epitaph",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ea/ER_Icon_weapon_Golden_Epitaph.png/300px-ER_Icon_weapon_Golden_Epitaph.png?e3f54a",
+      "alt": "ER Icon weapon Golden Epitaph.png",
+      "title": "Golden Epitaph"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sword of St. Trina",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_of_St._Trina",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+of+St.+Trina",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_weapon_Sword_of_St._Trina.png/300px-ER_Icon_weapon_Sword_of_St._Trina.png?38ed14",
+      "alt": "ER Icon weapon Sword of St Trina.png",
+      "title": "Sword of St. Trina"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Velvet Sword of St Trina",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Velvet_Sword_of_St._Trina",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Velvet+Sword+of+St+Trina",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "sleep",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Velvet Sword of St Trina"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Regalia of Eochaid",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Regalia_of_Eochaid",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Regalia+of+Eochaid",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 15
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3f/ER_Icon_weapon_Regalia_of_Eochaid.png/300px-ER_Icon_weapon_Regalia_of_Eochaid.png?ff3655",
+      "alt": "ER Icon weapon Regalia of Eochaid.png",
+      "title": "Regalia of Eochaid"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Coded Sword",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Coded_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Coded+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_weapon_Coded_Sword.png/300px-ER_Icon_weapon_Coded_Sword.png?6eadf1",
+      "alt": "ER Icon weapon Coded Sword.png",
+      "title": "Coded Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sword of Night and Flame",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_of_Night_and_Flame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 24,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic",
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Sword_of_Night_and_Flame.png/300px-ER_Icon_weapon_Sword_of_Night_and_Flame.png?3555cc",
+      "alt": "ER Icon weapon Sword of Night and Flame.png",
+      "title": "Sword of Night and Flame"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sword of Light",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_of_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+of+Light",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Sword of Light"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Sword of Darkness",
+    "weapon_type": "Straight Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_of_Darkness",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+of+Darkness",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Sword of Darkness"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "weapon_name": "Beast Claw",
+    "weapon_type": "Beast Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beast_Claw_(weapon)",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beast+Claw",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Beast Claw"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Red Bear's Claw",
+    "weapon_type": "Beast Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Red_Bear%27s_Claw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Red+Bear's+Claw",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Red Bear's Claw"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "weapon_name": "Flail",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Flail",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9a/ER_Icon_weapon_Flail.png/300px-ER_Icon_weapon_Flail.png?517d67",
+      "alt": "ER Icon weapon Flail.png",
+      "title": "Flail"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Nightrider Flail",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nightrider_Flail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nightrider+Flail",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 24,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6e/ER_Icon_weapon_Nightrider_Flail.png/300px-ER_Icon_weapon_Nightrider_Flail.png?2bf32f",
+      "alt": "ER Icon weapon Nightrider Flail.png",
+      "title": "Nightrider Flail"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Chainlink Flail",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Chainlink_Flail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Chainlink+Flail",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Chainlink_Flail.png/300px-ER_Icon_weapon_Chainlink_Flail.png?13159a",
+      "alt": "ER Icon weapon Chainlink Flail.png",
+      "title": "Chainlink Flail"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Family Heads",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Family_Heads",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Family+Heads",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b8/ER_Icon_weapon_Family_Heads.png/300px-ER_Icon_weapon_Family_Heads.png?8c7d77",
+      "alt": "ER Icon weapon Family Heads.png",
+      "title": "Family Heads"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Serpent Flail",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpent_Flail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpent+Flail",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 24,
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Serpent Flail"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Bastard's Stars",
+    "weapon_type": "Flails",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bastard%27s_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bastard's+Stars",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 22,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Bastard%27s_Stars.png/300px-ER_Icon_weapon_Bastard%27s_Stars.png?dd8533",
+      "alt": "ER Icon weapon Bastard's Stars.png",
+      "title": "Bastard's Stars"
+    },
+    "dlc_exclusive": false
+  }
+]

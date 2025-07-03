@@ -1,0 +1,568 @@
+[
+  {
+    "weapon_name": "Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/93/ER_Icon_weapon_Halberd.png/300px-ER_Icon_weapon_Halberd.png?ffa221",
+      "alt": "ER Icon weapon Halberd.png",
+      "title": "Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Banished Knight's Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Banished_Knight%27s_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Banished+Knight's+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Banished_Knight%27s_Halberd.png/300px-ER_Icon_weapon_Banished_Knight%27s_Halberd.png?1b1bcc",
+      "alt": "ER Icon weapon Banished Knight's Halberd.png",
+      "title": "Banished Knight's Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Lucerne",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lucerne",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lucerne",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Lucerne.png/300px-ER_Icon_weapon_Lucerne.png?7ddbe5",
+      "alt": "ER Icon weapon Lucerne.png",
+      "title": "Lucerne"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Glaive",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glaive",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Glaive",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8a/ER_Icon_weapon_Glaive.png/300px-ER_Icon_weapon_Glaive.png?e75d19",
+      "alt": "ER Icon weapon Glaive.png",
+      "title": "Glaive"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Vulgar Militia Shotel",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vulgar_Militia_Shotel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Vulgar+Militia+Shotel",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9f/ER_Icon_weapon_Vulgar_Militia_Shotel.png/300px-ER_Icon_weapon_Vulgar_Militia_Shotel.png?4b3df5",
+      "alt": "ER Icon weapon Vulgar Militia Shotel.png",
+      "title": "Vulgar Militia Shotel"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Vulgar Militia Saw",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vulgar_Militia_Saw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Vulgar+Militia+Saw",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/cf/ER_Icon_weapon_Vulgar_Militia_Saw.png/300px-ER_Icon_weapon_Vulgar_Militia_Saw.png?c9e35d",
+      "alt": "ER Icon weapon Vulgar Militia Saw.png",
+      "title": "Vulgar Militia Saw"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Guardian's Swordspear",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Guardian%27s_Swordspear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Guardian's+Swordspear",
+    "attributes": {
+      "strength": {
+        "one_hand": 17,
+        "two_hand": 12
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_weapon_Guardian%27s_Swordspear.png/300px-ER_Icon_weapon_Guardian%27s_Swordspear.png?ae6955",
+      "alt": "ER Icon weapon Guardian's Swordspear.png",
+      "title": "Guardian's Swordspear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gargoyle's Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/04/ER_Icon_weapon_Gargoyle%27s_Halberd.png/300px-ER_Icon_weapon_Gargoyle%27s_Halberd.png?e7c895",
+      "alt": "ER Icon weapon Gargoyle's Halberd.png",
+      "title": "Gargoyle's Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gargoyle's Black Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gargoyle%27s_Black_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gargoyle's+Black+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Gargoyle%27s_Black_Halberd.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Halberd.png?ebe5bd",
+      "alt": "ER Icon weapon Gargoyle's Black Halberd.png",
+      "title": "Gargoyle's Black Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Nightrider Glaive",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nightrider_Glaive",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nightrider+Glaive",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_weapon_Nightrider_Glaive.png/300px-ER_Icon_weapon_Nightrider_Glaive.png?dbdf3d",
+      "alt": "ER Icon weapon Nightrider Glaive.png",
+      "title": "Nightrider Glaive"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pest's Glaive",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest%27s_Glaive",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pest's+Glaive",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/26/ER_Icon_weapon_Pest%27s_Glaive.png/300px-ER_Icon_weapon_Pest%27s_Glaive.png?657c7d",
+      "alt": "ER Icon weapon Pest's Glaive.png",
+      "title": "Pest's Glaive"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ripple Crescent Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ripple_Crescent_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ripple+Crescent+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 20
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/82/ER_Icon_weapon_Ripple_Crescent_Halberd.png/300px-ER_Icon_weapon_Ripple_Crescent_Halberd.png?9740cf",
+      "alt": "ER Icon weapon Ripple Crescent Halberd.png",
+      "title": "Ripple Crescent Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_weapon_Golden_Halberd.png/300px-ER_Icon_weapon_Golden_Halberd.png?65beda",
+      "alt": "ER Icon weapon Golden Halberd.png",
+      "title": "Golden Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragon Halberd",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon_Halberd",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+Halberd",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Dragon_Halberd.png/300px-ER_Icon_weapon_Dragon_Halberd.png?92d4da",
+      "alt": "ER Icon weapon Dragon Halberd.png",
+      "title": "Dragon Halberd"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Loretta's War Sickle",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta%27s_War_Sickle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Loretta's+War+Sickle",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 15,
+      "intelligence": 20,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Loretta%27s_War_Sickle.png/300px-ER_Icon_weapon_Loretta%27s_War_Sickle.png?81076c",
+      "alt": "ER Icon weapon Loretta's War Sickle.png",
+      "title": "Loretta's War Sickle"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Commander's Standard",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Commander%27s_Standard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Commander's+Standard",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/28/ER_Icon_weapon_Commander%27s_Standard.png/300px-ER_Icon_weapon_Commander%27s_Standard.png?6bdb33",
+      "alt": "ER Icon weapon Commander's Standard.png",
+      "title": "Commander's Standard"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spirit Glaive",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spirit_Glaive",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spirit+Glaive",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 17,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Spirit Glaive"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Poleblade of the Bud",
+    "weapon_type": "Halberds",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poleblade_of_the_Bud",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Poleblade+of+the+Bud",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 20
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Poleblade of the Bud"
+    },
+    "dlc_exclusive": true
+  }
+]

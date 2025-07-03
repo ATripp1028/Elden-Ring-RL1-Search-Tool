@@ -1,0 +1,595 @@
+[
+  {
+    "weapon_name": "Rickety Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rickety_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rickety+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c9/ER_Icon_shield_Rickety_Shield.png/300px-ER_Icon_shield_Rickety_Shield.png?2415a9",
+      "alt": "ER Icon shield Rickety Shield.png",
+      "title": "Rickety Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Riveted Wooden Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Riveted_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Riveted+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_shield_Riveted_Wooden_Shield.png/300px-ER_Icon_shield_Riveted_Wooden_Shield.png?29d966",
+      "alt": "ER Icon shield Riveted Wooden Shield.png",
+      "title": "Riveted Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Blue-White Wooden Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blue-White_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Blue-White+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fd/ER_Icon_shield_Blue-White_Wooden_Shield.png/300px-ER_Icon_shield_Blue-White_Wooden_Shield.png?865481",
+      "alt": "ER Icon shield Blue-White Wooden Shield.png",
+      "title": "Blue-White Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Scripture Wooden Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scripture_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scripture+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_shield_Scripture_Wooden_Shield.png/300px-ER_Icon_shield_Scripture_Wooden_Shield.png?dfd1b0",
+      "alt": "ER Icon shield Scripture Wooden Shield.png",
+      "title": "Scripture Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Red Thorn Roundshield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Red_Thorn_Roundshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Red+Thorn+Roundshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_shield_Red_Thorn_Roundshield.png/300px-ER_Icon_shield_Red_Thorn_Roundshield.png?1cdf11",
+      "alt": "ER Icon shield Red Thorn Roundshield.png",
+      "title": "Red Thorn Roundshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pillory Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pillory_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pillory+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ca/ER_Icon_shield_Pillory_Shield.png/300px-ER_Icon_shield_Pillory_Shield.png?b74b3b",
+      "alt": "ER Icon shield Pillory Shield.png",
+      "title": "Pillory Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Buckler",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Buckler",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Buckler",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_shield_Buckler.png/300px-ER_Icon_shield_Buckler.png?675b35",
+      "alt": "ER Icon shield Buckler.png",
+      "title": "Buckler"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Iron Roundshield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Iron_Roundshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Iron+Roundshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_shield_Iron_Roundshield.png/300px-ER_Icon_shield_Iron_Roundshield.png?1e3113",
+      "alt": "ER Icon shield Iron Roundshield.png",
+      "title": "Iron Roundshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gilded Iron Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gilded_Iron_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gilded+Iron+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/33/ER_Icon_shield_Gilded_Iron_Shield.png/300px-ER_Icon_shield_Gilded_Iron_Shield.png?71d041",
+      "alt": "ER Icon shield Gilded Iron Shield.png",
+      "title": "Gilded Iron Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Man-Serpent's Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Man-Serpent%27s_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Man-Serpent's+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_shield_Man-Serpent%27s_Shield.png/300px-ER_Icon_shield_Man-Serpent%27s_Shield.png?ccf375",
+      "alt": "ER Icon shield Man-Serpent's Shield.png",
+      "title": "Man-Serpent's Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ice Crest Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ice_Crest_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ice+Crest+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b3/ER_Icon_shield_Ice_Crest_Shield.png/300px-ER_Icon_shield_Ice_Crest_Shield.png?45f1ce",
+      "alt": "ER Icon shield Ice Crest Shield.png",
+      "title": "Ice Crest Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rift Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rift_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rift+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_shield_Rift_Shield.png/300px-ER_Icon_shield_Rift_Shield.png?582170",
+      "alt": "ER Icon shield Rift Shield.png",
+      "title": "Rift Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Perfumer's Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Perfumer%27s_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Perfumer's+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_shield_Perfumer%27s_Shield.png/300px-ER_Icon_shield_Perfumer%27s_Shield.png?472bc8",
+      "alt": "ER Icon shield Perfumer's Shield.png",
+      "title": "Perfumer's Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Shield of the Guilty",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shield_of_the_Guilty",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shield+of+the+Guilty",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_shield_Shield_of_the_Guilty.png/300px-ER_Icon_shield_Shield_of_the_Guilty.png?fb1ec3",
+      "alt": "ER Icon shield Shield of the Guilty.png",
+      "title": "Shield of the Guilty"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spiralhorn Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiralhorn_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiralhorn+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_shield_Spiralhorn_Shield.png/300px-ER_Icon_shield_Spiralhorn_Shield.png?5d0eac",
+      "alt": "ER Icon shield Spiralhorn Shield.png",
+      "title": "Spiralhorn Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Smoldering Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smoldering_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smoldering+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3c/ER_Icon_shield_Smoldering_Shield.png/300px-ER_Icon_shield_Smoldering_Shield.png?493fc0",
+      "alt": "ER Icon shield Smoldering Shield.png",
+      "title": "Smoldering Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Coil Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Coil_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Coil+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4e/ER_Icon_shield_Coil_Shield.png/300px-ER_Icon_shield_Coil_Shield.png?74e418",
+      "alt": "ER Icon shield Coil Shield.png",
+      "title": "Coil Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Smithscript Shield",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Shield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Shield of Night",
+    "weapon_type": "Small Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shield_of_Night",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shield+of+Night",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Shield of Night"
+    },
+    "dlc_exclusive": true
+  }
+]

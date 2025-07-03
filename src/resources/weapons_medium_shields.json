@@ -1,0 +1,967 @@
+[
+  {
+    "weapon_name": "Hawk Crest Wooden Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hawk_Crest_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hawk+Crest+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f2/ER_Icon_shield_Hawk_Crest_Wooden_Shield.png/300px-ER_Icon_shield_Hawk_Crest_Wooden_Shield.png?d115b2",
+      "alt": "ER Icon shield Hawk Crest Wooden Shield.png",
+      "title": "Hawk Crest Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Horse Crest Wooden Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Horse_Crest_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Horse+Crest+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bb/ER_Icon_shield_Horse_Crest_Wooden_Shield.png/300px-ER_Icon_shield_Horse_Crest_Wooden_Shield.png?867158",
+      "alt": "ER Icon shield Horse Crest Wooden Shield.png",
+      "title": "Horse Crest Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Candletree Wooden Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Candletree_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Candletree+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/11/ER_Icon_shield_Candletree_Wooden_Shield.png/300px-ER_Icon_shield_Candletree_Wooden_Shield.png?add316",
+      "alt": "ER Icon shield Candletree Wooden Shield.png",
+      "title": "Candletree Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Flame Crest Wooden Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_Crest_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Flame+Crest+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/16/ER_Icon_shield_Flame_Crest_Wooden_Shield.png/300px-ER_Icon_shield_Flame_Crest_Wooden_Shield.png?361942",
+      "alt": "ER Icon shield Flame Crest Wooden Shield.png",
+      "title": "Flame Crest Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Marred Wooden Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Marred_Wooden_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Marred+Wooden+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/26/ER_Icon_shield_Marred_Wooden_Shield.png/300px-ER_Icon_shield_Marred_Wooden_Shield.png?3fa6c9",
+      "alt": "ER Icon shield Marred Wooden Shield.png",
+      "title": "Marred Wooden Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sun Realm Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sun_Realm_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sun+Realm+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_shield_Sun_Realm_Shield.png/300px-ER_Icon_shield_Sun_Realm_Shield.png?e6df94",
+      "alt": "ER Icon shield Sun Realm Shield.png",
+      "title": "Sun Realm Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Round Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Round_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Round+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3f/ER_Icon_shield_Round_Shield.png/300px-ER_Icon_shield_Round_Shield.png?1fd096",
+      "alt": "ER Icon shield Round Shield.png",
+      "title": "Round Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Large Leather Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Large_Leather_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Large+Leather+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7b/ER_Icon_shield_Large_Leather_Shield.png/300px-ER_Icon_shield_Large_Leather_Shield.png?a3b091",
+      "alt": "ER Icon shield Large Leather Shield.png",
+      "title": "Large Leather Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Leather Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Leather_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Leather+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_shield_Black_Leather_Shield.png/300px-ER_Icon_shield_Black_Leather_Shield.png?c27f86",
+      "alt": "ER Icon shield Black Leather Shield.png",
+      "title": "Black Leather Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Marred Leather Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Marred_Leather_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Marred+Leather+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0c/ER_Icon_shield_Marred_Leather_Shield.png/300px-ER_Icon_shield_Marred_Leather_Shield.png?c4146d",
+      "alt": "ER Icon shield Marred Leather Shield.png",
+      "title": "Marred Leather Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6e/ER_Icon_shield_Heater_Shield.png/300px-ER_Icon_shield_Heater_Shield.png?cb8cba",
+      "alt": "ER Icon shield Heater Shield.png",
+      "title": "Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Blue Crest Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blue_Crest_Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Blue+Crest+Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_shield_Blue_Crest_Heater_Shield.png/300px-ER_Icon_shield_Blue_Crest_Heater_Shield.png?e7d9bc",
+      "alt": "ER Icon shield Blue Crest Heater Shield.png",
+      "title": "Blue Crest Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Red Crest Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Red_Crest_Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Red+Crest+Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/58/ER_Icon_shield_Red_Crest_Heater_Shield.png/300px-ER_Icon_shield_Red_Crest_Heater_Shield.png?23fb0e",
+      "alt": "ER Icon shield Red Crest Heater Shield.png",
+      "title": "Red Crest Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beast Crest Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beast_Crest_Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beast+Crest+Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d6/ER_Icon_shield_Beast_Crest_Heater_Shield.png/300px-ER_Icon_shield_Beast_Crest_Heater_Shield.png?ca6e77",
+      "alt": "ER Icon shield Beast Crest Heater Shield.png",
+      "title": "Beast Crest Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Inverted Hawk Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Inverted_Hawk_Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Inverted+Hawk+Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6f/ER_Icon_shield_Inverted_Hawk_Heater_Shield.png/300px-ER_Icon_shield_Inverted_Hawk_Heater_Shield.png?db092d",
+      "alt": "ER Icon shield Inverted Hawk Heater Shield.png",
+      "title": "Inverted Hawk Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Eclipse Crest Heater Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eclipse_Crest_Heater_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Eclipse+Crest+Heater+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fd/ER_Icon_shield_Eclipse_Crest_Heater_Shield.png/300px-ER_Icon_shield_Eclipse_Crest_Heater_Shield.png?9227e9",
+      "alt": "ER Icon shield Eclipse Crest Heater Shield.png",
+      "title": "Eclipse Crest Heater Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Kite Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Kite_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Kite+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/75/ER_Icon_shield_Kite_Shield.png/300px-ER_Icon_shield_Kite_Shield.png?b2a3c1",
+      "alt": "ER Icon shield Kite Shield.png",
+      "title": "Kite Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Blue-Gold Kite Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blue-Gold_Kite_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Blue-Gold+Kite+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_shield_Blue-Gold_Kite_Shield.png/300px-ER_Icon_shield_Blue-Gold_Kite_Shield.png?7024fc",
+      "alt": "ER Icon shield Blue-Gold Kite Shield.png",
+      "title": "Blue-Gold Kite Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Scorpion Kite Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scorpion_Kite_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scorpion+Kite+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/26/ER_Icon_shield_Scorpion_Kite_Shield.png/300px-ER_Icon_shield_Scorpion_Kite_Shield.png?77622c",
+      "alt": "ER Icon shield Scorpion Kite Shield.png",
+      "title": "Scorpion Kite Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Twinbird Kite Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Twinbird_Kite_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Twinbird+Kite+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_shield_Twinbird_Kite_Shield.png/300px-ER_Icon_shield_Twinbird_Kite_Shield.png?b99a34",
+      "alt": "ER Icon shield Twinbird Kite Shield.png",
+      "title": "Twinbird Kite Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Brass Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Brass_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Brass+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0c/ER_Icon_shield_Brass_Shield.png/300px-ER_Icon_shield_Brass_Shield.png?4c8896",
+      "alt": "ER Icon shield Brass Shield.png",
+      "title": "Brass Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Messmer Soldier Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Messmer_Soldier_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Messmer+Soldier+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Messmer Soldier Shield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Banished Knight's Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Banished_Knight%27s_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Banished+Knight's+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_shield_Banished_Knight%27s_Shield.png/300px-ER_Icon_shield_Banished_Knight%27s_Shield.png?c12f43",
+      "alt": "ER Icon shield Banished Knight's Shield.png",
+      "title": "Banished Knight's Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Wolf Crest Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wolf_Crest_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Wolf+Crest+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Wolf Crest Shield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Serpent Crest Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpent_Crest_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpent+Crest+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Serpent Crest Shield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Albinauric Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Albinauric_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Albinauric+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_shield_Albinauric_Shield.png/300px-ER_Icon_shield_Albinauric_Shield.png?e72f77",
+      "alt": "ER Icon shield Albinauric Shield.png",
+      "title": "Albinauric Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beastman's Jar-Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beastman%27s_Jar-Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beastman's+Jar-Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_shield_Beastman%27s_Jar-Shield.png/300px-ER_Icon_shield_Beastman%27s_Jar-Shield.png?7c5f1f",
+      "alt": "ER Icon shield Beastman's Jar-Shield.png",
+      "title": "Beastman's Jar-Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Knight's Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Knight%27s_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Knight's+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/58/ER_Icon_shield_Carian_Knight%27s_Shield.png/300px-ER_Icon_shield_Carian_Knight%27s_Shield.png?350af6",
+      "alt": "ER Icon shield Carian Knight's Shield.png",
+      "title": "Carian Knight's Shield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Silver Mirrorshield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Silver_Mirrorshield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Silver+Mirrorshield",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 10,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b8/ER_Icon_shield_Silver_Mirrorshield.png/300px-ER_Icon_shield_Silver_Mirrorshield.png?126781",
+      "alt": "ER Icon shield Silver Mirrorshield.png",
+      "title": "Silver Mirrorshield"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Turtle Shell",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Turtle_Shell",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Turtle+Shell",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_shield_Great_Turtle_Shell.png/300px-ER_Icon_shield_Great_Turtle_Shell.png?2561f0",
+      "alt": "ER Icon shield Great Turtle Shell.png",
+      "title": "Great Turtle Shell"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Lion Shield",
+    "weapon_type": "Medium Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Lion_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Lion+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Golden Lion Shield"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,520 @@
+[
+  {
+    "weapon_name": "Zweihander",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Zweihander",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Zweihander",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9c/ER_Icon_weapon_Zweihander.png/300px-ER_Icon_weapon_Zweihander.png?5efc29",
+      "alt": "ER Icon weapon Zweihander.png",
+      "title": "Zweihander"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 31,
+        "two_hand": 21
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c4/ER_Icon_weapon_Greatsword.png/300px-ER_Icon_weapon_Greatsword.png?16a76e",
+      "alt": "ER Icon weapon Greatsword.png",
+      "title": "Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Watchdog's Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Watchdog%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Watchdog's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_weapon_Watchdog%27s_Greatsword.png/300px-ER_Icon_weapon_Watchdog%27s_Greatsword.png?64d4bf",
+      "alt": "ER Icon weapon Watchdog's Greatsword.png",
+      "title": "Watchdog's Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Fire Knight's Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire_Knight%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Fire+Knight's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Fire Knight's Greatsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Troll's Golden Sword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Troll%27s_Golden_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Troll's+Golden+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 29,
+        "two_hand": 20
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/00/ER_Icon_weapon_Troll%27s_Golden_Sword.png/300px-ER_Icon_weapon_Troll%27s_Golden_Sword.png?8ba448",
+      "alt": "ER Icon weapon Troll's Golden Sword.png",
+      "title": "Troll's Golden Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Troll Knight's Sword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Troll_Knight%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Troll+Knight's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/48/ER_Icon_weapon_Troll_Knight%27s_Sword.png/300px-ER_Icon_weapon_Troll_Knight%27s_Sword.png?d19f79",
+      "alt": "ER Icon weapon Troll Knight's Sword.png",
+      "title": "Troll Knight's Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Moonrithyll's Knight Sword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Moonrithyll%27s_Knight_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Moonrithyll's+Knight+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Moonrithyll's Knight Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Royal Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Royal_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Royal+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 18,
+      "intelligence": 22,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b1/ER_Icon_weapon_Royal_Greatsword.png/300px-ER_Icon_weapon_Royal_Greatsword.png?2f64bc",
+      "alt": "ER Icon weapon Royal Greatsword.png",
+      "title": "Royal Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Grafted Blade Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Grafted_Blade_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Grafted+Blade+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 40,
+        "two_hand": 27
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/50/ER_Icon_weapon_Grafted_Blade_Greatsword.png/300px-ER_Icon_weapon_Grafted_Blade_Greatsword.png?dae7cd",
+      "alt": "ER Icon weapon Grafted Blade Greatsword.png",
+      "title": "Grafted Blade Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ruins Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ruins_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ruins+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 50,
+        "two_hand": 34
+      },
+      "dexterity": 0,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bb/ER_Icon_weapon_Ruins_Greatsword.png/300px-ER_Icon_weapon_Ruins_Greatsword.png?b2396f",
+      "alt": "ER Icon weapon Ruins Greatsword.png",
+      "title": "Ruins Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ancient Meteoric Ore Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Meteoric_Ore_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ancient+Meteoric+Ore+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 35,
+        "two_hand": 24
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 19
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Ancient Meteoric Ore Greatsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Starscourge Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Starscourge_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Starscourge+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 38,
+        "two_hand": 26
+      },
+      "dexterity": 12,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_weapon_Starscourge_Greatsword.png/300px-ER_Icon_weapon_Starscourge_Greatsword.png?a18c66",
+      "alt": "ER Icon weapon Starscourge Greatsword.png",
+      "title": "Starscourge Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Greatsword of Radahn (Lord)",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatsword_of_Radahn_(Lord)",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Lord)",
+    "attributes": {
+      "strength": {
+        "one_hand": 32,
+        "two_hand": 22
+      },
+      "dexterity": 24,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Greatsword of Radahn (Lord)"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Greatsword of Radahn (Light)",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatsword_of_Radahn_(Light)",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Greatsword+of+Radahn+(Light)",
+    "attributes": {
+      "strength": {
+        "one_hand": 32,
+        "two_hand": 22
+      },
+      "dexterity": 24,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Greatsword of Radahn (Light)"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Godslayer's Greatsword",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Godslayer%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Godslayer's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0a/ER_Icon_weapon_Godslayer%27s_Greatsword.png/300px-ER_Icon_weapon_Godslayer%27s_Greatsword.png?e17b08",
+      "alt": "ER Icon weapon Godslayer's Greatsword.png",
+      "title": "Godslayer's Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Maliketh's Black Blade",
+    "weapon_type": "Colossal Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Maliketh%27s_Black_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Maliketh's+Black+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3c/ER_Icon_weapon_Maliketh%27s_Black_Blade.png/300px-ER_Icon_weapon_Maliketh%27s_Black_Blade.png?dd5249",
+      "alt": "ER Icon weapon Maliketh's Black Blade.png",
+      "title": "Maliketh's Black Blade"
+    },
+    "dlc_exclusive": false
+  }
+]

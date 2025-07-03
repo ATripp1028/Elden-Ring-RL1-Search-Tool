@@ -1,0 +1,446 @@
+[
+  {
+    "weapon_name": "Caestus",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Caestus",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Caestus",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ef/ER_Icon_weapon_Caestus.png/300px-ER_Icon_weapon_Caestus.png?8201fb",
+      "alt": "ER Icon weapon Caestus.png",
+      "title": "Caestus"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spiked Caestus",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiked_Caestus",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiked+Caestus",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Spiked_Caestus.png/300px-ER_Icon_weapon_Spiked_Caestus.png?8d9362",
+      "alt": "ER Icon weapon Spiked Caestus.png",
+      "title": "Spiked Caestus"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Katar",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Katar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Katar",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a5/ER_Icon_weapon_Katar.png/300px-ER_Icon_weapon_Katar.png?24853c",
+      "alt": "ER Icon weapon Katar.png",
+      "title": "Katar"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pata",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pata",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pata",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Pata"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Iron Ball",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Iron_Ball",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Iron+Ball",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Iron_Ball.png/300px-ER_Icon_weapon_Iron_Ball.png?26f61b",
+      "alt": "ER Icon weapon Iron Ball.png",
+      "title": "Iron Ball"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Star Fist",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Star_Fist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Star+Fist",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a4/ER_Icon_weapon_Star_Fist.png/300px-ER_Icon_weapon_Star_Fist.png?3587ae",
+      "alt": "ER Icon weapon Star Fist.png",
+      "title": "Star Fist"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Clinging Bone",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Clinging_Bone",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Clinging+Bone",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 16
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c4/ER_Icon_weapon_Clinging_Bone.png/300px-ER_Icon_weapon_Clinging_Bone.png?d28bb9",
+      "alt": "ER Icon weapon Clinging Bone.png",
+      "title": "Clinging Bone"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Veteran's Prosthesis",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Veteran%27s_Prosthesis",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Veteran's+Prosthesis",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Veteran%27s_Prosthesis.png/300px-ER_Icon_weapon_Veteran%27s_Prosthesis.png?16f03a",
+      "alt": "ER Icon weapon Veteran's Prosthesis.png",
+      "title": "Veteran's Prosthesis"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cipher Pata",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cipher_Pata",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cipher+Pata",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 30,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/db/ER_Icon_weapon_Cipher_Pata.png/300px-ER_Icon_weapon_Cipher_Pata.png?208ed0",
+      "alt": "ER Icon weapon Cipher Pata.png",
+      "title": "Cipher Pata"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Poisoned Hand",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poisoned_Hand",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Poisoned+Hand",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 28
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Poisoned Hand"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Madding Hand",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Madding_Hand_(weapon)",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Madding+Hand",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 13,
+      "faith": 13,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_Weapon_Madding_Hand.png/300px-ER_Icon_Weapon_Madding_Hand.png?44ad79",
+      "alt": "ER Icon Weapon Madding Hand.png",
+      "title": "Madding Hand"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Thiollier's Hidden Needle",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Thiollier%27s_Hidden_Needle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Thiollier's+Hidden+Needle",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "sleep",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Thiollier's Hidden Needle"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Golem Fist",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golem_Fist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golem+Fist",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 8,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Golem Fist"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Grafted Dragon",
+    "weapon_type": "Fists",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Grafted_Dragon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Grafted+Dragon",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Grafted_Dragon.png/300px-ER_Icon_weapon_Grafted_Dragon.png?c86a3c",
+      "alt": "ER Icon weapon Grafted Dragon.png",
+      "title": "Grafted Dragon"
+    },
+    "dlc_exclusive": false
+  }
+]

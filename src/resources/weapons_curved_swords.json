@@ -1,0 +1,599 @@
+[
+  {
+    "weapon_name": "Scimitar",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scimitar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scimitar",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_weapon_Scimitar.png/300px-ER_Icon_weapon_Scimitar.png?9afbfc",
+      "alt": "ER Icon weapon Scimitar.png",
+      "title": "Scimitar"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Falchion",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Falchion",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Falchion",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/74/ER_Icon_weapon_Falchion.png/300px-ER_Icon_weapon_Falchion.png?45199f",
+      "alt": "ER Icon weapon Falchion.png",
+      "title": "Falchion"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Shamshir",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shamshir",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shamshir",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Shamshir.png/300px-ER_Icon_weapon_Shamshir.png?e3d30b",
+      "alt": "ER Icon weapon Shamshir.png",
+      "title": "Shamshir"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Grossmesser",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Grossmesser",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Grossmesser",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/ff/ER_Icon_weapon_Grossmesser.png/300px-ER_Icon_weapon_Grossmesser.png?3d73a4",
+      "alt": "ER Icon weapon Grossmesser.png",
+      "title": "Grossmesser"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bandit's Curved Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bandit%27s_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bandit's+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4a/ER_Icon_weapon_Bandit%27s_Curved_Sword.png/300px-ER_Icon_weapon_Bandit%27s_Curved_Sword.png?e9a2ff",
+      "alt": "ER Icon weapon Bandit's Curved Sword.png",
+      "title": "Bandit's Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Shotel",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shotel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shotel",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 19,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Shotel.png/300px-ER_Icon_weapon_Shotel.png?d4838a",
+      "alt": "ER Icon weapon Shotel.png",
+      "title": "Shotel"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Scavenger's Curved Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scavenger%27s_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scavenger's+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/dd/ER_Icon_weapon_Scavenger%27s_Curved_Sword.png/300px-ER_Icon_weapon_Scavenger%27s_Curved_Sword.png?1bceb5",
+      "alt": "ER Icon weapon Scavenger's Curved Sword.png",
+      "title": "Scavenger's Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Mantis Blade",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mantis_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Mantis+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9c/ER_Icon_weapon_Mantis_Blade.png/300px-ER_Icon_weapon_Mantis_Blade.png?37487b",
+      "alt": "ER Icon weapon Mantis Blade.png",
+      "title": "Mantis Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beastman's Curved Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beastman%27s_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beastman's+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_weapon_Beastman%27s_Curved_Sword.png/300px-ER_Icon_weapon_Beastman%27s_Curved_Sword.png?aadf00",
+      "alt": "ER Icon weapon Beastman's Curved Sword.png",
+      "title": "Beastman's Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Flowing Curved Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flowing_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Flowing+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c7/ER_Icon_weapon_Flowing_Curved_Sword.png/300px-ER_Icon_weapon_Flowing_Curved_Sword.png?180182",
+      "alt": "ER Icon weapon Flowing Curved Sword.png",
+      "title": "Flowing Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Serpent-God's Curved Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpent-God%27s_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpent-God's+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_weapon_Serpent-God%27s_Curved_Sword.png/300px-ER_Icon_weapon_Serpent-God%27s_Curved_Sword.png?f2dd78",
+      "alt": "ER Icon weapon Serpent-God's Curved Sword.png",
+      "title": "Serpent-God's Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Magma Blade",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Magma+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Magma_Blade.png/300px-ER_Icon_weapon_Magma_Blade.png?6e0f64",
+      "alt": "ER Icon weapon Magma Blade.png",
+      "title": "Magma Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spirit Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spirit_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spirit+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Spirit Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Nox Flowing Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nox_Flowing_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nox+Flowing+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/36/ER_Icon_weapon_Nox_Flowing_Sword.png/300px-ER_Icon_weapon_Nox_Flowing_Sword.png?308bf3",
+      "alt": "ER Icon weapon Nox Flowing Sword.png",
+      "title": "Nox Flowing Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Wing of Astel",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wing_of_Astel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Wing+of+Astel",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 17,
+      "intelligence": 20,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/65/ER_Icon_weapon_Wing_of_Astel.png/300px-ER_Icon_weapon_Wing_of_Astel.png?49773f",
+      "alt": "ER Icon weapon Wing of Astel.png",
+      "title": "Wing of Astel"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Falx",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Falx",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Falx",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Falx"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Dancing Blade of Ranah",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dancing_Blade_of_Ranah",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dancing+Blade+of+Ranah",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Dancing Blade of Ranah"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Horned Warrior's Sword",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Horned_Warrior%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Horned+Warrior's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Horned Warrior's Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Eclipse Shotel",
+    "weapon_type": "Curved Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eclipse_Shotel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Eclipse+Shotel",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 25,
+      "intelligence": 0,
+      "faith": 30,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/39/ER_Icon_weapon_Eclipse_Shotel.png/300px-ER_Icon_weapon_Eclipse_Shotel.png?ad604e",
+      "alt": "ER Icon weapon Eclipse Shotel.png",
+      "title": "Eclipse Shotel"
+    },
+    "dlc_exclusive": false
+  }
+]

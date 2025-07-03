@@ -1,0 +1,173 @@
+{
+  "total_weapons": 119,
+  "galleries": {
+    "Daggers": {
+      "count": 17,
+      "filename": "weapons_daggers.json"
+    },
+    "Throwing Blades": {
+      "count": 1,
+      "filename": "weapons_throwing_blades.json"
+    },
+    "Straight Swords": {
+      "count": 23,
+      "filename": "weapons_straight_swords.json"
+    },
+    "Light Greatswords": {
+      "count": 3,
+      "filename": "weapons_light_greatswords.json"
+    },
+    "Greatswords": {
+      "count": 24,
+      "filename": "weapons_greatswords.json"
+    },
+    "Colossal Swords": {
+      "count": 16,
+      "filename": "weapons_colossal_swords.json"
+    },
+    "Thrusting Swords": {
+      "count": 8,
+      "filename": "weapons_thrusting_swords.json"
+    },
+    "Heavy Thrusting Swords": {
+      "count": 6,
+      "filename": "weapons_heavy_thrusting_swords.json"
+    },
+    "Curved Swords": {
+      "count": 19,
+      "filename": "weapons_curved_swords.json"
+    },
+    "Curved Greatswords": {
+      "count": 11,
+      "filename": "weapons_curved_greatswords.json"
+    },
+    "Backhand Blades": {
+      "count": 3,
+      "filename": "weapons_backhand_blades.json"
+    },
+    "Katanas": {
+      "count": 10,
+      "filename": "weapons_katanas.json"
+    },
+    "Great Katanas": {
+      "count": 3,
+      "filename": "weapons_great_katanas.json"
+    },
+    "Twinblades": {
+      "count": 8,
+      "filename": "weapons_twinblades.json"
+    },
+    "Axes": {
+      "count": 17,
+      "filename": "weapons_axes.json"
+    },
+    "Greataxes": {
+      "count": 14,
+      "filename": "weapons_greataxes.json"
+    },
+    "Hammers": {
+      "count": 16,
+      "filename": "weapons_hammers.json"
+    },
+    "Flails": {
+      "count": 6,
+      "filename": "weapons_flails.json"
+    },
+    "Great Hammers": {
+      "count": 16,
+      "filename": "weapons_great_hammers.json"
+    },
+    "Colossal Weapons": {
+      "count": 20,
+      "filename": "weapons_colossal_weapons.json"
+    },
+    "Spears": {
+      "count": 19,
+      "filename": "weapons_spears.json"
+    },
+    "Great Spears": {
+      "count": 10,
+      "filename": "weapons_great_spears.json"
+    },
+    "Halberds": {
+      "count": 18,
+      "filename": "weapons_halberds.json"
+    },
+    "Reapers": {
+      "count": 5,
+      "filename": "weapons_reapers.json"
+    },
+    "Whips": {
+      "count": 7,
+      "filename": "weapons_whips.json"
+    },
+    "Fists": {
+      "count": 14,
+      "filename": "weapons_fists.json"
+    },
+    "Hand-to-Hand": {
+      "count": 2,
+      "filename": "weapons_hand_to_hand.json"
+    },
+    "Claws": {
+      "count": 5,
+      "filename": "weapons_claws.json"
+    },
+    "Beast Claws": {
+      "count": 2,
+      "filename": "weapons_beast_claws.json"
+    },
+    "Perfume Bottles": {
+      "count": 5,
+      "filename": "weapons_perfume_bottles.json"
+    },
+    "Light Bows": {
+      "count": 6,
+      "filename": "weapons_light_bows.json"
+    },
+    "Bows": {
+      "count": 8,
+      "filename": "weapons_bows.json"
+    },
+    "Greatbows": {
+      "count": 5,
+      "filename": "weapons_greatbows.json"
+    },
+    "Crossbows": {
+      "count": 9,
+      "filename": "weapons_crossbows.json"
+    },
+    "Ballista": {
+      "count": 3,
+      "filename": "weapons_ballista.json"
+    },
+    "Staves": {
+      "count": 20,
+      "filename": "weapons_staves.json"
+    },
+    "Sacred Seals": {
+      "count": 12,
+      "filename": "weapons_sacred_seals.json"
+    },
+    "Torches": {
+      "count": 8,
+      "filename": "weapons_torches.json"
+    },
+    "Small Shields": {
+      "count": 19,
+      "filename": "weapons_small_shields.json"
+    },
+    "Medium Shields": {
+      "count": 31,
+      "filename": "weapons_medium_shields.json"
+    },
+    "Greatshields": {
+      "count": 27,
+      "filename": "weapons_greatshields.json"
+    },
+    "Thrusting Shields": {
+      "count": 2,
+      "filename": "weapons_thrusting_shields.json"
+    }
+  }
+}

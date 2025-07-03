@@ -1,0 +1,252 @@
+[
+  {
+    "weapon_name": "Rapier",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rapier",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rapier",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Rapier.png/300px-ER_Icon_weapon_Rapier.png?3b8578",
+      "alt": "ER Icon weapon Rapier.png",
+      "title": "Rapier"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Estoc",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Estoc",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Estoc",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/20/ER_Icon_weapon_Estoc.png/300px-ER_Icon_weapon_Estoc.png?409aa8",
+      "alt": "ER Icon weapon Estoc.png",
+      "title": "Estoc"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Noble's Estoc",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Noble%27s_Estoc",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Noble's+Estoc",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6e/ER_Icon_weapon_Noble%27s_Estoc.png/300px-ER_Icon_weapon_Noble%27s_Estoc.png?c41e23",
+      "alt": "ER Icon weapon Noble's Estoc.png",
+      "title": "Noble's Estoc"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cleanrot Knight's Sword",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cleanrot_Knight%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cleanrot+Knight's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Cleanrot_Knight%27s_Sword.png/300px-ER_Icon_weapon_Cleanrot_Knight%27s_Sword.png?d3b520",
+      "alt": "ER Icon weapon Cleanrot Knight's Sword.png",
+      "title": "Cleanrot Knight's Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rogier's Rapier",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rogier%27s_Rapier",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rogier's+Rapier",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_weapon_Rogier%27s_Rapier.png/300px-ER_Icon_weapon_Rogier%27s_Rapier.png?1535ba",
+      "alt": "ER Icon weapon Rogier's Rapier.png",
+      "title": "Rogier's Rapier"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Antspur Rapier",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Antspur_Rapier",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Antspur+Rapier",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6f/ER_Icon_weapon_Antspur_Rapier.png/300px-ER_Icon_weapon_Antspur_Rapier.png?c411be",
+      "alt": "ER Icon weapon Antspur Rapier.png",
+      "title": "Antspur Rapier"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Frozen Needle",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Needle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Frozen+Needle",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Frozen_Needle.png/300px-ER_Icon_weapon_Frozen_Needle.png?6066ce",
+      "alt": "ER Icon weapon Frozen Needle.png",
+      "title": "Frozen Needle"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Sorcery Sword",
+    "weapon_type": "Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Sorcery_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Sorcery+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 19,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Carian Sorcery Sword"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,508 @@
+[
+  {
+    "weapon_name": "Large Club",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Large_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Large+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/60/ER_Icon_weapon_Large_Club.png/300px-ER_Icon_weapon_Large_Club.png?fe535e",
+      "alt": "ER Icon weapon Large Club.png",
+      "title": "Large Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Curved Great Club",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Curved_Great_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Curved+Great+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8f/ER_Icon_weapon_Curved_Great_Club.png/300px-ER_Icon_weapon_Curved_Great_Club.png?95c0d3",
+      "alt": "ER Icon weapon Curved Great Club.png",
+      "title": "Curved Great Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Mace",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Mace",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Mace",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2d/ER_Icon_weapon_Great_Mace.png/300px-ER_Icon_weapon_Great_Mace.png?b9ef6e",
+      "alt": "ER Icon weapon Great Mace.png",
+      "title": "Great Mace"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pickaxe",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pickaxe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pickaxe",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Pickaxe.png/300px-ER_Icon_weapon_Pickaxe.png?1948fa",
+      "alt": "ER Icon weapon Pickaxe.png",
+      "title": "Pickaxe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Brick Hammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Brick_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Brick+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 31,
+        "two_hand": 21
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_weapon_Brick_Hammer.png/300px-ER_Icon_weapon_Brick_Hammer.png?c99b6f",
+      "alt": "ER Icon weapon Brick Hammer.png",
+      "title": "Brick Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Battle Hammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Battle_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Battle+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/83/ER_Icon_weapon_Battle_Hammer.png/300px-ER_Icon_weapon_Battle_Hammer.png?52239b",
+      "alt": "ER Icon weapon Battle Hammer.png",
+      "title": "Battle Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Battle Hammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Battle_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Battle+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f7/ER_Icon_weapon_Rotten_Battle_Hammer.png/300px-ER_Icon_weapon_Rotten_Battle_Hammer.png?cc1bbc",
+      "alt": "ER Icon weapon Rotten Battle Hammer.png",
+      "title": "Rotten Battle Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Celebrant's Skull",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Celebrant%27s_Skull",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Celebrant's+Skull",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_weapon_Celebrant%27s_Skull.png/300px-ER_Icon_weapon_Celebrant%27s_Skull.png?89c493",
+      "alt": "ER Icon weapon Celebrant's Skull.png",
+      "title": "Celebrant's Skull"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Stars",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Stars",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/5a/ER_Icon_weapon_Great_Stars.png/300px-ER_Icon_weapon_Great_Stars.png?da9fb3",
+      "alt": "ER Icon weapon Great Stars.png",
+      "title": "Great Stars"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Steel Greathammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Steel_Greathammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Steel+Greathammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 25,
+        "two_hand": 17
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 17,
+      "arcane": 15
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Black Steel Greathammer"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Smithscript Greathammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smithscript_Greathammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Smithscript+Greathammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 10,
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Smithscript Greathammer"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Greathorn Hammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greathorn_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Greathorn+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Greathorn_Hammer.png/300px-ER_Icon_weapon_Greathorn_Hammer.png?ab8024",
+      "alt": "ER Icon weapon Greathorn Hammer.png",
+      "title": "Greathorn Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Envoy's Long Horn",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Envoy%27s_Long_Horn",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Envoy's+Long+Horn",
+    "attributes": {
+      "strength": {
+        "one_hand": 23,
+        "two_hand": 16
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/41/ER_Icon_weapon_Envoy%27s_Long_Horn.png/300px-ER_Icon_weapon_Envoy%27s_Long_Horn.png?5e8d4d",
+      "alt": "ER Icon weapon Envoy's Long Horn.png",
+      "title": "Envoy's Long Horn"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cranial Vessel Candlestand",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cranial_Vessel_Candlestand",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cranial+Vessel+Candlestand",
+    "attributes": {
+      "strength": {
+        "one_hand": 26,
+        "two_hand": 18
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Cranial_Vessel_Candlestand.png/300px-ER_Icon_weapon_Cranial_Vessel_Candlestand.png?598285",
+      "alt": "ER Icon weapon Cranial Vessel Candlestand.png",
+      "title": "Cranial Vessel Candlestand"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beastclaw Greathammer",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beastclaw_Greathammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beastclaw+Greathammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/25/ER_Icon_weapon_Beastclaw_Greathammer.png/300px-ER_Icon_weapon_Beastclaw_Greathammer.png?db69e1",
+      "alt": "ER Icon weapon Beastclaw Greathammer.png",
+      "title": "Beastclaw Greathammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Devourer's Scepter",
+    "weapon_type": "Great Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Devourer%27s_Scepter",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Devourer's+Scepter",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 25,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/79/ER_Icon_weapon_Devourer%27s_Scepter.png/300px-ER_Icon_weapon_Devourer%27s_Scepter.png?5ac549",
+      "alt": "ER Icon weapon Devourer's Scepter.png",
+      "title": "Devourer's Scepter"
+    },
+    "dlc_exclusive": false
+  }
+]

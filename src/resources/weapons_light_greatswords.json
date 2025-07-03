@@ -1,0 +1,100 @@
+[
+  {
+    "weapon_name": "Milady",
+    "weapon_type": "Light Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Milady",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Milady",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Milady"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Leda's Sword",
+    "weapon_type": "Light Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Leda%27s_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Leda's+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 19,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Leda's Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Rellana's Twin Blades",
+    "weapon_type": "Light Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rellana%27s_Twin_Blades",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rellana's+Twin+Blades",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic",
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Rellana's Twin Blades"
+    },
+    "dlc_exclusive": true
+  }
+]

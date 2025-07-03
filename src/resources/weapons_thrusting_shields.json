@@ -1,0 +1,66 @@
+[
+  {
+    "weapon_name": "Dueling Shield",
+    "weapon_type": "Thrusting Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dueling_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dueling+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Dueling Shield"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Carian Thrusting Shield",
+    "weapon_type": "Thrusting Shields",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Thrusting_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Thrusting+Shield",
+    "attributes": {
+      "strength": {
+        "one_hand": 17,
+        "two_hand": 12
+      },
+      "dexterity": 13,
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Standard",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Carian Thrusting Shield"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "weapon_name": "Parrying Dagger",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Parrying_Dagger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Parrying+Dagger",
+    "attributes": {
+      "strength": {
+        "one_hand": 5,
+        "two_hand": 5
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Parrying_Dagger.png/300px-ER_Icon_weapon_Parrying_Dagger.png?fae880",
+      "alt": "ER Icon weapon Parrying Dagger.png",
+      "title": "Parrying Dagger"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Miséricorde",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mis%C3%A9ricorde",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Miséricorde",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/eb/ER_Icon_weapon_Mis%C3%A9ricorde.png/300px-ER_Icon_weapon_Mis%C3%A9ricorde.png?f60547",
+      "alt": "ER Icon weapon Misericorde.png",
+      "title": "Miséricorde"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Great Knife",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Knife",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Knife",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/31/ER_Icon_weapon_Great_Knife.png/300px-ER_Icon_weapon_Great_Knife.png?7165fe",
+      "alt": "ER Icon weapon Great Knife.png",
+      "title": "Great Knife"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bloodstained Dagger",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodstained_Dagger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodstained+Dagger",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Bloodstained_Dagger.png/300px-ER_Icon_weapon_Bloodstained_Dagger.png?2f8b39",
+      "alt": "ER Icon weapon Bloodstained Dagger.png",
+      "title": "Bloodstained Dagger"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Erdsteel Dagger",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdsteel_Dagger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Erdsteel+Dagger",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Erdsteel_Dagger.png/300px-ER_Icon_weapon_Erdsteel_Dagger.png?9f9944",
+      "alt": "ER Icon weapon Erdsteel Dagger.png",
+      "title": "Erdsteel Dagger"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Fire Knight's Shortsword",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire_Knight%27s_Shortsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Fire+Knight's+Shortsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Fire Knight's Shortsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Wakizashi",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wakizashi",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Wakizashi",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Wakizashi.png/300px-ER_Icon_weapon_Wakizashi.png?cb732e",
+      "alt": "ER Icon weapon Wakizashi.png",
+      "title": "Wakizashi"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Main-gauche",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Main-gauche",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Main-gauche",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Main-gauche"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Celebrant's Sickle",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Celebrant%27s_Sickle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Celebrant's+Sickle",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Celebrant%27s_Sickle.png/300px-ER_Icon_weapon_Celebrant%27s_Sickle.png?7c77cd",
+      "alt": "ER Icon weapon Celebrant's Sickle.png",
+      "title": "Celebrant's Sickle"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ivory Sickle",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ivory_Sickle",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ivory+Sickle",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 11,
+      "intelligence": 13,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/33/ER_Icon_weapon_Ivory_Sickle.png/300px-ER_Icon_weapon_Ivory_Sickle.png?ff3046",
+      "alt": "ER Icon weapon Ivory Sickle.png",
+      "title": "Ivory Sickle"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crystal Knife",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Knife",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crystal+Knife",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 9,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2b/ER_Icon_weapon_Crystal_Knife.png/300px-ER_Icon_weapon_Crystal_Knife.png?6d416b",
+      "alt": "ER Icon weapon Crystal Knife.png",
+      "title": "Crystal Knife"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Scorpion's Stinger",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scorpion%27s_Stinger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scorpion's+Stinger",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_weapon_Scorpion%27s_Stinger.png/300px-ER_Icon_weapon_Scorpion%27s_Stinger.png?9c9b1f",
+      "alt": "ER Icon weapon Scorpion's Stinger.png",
+      "title": "Scorpion's Stinger"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Cinquedea",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cinquedea",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Cinquedea",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Cinquedea.png/300px-ER_Icon_weapon_Cinquedea.png?b0a31b",
+      "alt": "ER Icon weapon Cinquedea.png",
+      "title": "Cinquedea"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Glintstone Kris",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Kris",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Glintstone+Kris",
+    "attributes": {
+      "strength": {
+        "one_hand": 5,
+        "two_hand": 5
+      },
+      "dexterity": 12,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/88/ER_Icon_weapon_Glintstone_Kris.png/300px-ER_Icon_weapon_Glintstone_Kris.png?23b22b",
+      "alt": "ER Icon weapon Glintstone Kris.png",
+      "title": "Glintstone Kris"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Reduvia",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Reduvia",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Reduvia",
+    "attributes": {
+      "strength": {
+        "one_hand": 5,
+        "two_hand": 5
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 13
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/57/ER_Icon_weapon_Reduvia.png/300px-ER_Icon_weapon_Reduvia.png?9d5377",
+      "alt": "ER Icon weapon Reduvia.png",
+      "title": "Reduvia"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Blade of Calling",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blade_of_Calling",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Blade+of+Calling",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Blade_of_Calling.png/300px-ER_Icon_weapon_Blade_of_Calling.png?f1d082",
+      "alt": "ER Icon weapon Blade of Calling.png",
+      "title": "Blade of Calling"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Black Knife",
+    "weapon_type": "Daggers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Knife",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Black+Knife",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_weapon_Black_Knife.png/300px-ER_Icon_weapon_Black_Knife.png?289e70",
+      "alt": "ER Icon weapon Black Knife.png",
+      "title": "Black Knife"
+    },
+    "dlc_exclusive": false
+  }
+]

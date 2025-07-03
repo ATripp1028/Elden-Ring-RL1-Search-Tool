@@ -1,0 +1,324 @@
+[
+  {
+    "weapon_name": "Lance",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lance",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lance",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/98/ER_Icon_weapon_Lance.png/300px-ER_Icon_weapon_Lance.png?462bb0",
+      "alt": "ER Icon weapon Lance.png",
+      "title": "Lance"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Messmer Soldier's Spear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Messmer_Soldier%27s_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Messmer+Soldier's+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Messmer Soldier's Spear"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Treespear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Treespear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Treespear",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Treespear.png/300px-ER_Icon_weapon_Treespear.png?191d96",
+      "alt": "ER Icon weapon Treespear.png",
+      "title": "Treespear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Serpent-Hunter",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpent-Hunter",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpent-Hunter",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/06/ER_Icon_weapon_Serpent-Hunter.png/300px-ER_Icon_weapon_Serpent-Hunter.png?fc72bf",
+      "alt": "ER Icon weapon Serpent-Hunter.png",
+      "title": "Serpent-Hunter"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Siluria's Tree",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Siluria%27s_Tree",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Siluria's+Tree",
+    "attributes": {
+      "strength": {
+        "one_hand": 27,
+        "two_hand": 18
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_weapon_Siluria%27s_Tree.png/300px-ER_Icon_weapon_Siluria%27s_Tree.png?5efa95",
+      "alt": "ER Icon weapon Siluria's Tree.png",
+      "title": "Siluria's Tree"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Vyke's War Spear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vyke%27s_War_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Vyke's+War+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Vyke%27s_War_Spear.png/300px-ER_Icon_weapon_Vyke%27s_War_Spear.png?bb0b82",
+      "alt": "ER Icon weapon Vyke's War Spear.png",
+      "title": "Vyke's War Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Barbed Staff-Spear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Barbed_Staff-Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Barbed+Staff-Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Barbed Staff-Spear"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Bloodfiend's Sacred Spear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodfiend%27s_Sacred_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodfiend's+Sacred+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 22,
+        "two_hand": 15
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 13
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Bloodfiend's Sacred Spear"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Mohgwyn's Sacred Spear",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mohgwyn%27s_Sacred_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Mohgwyn's+Sacred+Spear",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 27
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/18/ER_Icon_weapon_Mohgwyn%27s_Sacred_Spear.png/300px-ER_Icon_weapon_Mohgwyn%27s_Sacred_Spear.png?ebacfd",
+      "alt": "ER Icon weapon Mohgwyn's Sacred Spear.png",
+      "title": "Mohgwyn's Sacred Spear"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spear of the Impaler",
+    "weapon_type": "Great Spears",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spear_of_the_Impaler",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spear+of+the+Impaler",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 35,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Spear of the Impaler"
+    },
+    "dlc_exclusive": true
+  }
+]

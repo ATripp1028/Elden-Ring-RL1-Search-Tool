@@ -1,0 +1,161 @@
+[
+  {
+    "weapon_name": "Scythe",
+    "weapon_type": "Reapers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scythe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scythe",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/97/ER_Icon_weapon_Scythe.png/300px-ER_Icon_weapon_Scythe.png?dbfc5f",
+      "alt": "ER Icon weapon Scythe.png",
+      "title": "Scythe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Grave Scythe",
+    "weapon_type": "Reapers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Grave_Scythe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Grave+Scythe",
+    "attributes": {
+      "strength": {
+        "one_hand": 17,
+        "two_hand": 12
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/af/ER_Icon_weapon_Grave_Scythe.png/300px-ER_Icon_weapon_Grave_Scythe.png?6fba81",
+      "alt": "ER Icon weapon Grave Scythe.png",
+      "title": "Grave Scythe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Halo Scythe",
+    "weapon_type": "Reapers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Halo_Scythe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Halo+Scythe",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Halo_Scythe.png/300px-ER_Icon_weapon_Halo_Scythe.png?af3259",
+      "alt": "ER Icon weapon Halo Scythe.png",
+      "title": "Halo Scythe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Winged Scythe",
+    "weapon_type": "Reapers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Winged_Scythe",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Winged+Scythe",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_weapon_Winged_Scythe.png/300px-ER_Icon_weapon_Winged_Scythe.png?75c99c",
+      "alt": "ER Icon weapon Winged Scythe.png",
+      "title": "Winged Scythe"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Obsidian Lamina",
+    "weapon_type": "Reapers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Obsidian_Lamina",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Obsidian+Lamina",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 25,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 17
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Obsidian Lamina"
+    },
+    "dlc_exclusive": true
+  }
+]

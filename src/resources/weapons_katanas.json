@@ -1,0 +1,322 @@
+[
+  {
+    "weapon_name": "Uchigatana",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Uchigatana",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Uchigatana",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b3/ER_Icon_weapon_Uchigatana.png/300px-ER_Icon_weapon_Uchigatana.png?d3e900",
+      "alt": "ER Icon weapon Uchigatana.png",
+      "title": "Uchigatana"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Nagakiba",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nagakiba",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nagakiba",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Nagakiba.png/300px-ER_Icon_weapon_Nagakiba.png?696e94",
+      "alt": "ER Icon weapon Nagakiba.png",
+      "title": "Nagakiba"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Serpentbone Blade",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Serpentbone_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Serpentbone+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 22,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Serpentbone_Blade.png/300px-ER_Icon_weapon_Serpentbone_Blade.png?a45ad2",
+      "alt": "ER Icon weapon Serpentbone Blade.png",
+      "title": "Serpentbone Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Meteoric Ore Blade",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteoric_Ore_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Meteoric+Ore+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 14,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/38/ER_Icon_weapon_Meteoric_Ore_Blade.png/300px-ER_Icon_weapon_Meteoric_Ore_Blade.png?91ead6",
+      "alt": "ER Icon weapon Meteoric Ore Blade.png",
+      "title": "Meteoric Ore Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Moonveil",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Moonveil",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Moonveil",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 23,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/91/ER_Icon_weapon_Moonveil.png/300px-ER_Icon_weapon_Moonveil.png?305029",
+      "alt": "ER Icon weapon Moonveil.png",
+      "title": "Moonveil"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sword of Night",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_of_Night",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+of+Night",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Sword of Night"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Rivers of Blood",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rivers_of_Blood",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rivers+of+Blood",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 20
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a9/ER_Icon_weapon_Rivers_of_Blood.png/300px-ER_Icon_weapon_Rivers_of_Blood.png?17b0b8",
+      "alt": "ER Icon weapon Rivers of Blood.png",
+      "title": "Rivers of Blood"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragonscale Blade",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonscale_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragonscale+Blade",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d2/ER_Icon_weapon_Dragonscale_Blade.png/300px-ER_Icon_weapon_Dragonscale_Blade.png?7ab589",
+      "alt": "ER Icon weapon Dragonscale Blade.png",
+      "title": "Dragonscale Blade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Star-Lined Sword",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Star-Lined_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Star-Lined+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 23,
+      "intelligence": 21,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Star-Lined Sword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Hand of Malenia",
+    "weapon_type": "Katanas",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hand_of_Malenia",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hand+of+Malenia",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 48,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Icon_weapon_Hand_of_Malenia.png/300px-ER_Icon_weapon_Hand_of_Malenia.png?1bb87d",
+      "alt": "ER Icon weapon Hand of Malenia.png",
+      "title": "Hand of Malenia"
+    },
+    "dlc_exclusive": false
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "weapon_name": "Hookclaws",
+    "weapon_type": "Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hookclaws",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hookclaws",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fd/ER_Icon_weapon_Hookclaws.png/300px-ER_Icon_weapon_Hookclaws.png?edb790",
+      "alt": "ER Icon weapon Hookclaws.png",
+      "title": "Hookclaws"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bloodhound Claws",
+    "weapon_type": "Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodhound_Claws",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodhound+Claws",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bb/ER_Icon_weapon_Bloodhound_Claws.png/300px-ER_Icon_weapon_Bloodhound_Claws.png?c88a92",
+      "alt": "ER Icon weapon Bloodhound Claws.png",
+      "title": "Bloodhound Claws"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Venomous Fang",
+    "weapon_type": "Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Venomous_Fang",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Venomous+Fang",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "poison",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/17/ER_Icon_weapon_Venomous_Fang.png/300px-ER_Icon_weapon_Venomous_Fang.png?20e0f0",
+      "alt": "ER Icon weapon Venomous Fang.png",
+      "title": "Venomous Fang"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Raptor Talons",
+    "weapon_type": "Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Raptor_Talons",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Raptor+Talons",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3e/ER_Icon_weapon_Raptor_Talons.png/300px-ER_Icon_weapon_Raptor_Talons.png?25b7ad",
+      "alt": "ER Icon weapon Raptor Talons.png",
+      "title": "Raptor Talons"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Claws of Night",
+    "weapon_type": "Claws",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Claws_of_Night",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Claws+of+Night",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 20,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Claws of Night"
+    },
+    "dlc_exclusive": true
+  }
+]

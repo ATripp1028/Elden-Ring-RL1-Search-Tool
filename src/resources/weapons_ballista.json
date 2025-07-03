@@ -1,0 +1,97 @@
+[
+  {
+    "weapon_name": "Hand Ballista",
+    "weapon_type": "Ballista",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hand_Ballista",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hand+Ballista",
+    "attributes": {
+      "strength": {
+        "one_hand": 30,
+        "two_hand": 20
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_weapon_Hand_Ballista.png/300px-ER_Icon_weapon_Hand_Ballista.png?510f16",
+      "alt": "ER Icon weapon Hand Ballista.png",
+      "title": "Hand Ballista"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Jar Cannon",
+    "weapon_type": "Ballista",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Jar_Cannon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Jar+Cannon",
+    "attributes": {
+      "strength": {
+        "one_hand": 34,
+        "two_hand": 23
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/6b/ER_Icon_weapon_Jar_Cannon.png/300px-ER_Icon_weapon_Jar_Cannon.png?6f370b",
+      "alt": "ER Icon weapon Jar Cannon.png",
+      "title": "Jar Cannon"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rabbath's Cannon",
+    "weapon_type": "Ballista",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rabbath%27s_Cannon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rabbath's+Cannon",
+    "attributes": {
+      "strength": {
+        "one_hand": 28,
+        "two_hand": 19
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Rabbath's Cannon"
+    },
+    "dlc_exclusive": true
+  }
+]

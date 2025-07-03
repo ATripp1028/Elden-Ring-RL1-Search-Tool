@@ -1,0 +1,622 @@
+[
+  {
+    "weapon_name": "Astrologer's Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Astrologer%27s_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Astrologer's+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 0,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/73/ER_Icon_weapon_Astrologer%27s_Staff.png/300px-ER_Icon_weapon_Astrologer%27s_Staff.png?605b78",
+      "alt": "ER Icon weapon Astrologer's Staff.png",
+      "title": "Astrologer's Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 10,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/06/ER_Icon_weapon_Glintstone_Staff.png/300px-ER_Icon_weapon_Glintstone_Staff.png?62e7b8",
+      "alt": "ER Icon weapon Glintstone Staff.png",
+      "title": "Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Academy Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Academy_Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Academy+Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 28,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Academy_Glintstone_Staff.png/300px-ER_Icon_weapon_Academy_Glintstone_Staff.png?c3f9ae",
+      "alt": "ER Icon weapon Academy Glintstone Staff.png",
+      "title": "Academy Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Digger's Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Digger%27s_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Digger's+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_weapon_Digger%27s_Staff.png/300px-ER_Icon_weapon_Digger%27s_Staff.png?3bf5f3",
+      "alt": "ER Icon weapon Digger's Staff.png",
+      "title": "Digger's Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Demi-Human Queen's Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Demi-Human_Queen%27s_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Demi-Human+Queen's+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 10,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/5c/ER_Icon_weapon_Demi-Human_Queen%27s_Staff.png/300px-ER_Icon_weapon_Demi-Human_Queen%27s_Staff.png?3dc3cc",
+      "alt": "ER Icon weapon Demi-Human Queen's Staff.png",
+      "title": "Demi-Human Queen's Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Azur's Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Azur%27s_Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 52,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Azur%27s_Glintstone_Staff.png/300px-ER_Icon_weapon_Azur%27s_Glintstone_Staff.png?9e36bf",
+      "alt": "ER Icon weapon Azur's Glintstone Staff.png",
+      "title": "Azur's Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Lusat's Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lusat%27s_Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 52,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Lusat%27s_Glintstone_Staff.png/300px-ER_Icon_weapon_Lusat%27s_Glintstone_Staff.png?42a6a2",
+      "alt": "ER Icon weapon Lusat's Glintstone Staff.png",
+      "title": "Lusat's Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 8,
+      "intelligence": 24,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Carian_Glintstone_Staff.png/300px-ER_Icon_weapon_Carian_Glintstone_Staff.png?770a76",
+      "alt": "ER Icon weapon Carian Glintstone Staff.png",
+      "title": "Carian Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Glintblade Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Glintblade_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Glintblade+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 12,
+      "intelligence": 22,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/87/ER_Icon_weapon_Carian_Glintblade_Staff.png/300px-ER_Icon_weapon_Carian_Glintblade_Staff.png?ca3f8d",
+      "alt": "ER Icon weapon Carian Glintblade Staff.png",
+      "title": "Carian Glintblade Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Carian Regal Scepter",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Regal_Scepter",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Carian+Regal+Scepter",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 60,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/31/ER_Icon_weapon_Carian_Regal_Scepter.png/300px-ER_Icon_weapon_Carian_Regal_Scepter.png?d84614",
+      "alt": "ER Icon weapon Carian Regal Scepter.png",
+      "title": "Carian Regal Scepter"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Albinauric Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Albinauric_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Albinauric+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 10,
+      "faith": 0,
+      "arcane": 12
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Albinauric_Staff.png/300px-ER_Icon_weapon_Albinauric_Staff.png?ae42d4",
+      "alt": "ER Icon weapon Albinauric Staff.png",
+      "title": "Albinauric Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Staff of Loss",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Staff_of_Loss",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Staff+of+Loss",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 12,
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c8/ER_Icon_weapon_Staff_of_Loss.png/300px-ER_Icon_weapon_Staff_of_Loss.png?970888",
+      "alt": "ER Icon weapon Staff of Loss.png",
+      "title": "Staff of Loss"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Gelmir Glintstone Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gelmir_Glintstone_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gelmir+Glintstone+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 14,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/77/ER_Icon_weapon_Gelmir_Glintstone_Staff.png/300px-ER_Icon_weapon_Gelmir_Glintstone_Staff.png?9ff1a3",
+      "alt": "ER Icon weapon Gelmir Glintstone Staff.png",
+      "title": "Gelmir Glintstone Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crystal Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crystal+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 48,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/24/ER_Icon_weapon_Crystal_Staff.png/300px-ER_Icon_weapon_Crystal_Staff.png?883928",
+      "alt": "ER Icon weapon Crystal Staff.png",
+      "title": "Crystal Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Rotten Crystal Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Crystal_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rotten+Crystal+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 48,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "scarlet_rot",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_weapon_Rotten_Crystal_Staff.png/300px-ER_Icon_weapon_Rotten_Crystal_Staff.png?ce3997",
+      "alt": "ER Icon weapon Rotten Crystal Staff.png",
+      "title": "Rotten Crystal Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Meteorite Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Meteorite+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f7/ER_Icon_weapon_Meteorite_Staff.png/300px-ER_Icon_weapon_Meteorite_Staff.png?2d9d31",
+      "alt": "ER Icon weapon Meteorite Staff.png",
+      "title": "Meteorite Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Staff of the Guilty",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Staff_of_the_Guilty",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Staff+of+the+Guilty",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Staff_of_the_Guilty.png/300px-ER_Icon_weapon_Staff_of_the_Guilty.png?3a1736",
+      "alt": "ER Icon weapon Staff of the Guilty.png",
+      "title": "Staff of the Guilty"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Prince of Death's Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Prince_of_Death%27s_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Prince+of+Death's+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 6,
+        "two_hand": 6
+      },
+      "dexterity": 0,
+      "intelligence": 18,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/14/ER_Icon_weapon_Prince_of_Death%27s_Staff.png/300px-ER_Icon_weapon_Prince_of_Death%27s_Staff.png?194965",
+      "alt": "ER Icon weapon Prince of Death's Staff.png",
+      "title": "Prince of Death's Staff"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Maternal Staff",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Maternal_Staff",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Maternal+Staff",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 0,
+      "intelligence": 21,
+      "faith": 0,
+      "arcane": 21
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Maternal Staff"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Staff of the Great Beyond",
+    "weapon_type": "Staves",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Staff_of_the_Great_Beyond",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Staff+of+the+Great+Beyond",
+    "attributes": {
+      "strength": {
+        "one_hand": 7,
+        "two_hand": 7
+      },
+      "dexterity": 0,
+      "intelligence": 25,
+      "faith": 25,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Staff of the Great Beyond"
+    },
+    "dlc_exclusive": true
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "weapon_name": "Club",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b6/ER_Icon_weapon_Club.png/300px-ER_Icon_weapon_Club.png?83c69c",
+      "alt": "ER Icon weapon Club.png",
+      "title": "Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Curved Club",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Curved_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Curved+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a2/ER_Icon_weapon_Curved_Club.png/300px-ER_Icon_weapon_Curved_Club.png?6a9ac6",
+      "alt": "ER Icon weapon Curved Club.png",
+      "title": "Curved Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Spiked Club",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiked_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiked+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d5/ER_Icon_weapon_Spiked_Club.png/300px-ER_Icon_weapon_Spiked_Club.png?beadaa",
+      "alt": "ER Icon weapon Spiked Club.png",
+      "title": "Spiked Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Stone Club",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stone_Club",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Stone+Club",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Stone_Club.png/300px-ER_Icon_weapon_Stone_Club.png?53ed08",
+      "alt": "ER Icon weapon Stone Club.png",
+      "title": "Stone Club"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Mace",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mace",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Mace",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ec/ER_Icon_weapon_Mace.png/300px-ER_Icon_weapon_Mace.png?42fc63",
+      "alt": "ER Icon weapon Mace.png",
+      "title": "Mace"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Morning Star",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Morning_Star",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Morning+Star",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/02/ER_Icon_weapon_Morning_Star.png/300px-ER_Icon_weapon_Morning_Star.png?be69f2",
+      "alt": "ER Icon weapon Morning Star.png",
+      "title": "Morning Star"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Warpick",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Warpick",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Warpick",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/07/ER_Icon_weapon_Warpick.png/300px-ER_Icon_weapon_Warpick.png?b20d79",
+      "alt": "ER Icon weapon Warpick.png",
+      "title": "Warpick"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Hammer",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/d/df/ER_Icon_weapon_Hammer.png/300px-ER_Icon_weapon_Hammer.png?cbb4cc",
+      "alt": "ER Icon weapon Hammer.png",
+      "title": "Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Monk's Flamemace",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Monk%27s_Flamemace",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Monk's+Flamemace",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 13,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_weapon_Monk%27s_Flamemace.png/300px-ER_Icon_weapon_Monk%27s_Flamemace.png?352880",
+      "alt": "ER Icon weapon Monk's Flamemace.png",
+      "title": "Monk's Flamemace"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Varré's Bouquet",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Varr%C3%A9%27s_Bouquet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Varré's+Bouquet",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 24
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/ef/ER_Icon_weapon_Varr%C3%A9%27s_Bouquet.png/300px-ER_Icon_weapon_Varr%C3%A9%27s_Bouquet.png?30ac66",
+      "alt": "ER Icon weapon Varre's Bouquet.png",
+      "title": "Varré's Bouquet"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Envoy's Horn",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Envoy%27s_Horn",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Envoy's+Horn",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/1d/ER_Icon_weapon_Envoy%27s_Horn.png/300px-ER_Icon_weapon_Envoy%27s_Horn.png?f2947a",
+      "alt": "ER Icon weapon Envoy's Horn.png",
+      "title": "Envoy's Horn"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Nox Flowing Hammer",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nox_Flowing_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nox+Flowing+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 17,
+        "two_hand": 12
+      },
+      "dexterity": 7,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Nox_Flowing_Hammer.png/300px-ER_Icon_weapon_Nox_Flowing_Hammer.png?188b6b",
+      "alt": "ER Icon weapon Nox Flowing Hammer.png",
+      "title": "Nox Flowing Hammer"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ringed Finger",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ringed_Finger",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ringed+Finger",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_weapon_Ringed_Finger.png/300px-ER_Icon_weapon_Ringed_Finger.png?b389ed",
+      "alt": "ER Icon weapon Ringed Finger.png",
+      "title": "Ringed Finger"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Scepter of the All-Knowing",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scepter_of_the_All-Knowing",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Scepter+of+the+All-Knowing",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 18,
+      "intelligence": 21,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Scepter_of_the_All-Knowing.png/300px-ER_Icon_weapon_Scepter_of_the_All-Knowing.png?172511",
+      "alt": "ER Icon weapon Scepter of the All-Knowing.png",
+      "title": "Scepter of the All-Knowing"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Flowerstone Gavel",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flowerstone_Gavel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Flowerstone+Gavel",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 15
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Flowerstone Gavel"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Marika's Hammer",
+    "weapon_type": "Hammers",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Marika%27s_Hammer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Marika's+Hammer",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 19,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3b/ER_Icon_weapon_Marika%27s_Hammer.png/300px-ER_Icon_weapon_Marika%27s_Hammer.png?45a674",
+      "alt": "ER Icon weapon Marika's Hammer.png",
+      "title": "Marika's Hammer"
+    },
+    "dlc_exclusive": false
+  }
+]

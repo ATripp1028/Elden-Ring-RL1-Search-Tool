@@ -1,0 +1,188 @@
+[
+  {
+    "weapon_name": "Shortbow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shortbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Shortbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/cf/ER_Icon_weapon_Shortbow.png/300px-ER_Icon_weapon_Shortbow.png?7840d3",
+      "alt": "ER Icon weapon Shortbow.png",
+      "title": "Shortbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Composite Bow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Composite_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Composite+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_weapon_Composite_Bow.png/300px-ER_Icon_weapon_Composite_Bow.png?fa3469",
+      "alt": "ER Icon weapon Composite Bow.png",
+      "title": "Composite Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Red Branch Shortbow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Red_Branch_Shortbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Red+Branch+Shortbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/a/a1/ER_Icon_weapon_Red_Branch_Shortbow.png/300px-ER_Icon_weapon_Red_Branch_Shortbow.png?bb82ea",
+      "alt": "ER Icon weapon Red Branch Shortbow.png",
+      "title": "Red Branch Shortbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Misbegotten Shortbow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Misbegotten_Shortbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Misbegotten+Shortbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8d/ER_Icon_weapon_Misbegotten_Shortbow.png/300px-ER_Icon_weapon_Misbegotten_Shortbow.png?6209bc",
+      "alt": "ER Icon weapon Misbegotten Shortbow.png",
+      "title": "Misbegotten Shortbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Harp Bow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Harp_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Harp+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 9,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Harp_Bow.png/300px-ER_Icon_weapon_Harp_Bow.png?4f43fb",
+      "alt": "ER Icon weapon Harp Bow.png",
+      "title": "Harp Bow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Bone Bow",
+    "weapon_type": "Light Bows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bone_Bow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bone+Bow",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Bone Bow"
+    },
+    "dlc_exclusive": true
+  }
+]

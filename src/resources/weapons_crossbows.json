@@ -1,0 +1,283 @@
+[
+  {
+    "weapon_name": "Soldier's Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Soldier%27s_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Soldier's+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Soldier%27s_Crossbow.png/300px-ER_Icon_weapon_Soldier%27s_Crossbow.png?b73f7e",
+      "alt": "ER Icon weapon Soldier's Crossbow.png",
+      "title": "Soldier's Crossbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Light Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Light_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Light+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Light_Crossbow.png/300px-ER_Icon_weapon_Light_Crossbow.png?2a2a69",
+      "alt": "ER Icon weapon Light Crossbow.png",
+      "title": "Light Crossbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Heavy Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heavy_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Heavy+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f9/ER_Icon_weapon_Heavy_Crossbow.png/300px-ER_Icon_weapon_Heavy_Crossbow.png?e167aa",
+      "alt": "ER Icon weapon Heavy Crossbow.png",
+      "title": "Heavy Crossbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Arbalest",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Arbalest",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Arbalest",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 12,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Arbalest.png/300px-ER_Icon_weapon_Arbalest.png?82ad51",
+      "alt": "ER Icon weapon Arbalest.png",
+      "title": "Arbalest"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Crepus's Black-Key Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crepus%27s_Black-Key_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Crepus's+Black-Key+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_weapon_Crepus%27s_Black-Key_Crossbow.png/300px-ER_Icon_weapon_Crepus%27s_Black-Key_Crossbow.png?431d32",
+      "alt": "ER Icon weapon Crepus's Black-Key Crossbow.png",
+      "title": "Crepus's Black-Key Crossbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Pulley Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pulley_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Pulley+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Pulley_Crossbow.png/300px-ER_Icon_weapon_Pulley_Crossbow.png?e4c0a1",
+      "alt": "ER Icon weapon Pulley Crossbow.png",
+      "title": "Pulley Crossbow"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Repeating Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Repeating_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Repeating+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 13,
+        "two_hand": 9
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Repeating Crossbow"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Spread Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spread_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spread+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 11,
+        "two_hand": 8
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Spread Crossbow"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Full Moon Crossbow",
+    "weapon_type": "Crossbows",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Full_Moon_Crossbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Full+Moon+Crossbow",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Pierce"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/0e/ER_Icon_weapon_Full_Moon_Crossbow.png/300px-ER_Icon_weapon_Full_Moon_Crossbow.png?755d08",
+      "alt": "ER Icon weapon Full Moon Crossbow.png",
+      "title": "Full Moon Crossbow"
+    },
+    "dlc_exclusive": false
+  }
+]

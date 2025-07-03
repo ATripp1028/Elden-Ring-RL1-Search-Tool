@@ -1,0 +1,376 @@
+[
+  {
+    "weapon_name": "Finger Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Finger_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Finger+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 4,
+        "two_hand": 4
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9e/ER_Icon_weapon_Finger_Seal.png/300px-ER_Icon_weapon_Finger_Seal.png?85af3c",
+      "alt": "ER Icon weapon Finger Seal.png",
+      "title": "Finger Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Erdtree Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdtree_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Erdtree+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 40,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Holy"
+      ]
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Erdtree_Seal.png/300px-ER_Icon_weapon_Erdtree_Seal.png?1df133",
+      "alt": "ER Icon weapon Erdtree Seal.png",
+      "title": "Erdtree Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Golden Order Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Order_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Golden+Order+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 17,
+      "faith": 17,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/61/ER_Icon_weapon_Golden_Order_Seal.png/300px-ER_Icon_weapon_Golden_Order_Seal.png?6ba9de",
+      "alt": "ER Icon weapon Golden Order Seal.png",
+      "title": "Golden Order Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dryleaf Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dryleaf_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dryleaf+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Dryleaf Seal"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Fire Knight's Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire_Knight%27s_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Fire+Knight's+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Fire Knight's Seal"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Spiraltree Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spiraltree_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Spiraltree+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 8,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 17,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Spiraltree Seal"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Gravel Stone Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravel_Stone_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Gravel+Stone+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 4,
+        "two_hand": 4
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/98/ER_Icon_weapon_Gravel_Stone_Seal.png/300px-ER_Icon_weapon_Gravel_Stone_Seal.png?7a80c0",
+      "alt": "ER Icon weapon Gravel Stone Seal.png",
+      "title": "Gravel Stone Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Giant's Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giant%27s_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Giant's+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 4,
+        "two_hand": 4
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Giant%27s_Seal.png/300px-ER_Icon_weapon_Giant%27s_Seal.png?e23ada",
+      "alt": "ER Icon weapon Giant's Seal.png",
+      "title": "Giant's Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Godslayer's Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Godslayer%27s_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Godslayer's+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 4,
+        "two_hand": 4
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Godslayer%27s_Seal.png/300px-ER_Icon_weapon_Godslayer%27s_Seal.png?9bfb74",
+      "alt": "ER Icon weapon Godslayer's Seal.png",
+      "title": "Godslayer's Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Clawmark Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Clawmark_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Clawmark+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 4,
+        "two_hand": 4
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/71/ER_Icon_weapon_Clawmark_Seal.png/300px-ER_Icon_weapon_Clawmark_Seal.png?cbaeae",
+      "alt": "ER Icon weapon Clawmark Seal.png",
+      "title": "Clawmark Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Frenzied Flame Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frenzied_Flame_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Frenzied+Flame+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/e/e5/ER_Icon_weapon_Frenzied_Flame_Seal.png/300px-ER_Icon_weapon_Frenzied_Flame_Seal.png?89e491",
+      "alt": "ER Icon weapon Frenzied Flame Seal.png",
+      "title": "Frenzied Flame Seal"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragon Communion Seal",
+    "weapon_type": "Sacred Seals",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon_Communion_Seal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+Communion+Seal",
+    "attributes": {
+      "strength": {
+        "one_hand": 0,
+        "two_hand": 0
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 10
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Spell",
+      "secondary": "Spell"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Dragon_Communion_Seal.png/300px-ER_Icon_weapon_Dragon_Communion_Seal.png?33ddab",
+      "alt": "ER Icon weapon Dragon Communion Seal.png",
+      "title": "Dragon Communion Seal"
+    },
+    "dlc_exclusive": false
+  }
+]

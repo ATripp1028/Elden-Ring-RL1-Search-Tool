@@ -1,0 +1,264 @@
+[
+  {
+    "weapon_name": "Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 5,
+        "two_hand": 5
+      },
+      "dexterity": 5,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Torch.png/300px-ER_Icon_weapon_Torch.png?3d7ed5",
+      "alt": "ER Icon weapon Torch.png",
+      "title": "Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beast-Repellent Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beast-Repellent_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beast-Repellent+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 12,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_weapon_Beast-Repellent_Torch.png/300px-ER_Icon_weapon_Beast-Repellent_Torch.png?48061c",
+      "alt": "ER Icon weapon Beast-Repellent Torch.png",
+      "title": "Beast-Repellent Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Steel-Wire Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Steel-Wire_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Steel-Wire+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9a/ER_Icon_weapon_Steel-Wire_Torch.png/300px-ER_Icon_weapon_Steel-Wire_Torch.png?d10b1d",
+      "alt": "ER Icon weapon Steel-Wire Torch.png",
+      "title": "Steel-Wire Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sentry's Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sentry%27s_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sentry's+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 8,
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Holy",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Sentry%27s_Torch.png/300px-ER_Icon_weapon_Sentry%27s_Torch.png?1809c3",
+      "alt": "ER Icon weapon Sentry's Torch.png",
+      "title": "Sentry's Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Ghostflame Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ghostflame_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Ghostflame+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Magic",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Ghostflame_Torch.png/300px-ER_Icon_weapon_Ghostflame_Torch.png?efa03e",
+      "alt": "ER Icon weapon Ghostflame Torch.png",
+      "title": "Ghostflame Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "St. Trina's Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/St._Trina%27s_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/St.+Trina's+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "sleep",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/cb/ER_Icon_weapon_St._Trina%27s_Torch.png/300px-ER_Icon_weapon_St._Trina%27s_Torch.png?fa3f67",
+      "alt": "ER Icon weapon St. Trina's Torch.png",
+      "title": "St. Trina's Torch"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Nanaya's Torch",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Nanaya%27s_Torch",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Nanaya's+Torch",
+    "attributes": {
+      "strength": {
+        "one_hand": 10,
+        "two_hand": 8
+      },
+      "dexterity": 10,
+      "intelligence": 14,
+      "faith": 16,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Fire",
+      "minor": [
+        "Physical"
+      ]
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "madness",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Nanaya's Torch"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Lamenting Visage",
+    "weapon_type": "Torches",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lamenting_Visage",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Lamenting+Visage",
+    "attributes": {
+      "strength": {
+        "one_hand": 9,
+        "two_hand": 8
+      },
+      "dexterity": 0,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Strike",
+      "secondary": "Strike"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Lamenting Visage"
+    },
+    "dlc_exclusive": true
+  }
+]

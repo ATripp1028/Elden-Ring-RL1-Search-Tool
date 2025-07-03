@@ -1,0 +1,192 @@
+[
+  {
+    "weapon_name": "Great Épée",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_%C3%89p%C3%A9e",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Great+Épée",
+    "attributes": {
+      "strength": {
+        "one_hand": 15,
+        "two_hand": 10
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/16/ER_Icon_weapon_Great_%C3%89p%C3%A9e.png/300px-ER_Icon_weapon_Great_%C3%89p%C3%A9e.png?18b8a5",
+      "alt": "ER Icon weapon Great Epee.png",
+      "title": "Great Épée"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Godskin Stitcher",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Godskin_Stitcher",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Godskin+Stitcher",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Godskin_Stitcher.png/300px-ER_Icon_weapon_Godskin_Stitcher.png?48c297",
+      "alt": "ER Icon weapon Godskin Stitcher.png",
+      "title": "Godskin Stitcher"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Queelign's Greatsword",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Queelign%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Queelign's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Queelign's Greatsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Bloody Helice",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloody_Helice",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloody+Helice",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 19,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 17
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/4/4f/ER_Icon_weapon_Bloody_Helice.png/300px-ER_Icon_weapon_Bloody_Helice.png?b7398c",
+      "alt": "ER Icon weapon Bloody Helice.png",
+      "title": "Bloody Helice"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Dragon King's Cragblade",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragon_King%27s_Cragblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dragon+King's+Cragblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 37,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Lightning"
+      ]
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Dragon_King%27s_Cragblade.png/300px-ER_Icon_weapon_Dragon_King%27s_Cragblade.png?a7c85e",
+      "alt": "ER Icon weapon Dragon King's Cragblade.png",
+      "title": "Dragon King's Cragblade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Sword Lance",
+    "weapon_type": "Heavy Thrusting Swords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Sword_Lance",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Sword+Lance",
+    "attributes": {
+      "strength": {
+        "one_hand": 21,
+        "two_hand": 14
+      },
+      "dexterity": 11,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Pierce",
+      "secondary": "Standard"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Sword Lance"
+    },
+    "dlc_exclusive": true
+  }
+]

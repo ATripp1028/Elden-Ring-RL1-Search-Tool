@@ -1,0 +1,347 @@
+[
+  {
+    "weapon_name": "Dismounter",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dismounter",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Dismounter",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_weapon_Dismounter.png/300px-ER_Icon_weapon_Dismounter.png?556b94",
+      "alt": "ER Icon weapon Dismounter.png",
+      "title": "Dismounter"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Omen Cleaver",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Omen_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Omen+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_weapon_Omen_Cleaver.png/300px-ER_Icon_weapon_Omen_Cleaver.png?560e9e",
+      "alt": "ER Icon weapon Omen Cleaver.png",
+      "title": "Omen Cleaver"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Monk's Flameblade",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Monk%27s_Flameblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Monk's+Flameblade",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/5/5b/ER_Icon_weapon_Monk%27s_Flameblade.png/300px-ER_Icon_weapon_Monk%27s_Flameblade.png?e045ed",
+      "alt": "ER Icon weapon Monk's Flameblade.png",
+      "title": "Monk's Flameblade"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Beastman's Cleaver",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beastman%27s_Cleaver",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Beastman's+Cleaver",
+    "attributes": {
+      "strength": {
+        "one_hand": 25,
+        "two_hand": 17
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_weapon_Beastman%27s_Cleaver.png/300px-ER_Icon_weapon_Beastman%27s_Cleaver.png?e2d806",
+      "alt": "ER Icon weapon Beastman's Cleaver.png",
+      "title": "Beastman's Cleaver"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Freyja's Greatsword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Freyja%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 25,
+        "two_hand": 17
+      },
+      "dexterity": 14,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Freyja's Greatsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Bloodhound's Fang",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodhound%27s_Fang",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Bloodhound's+Fang",
+    "attributes": {
+      "strength": {
+        "one_hand": 18,
+        "two_hand": 12
+      },
+      "dexterity": 17,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/0/00/ER_Icon_weapon_Bloodhound%27s_Fang.png/300px-ER_Icon_weapon_Bloodhound%27s_Fang.png?ecb228",
+      "alt": "ER Icon weapon Bloodhound's Fang.png",
+      "title": "Bloodhound's Fang"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Onyx Lord's Greatsword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Onyx_Lord%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Onyx+Lord's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 20,
+        "two_hand": 14
+      },
+      "dexterity": 16,
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Magic"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Onyx_Lord%27s_Greatsword.png/300px-ER_Icon_weapon_Onyx_Lord%27s_Greatsword.png?cc1272",
+      "alt": "ER Icon weapon Onyx Lord's Greatsword.png",
+      "title": "Onyx Lord's Greatsword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Zamor Curved Sword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Zamor_Curved_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Zamor+Curved+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 16,
+        "two_hand": 11
+      },
+      "dexterity": 18,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "frostbite",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_weapon_Zamor_Curved_Sword.png/300px-ER_Icon_weapon_Zamor_Curved_Sword.png?55062f",
+      "alt": "ER Icon weapon Zamor Curved Sword.png",
+      "title": "Zamor Curved Sword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Magma Wyrm's Scalesword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Wyrm%27s_Scalesword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Magma+Wyrm's+Scalesword",
+    "attributes": {
+      "strength": {
+        "one_hand": 24,
+        "two_hand": 16
+      },
+      "dexterity": 15,
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": [
+        "Fire"
+      ]
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/c/cc/ER_Icon_weapon_Magma_Wyrm%27s_Scalesword.png/300px-ER_Icon_weapon_Magma_Wyrm%27s_Scalesword.png?131d8b",
+      "alt": "ER Icon weapon Magma Wyrm's Scalesword.png",
+      "title": "Magma Wyrm's Scalesword"
+    },
+    "dlc_exclusive": false
+  },
+  {
+    "weapon_name": "Horned Warrior's Greatsword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Horned_Warrior%27s_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Horned+Warrior's+Greatsword",
+    "attributes": {
+      "strength": {
+        "one_hand": 19,
+        "two_hand": 13
+      },
+      "dexterity": 16,
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 0
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "none",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
+      "alt": "ER Menu Icon Attack Power.png",
+      "title": "Horned Warrior's Greatsword"
+    },
+    "dlc_exclusive": true
+  },
+  {
+    "weapon_name": "Morgott's Cursed Sword",
+    "weapon_type": "Curved Greatswords",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Morgott%27s_Cursed_Sword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Morgott's+Cursed+Sword",
+    "attributes": {
+      "strength": {
+        "one_hand": 14,
+        "two_hand": 10
+      },
+      "dexterity": 35,
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 17
+    },
+    "damage_types": {
+      "major": "Physical",
+      "minor": []
+    },
+    "attack_types": {
+      "primary": "Slash",
+      "secondary": "Slash"
+    },
+    "status_buildup": "blood_loss",
+    "image": {
+      "src": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_weapon_Morgott%27s_Cursed_Sword.png/300px-ER_Icon_weapon_Morgott%27s_Cursed_Sword.png?7a1975",
+      "alt": "ER Icon weapon Morgott's Cursed Sword.png",
+      "title": "Morgott's Cursed Sword"
+    },
+    "dlc_exclusive": false
+  }
+]
