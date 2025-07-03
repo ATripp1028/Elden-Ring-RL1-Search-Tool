@@ -41,7 +41,9 @@
     },
     "bonus": "Erdtree",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Thorns"
@@ -79,7 +81,7 @@
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Minor+Erdtree"
   },
   {
-    "spell_name": "Land of Shadow (Incantation)",
+    "spell_name": "Land of Shadow",
     "spell_type": "Incantation",
     "requirements": {
       "intelligence": 0,
@@ -88,7 +90,9 @@
     },
     "bonus": "Erdtree",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Holy"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Land_of_Shadow_(Incantation)",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Land+of+Shadow+(Incantation)"
@@ -154,7 +158,9 @@
     },
     "bonus": "Spiral Tower",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Roar_of_Rugalea",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Roar+of+Rugalea"
@@ -271,7 +277,9 @@
     },
     "bonus": "Servants of Rot",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "scarlet_rot",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Butterflies",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rotten+Butterflies"
@@ -286,7 +294,9 @@
     },
     "bonus": "Servants of Rot",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest-Thread_Spears",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Pest-Thread+Spears"
@@ -318,7 +328,9 @@
     },
     "bonus": "Spiral Tower",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Beast_Tornado",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Beast+Tornado"
@@ -333,7 +345,9 @@
     },
     "bonus": "Spiral Tower",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Bird_Feathers",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Bird+Feathers"
@@ -509,7 +523,7 @@
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Dragons'+Lightning+Strike"
   },
   {
-    "spell_name": "Aspect of the Crucible: Breath",
+    "spell_name": "Aspects of the Crucible: Breath",
     "spell_type": "Incantation",
     "requirements": {
       "intelligence": 0,
@@ -518,13 +532,15 @@
     },
     "bonus": "Erdtree",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Breath"
   },
   {
-    "spell_name": "Aspect of the Crucible: Horns",
+    "spell_name": "Aspects of the Crucible: Horns",
     "spell_type": "Incantation",
     "requirements": {
       "intelligence": 0,
@@ -533,7 +549,9 @@
     },
     "bonus": "Erdtree",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Horns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Horns"
@@ -840,7 +858,9 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Burn,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Burn+O+Flame!"
@@ -1198,7 +1218,9 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Grant_me_Strength",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Grant+me+Strength"
@@ -1366,7 +1388,7 @@
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greyoll's+Roar"
   },
   {
-    "spell_name": "Gurrang's Beast Claw",
+    "spell_name": "Gurranq's Beast Claw",
     "spell_type": "Incantation",
     "requirements": {
       "intelligence": 0,
@@ -1375,7 +1397,9 @@
     },
     "bonus": "Bestial",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Physical"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gurrang's_Beast_Claw",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gurrang's+Beast+Claw"
@@ -1681,7 +1705,9 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/O,_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//O+Flame!"
@@ -1711,7 +1737,9 @@
     },
     "bonus": "Golden Order",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Holy"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Order's_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Order's+Blade"
@@ -1938,7 +1966,9 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Surge,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Surge+O+Flame!"
@@ -2070,7 +2100,9 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Fire"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Whirl,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Whirl+O+Flame!"

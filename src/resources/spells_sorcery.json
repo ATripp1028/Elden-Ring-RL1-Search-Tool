@@ -24,7 +24,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Trio",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Trio"
@@ -39,7 +41,9 @@
     },
     "bonus": "Moon",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rellana's_Twin_Moons",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rellana's+Twin+Moons"
@@ -54,7 +58,9 @@
     },
     "bonus": "Finger",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nail",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nail"
@@ -69,7 +75,9 @@
     },
     "bonus": "Finger",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nails",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nails"
@@ -101,7 +109,9 @@
     },
     "bonus": "Gravity",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravitational_Missile",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravitational+Missile"
@@ -116,7 +126,9 @@
     },
     "bonus": "Thorn",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mantle_of_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mantle+of+Thorns"
@@ -131,7 +143,9 @@
     },
     "bonus": "Thorn",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "blood_loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Impenetrable_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Impenetrable+Thorns"
@@ -146,7 +160,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rings_of_Spectral_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rings+of+Spectral+Light"
@@ -161,7 +177,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vortex_of_Putrescence",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Vortex+of+Putrescence"
@@ -176,7 +194,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mass_of_Putrescence",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mass+of+Putrescence"
@@ -191,7 +211,9 @@
     },
     "bonus": "Finger",
     "dlc_exclusive": true,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fleeting_Microcosm",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fleeting+Microcosm"
@@ -223,7 +245,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Adula's_Moonblade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Adula's+Moonblade"
@@ -238,7 +262,9 @@
     },
     "bonus": "Sellian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ambush_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ambush+Shard"
@@ -253,7 +279,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Death_Rancor",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Death+of+Rancor"
@@ -268,7 +296,9 @@
     },
     "bonus": "Thorn",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "blood_loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Punishment",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Punishment"
@@ -283,7 +313,9 @@
     },
     "bonus": "Thorn",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "blood_loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Sin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Sin"
@@ -298,7 +330,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cannon_of_Haima",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cannon+of+Haima"
@@ -313,7 +347,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Greatsword",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Greatsword"
@@ -328,7 +364,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Phalanx"
@@ -343,7 +381,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Piercer",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Piercer"
@@ -358,7 +398,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Retaliation",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Retaliation"
@@ -373,7 +415,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Slicer",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Slicer"
@@ -388,7 +432,9 @@
     },
     "bonus": "Gravity",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Collapsing_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Collapsing+Stars"
@@ -403,7 +449,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet"
@@ -418,7 +466,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet_Azur",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet+Azur"
@@ -433,7 +483,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Barrage",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Barrage"
@@ -448,7 +500,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Burst",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Burst"
@@ -463,7 +517,9 @@
     },
     "bonus": "Crystalian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Release",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Release"
@@ -478,7 +534,9 @@
     },
     "bonus": "Crystalian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Torrent",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Torrent"
@@ -493,7 +551,9 @@
     },
     "bonus": "Sellian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eternal_Darkness",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Eternal+Darkness"
@@ -508,7 +568,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Explosive_Ghostflame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Explosive+Ghostflame"
@@ -523,7 +585,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fia's_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fia's+Mist"
@@ -538,7 +602,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Founding_Rain_of_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Founding+Rain+of+Stars"
@@ -553,7 +619,9 @@
     },
     "bonus": "Cold",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Freezing_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Freezing+Mist"
@@ -568,7 +636,9 @@
     },
     "bonus": "Cold",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frozen+Armament"
@@ -583,7 +653,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gavel_of_Haima",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gavel+of+Haima"
@@ -615,7 +687,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Phalanx"
@@ -630,7 +704,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Arc",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Arc"
@@ -645,7 +721,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Cometshard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Cometshard"
@@ -660,7 +738,9 @@
     },
     "bonus": "Cold",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Icecrag",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Icecrag"
@@ -675,7 +755,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Pebble",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Pebble"
@@ -690,7 +772,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Stars"
@@ -705,7 +789,9 @@
     },
     "bonus": "Gravity",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravity_Well",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravity+Well"
@@ -720,7 +806,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Glintstone_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Glintstone+Shard"
@@ -735,7 +823,9 @@
     },
     "bonus": "Oracle",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Oracular_Bubble",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Oracular+Bubble"
@@ -750,7 +840,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatblade_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greatblade+Phalanx"
@@ -765,7 +857,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Greatbow",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Greatbow"
@@ -780,7 +874,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Mastery",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Mastery"
@@ -810,7 +906,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Downpour",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Downpour"
@@ -825,7 +923,9 @@
     },
     "bonus": "Carian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Glintblade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Glintblade"
@@ -858,7 +958,8 @@
     "bonus": "Gravity",
     "dlc_exclusive": false,
     "damage_types": [
-      "Physical"
+      "Physical",
+      "Magic"
     ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite",
@@ -875,7 +976,8 @@
     "bonus": "Gravity",
     "dlc_exclusive": false,
     "damage_types": [
-      "Physical"
+      "Physical",
+      "Magic"
     ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite_of_Astel",
@@ -891,7 +993,9 @@
     },
     "bonus": "Sellian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Comet",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Comet"
@@ -906,7 +1010,9 @@
     },
     "bonus": "Sellian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Maiden's_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Maiden's+Mist"
@@ -921,7 +1027,9 @@
     },
     "bonus": "Sellian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Shard"
@@ -936,7 +1044,9 @@
     },
     "bonus": "Oracle",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Oracle_Bubbles",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Oracle+Bubbles"
@@ -951,7 +1061,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rancorcall",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rancorcall"
@@ -966,7 +1078,9 @@
     },
     "bonus": "Moon",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ranni's_Dark_Moon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ranni's+Dark+Moon"
@@ -981,7 +1095,9 @@
     },
     "bonus": "Moon",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rennala's_Full_Moon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rennala's+Full+Moon"
@@ -996,7 +1112,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rock_Blaster",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rock+Blaster"
@@ -1062,7 +1180,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scholar's_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scholar's+Armament"
@@ -1092,7 +1212,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shard_Spiral",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shard+Spiral"
@@ -1107,7 +1229,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shatter_Earth",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shatter+Earth"
@@ -1122,7 +1246,9 @@
     },
     "bonus": "Crystalian",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shattering_Crystal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shattering+Crystal"
@@ -1137,7 +1263,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Star_Shower",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Star+Shower"
@@ -1167,7 +1295,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stars_of_Ruin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Stars+of+Ruin"
@@ -1182,7 +1312,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swift_Glintstone_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Swift+Glintstone+Shard"
@@ -1197,7 +1329,9 @@
     },
     "bonus": "Glintstone",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Terra_Magica",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Terra+Magica"
@@ -1227,7 +1361,9 @@
     },
     "bonus": "Death",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Tibia's_Summons",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Tibia's+Summons"
@@ -1272,7 +1408,9 @@
     },
     "bonus": "Cold",
     "dlc_exclusive": false,
-    "damage_types": [],
+    "damage_types": [
+      "Magic"
+    ],
     "status_buildup": "frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Zamor_Ice_Storm",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Zamor+Ice+Storm+(Spell)"

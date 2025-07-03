@@ -119,7 +119,8 @@ def get_fire_damage_spells():
         "Bloodboon",
         "Bloodflame Blade",
         "Bloodflame Talons",
-        "Burn O Flame!",
+        "Burn, O Flame!",
+        "Flame, Grant me Strength",
         "Catch Flame",
         "Dragonfire",
         "Fire's Deadly Sin",
@@ -136,15 +137,15 @@ def get_fire_damage_spells():
         "Midra's Flame of Frenzy",
         "Messmer's Orb",
         "Noble Presence",
-        "O Flame!",
+        "O, Flame!",
         "Placidusax's Ruin",
         "Rain of Fire",
         "Scouring Black Flame",
-        "Surge O Flame!",
+        "Surge, O Flame!",
         "The Flame of Frenzy",
         "Theodorix's Magma",
         "Unendurable Frenzy",
-        "Whirl O Flame!"
+        "Whirl, O Flame!"
     }
 
 def get_lightning_damage_spells():
@@ -193,7 +194,8 @@ def get_holy_damage_spells():
         "Triple Rings of Light",
         "Watchful Spirit",
         "Wrath from Afar",
-        "Wrath of Gold"
+        "Wrath of Gold",
+        "Order's Blade"
     }
 
 def get_physical_damage_spells():
@@ -226,16 +228,24 @@ def get_physical_damage_spells():
         # Incantations - Erdtree Incantations
         "Aspects of the Crucible: Horns",
         "Aspects of the Crucible: Tail",
+        "Aspects of the Crucible: Thorns",
         
         # Incantations - Frenzied Flame Incantations
         "Howl of Shabriri",
         
         # Incantations - Servants of Rot Incantations
         "Pest Threads",
+        "Pest-Thread Spears",
+        "Rotten Butterflies",
         "Scarlet Aeonia",
         
         # Incantations - Finger Sorceries
-        "Cherishing Fingers"
+        "Cherishing Fingers",
+
+        # Incantations - Spiral Tower
+        "Roar of Rugalea",
+        "Divine Beast Tornado",
+        "Divine Bird Feathers",
     }
 
 def get_magic_damage_incantations():
@@ -289,10 +299,10 @@ def get_magic_damage_sorcery_bonuses():
         "Cold",
         "Death",
         "Finger",
-        "Full Moon",
+        "Moon",
         "Gravity",
         "Glintstone",
-        "Night"
+        "Sellian"
     }
 
 def get_damage_types(spell_name, spell_type, bonus):
@@ -325,7 +335,7 @@ def get_damage_types(spell_name, spell_type, bonus):
     # Check for magic damage
     if spell_name in magic_damage_incantations:
         damage_types.append("Magic")
-    elif spell_type == "Sorceries" and bonus in magic_damage_sorcery_bonuses and spell_name not in magic_damage_sorcery_exceptions:
+    elif spell_type == "Sorcery" and bonus in magic_damage_sorcery_bonuses and spell_name not in magic_damage_sorcery_exceptions:
         damage_types.append("Magic")
     
     return damage_types
@@ -370,6 +380,26 @@ def read_local_html(filename):
         print(f"Error reading local HTML file {filename}: {e}")
         return None
     
+def transform_spell_name(spell_name):
+    """
+    Transform the spell name to match the format of the wiki.gg link.
+    """
+    if (spell_name == "Land of Shadow (Incantation)"):
+        return "Land of Shadow"
+    if (spell_name == "Aspect of the Crucible: Horns"):
+        return "Aspects of the Crucible: Horns"
+    if (spell_name == "Aspect of the Crucible: Tail"):
+        return "Aspects of the Crucible: Tail"
+    if (spell_name == "Aspect of the Crucible: Thorns"):
+        return "Aspects of the Crucible: Thorns"
+    if (spell_name == "Aspect of the Crucible: Bloom"):
+        return "Aspects of the Crucible: Bloom"
+    if (spell_name == "Aspect of the Crucible: Breath"):
+        return "Aspects of the Crucible: Breath"
+    if (spell_name == "Gurrang's Beast Claw"):
+        return "Gurranq's Beast Claw"
+    return spell_name
+
 def extract_spells_from_table(html_content):
     """
     Extract spell names, types, and requirements from the table within the "tabcontent 1-tab" div.
@@ -422,7 +452,7 @@ def extract_spells_from_table(html_content):
             # Get the first cell (spell name)
             first_cell = cells[0]
             spell_name = first_cell.get_text(strip=True)
-            
+            transformed_spell_name = transform_spell_name(spell_name)
             # Get the second cell (spell type)
             second_cell = cells[1]
             second_cell_text = second_cell.get_text(strip=True)
@@ -465,7 +495,7 @@ def extract_spells_from_table(html_content):
             wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_')}"
             
             spell_data = {
-                'spell_name': spell_name,
+                'spell_name': transformed_spell_name,
                 'spell_type': spell_type,
                 'requirements': {
                     'intelligence': intelligence,
@@ -474,8 +504,8 @@ def extract_spells_from_table(html_content):
                 },
                 'bonus': spell_bonus,
                 'dlc_exclusive': is_dlc,
-                'damage_types': get_damage_types(spell_name, spell_type, spell_bonus),
-                'status_buildup': check_status_buildup(spell_name),
+                'damage_types': get_damage_types(transformed_spell_name, spell_type, spell_bonus),
+                'status_buildup': check_status_buildup(transformed_spell_name),
                 'wikiGGLink': wiki_gg_link,
                 'wikiFextralifeLink': wiki_fextralife_link,
             }
