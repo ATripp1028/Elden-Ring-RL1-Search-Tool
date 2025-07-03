@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-from urllib.parse import urljoin
+from urllib.parse import quote
 import time
 import gzip
 import zlib
@@ -396,8 +396,52 @@ def transform_spell_name(spell_name):
         return "Aspects of the Crucible: Bloom"
     if (spell_name == "Aspect of the Crucible: Breath"):
         return "Aspects of the Crucible: Breath"
+    if (spell_name == "Aspects of the Crucible: Horns"):
+        return "Aspects of the Crucible: Horns"
+    if (spell_name == "Aspects of the Crucible: Tail"):
+        return "Aspects of the Crucible: Tail"
+    if (spell_name == "Aspects of the Crucible: Thorns"):
+        return "Aspects of the Crucible: Thorns"
+    if (spell_name == "Aspects of the Crucible: Bloom"):
+        return "Aspects of the Crucible: Bloom"
+    if (spell_name == "Aspects of the Crucible: Breath"):
+        return "Aspects of the Crucible: Breath"
     if (spell_name == "Gurrang's Beast Claw"):
         return "Gurranq's Beast Claw"
+    if (spell_name == "Flame, Grant me Strength"):
+        return "Flame, Grant Me Strength"
+    return spell_name
+
+def transform_spell_name_for_image_url(spell_name):
+    """
+    Transform the spell name to match the format of the wiki.gg link.
+    """
+    if (spell_name == "Land of Shadow (Incantation)"):
+        return "Land of Shadow"
+    if (spell_name == "Aspect of the Crucible: Horns"):
+        return "Aspects of the Crucible:Horns"
+    if (spell_name == "Aspect of the Crucible: Tail"):
+        return "Aspects of the Crucible:Tail"
+    if (spell_name == "Aspect of the Crucible: Thorns"):
+        return "Aspects of the Crucible:Thorns"
+    if (spell_name == "Aspect of the Crucible: Bloom"):
+        return "Aspects of the Crucible:Bloom"
+    if (spell_name == "Aspect of the Crucible: Breath"):
+        return "Aspects of the Crucible:Breath"
+    if (spell_name == "Aspects of the Crucible: Horns"):
+        return "Aspects of the Crucible:Horns"
+    if (spell_name == "Aspects of the Crucible: Tail"):
+        return "Aspects of the Crucible:Tail"
+    if (spell_name == "Aspects of the Crucible: Thorns"):
+        return "Aspects of the Crucible:Thorns"
+    if (spell_name == "Aspects of the Crucible: Bloom"):
+        return "Aspects of the Crucible:Bloom"
+    if (spell_name == "Aspects of the Crucible: Breath"):
+        return "Aspects of the Crucible:Breath"
+    if (spell_name == "Gurrang's Beast Claw"):
+        return "Gurranq's Beast Claw"
+    if (spell_name == "Flame, Grant me Strength"):
+        return "Flame, Grant Me Strength"
     return spell_name
 
 def extract_image_urls_from_wiki_gg(html_content):
@@ -433,8 +477,17 @@ def extract_image_urls_from_wiki_gg(html_content):
                 
                 # Get the second cell (spell name)
                 name_cell = cells[1]
+                
+                # Handle line breaks in spell names (like "Aspects of the Crucible:<br />Bloom")
+                # Replace <br> tags with spaces to get the full name
+                for br in name_cell.find_all('br'):
+                    br.replace_with(' ')
+                
                 spell_name = name_cell.get_text(strip=True)
-                transformed_spell_name = transform_spell_name(spell_name)
+                
+                # Clean up extra spaces around colons (common in wiki.gg formatting)
+                spell_name = spell_name.replace(' : ', ': ').replace(': ', ': ').replace(' :', ': ')
+                transformed_spell_name = transform_spell_name_for_image_url(spell_name)
                 
                 # Look for image within the icon cell
                 img = icon_cell.find('img')
@@ -497,6 +550,7 @@ def extract_spells_from_table(html_content, image_map=None):
         return None
     
     spells_data = []
+    used_images = set()  # Track which images are used
     
     for i, row in enumerate(rows):
         # Get all cells in the row
@@ -546,15 +600,20 @@ def extract_spells_from_table(html_content, image_map=None):
             wiki_fextralife_link = "https://eldenring.wiki.fextralife.com/" + link.get('href')
             
             # Construct wiki.gg link using established convention
-            wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_')}"
+            wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_').replace(':', '')}"
 
             # Get image URL from image map or use fallback
             image_url = None
-            if image_map and transformed_spell_name in image_map:
-                image_url = image_map[transformed_spell_name]
+            transformed_spell_name_for_image_url = transform_spell_name_for_image_url(transformed_spell_name)
+            if image_map and transformed_spell_name_for_image_url in image_map:
+                image_url = image_map[transformed_spell_name_for_image_url]
+                used_images.add(transformed_spell_name_for_image_url)  # Mark as used
+                # Remove from image map to avoid duplicates
+                del image_map[transformed_spell_name_for_image_url]
             else:
                 # Fallback to hardcoded URL if not found in image map
-                image_url = f"https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_{spell_name.replace(' ', '_')}.png/300px-ER_Icon_Spell_{spell_name.replace(' ', '_')}.png"
+                url_name = transformed_spell_name_for_image_url.replace(' ', '_').replace(':', '')
+                image_url = f"https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_{url_name}.png/300px-ER_Icon_Spell_{url_name}.png"
                 print(f"Warning: No image found for {transformed_spell_name}, using fallback URL")
             
             spell_data = {
@@ -580,6 +639,13 @@ def extract_spells_from_table(html_content, image_map=None):
         else:
             # Skip rows that don't have exactly 11 columns
             print(f"Skipping row {i + 1}: Expected 11 columns, found {len(cells)}")
+    
+    # Print unused images for troubleshooting
+    if image_map:
+        print(f"\n=== UNUSED IMAGE URLS ({len(image_map)} total) ===")
+        for spell_name, image_url in sorted(image_map.items()):
+            print(f"Unused: {spell_name} -> {image_url}")
+        print("=== END UNUSED IMAGE URLS ===\n")
     
     return spells_data
 

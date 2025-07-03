@@ -47,9 +47,9 @@
       "Physical"
     ],
     "status_buildup": "none",
-    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Thorns",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Thorns",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Aspects_of_the_Crucible:_Thorns.png/300px-ER_Icon_Spell_Aspects_of_the_Crucible:_Thorns.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/41/ER_Icon_Spell_Aspects_of_the_Crucible_Thorns.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Thorns.png?51c4a5"
   },
   {
     "spell_name": "Aspects of the Crucible: Bloom",
@@ -65,9 +65,9 @@
       "Holy"
     ],
     "status_buildup": "none",
-    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Bloom",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Bloom",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Bloom",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Aspects_of_the_Crucible:_Bloom.png/300px-ER_Icon_Spell_Aspects_of_the_Crucible:_Bloom.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_Spell_Aspects_of_the_Crucible_Bloom.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Bloom.png?1d8541"
   },
   {
     "spell_name": "Minor Erdtree",
@@ -817,9 +817,9 @@
       "Fire"
     ],
     "status_buildup": "none",
-    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Breath",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Breath",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Aspect_of_the_Crucible:_Breath.png/300px-ER_Icon_Spell_Aspect_of_the_Crucible:_Breath.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/5b/ER_Icon_Spell_Aspects_of_the_Crucible_Breath.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Breath.png?3e556a"
   },
   {
     "spell_name": "Aspects of the Crucible: Horns",
@@ -835,9 +835,9 @@
       "Physical"
     ],
     "status_buildup": "none",
-    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Horns",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible_Horns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Horns",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Aspect_of_the_Crucible:_Horns.png/300px-ER_Icon_Spell_Aspect_of_the_Crucible:_Horns.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/51/ER_Icon_Spell_Aspects_of_the_Crucible_Horns.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Horns.png?40e64e"
   },
   {
     "spell_name": "Aspects of the Crucible: Tail",
@@ -853,9 +853,9 @@
       "Physical"
     ],
     "status_buildup": "none",
-    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Tail",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Tail",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Tail",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Aspects_of_the_Crucible:_Tail.png/300px-ER_Icon_Spell_Aspects_of_the_Crucible:_Tail.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9d/ER_Icon_Spell_Aspects_of_the_Crucible_Tail.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Tail.png?78d9e0"
   },
   {
     "spell_name": "Assassin's Approach",
@@ -1532,7 +1532,7 @@
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_Spell_Flame%2C_Fall_Upon_Them.png/64px-ER_Icon_Spell_Flame%2C_Fall_Upon_Them.png?bff148"
   },
   {
-    "spell_name": "Flame, Grant me Strength",
+    "spell_name": "Flame, Grant Me Strength",
     "spell_type": "Incantation",
     "requirements": {
       "intelligence": 0,
@@ -1541,13 +1541,11 @@
     },
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
-    "damage_types": [
-      "Fire"
-    ],
+    "damage_types": [],
     "status_buildup": "none",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Grant_me_Strength",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Grant+me+Strength",
-    "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Flame,_Grant_me_Strength.png/300px-ER_Icon_Spell_Flame,_Grant_me_Strength.png"
+    "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/75/ER_Icon_Spell_Flame%2C_Grant_Me_Strength.png/64px-ER_Icon_Spell_Flame%2C_Grant_Me_Strength.png?c581e7"
   },
   {
     "spell_name": "Flame, Protect Me",
