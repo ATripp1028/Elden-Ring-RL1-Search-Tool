@@ -418,7 +418,7 @@ def extract_spells_from_table(html_content):
         # Get all cells in the row
         cells = row.find_all(['td', 'th'])
             
-        if len(cells) >= 12:  # Need at least 12 cells for all data including DLC status
+        if len(cells) == 11:  # Exactly 11 columns as specified
             # Get the first cell (spell name)
             first_cell = cells[0]
             spell_name = first_cell.get_text(strip=True)
@@ -435,12 +435,12 @@ def extract_spells_from_table(html_content):
             faith_cell = cells[6].get_text(strip=True)         # 7th cell (index 6)
             arcane_cell = cells[7].get_text(strip=True)        # 8th cell (index 7)
             
-            # Get bonus from cell 11 (index 10)
-            bonus_cell = cells[10]        # 11th cell (index 10)
+            # Get bonus from cell 10 (index 9)
+            bonus_cell = cells[9]        # 10th cell (index 9)
             spell_bonus = bonus_cell.get_text(strip=True)
             
-            # Get DLC status from cell 12 (index 11)
-            dlc_cell = cells[11]          # 12th cell (index 11)
+            # Get DLC status from cell 11 (index 10)
+            dlc_cell = cells[10]          # 11th cell (index 10)
             dlc_text = dlc_cell.get_text(strip=True)
             is_dlc = dlc_text == "Shadow of the Erdtree DLC"
             
@@ -453,32 +453,18 @@ def extract_spells_from_table(html_content):
                 except (ValueError, AttributeError):
                     return 0
             
-            intelligence = parse_requirement(intelligence_cell.get_text(strip=True))
-            faith = parse_requirement(faith_cell.get_text(strip=True))
-            arcane = parse_requirement(arcane_cell.get_text(strip=True))
+            intelligence = parse_requirement(intelligence_cell)
+            faith = parse_requirement(faith_cell)
+            arcane = parse_requirement(arcane_cell)
             
             # Look for links within the first cell
-            links = first_cell.find_all('a')
-            spell_links = []
-            wiki_fextralife_link = None
-            
-            for link in links:
-                link_info = {
-                    'text': link.get_text(strip=True),
-                    'href': link.get('href', ''),
-                    'title': link.get('title', '')
-                }
-                spell_links.append(link_info)
-                
-                # Check if this is a Fextralife link
-                if 'fextralife.com' in link.get('href', ''):
-                    wiki_fextralife_link = link.get('href')
+            link = first_cell.find('a')
+            wiki_fextralife_link = "https://eldenring.wiki.fextralife.com/" + link.get('href')
             
             # Construct wiki.gg link using established convention
             wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_')}"
             
             spell_data = {
-                'index': i,
                 'spell_name': spell_name,
                 'spell_type': spell_type,
                 'requirements': {
@@ -492,83 +478,14 @@ def extract_spells_from_table(html_content):
                 'status_buildup': check_status_buildup(spell_name),
                 'wikiGGLink': wiki_gg_link,
                 'wikiFextralifeLink': wiki_fextralife_link,
-                'links': spell_links
             }
             
             spells_data.append(spell_data)
             dlc_status = "DLC" if is_dlc else "Base Game"
             print(f"Found spell {i + 1}: {spell_name} ({spell_type}) - INT:{intelligence} FTH:{faith} ARC:{arcane} Bonus:{spell_bonus} {dlc_status}")
-        elif len(cells) >= 11:  # Need at least 11 cells for bonus but missing DLC status
-            # Get the first cell (spell name)
-            first_cell = cells[0]
-            spell_name = first_cell.get_text(strip=True)
-            
-            # Get the second cell (spell type)
-            second_cell = cells[1]
-            spell_type = second_cell.get_text(strip=True)
-            
-            # Get requirements from cells 6, 7, 8 (intelligence, faith, arcane)
-            intelligence_cell = cells[5]  # 6th cell (index 5)
-            faith_cell = cells[6]         # 7th cell (index 6)
-            arcane_cell = cells[7]        # 8th cell (index 7)
-            
-            # Get bonus from cell 11 (index 10)
-            bonus_cell = cells[10]        # 11th cell (index 10)
-            spell_bonus = bonus_cell.get_text(strip=True)
-            
-            # Extract numeric values, handling empty cells or non-numeric content
-            def parse_requirement(cell_text):
-                try:
-                    # Remove any non-numeric characters and convert to int
-                    cleaned = ''.join(filter(str.isdigit, cell_text))
-                    return int(cleaned) if cleaned else 0
-                except (ValueError, AttributeError):
-                    return 0
-            
-            intelligence = parse_requirement(intelligence_cell.get_text(strip=True))
-            faith = parse_requirement(faith_cell.get_text(strip=True))
-            arcane = parse_requirement(arcane_cell.get_text(strip=True))
-            
-            # Look for links within the first cell
-            links = first_cell.find_all('a')
-            spell_links = []
-            wiki_fextralife_link = None
-            
-            for link in links:
-                link_info = {
-                    'text': link.get_text(strip=True),
-                    'href': link.get('href', ''),
-                    'title': link.get('title', '')
-                }
-                spell_links.append(link_info)
-                
-                # Check if this is a Fextralife link
-                if 'fextralife.com' in link.get('href', ''):
-                    wiki_fextralife_link = link.get('href')
-            
-            # Construct wiki.gg link using established convention
-            wiki_gg_link = f"https://eldenring.wiki.gg/wiki/{spell_name.replace(' ', '_')}"
-            
-            spell_data = {
-                'index': i,
-                'spell_name': spell_name,
-                'spell_type': spell_type,
-                'requirements': {
-                    'intelligence': intelligence,
-                    'faith': faith,
-                    'arcane': arcane
-                },
-                'bonus': spell_bonus,
-                'dlc_exclusive': None,
-                'damage_types': get_damage_types(spell_name, spell_type, spell_bonus),
-                'status_buildup': check_status_buildup(spell_name),
-                'wikiGGLink': wiki_gg_link,
-                'wikiFextralifeLink': wiki_fextralife_link,
-                'links': spell_links
-            }
-            
-            spells_data.append(spell_data)
-            print(f"Found spell {i + 1}: {spell_name} ({spell_type}) - INT:{intelligence} FTH:{faith} ARC:{arcane} Bonus:{spell_bonus} DLC:Not available")
+        else:
+            # Skip rows that don't have exactly 11 columns
+            print(f"Skipping row {i + 1}: Expected 11 columns, found {len(cells)}")
     
     return spells_data
 
@@ -654,9 +571,8 @@ def main():
         print(f"\nFirst few spells:")
         for i, spell in enumerate(spells_data[:5]):
             print(f"  - Spell {i + 1}: {spell['spell_name']} ({spell['spell_type']})")
-            if spell['links']:
-                for link in spell['links']:
-                    print(f"    Link: {link['text']} -> {link['href']}")
+            if spell['wikiFextralifeLink']:
+                print(f"    Link: {spell['wikiFextralifeLink']}")
         
         if len(spells_data) > 5:
             print(f"  ... and {len(spells_data) - 5} more spells")

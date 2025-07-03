@@ -1,0 +1,3373 @@
+[
+  {
+    "spell_name": "Furious Blade of Ansbach",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 19,
+      "arcane": 27
+    },
+    "bonus": "Blood Oath",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Furious_Blade_of_Ansbach",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Furious+Blade+of+Ansbach"
+  },
+  {
+    "spell_name": "Heal from Afar",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heal_from_Afar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Heal+from+Afar"
+  },
+  {
+    "spell_name": "Aspects of the Crucible: Thorns",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Thorns",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Thorns"
+  },
+  {
+    "spell_name": "Aspects of the Crucible: Bloom",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Bloom",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Bloom"
+  },
+  {
+    "spell_name": "Minor Erdtree",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 70,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Minor_Erdtree",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Minor+Erdtree"
+  },
+  {
+    "spell_name": "Land of Shadow (Incantation)",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 58,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Land_of_Shadow_(Incantation)",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Land+of+Shadow+(Incantation)"
+  },
+  {
+    "spell_name": "Wrath from Afar",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 34,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wrath_from_Afar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Wrath+from+Afar"
+  },
+  {
+    "spell_name": "Light of Miquella",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 72,
+      "arcane": 0
+    },
+    "bonus": "Miquellan",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Light_of_Miquella",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Light+of+Miquella"
+  },
+  {
+    "spell_name": "Multilayered Ring of Light",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 36,
+      "arcane": 0
+    },
+    "bonus": "Miquellan",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Multilayered_Ring_of_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Multilayered+Ring+of+Light"
+  },
+  {
+    "spell_name": "Roar of Rugalea",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Roar_of_Rugalea",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Roar+of+Rugalea"
+  },
+  {
+    "spell_name": "Knight's Lightning Spear",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 36,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Knight's_Lightning_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Knight's+Lightning+Spear"
+  },
+  {
+    "spell_name": "Dragonbolt of Florissax",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 52,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonbolt_of_Florissax",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonbolt+of+Florissax"
+  },
+  {
+    "spell_name": "Electrocharge",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 30,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Electrocharge",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Electrocharge"
+  },
+  {
+    "spell_name": "Bayle's Tyranny",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 49
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire",
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bayle's_Tyranny",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bayle's+Tyranny"
+  },
+  {
+    "spell_name": "Bayle's Flame Lightning",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 0,
+      "arcane": 53
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire",
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bayle's_Flame_Lightning",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bayle's+Flame+Lightning"
+  },
+  {
+    "spell_name": "Ghostflame Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 15
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Magic"
+    ],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ghostflame_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ghostflame+Breath"
+  },
+  {
+    "spell_name": "Rotten Butterflies",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 33,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "scarlet_rot",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Butterflies",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rotten+Butterflies"
+  },
+  {
+    "spell_name": "Pest-Thread Spears",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 26,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest-Thread_Spears",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Pest-Thread+Spears"
+  },
+  {
+    "spell_name": "Midra's Flame of Frenzy",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 41,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Midra's_Flame_of_Frenzy",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Midra's+Flame+of+Frenzy"
+  },
+  {
+    "spell_name": "Divine Beast Tornado",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 28,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Beast_Tornado",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Beast+Tornado"
+  },
+  {
+    "spell_name": "Divine Bird Feathers",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Bird_Feathers",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Bird+Feathers"
+  },
+  {
+    "spell_name": "Fire Serpent",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "bonus": "Messmer's Flame",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire_Serpent",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fire+Serpent"
+  },
+  {
+    "spell_name": "Rain of Fire",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 52,
+      "arcane": 0
+    },
+    "bonus": "Messmer's Flame",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rain_of_Fire",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rain+of+Fire"
+  },
+  {
+    "spell_name": "Messmer's Orb",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 60,
+      "arcane": 0
+    },
+    "bonus": "Messmer's Flame",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Messmer's_Orb",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Messmer's+Orb"
+  },
+  {
+    "spell_name": "Watchful Spirit",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 26,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Watchful_Spirit",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Watchful+Spirit"
+  },
+  {
+    "spell_name": "Golden Arcs",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Arcs",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Arcs"
+  },
+  {
+    "spell_name": "Giant Golden Arc",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 34,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giant_Golden_Arc",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Giant+Golden+Arc"
+  },
+  {
+    "spell_name": "Spira",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 48,
+      "arcane": 0
+    },
+    "bonus": "Spiral Tower",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spira",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Spira"
+  },
+  {
+    "spell_name": "Miriam's Vanishing",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 26,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Miriam's_Vanishing",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Miriam's+Vanishing"
+  },
+  {
+    "spell_name": "Glintblade Trio",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 28,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Trio",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Trio"
+  },
+  {
+    "spell_name": "Rellana's Twin Moons",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 72,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Moon",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rellana's_Twin_Moons",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rellana's+Twin+Moons"
+  },
+  {
+    "spell_name": "Glintstone Nail",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Finger",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nail"
+  },
+  {
+    "spell_name": "Glintstone Nails",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 32,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Finger",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nails",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nails"
+  },
+  {
+    "spell_name": "Blades of Stone",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 48,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blades_of_Stone",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blades+of+Stone"
+  },
+  {
+    "spell_name": "Gravitational Missile",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 36,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravitational_Missile",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravitational+Missile"
+  },
+  {
+    "spell_name": "Mantle of Thorns",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "bonus": "Thorn",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mantle_of_Thorns",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mantle+of+Thorns"
+  },
+  {
+    "spell_name": "Impenetrable Thorns",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Thorn",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Impenetrable_Thorns",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Impenetrable+Thorns"
+  },
+  {
+    "spell_name": "Rings of Spectral Light",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 24,
+      "faith": 18,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rings_of_Spectral_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rings+of+Spectral+Light"
+  },
+  {
+    "spell_name": "Vortex of Putrescence",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 32,
+      "faith": 26,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vortex_of_Putrescence",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Vortex+of+Putrescence"
+  },
+  {
+    "spell_name": "Mass of Putrescence",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 28,
+      "faith": 22,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mass_of_Putrescence",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mass+of+Putrescence"
+  },
+  {
+    "spell_name": "Fleeting Microcosm",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 42,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Finger",
+    "dlc_exclusive": true,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fleeting_Microcosm",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fleeting+Microcosm"
+  },
+  {
+    "spell_name": "Cherishing Fingers",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 36,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Finger",
+    "dlc_exclusive": true,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cherishing_Fingers",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cherishing+Fingers"
+  },
+  {
+    "spell_name": "Agheel's Flame",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 15
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Agheel's_Flame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Agheel's+Flame"
+  },
+  {
+    "spell_name": "Ancient Dragons' Lightning Spear",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 32,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Dragons'_Lightning_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Dragons'+Lightning+Spear"
+  },
+  {
+    "spell_name": "Ancient Dragons' Lightning Strike",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 26,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Dragons'_Lightning_Strike",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Dragons'+Lightning+Strike"
+  },
+  {
+    "spell_name": "Aspect of the Crucible: Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Breath"
+  },
+  {
+    "spell_name": "Aspect of the Crucible: Horns",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible:_Horns",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Horns"
+  },
+  {
+    "spell_name": "Aspects of the Crucible: Tail",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible:_Tail",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Tail"
+  },
+  {
+    "spell_name": "Assassin's Approach",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Assassin's_Approach",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Assassin's+Approach"
+  },
+  {
+    "spell_name": "Barrier of Gold",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Barrier_of_Gold",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Barrier+of+Gold"
+  },
+  {
+    "spell_name": "Beast Claw",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 8,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beast_Claw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Beast+Claw"
+  },
+  {
+    "spell_name": "Bestial Constitution",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 9,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Constitution",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Constitution"
+  },
+  {
+    "spell_name": "Bestial Sling",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Sling",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Sling"
+  },
+  {
+    "spell_name": "Bestial Vitality",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Vitality",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Vitality"
+  },
+  {
+    "spell_name": "Black Blade",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 46,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Blade"
+  },
+  {
+    "spell_name": "Black Flame",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame"
+  },
+  {
+    "spell_name": "Black Flame Blade",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 17,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame+Blade"
+  },
+  {
+    "spell_name": "Black Flame Ritual",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 42,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame_Ritual",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame+Ritual"
+  },
+  {
+    "spell_name": "Black Flame's Protection",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 30,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame's_Protection",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame's+Protection"
+  },
+  {
+    "spell_name": "Blessing of the Erdtree",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 38,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blessing_of_the_Erdtree",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blessing+of+the+Erdtree"
+  },
+  {
+    "spell_name": "Blessing's Boon",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blessing's_Boon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blessing's+Boon"
+  },
+  {
+    "spell_name": "Bloodboon",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 17
+    },
+    "bonus": "Blood Oath",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodboon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodboon"
+  },
+  {
+    "spell_name": "Bloodflame Blade",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 10
+    },
+    "bonus": "Blood Oath",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodflame_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodflame+Blade"
+  },
+  {
+    "spell_name": "Bloodflame Talons",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 15
+    },
+    "bonus": "Blood Oath",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodflame_Talons",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodflame+Talons"
+  },
+  {
+    "spell_name": "Borealis's Mist",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 15
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Magic"
+    ],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Borealis's_Mist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Borealis's+Mist"
+  },
+  {
+    "spell_name": "Burn, O Flame!",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Burn,_O_Flame!",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Burn+O+Flame!"
+  },
+  {
+    "spell_name": "Catch Flame",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 8,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Catch_Flame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Catch+Flame"
+  },
+  {
+    "spell_name": "Cure Poison",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cure_Poison",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cure+Poison"
+  },
+  {
+    "spell_name": "Darkness",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 18,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Darkness",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Darkness"
+  },
+  {
+    "spell_name": "Death Lightning",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 47,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Death_Lightning",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Death+Lightning"
+  },
+  {
+    "spell_name": "Discus of Light",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Discus_of_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Discus+of+Light"
+  },
+  {
+    "spell_name": "Divine Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Fortification"
+  },
+  {
+    "spell_name": "Dragonbolt Blessing",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonbolt_Blessing",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonbolt+Blessing"
+  },
+  {
+    "spell_name": "Dragonclaw",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 17,
+      "arcane": 13
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonclaw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonclaw"
+  },
+  {
+    "spell_name": "Dragonfire",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 12
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonfire",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonfire"
+  },
+  {
+    "spell_name": "Dragonice",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 12
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Magic"
+    ],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonice",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonice"
+  },
+  {
+    "spell_name": "Dragonmaw",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 16
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonmaw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonmaw"
+  },
+  {
+    "spell_name": "Ekzykes's Decay",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 15
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "scarlet_rot",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ekzykes's_Decay",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ekzykes's+Decay"
+  },
+  {
+    "spell_name": "Elden Stars",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 50,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Elden_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Elden+Stars"
+  },
+  {
+    "spell_name": "Electrify Armament",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Electrify_Armament",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Electrify+Armament"
+  },
+  {
+    "spell_name": "Erdtree Heal",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 42,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdtree_Heal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Erdtree+Heal"
+  },
+  {
+    "spell_name": "Fire's Deadly Sin",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 19,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire's_Deadly_Sin",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fire's+Deadly+Sin"
+  },
+  {
+    "spell_name": "Flame Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Fortification"
+  },
+  {
+    "spell_name": "Flame Sling",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_Sling",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Sling"
+  },
+  {
+    "spell_name": "Flame of the Fell God",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 41,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_of_the_Fell_God",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+of+the+Fell+God"
+  },
+  {
+    "spell_name": "Flame, Cleanse Me",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Cleanse_Me",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Cleanse+Me"
+  },
+  {
+    "spell_name": "Flame, Fall Upon Them",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 28,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Fall_Upon_Them",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Fall+Upon+Them"
+  },
+  {
+    "spell_name": "Flame, Grant me Strength",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Grant_me_Strength",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Grant+me+Strength"
+  },
+  {
+    "spell_name": "Flame, Protect Me",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Protect_Me",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Protect+Me"
+  },
+  {
+    "spell_name": "Fortissax's Lightning Spear",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 46,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fortissax's_Lightning_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fortissax's+Lightning+Spear"
+  },
+  {
+    "spell_name": "Frenzied Burst",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 22,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frenzied_Burst",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frenzied+Burst"
+  },
+  {
+    "spell_name": "Frozen Lightning Spear",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 34,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Lightning_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frozen+Lightning+Spear"
+  },
+  {
+    "spell_name": "Giantsflame Take Thee",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 30,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giantsflame_Take_Thee",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Giantsflame+Take+Thee"
+  },
+  {
+    "spell_name": "Glintstone Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 12
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Magic"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Breath"
+  },
+  {
+    "spell_name": "Golden Lightning Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Lightning_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Lightning+Fortification"
+  },
+  {
+    "spell_name": "Golden Vow",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 25,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Vow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Vow+(Spell)"
+  },
+  {
+    "spell_name": "Great Heal",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Heal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Heal"
+  },
+  {
+    "spell_name": "Greyoll's Roar",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 28,
+      "arcane": 17
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greyoll's_Roar",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greyoll's+Roar"
+  },
+  {
+    "spell_name": "Gurrang's Beast Claw",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gurrang's_Beast_Claw",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gurrang's+Beast+Claw"
+  },
+  {
+    "spell_name": "Heal",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Heal"
+  },
+  {
+    "spell_name": "Honed Bolt",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Honed_Bolt",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Honed+Bolt"
+  },
+  {
+    "spell_name": "Howl of Shabriri",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 33,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire",
+      "Physical"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Howl_of_Shabriri",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Howl+of+Shabriri"
+  },
+  {
+    "spell_name": "Immutable Shield",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 19,
+      "faith": 19,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Immutable_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Immutable+Shield"
+  },
+  {
+    "spell_name": "Inescapable Frenzy",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Inescapable_Frenzy",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Inescapable+Frenzy"
+  },
+  {
+    "spell_name": "Lansseax's Glaive",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 40,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lansseax's_Glaive",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lansseax's+Glaive"
+  },
+  {
+    "spell_name": "Law of Causality",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 29,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Law_of_Causality",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Law+of+Causality"
+  },
+  {
+    "spell_name": "Law of Regression",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 37,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Law_of_Regression",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Law+of+Regression"
+  },
+  {
+    "spell_name": "Lightning Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Fortification"
+  },
+  {
+    "spell_name": "Lightning Spear",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 17,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Spear",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Spear"
+  },
+  {
+    "spell_name": "Lightning Strike",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 28,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Strike",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Strike"
+  },
+  {
+    "spell_name": "Litany of Proper Death",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 17,
+      "faith": 17,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Litany_of_Proper_Death",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Litany+of+Proper+Death"
+  },
+  {
+    "spell_name": "Lord's Aid",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Aid",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Aid"
+  },
+  {
+    "spell_name": "Lord's Divine Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 27,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Divine_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Divine+Fortification"
+  },
+  {
+    "spell_name": "Lord's Heal",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 20,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Heal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Heal"
+  },
+  {
+    "spell_name": "Magic Fortification",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Fortification",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Fortification"
+  },
+  {
+    "spell_name": "Magma Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 14,
+      "arcane": 10
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magma+Breath"
+  },
+  {
+    "spell_name": "Noble Presence",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 26,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Noble_Presence",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Noble+Presence"
+  },
+  {
+    "spell_name": "O, Flame!",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/O,_Flame!",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//O+Flame!"
+  },
+  {
+    "spell_name": "Order Healing",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 11,
+      "faith": 11,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Order_Healing",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Order+Healing"
+  },
+  {
+    "spell_name": "Order's Blade",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 13,
+      "faith": 13,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Order's_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Order's+Blade"
+  },
+  {
+    "spell_name": "Pest Threads",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 11,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest_Threads",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Pest+Threads"
+  },
+  {
+    "spell_name": "Placidusax's Ruin",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 36,
+      "arcane": 0
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire",
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Placidusax's_Ruin",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Placidusax's+Ruin"
+  },
+  {
+    "spell_name": "Poison Armament",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "poison",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poison_Armament",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Poison+Armament"
+  },
+  {
+    "spell_name": "Poison Mist",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "poison",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poison_Mist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Poison+Mist"
+  },
+  {
+    "spell_name": "Protection of the Erdtree",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 35,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Protection_of_the_Erdtree",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Protection+of+the+Erdtree"
+  },
+  {
+    "spell_name": "Radagon's Rings of Light",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 31,
+      "faith": 31,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Radagon's_Rings_of_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Radagon's+Rings+of+Light"
+  },
+  {
+    "spell_name": "Rejection",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rejection",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rejection"
+  },
+  {
+    "spell_name": "Rotten Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 15,
+      "arcane": 12
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "scarlet_rot",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rotten+Breath"
+  },
+  {
+    "spell_name": "Scarlet Aeonia",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 35,
+      "arcane": 0
+    },
+    "bonus": "Servants of Rot",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "scarlet_rot",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scarlet_Aeonia",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scarlet+Aeonia"
+  },
+  {
+    "spell_name": "Scouring Black Flame",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 28,
+      "arcane": 0
+    },
+    "bonus": "Black Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scouring_Black_Flame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scouring+Black+Flame"
+  },
+  {
+    "spell_name": "Shadow Bait",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shadow_Bait",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shadow+Bait"
+  },
+  {
+    "spell_name": "Smarag's Glintstone Breath",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 15
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Magic"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smarag's_Glintstone_Breath",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Smarag's+Glintstone+Breath"
+  },
+  {
+    "spell_name": "Stone of Gurranq",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 0
+    },
+    "bonus": "Bestial",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stone_of_Gurranq",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Stone+of+Gurranq"
+  },
+  {
+    "spell_name": "Surge, O Flame!",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 9,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Surge,_O_Flame!",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Surge+O+Flame!"
+  },
+  {
+    "spell_name": "Swarm of Flies",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 11,
+      "arcane": 16
+    },
+    "bonus": "Blood Oath",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swarm_of_Flies",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Swarm+of+Flies"
+  },
+  {
+    "spell_name": "The Flame of Frenzy",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 16,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/The_Flame_of_Frenzy",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//The+Flame+of+Frenzy"
+  },
+  {
+    "spell_name": "Theodorix's Magma",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 14
+    },
+    "bonus": "Dragon Communion",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Theodorix's_Magma",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Theodorix's+Magma"
+  },
+  {
+    "spell_name": "Triple Rings of Light",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 23,
+      "faith": 23,
+      "arcane": 0
+    },
+    "bonus": "Golden Order",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Triple_Rings_of_Light",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Triple+Rings+of+Light"
+  },
+  {
+    "spell_name": "Unendurable Frenzy",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 31,
+      "arcane": 0
+    },
+    "bonus": "Frenzied Flame",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "madness",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unendurable_Frenzy",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unendurable+Frenzy"
+  },
+  {
+    "spell_name": "Urgent Heal",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 8,
+      "arcane": 0
+    },
+    "bonus": "Two Fingers",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Urgent_Heal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Urgent+Heal"
+  },
+  {
+    "spell_name": "Vyke's Dragonbolt",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 23,
+      "arcane": 0
+    },
+    "bonus": "Dragon Cult",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Lightning"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vyke's_Dragonbolt",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Vyke's+Dragonbolt"
+  },
+  {
+    "spell_name": "Whirl, O Flame!",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 13,
+      "arcane": 0
+    },
+    "bonus": "Giants' Flame",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Whirl,_O_Flame!",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Whirl+O+Flame!"
+  },
+  {
+    "spell_name": "Wrath of Gold",
+    "spell_type": "Incantation",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 32,
+      "arcane": 0
+    },
+    "bonus": "Erdtree",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Holy"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wrath_of_Gold",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Wrath+of+Gold"
+  },
+  {
+    "spell_name": "Adula's Moonblade",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 32,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Adula's_Moonblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Adula's+Moonblade"
+  },
+  {
+    "spell_name": "Ambush Shard",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 23,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ambush_Shard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ambush+Shard"
+  },
+  {
+    "spell_name": "Ancient Death Rancor",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 34,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Death_Rancor",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Death+of+Rancor"
+  },
+  {
+    "spell_name": "Briars of Punishment",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 21,
+      "arcane": 0
+    },
+    "bonus": "Thorn",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Punishment",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Punishment"
+  },
+  {
+    "spell_name": "Briars of Sin",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 0,
+      "faith": 24,
+      "arcane": 0
+    },
+    "bonus": "Thorn",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "blood_loss",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Sin",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Sin"
+  },
+  {
+    "spell_name": "Cannon of Haima",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 25,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cannon_of_Haima",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cannon+of+Haima"
+  },
+  {
+    "spell_name": "Carian Greatsword",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 24,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Greatsword",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Greatsword"
+  },
+  {
+    "spell_name": "Carian Phalanx",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 34,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Phalanx",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Phalanx"
+  },
+  {
+    "spell_name": "Carian Piercer",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 27,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Piercer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Piercer"
+  },
+  {
+    "spell_name": "Carian Retaliation",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 17,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Retaliation",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Retaliation"
+  },
+  {
+    "spell_name": "Carian Slicer",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Slicer",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Slicer"
+  },
+  {
+    "spell_name": "Collapsing Stars",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 36,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Collapsing_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Collapsing+Stars"
+  },
+  {
+    "spell_name": "Comet",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 52,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet"
+  },
+  {
+    "spell_name": "Comet Azur",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 60,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet_Azur",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet+Azur"
+  },
+  {
+    "spell_name": "Crystal Barrage",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 23,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Barrage",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Barrage"
+  },
+  {
+    "spell_name": "Crystal Burst",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Burst",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Burst"
+  },
+  {
+    "spell_name": "Crystal Release",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 41,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Crystalian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Release",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Release"
+  },
+  {
+    "spell_name": "Crystal Torrent",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 47,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Crystalian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Torrent",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Torrent"
+  },
+  {
+    "spell_name": "Eternal Darkness",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 35,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eternal_Darkness",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Eternal+Darkness"
+  },
+  {
+    "spell_name": "Explosive Ghostflame",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 42,
+      "faith": 30,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Explosive_Ghostflame",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Explosive+Ghostflame"
+  },
+  {
+    "spell_name": "Fia's Mist",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 23,
+      "faith": 18,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fia's_Mist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fia's+Mist"
+  },
+  {
+    "spell_name": "Founding Rain of Stars",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 52,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Founding_Rain_of_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Founding+Rain+of+Stars"
+  },
+  {
+    "spell_name": "Freezing Mist",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 21,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Cold",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Freezing_Mist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Freezing+Mist"
+  },
+  {
+    "spell_name": "Frozen Armament",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Cold",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Armament",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frozen+Armament"
+  },
+  {
+    "spell_name": "Gavel of Haima",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 25,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gavel_of_Haima",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gavel+of+Haima"
+  },
+  {
+    "spell_name": "Gelmir's Fury",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 28,
+      "faith": 15,
+      "arcane": 0
+    },
+    "bonus": "Magma",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gelmir's_Fury",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gelmir's+Fury"
+  },
+  {
+    "spell_name": "Glintblade Phalanx",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 22,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Phalanx",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Phalanx"
+  },
+  {
+    "spell_name": "Glintstone Arc",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 13,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Arc",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Arc"
+  },
+  {
+    "spell_name": "Glintstone Cometshard",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 36,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Cometshard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Cometshard"
+  },
+  {
+    "spell_name": "Glintstone Icecrag",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Cold",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Icecrag",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Icecrag"
+  },
+  {
+    "spell_name": "Glintstone Pebble",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 10,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Pebble",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Pebble"
+  },
+  {
+    "spell_name": "Glintstone Stars",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Stars",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Stars"
+  },
+  {
+    "spell_name": "Gravity Well",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 17,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravity_Well",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravity+Well"
+  },
+  {
+    "spell_name": "Great Glintstone Shard",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Glintstone_Shard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Glintstone+Shard"
+  },
+  {
+    "spell_name": "Great Oracular Bubble",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 25,
+      "faith": 0,
+      "arcane": 18
+    },
+    "bonus": "Oracle",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Oracular_Bubble",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Oracular+Bubble"
+  },
+  {
+    "spell_name": "Greatblade Phalanx",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 29,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatblade_Phalanx",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greatblade+Phalanx"
+  },
+  {
+    "spell_name": "Loretta's Greatbow",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 26,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Greatbow",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Greatbow"
+  },
+  {
+    "spell_name": "Loretta's Mastery",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 46,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Mastery",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Mastery"
+  },
+  {
+    "spell_name": "Lucidity",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 17,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lucidity",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lucidity"
+  },
+  {
+    "spell_name": "Magic Downpour",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Downpour",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Downpour"
+  },
+  {
+    "spell_name": "Magic Glintblade",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Carian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Glintblade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Glintblade"
+  },
+  {
+    "spell_name": "Magma Shot",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 19,
+      "faith": 10,
+      "arcane": 0
+    },
+    "bonus": "Magma",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Shot",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magma+Shot"
+  },
+  {
+    "spell_name": "Meteorite",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 30,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Meteorite"
+  },
+  {
+    "spell_name": "Meteorite of Astel",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 55,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite_of_Astel",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Meteorite+of+Astel"
+  },
+  {
+    "spell_name": "Night Comet",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 38,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Comet",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Comet"
+  },
+  {
+    "spell_name": "Night Maiden's Mist",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 14,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Maiden's_Mist",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Maiden's+Mist"
+  },
+  {
+    "spell_name": "Night Shard",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Shard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Shard"
+  },
+  {
+    "spell_name": "Oracle Bubbles",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 19,
+      "faith": 0,
+      "arcane": 15
+    },
+    "bonus": "Oracle",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Oracle_Bubbles",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Oracle+Bubbles"
+  },
+  {
+    "spell_name": "Rancorcall",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 16,
+      "faith": 14,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rancorcall",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rancorcall"
+  },
+  {
+    "spell_name": "Ranni's Dark Moon",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 68,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Moon",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ranni's_Dark_Moon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ranni's+Dark+Moon"
+  },
+  {
+    "spell_name": "Rennala's Full Moon",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 70,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Moon",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rennala's_Full_Moon",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rennala's+Full+Moon"
+  },
+  {
+    "spell_name": "Rock Blaster",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 21,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rock_Blaster",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rock+Blaster"
+  },
+  {
+    "spell_name": "Rock Sling",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Gravity",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Physical"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rock_Sling",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rock+Sling"
+  },
+  {
+    "spell_name": "Roiling Magma",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 21,
+      "faith": 12,
+      "arcane": 0
+    },
+    "bonus": "Magma",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Roiling_Magma",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Roiling+Magma"
+  },
+  {
+    "spell_name": "Rykard's Rancor",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 40,
+      "faith": 18,
+      "arcane": 0
+    },
+    "bonus": "Magma",
+    "dlc_exclusive": false,
+    "damage_types": [
+      "Fire"
+    ],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rykard's_Rancor",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rykard's+Rancor"
+  },
+  {
+    "spell_name": "Scholar's Armament",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scholar's_Armament",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scholar's+Armament"
+  },
+  {
+    "spell_name": "Scholar's Shield",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scholar's_Shield",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scholar's+Shield"
+  },
+  {
+    "spell_name": "Shard Spiral",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 27,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shard_Spiral",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shard+Spiral"
+  },
+  {
+    "spell_name": "Shatter Earth",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shatter_Earth",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shatter+Earth"
+  },
+  {
+    "spell_name": "Shattering Crystal",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 38,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Crystalian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shattering_Crystal",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shattering+Crystal"
+  },
+  {
+    "spell_name": "Star Shower",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 24,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Star_Shower",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Star+Shower"
+  },
+  {
+    "spell_name": "Starlight",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 15,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Starlight",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Starlight"
+  },
+  {
+    "spell_name": "Stars of Ruin",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 43,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stars_of_Ruin",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Stars+of+Ruin"
+  },
+  {
+    "spell_name": "Swift Glintstone Shard",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swift_Glintstone_Shard",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Swift+Glintstone+Shard"
+  },
+  {
+    "spell_name": "Terra Magica",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 20,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Terra_Magica",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Terra+Magica"
+  },
+  {
+    "spell_name": "Thops's Barrier",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 18,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Glintstone",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Thops's_Barrier",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Thops's+Barrier+(Spell)"
+  },
+  {
+    "spell_name": "Tibia's Summons",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 28,
+      "faith": 20,
+      "arcane": 0
+    },
+    "bonus": "Death",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Tibia's_Summons",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Tibia's+Summons"
+  },
+  {
+    "spell_name": "Unseen Blade",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 12,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unseen_Blade",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unseen+Blade"
+  },
+  {
+    "spell_name": "Unseen Form",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 16,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Sellian",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "none",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unseen_Form",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unseen+Form"
+  },
+  {
+    "spell_name": "Zamor Ice Storm",
+    "spell_type": "Sorcery",
+    "requirements": {
+      "intelligence": 36,
+      "faith": 0,
+      "arcane": 0
+    },
+    "bonus": "Cold",
+    "dlc_exclusive": false,
+    "damage_types": [],
+    "status_buildup": "frostbite",
+    "wikiGGLink": "https://eldenring.wiki.gg/wiki/Zamor_Ice_Storm",
+    "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Zamor+Ice+Storm+(Spell)"
+  }
+]
