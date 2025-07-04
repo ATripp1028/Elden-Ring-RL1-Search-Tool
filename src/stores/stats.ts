@@ -70,6 +70,7 @@ export const useStatsStore = defineStore('stats', () => {
 
   const page = ref(1)
   const itemsPerPage = ref(10)
+  const weaponTypes = ref([])
 
   const searchQuery = ref('')
   const accountForTwoHanded = ref(true)
@@ -237,5 +238,6 @@ export const useStatsStore = defineStore('stats', () => {
     totalPages,
     filteredWeapons,
     accountForTwoHanded,
+    weaponTypes,
   }
 })

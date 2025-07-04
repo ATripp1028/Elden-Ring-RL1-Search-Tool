@@ -13,36 +13,6 @@ const paginatedWeapons = computed(() => {
 
 <template>
   <div class="weapons-table">
-    <div class="pagination-controls">
-      <div class="items-per-page">
-        <label for="itemsPerPage">Items per page:</label>
-        <select
-          id="itemsPerPage"
-          :value="stats.itemsPerPage"
-          @change="
-            (e: Event) => (stats.itemsPerPage = Number((e.target as HTMLSelectElement).value))
-          "
-        >
-          <option value="10">10</option>
-          <option value="20">20</option>
-          <option value="40">40</option>
-        </select>
-      </div>
-      <div class="result-count">
-        {{ stats.filteredWeapons.length }} weapon{{ stats.filteredWeapons.length !== 1 ? 's' : '' }}
-        found
-      </div>
-      <div class="page-navigation">
-        <button :disabled="stats.page === 1" @click="stats.page = 1">First</button>
-        <button :disabled="stats.page === 1" @click="stats.page--">Previous</button>
-        <span>Page {{ stats.page }} of {{ stats.totalPages }}</span>
-        <button :disabled="stats.page >= stats.totalPages" @click="stats.page++">Next</button>
-        <button :disabled="stats.page >= stats.totalPages" @click="stats.page = stats.totalPages">
-          Last
-        </button>
-      </div>
-    </div>
-
     <table>
       <thead>
         <tr>
@@ -178,54 +148,5 @@ tr:hover {
 
 .error {
   color: red;
-}
-
-.pagination-controls {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
-}
-
-.items-per-page {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.items-per-page select {
-  padding: 0.25rem 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.result-count {
-  font-weight: 500;
-  color: #666;
-}
-
-.page-navigation {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.page-navigation button {
-  padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
-  cursor: pointer;
-}
-
-.page-navigation button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.page-navigation button:hover:not(:disabled) {
-  background-color: #f5f5f5;
 }
 </style>
