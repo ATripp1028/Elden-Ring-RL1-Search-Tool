@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { useStatsStore } from '../stores/stats'
-import { useFilterStore } from '../stores/filter'
 
 const stats = useStatsStore()
-const filter = useFilterStore()
 
 const resetStats = () => {
   stats.strength = 10
@@ -11,6 +9,7 @@ const resetStats = () => {
   stats.intelligence = 10
   stats.faith = 10
   stats.arcane = 10
+  stats.page = 1
 }
 </script>
 
