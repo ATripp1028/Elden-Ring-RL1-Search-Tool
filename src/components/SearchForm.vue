@@ -5,6 +5,13 @@ import { useFilterStore } from '../stores/filter'
 const stats = useStatsStore()
 const filter = useFilterStore()
 
+const resetStats = () => {
+  stats.strength = 10
+  stats.dexterity = 10
+  stats.intelligence = 10
+  stats.faith = 10
+  stats.arcane = 10
+}
 </script>
 
 <template>
@@ -13,28 +20,35 @@ const filter = useFilterStore()
     <p class="subtitle">Enter stats to see what your options are.</p>
     <div class="form-group">
       <label for="field1">Strength</label>
-      <input type="number" id="field1" v-model="stats.strength" placeholder="Enter Strength">
+      <input type="number" id="field1" v-model="stats.strength" placeholder="Enter Strength" />
     </div>
-    
+
     <div class="form-group">
       <label for="field2">Dexterity</label>
-      <input type="number" id="field2" v-model="stats.dexterity" placeholder="Enter Dexterity">
+      <input type="number" id="field2" v-model="stats.dexterity" placeholder="Enter Dexterity" />
     </div>
-    
+
     <div class="form-group">
       <label for="field3">Intelligence</label>
-      <input type="number" id="field3" v-model="stats.intelligence" placeholder="Enter Intelligence">
+      <input
+        type="number"
+        id="field3"
+        v-model="stats.intelligence"
+        placeholder="Enter Intelligence"
+      />
     </div>
-    
+
     <div class="form-group">
       <label for="field4">Faith</label>
-      <input type="number" id="field4" v-model="stats.faith" placeholder="Enter Faith">
+      <input type="number" id="field4" v-model="stats.faith" placeholder="Enter Faith" />
     </div>
-    
+
     <div class="form-group">
       <label for="field5">Arcane</label>
-      <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane">
+      <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane" />
     </div>
+
+    <button @click="resetStats">Reset</button>
 
     <!-- <div class="debug-section">
       <h3>Debug Info</h3>

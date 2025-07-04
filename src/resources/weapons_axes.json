@@ -481,9 +481,7 @@
     },
     "damage_types": {
       "major": "Physical",
-      "minor": [
-        "Magic"
-      ]
+      "minor": ["Magic"]
     },
     "attack_types": {
       "primary": "Standard",
@@ -514,9 +512,7 @@
     },
     "damage_types": {
       "major": "Physical",
-      "minor": [
-        "Lightning"
-      ]
+      "minor": ["Lightning"]
     },
     "attack_types": {
       "primary": "Standard",
