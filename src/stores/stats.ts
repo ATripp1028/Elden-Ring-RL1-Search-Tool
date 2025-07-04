@@ -48,7 +48,7 @@ interface ScrapedWeapon {
   weapon_name: string
   weapon_type: string
   attributes?: {
-    strength?: number | { one_hand: number; two_hand: number }
+    strength?: { one_hand: number; two_hand: number }
     dexterity?: number
     intelligence?: number
     faith?: number
@@ -126,7 +126,8 @@ export const useStatsStore = defineStore('stats', () => {
   const weapons = ref(
     allWeaponArrays.flat().map((weapon: ScrapedWeapon, index: number) => {
       // Handle different attribute formats from the scraped data
-      let strength = 0
+      let strengthOneHand = 0
+      let strengthTwoHand = 0
       let dexterity = 0
       let intelligence = 0
       let faith = 0
@@ -135,11 +136,8 @@ export const useStatsStore = defineStore('stats', () => {
       if (weapon.attributes) {
         if (weapon.attributes.strength) {
           // Handle the new format with one_hand/two_hand structure
-          if (typeof weapon.attributes.strength === 'object') {
-            strength = weapon.attributes.strength.one_hand || 0
-          } else {
-            strength = weapon.attributes.strength || 0
-          }
+          strengthOneHand = weapon.attributes.strength.one_hand || 0
+          strengthTwoHand = weapon.attributes.strength.two_hand || 0
         }
         dexterity = weapon.attributes.dexterity || 0
         intelligence = weapon.attributes.intelligence || 0
@@ -151,9 +149,7 @@ export const useStatsStore = defineStore('stats', () => {
         id: weapon.weapon_name || `weapon-${index}`,
         name: weapon.weapon_name || 'Unknown Weapon',
         image: weapon.image?.src || '',
-        description: weapon.weapon_type || '',
         category: weapon.weapon_type || '',
-        weight: 0, // Not available in scraped data
         attack: {
           physical: 0,
           magic: 0,
@@ -162,27 +158,13 @@ export const useStatsStore = defineStore('stats', () => {
           holy: 0,
           critical: 0,
         },
-        defence: {
-          physical: 0,
-          magic: 0,
-          fire: 0,
-          lightning: 0,
-          holy: 0,
-          boost: 0,
-        },
         requiredAttributes: {
-          strength,
+          strengthOneHand,
+          strengthTwoHand,
           dexterity,
           intelligence,
           faith,
           arcane,
-        },
-        scalesWith: {
-          strength: 0,
-          dexterity: 0,
-          intelligence: 0,
-          faith: 0,
-          arcane: 0,
         },
         wikiGGLink: weapon.wikiGGLink || '',
         wikiFextralifeLink: weapon.wikiFextralifeLink || '',
@@ -201,7 +183,7 @@ export const useStatsStore = defineStore('stats', () => {
 
       // Check if weapon stats are less than or equal to current stats
       const meetsRequirements =
-        weapon.requiredAttributes.strength <= strength.value &&
+        weapon.requiredAttributes.strengthTwoHand <= strength.value &&
         weapon.requiredAttributes.dexterity <= dexterity.value &&
         weapon.requiredAttributes.intelligence <= intelligence.value &&
         weapon.requiredAttributes.faith <= faith.value &&

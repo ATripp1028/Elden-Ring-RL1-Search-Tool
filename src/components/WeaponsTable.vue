@@ -29,9 +29,7 @@ const paginatedWeapons = computed(() => {
         </select>
       </div>
       <div class="result-count">
-        {{ stats.filteredWeapons.length }} weapon{{
-          stats.filteredWeapons.length !== 1 ? 's' : ''
-        }}
+        {{ stats.filteredWeapons.length }} weapon{{ stats.filteredWeapons.length !== 1 ? 's' : '' }}
         found
       </div>
       <div class="page-navigation">
@@ -65,7 +63,10 @@ const paginatedWeapons = computed(() => {
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
           <td>{{ weapon.name }}</td>
-          <td>{{ weapon.requiredAttributes.strength }}</td>
+          <td>
+            <div>One Hand: {{ weapon.requiredAttributes.strengthOneHand }}</div>
+            <div>Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}</div>
+          </td>
           <td>{{ weapon.requiredAttributes.dexterity }}</td>
           <td>{{ weapon.requiredAttributes.intelligence }}</td>
           <td>{{ weapon.requiredAttributes.faith }}</td>
