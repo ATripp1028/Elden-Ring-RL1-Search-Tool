@@ -78,138 +78,138 @@ export const useStatsStore = defineStore('stats', () => {
   }
 
   // Process all weapons on component initialization
-const allWeaponArrays = [
-  weaponsThrustingShields,
-  weaponsGreatshields,
-  weaponsMediumShields,
-  weaponsSmallShields,
-  weaponsTorches,
-  weaponsSacredSeals,
-  weaponsStaves,
-  weaponsBallista,
-  weaponsCrossbows,
-  weaponsGreatbows,
-  weaponsBows,
-  weaponsLightBows,
-  weaponsPerfumeBottles,
-  weaponsBeastClaws,
-  weaponsClaws,
-  weaponsHandToHand,
-  weaponsFists,
-  weaponsWhips,
-  weaponsReapers,
-  weaponsHalberds,
-  weaponsGreatSpears,
-  weaponsSpears,
-  weaponsColossalWeapons,
-  weaponsGreatHammers,
-  weaponsFlails,
-  weaponsHammers,
-  weaponsGreataxes,
-  weaponsAxes,
-  weaponsTwinblades,
-  weaponsGreatKatanas,
-  weaponsKatanas,
-  weaponsBackhandBlades,
-  weaponsCurvedGreatswords,
-  weaponsCurvedSwords,
-  weaponsHeavyThrustingSwords,
-  weaponsThrustingSwords,
-  weaponsColossalSwords,
-  weaponsGreatswords,
-  weaponsLightGreatswords,
-  weaponsStraightSwords,
-  weaponsDaggers,
-  weaponsThrowingBlades,
-]
+  const allWeaponArrays = [
+    weaponsThrustingShields,
+    weaponsGreatshields,
+    weaponsMediumShields,
+    weaponsSmallShields,
+    weaponsTorches,
+    weaponsSacredSeals,
+    weaponsStaves,
+    weaponsBallista,
+    weaponsCrossbows,
+    weaponsGreatbows,
+    weaponsBows,
+    weaponsLightBows,
+    weaponsPerfumeBottles,
+    weaponsBeastClaws,
+    weaponsClaws,
+    weaponsHandToHand,
+    weaponsFists,
+    weaponsWhips,
+    weaponsReapers,
+    weaponsHalberds,
+    weaponsGreatSpears,
+    weaponsSpears,
+    weaponsColossalWeapons,
+    weaponsGreatHammers,
+    weaponsFlails,
+    weaponsHammers,
+    weaponsGreataxes,
+    weaponsAxes,
+    weaponsTwinblades,
+    weaponsGreatKatanas,
+    weaponsKatanas,
+    weaponsBackhandBlades,
+    weaponsCurvedGreatswords,
+    weaponsCurvedSwords,
+    weaponsHeavyThrustingSwords,
+    weaponsThrustingSwords,
+    weaponsColossalSwords,
+    weaponsGreatswords,
+    weaponsLightGreatswords,
+    weaponsStraightSwords,
+    weaponsDaggers,
+    weaponsThrowingBlades,
+  ]
 
-const weapons = ref(
-  allWeaponArrays.flat().map((weapon: ScrapedWeapon, index: number) => {
-    // Handle different attribute formats from the scraped data
-    let strength = 0
-    let dexterity = 0
-    let intelligence = 0
-    let faith = 0
-    let arcane = 0
+  const weapons = ref(
+    allWeaponArrays.flat().map((weapon: ScrapedWeapon, index: number) => {
+      // Handle different attribute formats from the scraped data
+      let strength = 0
+      let dexterity = 0
+      let intelligence = 0
+      let faith = 0
+      let arcane = 0
 
-    if (weapon.attributes) {
-      if (weapon.attributes.strength) {
-        // Handle the new format with one_hand/two_hand structure
-        if (typeof weapon.attributes.strength === 'object') {
-          strength = weapon.attributes.strength.one_hand || 0
-        } else {
-          strength = weapon.attributes.strength || 0
+      if (weapon.attributes) {
+        if (weapon.attributes.strength) {
+          // Handle the new format with one_hand/two_hand structure
+          if (typeof weapon.attributes.strength === 'object') {
+            strength = weapon.attributes.strength.one_hand || 0
+          } else {
+            strength = weapon.attributes.strength || 0
+          }
         }
+        dexterity = weapon.attributes.dexterity || 0
+        intelligence = weapon.attributes.intelligence || 0
+        faith = weapon.attributes.faith || 0
+        arcane = weapon.attributes.arcane || 0
       }
-      dexterity = weapon.attributes.dexterity || 0
-      intelligence = weapon.attributes.intelligence || 0
-      faith = weapon.attributes.faith || 0
-      arcane = weapon.attributes.arcane || 0
-    }
 
-    return {
-      id: weapon.weapon_name || `weapon-${index}`,
-      name: weapon.weapon_name || 'Unknown Weapon',
-      image: weapon.image?.src || '',
-      description: weapon.weapon_type || '',
-      category: weapon.weapon_type || '',
-      weight: 0, // Not available in scraped data
-      attack: {
-        physical: 0,
-        magic: 0,
-        fire: 0,
-        lightning: 0,
-        holy: 0,
-        critical: 0,
-      },
-      defence: {
-        physical: 0,
-        magic: 0,
-        fire: 0,
-        lightning: 0,
-        holy: 0,
-        boost: 0,
-      },
-      requiredAttributes: {
-        strength,
-        dexterity,
-        intelligence,
-        faith,
-        arcane,
-      },
-      scalesWith: {
-        strength: 0,
-        dexterity: 0,
-        intelligence: 0,
-        faith: 0,
-        arcane: 0,
-      },
-      wikiGGLink: weapon.wikiGGLink || '',
-      wikiFextralifeLink: weapon.wikiFextralifeLink || '',
-    }
-  }),
-)
+      return {
+        id: weapon.weapon_name || `weapon-${index}`,
+        name: weapon.weapon_name || 'Unknown Weapon',
+        image: weapon.image?.src || '',
+        description: weapon.weapon_type || '',
+        category: weapon.weapon_type || '',
+        weight: 0, // Not available in scraped data
+        attack: {
+          physical: 0,
+          magic: 0,
+          fire: 0,
+          lightning: 0,
+          holy: 0,
+          critical: 0,
+        },
+        defence: {
+          physical: 0,
+          magic: 0,
+          fire: 0,
+          lightning: 0,
+          holy: 0,
+          boost: 0,
+        },
+        requiredAttributes: {
+          strength,
+          dexterity,
+          intelligence,
+          faith,
+          arcane,
+        },
+        scalesWith: {
+          strength: 0,
+          dexterity: 0,
+          intelligence: 0,
+          faith: 0,
+          arcane: 0,
+        },
+        wikiGGLink: weapon.wikiGGLink || '',
+        wikiFextralifeLink: weapon.wikiFextralifeLink || '',
+      }
+    }),
+  )
 
-const totalPages = computed(() => {
-  return Math.ceil(filteredWeapons.value.length / itemsPerPage.value)
-})
-
-const filteredWeapons = computed(() => {
-  return weapons.value.filter((weapon) => {
-    // Check if weapon name contains the search query
-    const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
-
-    // Check if weapon stats are less than or equal to current stats
-    const meetsRequirements =
-      weapon.requiredAttributes.strength <= strength.value &&
-      weapon.requiredAttributes.dexterity <= dexterity.value &&
-      weapon.requiredAttributes.intelligence <= intelligence.value &&
-      weapon.requiredAttributes.faith <= faith.value &&
-      weapon.requiredAttributes.arcane <= arcane.value
-
-    return matchesSearch && meetsRequirements
+  const totalPages = computed(() => {
+    return Math.ceil(filteredWeapons.value.length / itemsPerPage.value)
   })
-})
+
+  const filteredWeapons = computed(() => {
+    return weapons.value.filter((weapon) => {
+      // Check if weapon name contains the search query
+      const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
+
+      // Check if weapon stats are less than or equal to current stats
+      const meetsRequirements =
+        weapon.requiredAttributes.strength <= strength.value &&
+        weapon.requiredAttributes.dexterity <= dexterity.value &&
+        weapon.requiredAttributes.intelligence <= intelligence.value &&
+        weapon.requiredAttributes.faith <= faith.value &&
+        weapon.requiredAttributes.arcane <= arcane.value
+
+      return matchesSearch && meetsRequirements
+    })
+  })
 
   // Watch for changes and update localStorage
   watch(strength, (newValue) => {
