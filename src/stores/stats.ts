@@ -72,6 +72,7 @@ export const useStatsStore = defineStore('stats', () => {
   const itemsPerPage = ref(10)
 
   const searchQuery = ref('')
+  const accountForTwoHanded = ref(true)
 
   function setSearchQuery(query: string) {
     searchQuery.value = query
@@ -183,7 +184,11 @@ export const useStatsStore = defineStore('stats', () => {
 
       // Check if weapon stats are less than or equal to current stats
       const meetsRequirements =
-        weapon.requiredAttributes.strengthTwoHand <= strength.value &&
+        (
+          accountForTwoHanded.value
+            ? weapon.requiredAttributes.strengthTwoHand <= strength.value
+            : weapon.requiredAttributes.strengthOneHand <= strength.value
+        ) &&
         weapon.requiredAttributes.dexterity <= dexterity.value &&
         weapon.requiredAttributes.intelligence <= intelligence.value &&
         weapon.requiredAttributes.faith <= faith.value &&
@@ -230,6 +235,7 @@ export const useStatsStore = defineStore('stats', () => {
     searchQuery,
     setSearchQuery,
     totalPages,
-    filteredWeapons
+    filteredWeapons,
+    accountForTwoHanded,
   }
 })

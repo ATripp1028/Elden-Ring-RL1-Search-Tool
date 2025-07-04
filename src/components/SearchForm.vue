@@ -47,6 +47,23 @@ const resetStats = () => {
       <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane" />
     </div>
 
+    <div class="form-group">
+      <div class="checkbox-line">
+        <label for="field6" class="checkbox-label">Account for Two Hands</label>
+        <input
+          type="checkbox"
+          id="field6"
+          v-model="stats.accountForTwoHanded"
+          style="width: auto"
+        />
+      </div>
+      <p class="form-group-description">
+        If checked, the tool will query for weapons that can be effectively wielded with two hands
+        for your desired strength. If unchecked, the tool will only compare against the in-game
+        listed strength.
+      </p>
+    </div>
+
     <button @click="resetStats">Reset</button>
 
     <!-- <div class="debug-section">
@@ -98,6 +115,14 @@ const resetStats = () => {
   margin-bottom: 20px;
 }
 
+.checkbox-line {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -145,5 +170,15 @@ input:focus {
   text-align: center;
   font-size: 12px;
   color: #666;
+}
+
+.form-group-description {
+  font-size: 12px;
+  color: #666;
+}
+
+.checkbox-label {
+  font-size: 12px;
+  width: 100%;
 }
 </style>
