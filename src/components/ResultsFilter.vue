@@ -1,7 +1,47 @@
 <script setup lang="ts">
 import { useStatsStore } from '../stores/stats'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const stats = useStatsStore()
+
+// Multiselect state
+const isOpen = ref(false)
+const multiselectRef = ref<HTMLDivElement>()
+
+const toggleOption = (option: string) => {
+  const index = stats.selectedWeaponTypes.indexOf(option)
+  if (index > -1) {
+    stats.selectedWeaponTypes.splice(index, 1)
+  } else {
+    stats.selectedWeaponTypes.push(option)
+  }
+}
+
+const isSelected = (option: string) => {
+  return stats.selectedWeaponTypes.includes(option)
+}
+
+const handleClickOutside = (event: Event) => {
+  if (multiselectRef.value && !multiselectRef.value.contains(event.target as Node)) {
+    isOpen.value = false
+  }
+}
+
+const handleKeydown = (event: KeyboardEvent) => {
+  if (event.key === 'Escape') {
+    isOpen.value = false
+  }
+}
+
+onMounted(() => {
+  document.addEventListener('click', handleClickOutside)
+  document.addEventListener('keydown', handleKeydown)
+})
+
+onUnmounted(() => {
+  document.removeEventListener('click', handleClickOutside)
+  document.removeEventListener('keydown', handleKeydown)
+})
 </script>
 
 <template>
@@ -41,7 +81,37 @@ const stats = useStatsStore()
         </button>
       </div>
     </div>
-    <div class="filter-row"></div>
+    <div class="filter-row">
+      <div class="filter-group">
+        <label>Filter by Type</label>
+        <div class="multiselect" ref="multiselectRef">
+          <div class="multiselect-trigger" @click="isOpen = !isOpen" :class="{ open: isOpen }">
+            <span class="multiselect-display">
+              {{
+                stats.selectedWeaponTypes.length > 0
+                  ? `${stats.selectedWeaponTypes.length} selected`
+                  : 'Select Weapon Types...'
+              }}
+            </span>
+            <span class="multiselect-arrow">▼</span>
+          </div>
+          <div class="multiselect-dropdown" v-if="isOpen">
+            <div class="multiselect-options">
+              <div
+                v-for="option in stats.weaponTypes"
+                :key="option"
+                class="multiselect-option"
+                :class="{ selected: isSelected(option) }"
+                @click="toggleOption(option)"
+              >
+                <span class="checkbox">{{ isSelected(option) ? '✓' : '' }}</span>
+                <span class="option-text">{{ option }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -147,6 +217,114 @@ select:focus {
 
 .page-number {
   font-weight: 500;
+  color: #666;
+}
+
+/* Multiselect Styles */
+.multiselect {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.multiselect-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  min-height: 32px;
+}
+
+.multiselect-trigger:hover {
+  border-color: #666;
+}
+
+.multiselect-trigger.open {
+  border-color: #666;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.multiselect-display {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #666;
+}
+
+.multiselect-arrow {
+  font-size: 10px;
+  color: #666;
+  transition: transform 0.2s;
+  margin-left: 8px;
+}
+
+.multiselect-trigger.open .multiselect-arrow {
+  transform: rotate(180deg);
+}
+
+.multiselect-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.multiselect-options {
+  padding: 4px 0;
+}
+
+.multiselect-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.multiselect-option:hover {
+  background-color: #f5f5f5;
+}
+
+.multiselect-option.selected {
+  background-color: #e3f2fd;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #2196f3;
+  background-color: white;
+}
+
+.multiselect-option.selected .checkbox {
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: white;
+}
+
+.option-text {
+  flex: 1;
   color: #666;
 }
 </style>

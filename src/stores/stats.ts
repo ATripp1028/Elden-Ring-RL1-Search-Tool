@@ -68,9 +68,54 @@ export const useStatsStore = defineStore('stats', () => {
   const faith = ref(getStoredValue('stats.faith', 10))
   const arcane = ref(getStoredValue('stats.arcane', 10))
 
+  const weaponTypes = [
+    'Axes',
+    'Backhand Blades',
+    'Ballistas',
+    'Beast Claws',
+    'Bows',
+    'Claws',
+    'Colossal Swords',
+    'Colossal Weapons',
+    'Crossbows',
+    'Curved Greatswords',
+    'Curved Swords',
+    'Daggers',
+    'Fists',
+    'Flails',
+    'Great Hammers',
+    'Great Katanas',
+    'Great Spears',
+    'Greataxes',
+    'Greatbows',
+    'Greatshields',
+    'Greatswords',
+    'Halberds',
+    'Hammers',
+    'Hand-to-Hand',
+    'Heavy Thrusting Swords',
+    'Katanas',
+    'Light Bows',
+    'Light Greatswords',
+    'Medium Shields',
+    'Perfume Bottles',
+    'Reapers',
+    'Sacred Seals',
+    'Small Shields',
+    'Spears',
+    'Staves',
+    'Straight Swords',
+    'Throwing Blades',
+    'Thrusting Shields',
+    'Thrusting Swords',
+    'Torches',
+    'Twinblades',
+    'Whips',
+  ]
+
   const page = ref(1)
   const itemsPerPage = ref(10)
-  const weaponTypes = ref([])
+  const selectedWeaponTypes = ref(weaponTypes)
 
   const searchQuery = ref('')
   const accountForTwoHanded = ref(true)
@@ -239,5 +284,6 @@ export const useStatsStore = defineStore('stats', () => {
     filteredWeapons,
     accountForTwoHanded,
     weaponTypes,
+    selectedWeaponTypes,
   }
 })
