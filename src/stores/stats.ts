@@ -222,7 +222,7 @@ export const useStatsStore = defineStore('stats', () => {
         selectedWeaponTypes.value.includes(weapon.category)
 
       // Check DLC filter
-      const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
+      const matchesDlcFilter = showDlcWeapons.value === weapon.dlcExclusive
 
       // Check if weapon stats are less than or equal to current stats
       const meetsRequirements =
