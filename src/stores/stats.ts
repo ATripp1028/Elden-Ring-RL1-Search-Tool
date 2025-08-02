@@ -115,7 +115,7 @@ export const useStatsStore = defineStore('stats', () => {
 
   const page = ref(1)
   const itemsPerPage = ref(10)
-  const selectedWeaponTypes = ref(weaponTypes)
+  const selectedWeaponTypes = ref<string[]>([])
 
   const searchQuery = ref('')
   const accountForTwoHanded = ref(true)
@@ -228,6 +228,10 @@ export const useStatsStore = defineStore('stats', () => {
       // Check if weapon name contains the search query
       const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
 
+      // Check if weapon type is selected (if no types selected, show all)
+      const matchesWeaponType = selectedWeaponTypes.value.length === 0 ||
+        selectedWeaponTypes.value.includes(weapon.category)
+
       // Check if weapon stats are less than or equal to current stats
       const meetsRequirements =
         (
@@ -240,7 +244,7 @@ export const useStatsStore = defineStore('stats', () => {
         weapon.requiredAttributes.faith <= faith.value &&
         weapon.requiredAttributes.arcane <= arcane.value
 
-      return matchesSearch && meetsRequirements
+      return matchesSearch && matchesWeaponType && meetsRequirements
     })
   })
 
