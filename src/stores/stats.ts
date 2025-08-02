@@ -43,23 +43,7 @@ import weaponsLightGreatswords from '../resources/weapons_light_greatswords.json
 import weaponsStraightSwords from '../resources/weapons_straight_swords.json'
 import weaponsDaggers from '../resources/weapons_daggers.json'
 import weaponsThrowingBlades from '../resources/weapons_throwing_blades.json'
-
-interface ScrapedWeapon {
-  weapon_name: string
-  weapon_type: string
-  attributes?: {
-    strength?: { one_hand: number; two_hand: number }
-    dexterity?: number
-    intelligence?: number
-    faith?: number
-    arcane?: number
-  }
-  image?: {
-    src: string
-  }
-  wikiGGLink?: string
-  wikiFextralifeLink?: string
-}
+import type { Weapon } from '../model/types'
 
 export const useStatsStore = defineStore('stats', () => {
   const strength = ref(getStoredValue('stats.strength', 10))
@@ -115,10 +99,11 @@ export const useStatsStore = defineStore('stats', () => {
 
   const page = ref(1)
   const itemsPerPage = ref(10)
-  const selectedWeaponTypes = ref(weaponTypes)
+  const selectedWeaponTypes = ref<string[]>([])
 
   const searchQuery = ref('')
   const accountForTwoHanded = ref(true)
+  const showDlcWeapons = ref(localStorage.getItem('stats.showDlcWeapons') !== 'false')
 
   function setSearchQuery(query: string) {
     searchQuery.value = query
@@ -171,7 +156,7 @@ export const useStatsStore = defineStore('stats', () => {
   ]
 
   const weapons = ref(
-    allWeaponArrays.flat().map((weapon: ScrapedWeapon, index: number) => {
+    allWeaponArrays.flat().map((weapon: Weapon, index: number) => {
       // Handle different attribute formats from the scraped data
       let strengthOneHand = 0
       let strengthTwoHand = 0
@@ -215,6 +200,10 @@ export const useStatsStore = defineStore('stats', () => {
         },
         wikiGGLink: weapon.wikiGGLink || '',
         wikiFextralifeLink: weapon.wikiFextralifeLink || '',
+        damageTypes: weapon.damage_types,
+        attackTypes: weapon.attack_types,
+        statusBuildup: weapon.status_buildup,
+        dlcExclusive: weapon.dlc_exclusive,
       }
     }),
   )
@@ -228,6 +217,13 @@ export const useStatsStore = defineStore('stats', () => {
       // Check if weapon name contains the search query
       const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
 
+      // Check if weapon type is selected (if no types selected, show all)
+      const matchesWeaponType = selectedWeaponTypes.value.length === 0 ||
+        selectedWeaponTypes.value.includes(weapon.category)
+
+      // Check DLC filter
+      const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
+
       // Check if weapon stats are less than or equal to current stats
       const meetsRequirements =
         (
@@ -240,7 +236,7 @@ export const useStatsStore = defineStore('stats', () => {
         weapon.requiredAttributes.faith <= faith.value &&
         weapon.requiredAttributes.arcane <= arcane.value
 
-      return matchesSearch && meetsRequirements
+      return matchesSearch && matchesWeaponType && matchesDlcFilter && meetsRequirements
     })
   })
 
@@ -270,6 +266,11 @@ export const useStatsStore = defineStore('stats', () => {
     page.value = 1
   })
 
+  watch(showDlcWeapons, (newValue) => {
+    localStorage.setItem('stats.showDlcWeapons', newValue.toString())
+    page.value = 1
+  })
+
   return {
     strength,
     dexterity,
@@ -285,5 +286,6 @@ export const useStatsStore = defineStore('stats', () => {
     accountForTwoHanded,
     weaponTypes,
     selectedWeaponTypes,
+    showDlcWeapons,
   }
 })

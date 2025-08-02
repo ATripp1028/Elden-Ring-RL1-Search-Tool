@@ -1,17 +1,43 @@
 export interface Weapon {
-    name: string;
-    type: WeaponType;
-    imgPath: string;
-    stats: {
-        strength: number;
-        dexterity: number;
-        intelligence: number;
-        faith: number;
-        arcane: number;
-    }
-    wikiGGLink?: string;
-    wikiFextralifeLink: string;
-    dlcExclusive: boolean;
+    weapon_name: string,
+    weapon_type: string,
+    wikiGGLink: string,
+    wikiFextralifeLink: string,
+    attributes: Attributes,
+    damage_types: DamageTypes,
+    attack_types: AttackTypes,
+    status_buildup: string,
+    image: Image,
+    dlc_exclusive: boolean
+}
+
+export interface Attributes {
+  strength: Strength,
+  dexterity: number,
+  intelligence: number,
+  faith: number,
+  arcane: number
+}
+
+export interface DamageTypes {
+  major: string,
+  minor: string[]
+}
+
+export interface Strength {
+  one_hand: number,
+  two_hand: number
+}
+
+export interface AttackTypes {
+  primary: string,
+  secondary: string
+}
+
+export interface Image {
+  src: string,
+  alt: string,
+  title: string
 }
 
 export enum WeaponType {

@@ -64,6 +64,22 @@ const resetStats = () => {
       </p>
     </div>
 
+    <div class="form-group">
+      <div class="checkbox-line">
+        <label for="dlcCheckbox" class="checkbox-label">Include DLC Weapons</label>
+        <input
+          type="checkbox"
+          id="dlcCheckbox"
+          v-model="stats.showDlcWeapons"
+          style="width: auto"
+        />
+      </div>
+      <p class="form-group-description">
+        If checked, weapons from the Shadow of the Erdtree DLC will be included in the results. If
+        unchecked, only base game weapons will be shown.
+      </p>
+    </div>
+
     <button @click="resetStats">Reset</button>
 
     <!-- <div class="debug-section">
