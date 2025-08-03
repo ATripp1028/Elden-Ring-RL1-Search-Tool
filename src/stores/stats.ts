@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, watch, computed } from 'vue'
-import { getStoredValue } from '../model/utils'
+import { getStoredValue, transformName } from '../model/utils'
 import weaponsThrustingShields from '../resources/weapons_thrusting_shields.json'
 import weaponsGreatshields from '../resources/weapons_greatshields.json'
 import weaponsMediumShields from '../resources/weapons_medium_shields.json'
@@ -215,7 +215,7 @@ export const useStatsStore = defineStore('stats', () => {
   const filteredWeapons = computed(() => {
     return weapons.value.filter((weapon) => {
       // Check if weapon name contains the search query
-      const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
+      const matchesSearch = searchQuery.value === '' || transformName(weapon.name).includes(transformName(searchQuery.value))
 
       // Check if weapon type is selected (if no types selected, show all)
       const matchesWeaponType = selectedWeaponTypes.value.length === 0 ||
@@ -223,7 +223,8 @@ export const useStatsStore = defineStore('stats', () => {
 
       // Check if damage type is selected (if no types selected, show all)
       const matchesDamageType = selectedDamageTypes.value.length === 0 ||
-        selectedDamageTypes.value.includes(weapon.damageTypes.major)
+        selectedDamageTypes.value.includes(weapon.damageTypes.major) ||
+        weapon.damageTypes.minor.some(damageType => selectedDamageTypes.value.includes(damageType))
 
       // Check DLC filter
       const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
@@ -274,6 +275,10 @@ export const useStatsStore = defineStore('stats', () => {
     localStorage.setItem('stats.showDlcWeapons', newValue.toString())
     page.value = 1
   })
+
+  watch(selectedDamageTypes, () => {
+    page.value = 1
+  }, { deep: true })
 
   return {
     strength,
