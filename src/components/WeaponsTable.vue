@@ -53,20 +53,8 @@ const paginatedWeapons = computed(() => {
           >
             Secondary Damage
           </th>
-          <th
-            v-if="stats.selectedColumns.includes('Wiki.gg')"
-            class="wiki-link-cell"
-            title="Wiki.gg"
-          >
-            Wiki.gg
-          </th>
-          <th
-            v-if="stats.selectedColumns.includes('Fextralife')"
-            class="wiki-link-cell"
-            title="Fextralife"
-          >
-            Fextralife
-          </th>
+          <th v-if="stats.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
+          <th v-if="stats.selectedColumns.includes('Fextralife')" title="Fextralife">Fextralife</th>
         </tr>
       </thead>
       <tbody>
@@ -191,12 +179,18 @@ th {
   width: 8%;
   text-align: center;
   white-space: nowrap;
+  position: relative;
+  z-index: 30;
 }
 
 .wiki-link-cell a {
   margin-right: 10px;
   color: black;
   text-decoration: none;
+  position: relative;
+  z-index: 35;
+  pointer-events: auto;
+  display: inline-block;
 }
 
 .wiki-link-cell a:hover {
@@ -205,6 +199,16 @@ th {
 
 tr:hover {
   background-color: #f9f9f9;
+}
+
+tbody tr {
+  position: relative;
+  z-index: 15;
+}
+
+tbody td {
+  position: relative;
+  z-index: 15;
 }
 
 .loading,

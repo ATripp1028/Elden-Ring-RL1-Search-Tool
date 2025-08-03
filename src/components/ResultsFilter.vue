@@ -330,7 +330,6 @@ select:focus {
   color: #666;
 }
 
-/* Multiselect Styles */
 .multiselect {
   position: relative;
   flex: 1;
@@ -382,7 +381,7 @@ select:focus {
   position: absolute;
   top: 100%;
   left: 0;
-  right: 0;
+  width: 100%;
   background-color: white;
   border: 1px solid #ddd;
   border-top: none;
