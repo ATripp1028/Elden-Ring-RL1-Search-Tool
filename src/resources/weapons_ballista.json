@@ -1,7 +1,7 @@
 [
   {
     "weapon_name": "Hand Ballista",
-    "weapon_type": "Ballista",
+    "weapon_type": "Ballistas",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Hand_Ballista",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Hand+Ballista",
     "attributes": {
@@ -32,7 +32,7 @@
   },
   {
     "weapon_name": "Jar Cannon",
-    "weapon_type": "Ballista",
+    "weapon_type": "Ballistas",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Jar_Cannon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Jar+Cannon",
     "attributes": {
@@ -63,7 +63,7 @@
   },
   {
     "weapon_name": "Rabbath's Cannon",
-    "weapon_type": "Ballista",
+    "weapon_type": "Ballistas",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rabbath%27s_Cannon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com/Rabbath's+Cannon",
     "attributes": {
@@ -88,8 +88,8 @@
     },
     "status_buildup": "none",
     "image": {
-      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
-      "alt": "ER Menu Icon Attack Power.png",
+      "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_Weapon_Rabbath%27s_Cannon.png/300px-ER_Icon_Weapon_Rabbath%27s_Cannon.png?bdf101",
+      "alt": "ER Icon weapon Rabbath's Cannon.png",
       "title": "Rabbath's Cannon"
     },
     "dlc_exclusive": true
