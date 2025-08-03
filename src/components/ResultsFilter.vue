@@ -387,7 +387,7 @@ select:focus {
   border-top: none;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  z-index: 20;
+  z-index: 30;
   max-height: 200px;
   overflow-y: auto;
 }
