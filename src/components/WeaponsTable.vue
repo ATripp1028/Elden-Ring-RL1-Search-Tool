@@ -16,23 +16,55 @@ const paginatedWeapons = computed(() => {
     <table>
       <thead>
         <tr>
-          <th v-if="stats.selectedColumns.includes('Image')" class="image-col">Image</th>
-          <th v-if="stats.selectedColumns.includes('Name')" class="name-col">Name</th>
-          <th v-if="stats.selectedColumns.includes('Strength')" class="stat-col">Strength</th>
-          <th v-if="stats.selectedColumns.includes('Dexterity')" class="stat-col">Dexterity</th>
-          <th v-if="stats.selectedColumns.includes('Intelligence')" class="stat-col">
+          <th v-if="stats.selectedColumns.includes('Image')" class="image-col" title="Image">
+            Image
+          </th>
+          <th v-if="stats.selectedColumns.includes('Name')" class="name-col" title="Name">Name</th>
+          <th v-if="stats.selectedColumns.includes('Strength')" class="stat-col" title="Strength">
+            Strength
+          </th>
+          <th v-if="stats.selectedColumns.includes('Dexterity')" class="stat-col" title="Dexterity">
+            Dexterity
+          </th>
+          <th
+            v-if="stats.selectedColumns.includes('Intelligence')"
+            class="stat-col"
+            title="Intelligence"
+          >
             Intelligence
           </th>
-          <th v-if="stats.selectedColumns.includes('Faith')" class="stat-col">Faith</th>
-          <th v-if="stats.selectedColumns.includes('Arcane')" class="stat-col">Arcane</th>
-          <th v-if="stats.selectedColumns.includes('Primary Damage')" class="damage-type-col">
+          <th v-if="stats.selectedColumns.includes('Faith')" class="stat-col" title="Faith">
+            Faith
+          </th>
+          <th v-if="stats.selectedColumns.includes('Arcane')" class="stat-col" title="Arcane">
+            Arcane
+          </th>
+          <th
+            v-if="stats.selectedColumns.includes('Primary Damage')"
+            class="damage-type-col"
+            title="Primary Damage"
+          >
             Primary Damage
           </th>
-          <th v-if="stats.selectedColumns.includes('Secondary Damage')" class="damage-type-col">
+          <th
+            v-if="stats.selectedColumns.includes('Secondary Damage')"
+            class="damage-type-col"
+            title="Secondary Damage"
+          >
             Secondary Damage
           </th>
-          <th v-if="stats.selectedColumns.includes('Wiki.gg')" class="wiki-link-cell">Wiki.gg</th>
-          <th v-if="stats.selectedColumns.includes('Fextralife')" class="wiki-link-cell">
+          <th
+            v-if="stats.selectedColumns.includes('Wiki.gg')"
+            class="wiki-link-cell"
+            title="Wiki.gg"
+          >
+            Wiki.gg
+          </th>
+          <th
+            v-if="stats.selectedColumns.includes('Fextralife')"
+            class="wiki-link-cell"
+            title="Fextralife"
+          >
             Fextralife
           </th>
         </tr>
