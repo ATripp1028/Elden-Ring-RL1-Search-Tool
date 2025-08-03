@@ -20,8 +20,8 @@ export interface Attributes {
 }
 
 export interface DamageTypes {
-  major: string,
-  minor: string[]
+  major: DamageType,
+  minor: DamageType[]
 }
 
 export interface Strength {
@@ -30,14 +30,29 @@ export interface Strength {
 }
 
 export interface AttackTypes {
-  primary: string,
-  secondary: string
+  primary: AttackType,
+  secondary: AttackType
 }
 
 export interface Image {
   src: string,
   alt: string,
   title: string
+}
+
+export enum AttackType {
+  Standard = "Standard",
+  Slash = "Slash",
+  Strike = "Strike",
+  Piercing = "Pierce",
+}
+
+export enum DamageType {
+  Physical = "Physical",
+  Fire = "Fire",
+  Lightning = "Lightning",
+  Holy = "Holy",
+  Magic = "Magic",
 }
 
 export enum WeaponType {

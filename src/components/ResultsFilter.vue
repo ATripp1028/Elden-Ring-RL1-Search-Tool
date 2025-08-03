@@ -7,6 +7,8 @@ const stats = useStatsStore()
 // Multiselect state
 const isOpen = ref(false)
 const multiselectRef = ref<HTMLDivElement>()
+const isDamageTypeOpen = ref(false)
+const damageTypeMultiselectRef = ref<HTMLDivElement>()
 
 const toggleOption = (option: string) => {
   const index = stats.selectedWeaponTypes.indexOf(option)
@@ -21,15 +23,35 @@ const isSelected = (option: string) => {
   return stats.selectedWeaponTypes.includes(option)
 }
 
+const toggleDamageTypeOption = (option: string) => {
+  const index = stats.selectedDamageTypes.indexOf(option)
+  if (index > -1) {
+    stats.selectedDamageTypes.splice(index, 1)
+  } else {
+    stats.selectedDamageTypes.push(option)
+  }
+}
+
+const isDamageTypeSelected = (option: string) => {
+  return stats.selectedDamageTypes.includes(option)
+}
+
 const handleClickOutside = (event: Event) => {
   if (multiselectRef.value && !multiselectRef.value.contains(event.target as Node)) {
     isOpen.value = false
+  }
+  if (
+    damageTypeMultiselectRef.value &&
+    !damageTypeMultiselectRef.value.contains(event.target as Node)
+  ) {
+    isDamageTypeOpen.value = false
   }
 }
 
 const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
     isOpen.value = false
+    isDamageTypeOpen.value = false
   }
 }
 
@@ -105,6 +127,39 @@ onUnmounted(() => {
                 @click="toggleOption(option)"
               >
                 <span class="checkbox">{{ isSelected(option) ? '✓' : '' }}</span>
+                <span class="option-text">{{ option }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Filter by Damage Type</label>
+        <div class="multiselect" ref="damageTypeMultiselectRef">
+          <div
+            class="multiselect-trigger"
+            @click="isDamageTypeOpen = !isDamageTypeOpen"
+            :class="{ open: isDamageTypeOpen }"
+          >
+            <span class="multiselect-display">
+              {{
+                stats.selectedDamageTypes.length > 0
+                  ? `${stats.selectedDamageTypes.length} selected`
+                  : 'Select Damage Types...'
+              }}
+            </span>
+            <span class="multiselect-arrow">▼</span>
+          </div>
+          <div class="multiselect-dropdown" v-if="isDamageTypeOpen">
+            <div class="multiselect-options">
+              <div
+                v-for="option in stats.damageTypes"
+                :key="option"
+                class="multiselect-option"
+                :class="{ selected: isDamageTypeSelected(option) }"
+                @click="toggleDamageTypeOption(option)"
+              >
+                <span class="checkbox">{{ isDamageTypeSelected(option) ? '✓' : '' }}</span>
                 <span class="option-text">{{ option }}</span>
               </div>
             </div>
