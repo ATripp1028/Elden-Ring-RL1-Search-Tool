@@ -16,44 +16,62 @@ const paginatedWeapons = computed(() => {
     <table>
       <thead>
         <tr>
-          <th class="image-col">Image</th>
-          <th class="name-col">Name</th>
-          <th class="stat-col">Strength</th>
-          <th class="stat-col">Dexterity</th>
-          <th class="stat-col">Intelligence</th>
-          <th class="stat-col">Faith</th>
-          <th class="stat-col">Arcane</th>
-          <th class="damage-type-col">Primary Damage</th>
-          <th class="damage-type-col">Secondary Damage</th>
-          <th class="wiki-link-cell">Wiki.gg</th>
-          <th class="wiki-link-cell">Fextralife</th>
+          <th v-if="stats.selectedColumns.includes('Image')" class="image-col">Image</th>
+          <th v-if="stats.selectedColumns.includes('Name')" class="name-col">Name</th>
+          <th v-if="stats.selectedColumns.includes('Strength')" class="stat-col">Strength</th>
+          <th v-if="stats.selectedColumns.includes('Dexterity')" class="stat-col">Dexterity</th>
+          <th v-if="stats.selectedColumns.includes('Intelligence')" class="stat-col">
+            Intelligence
+          </th>
+          <th v-if="stats.selectedColumns.includes('Faith')" class="stat-col">Faith</th>
+          <th v-if="stats.selectedColumns.includes('Arcane')" class="stat-col">Arcane</th>
+          <th v-if="stats.selectedColumns.includes('Primary Damage')" class="damage-type-col">
+            Primary Damage
+          </th>
+          <th v-if="stats.selectedColumns.includes('Secondary Damage')" class="damage-type-col">
+            Secondary Damage
+          </th>
+          <th v-if="stats.selectedColumns.includes('Wiki.gg')" class="wiki-link-cell">Wiki.gg</th>
+          <th v-if="stats.selectedColumns.includes('Fextralife')" class="wiki-link-cell">
+            Fextralife
+          </th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="weapon in paginatedWeapons" :key="weapon.id">
-          <td>
+          <td v-if="stats.selectedColumns.includes('Image')">
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
-          <td>{{ weapon.name }}</td>
-          <td>
+          <td v-if="stats.selectedColumns.includes('Name')">{{ weapon.name }}</td>
+          <td v-if="stats.selectedColumns.includes('Strength')">
             <div>One Hand: {{ weapon.requiredAttributes.strengthOneHand }}</div>
             <div>Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}</div>
           </td>
-          <td>{{ weapon.requiredAttributes.dexterity }}</td>
-          <td>{{ weapon.requiredAttributes.intelligence }}</td>
-          <td>{{ weapon.requiredAttributes.faith }}</td>
-          <td>{{ weapon.requiredAttributes.arcane }}</td>
-          <td>{{ weapon.damageTypes.major }}</td>
-          <td>
+          <td v-if="stats.selectedColumns.includes('Dexterity')">
+            {{ weapon.requiredAttributes.dexterity }}
+          </td>
+          <td v-if="stats.selectedColumns.includes('Intelligence')">
+            {{ weapon.requiredAttributes.intelligence }}
+          </td>
+          <td v-if="stats.selectedColumns.includes('Faith')">
+            {{ weapon.requiredAttributes.faith }}
+          </td>
+          <td v-if="stats.selectedColumns.includes('Arcane')">
+            {{ weapon.requiredAttributes.arcane }}
+          </td>
+          <td v-if="stats.selectedColumns.includes('Primary Damage')">
+            {{ weapon.damageTypes.major }}
+          </td>
+          <td v-if="stats.selectedColumns.includes('Secondary Damage')">
             <span v-if="weapon.damageTypes.minor.length > 0">
               {{ weapon.damageTypes.minor.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
           </td>
-          <td>
+          <td v-if="stats.selectedColumns.includes('Wiki.gg')">
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
           </td>
-          <td>
+          <td v-if="stats.selectedColumns.includes('Fextralife')">
             <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"
               >Fextralife</a
             >
@@ -80,7 +98,7 @@ table {
   border-collapse: collapse;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  table-layout: fixed;
+  table-layout: auto;
   margin: 0;
   padding: 0;
 }

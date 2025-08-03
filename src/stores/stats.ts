@@ -101,6 +101,18 @@ export const useStatsStore = defineStore('stats', () => {
   const itemsPerPage = ref(10)
   const selectedWeaponTypes = ref<string[]>([])
   const selectedDamageTypes = ref<string[]>([])
+  const selectedColumns = ref<string[]>((() => {
+    const stored = localStorage.getItem('stats.selectedColumns')
+    return stored ? JSON.parse(stored) : [
+      'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
+      'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+    ]
+  })())
+
+  const availableColumns = [
+    'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
+    'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+  ]
 
   const damageTypes = ['Physical', 'Fire', 'Lightning', 'Holy', 'Magic']
 
@@ -280,6 +292,10 @@ export const useStatsStore = defineStore('stats', () => {
     page.value = 1
   }, { deep: true })
 
+  watch(selectedColumns, (newValue) => {
+    localStorage.setItem('stats.selectedColumns', JSON.stringify(newValue))
+  }, { deep: true })
+
   return {
     strength,
     dexterity,
@@ -297,6 +313,8 @@ export const useStatsStore = defineStore('stats', () => {
     selectedWeaponTypes,
     damageTypes,
     selectedDamageTypes,
+    availableColumns,
+    selectedColumns,
     showDlcWeapons,
   }
 })

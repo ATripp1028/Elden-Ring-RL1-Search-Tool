@@ -9,6 +9,8 @@ const isOpen = ref(false)
 const multiselectRef = ref<HTMLDivElement>()
 const isDamageTypeOpen = ref(false)
 const damageTypeMultiselectRef = ref<HTMLDivElement>()
+const isColumnOpen = ref(false)
+const columnMultiselectRef = ref<HTMLDivElement>()
 
 const toggleOption = (option: string) => {
   const index = stats.selectedWeaponTypes.indexOf(option)
@@ -36,6 +38,24 @@ const isDamageTypeSelected = (option: string) => {
   return stats.selectedDamageTypes.includes(option)
 }
 
+const toggleColumnOption = (option: string) => {
+  // Prevent deselecting the last column - ensure at least one is always selected
+  if (stats.selectedColumns.includes(option) && stats.selectedColumns.length === 1) {
+    return
+  }
+
+  const index = stats.selectedColumns.indexOf(option)
+  if (index > -1) {
+    stats.selectedColumns.splice(index, 1)
+  } else {
+    stats.selectedColumns.push(option)
+  }
+}
+
+const isColumnSelected = (option: string) => {
+  return stats.selectedColumns.includes(option)
+}
+
 const handleClickOutside = (event: Event) => {
   if (multiselectRef.value && !multiselectRef.value.contains(event.target as Node)) {
     isOpen.value = false
@@ -46,12 +66,16 @@ const handleClickOutside = (event: Event) => {
   ) {
     isDamageTypeOpen.value = false
   }
+  if (columnMultiselectRef.value && !columnMultiselectRef.value.contains(event.target as Node)) {
+    isColumnOpen.value = false
+  }
 }
 
 const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
     isOpen.value = false
     isDamageTypeOpen.value = false
+    isColumnOpen.value = false
   }
 }
 
@@ -160,6 +184,39 @@ onUnmounted(() => {
                 @click="toggleDamageTypeOption(option)"
               >
                 <span class="checkbox">{{ isDamageTypeSelected(option) ? '✓' : '' }}</span>
+                <span class="option-text">{{ option }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Show Columns</label>
+        <div class="multiselect" ref="columnMultiselectRef">
+          <div
+            class="multiselect-trigger"
+            @click="isColumnOpen = !isColumnOpen"
+            :class="{ open: isColumnOpen }"
+          >
+            <span class="multiselect-display">
+              {{
+                stats.selectedColumns.length > 0
+                  ? `${stats.selectedColumns.length} selected`
+                  : 'Select Columns...'
+              }}
+            </span>
+            <span class="multiselect-arrow">▼</span>
+          </div>
+          <div class="multiselect-dropdown" v-if="isColumnOpen">
+            <div class="multiselect-options">
+              <div
+                v-for="option in stats.availableColumns"
+                :key="option"
+                class="multiselect-option"
+                :class="{ selected: isColumnSelected(option) }"
+                @click="toggleColumnOption(option)"
+              >
+                <span class="checkbox">{{ isColumnSelected(option) ? '✓' : '' }}</span>
                 <span class="option-text">{{ option }}</span>
               </div>
             </div>
