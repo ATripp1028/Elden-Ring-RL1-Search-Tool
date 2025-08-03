@@ -117,8 +117,8 @@
     },
     "status_buildup": "none",
     "image": {
-      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
-      "alt": "ER Menu Icon Attack Power.png",
+      "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_Weapon_Pata.png/300px-ER_Icon_Weapon_Pata.png?c460a9",
+      "alt": "ER Icon weapon Pata.png",
       "title": "Pata"
     },
     "dlc_exclusive": true
@@ -307,8 +307,8 @@
     },
     "status_buildup": "poison",
     "image": {
-      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
-      "alt": "ER Menu Icon Attack Power.png",
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c5/ER_Icon_Weapon_Poisoned_Hand.png/300px-ER_Icon_Weapon_Poisoned_Hand.png?571bd0",
+      "alt": "ER Icon weapon Poisoned Hand.png",
       "title": "Poisoned Hand"
     },
     "dlc_exclusive": true
@@ -373,8 +373,8 @@
     },
     "status_buildup": "sleep",
     "image": {
-      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
-      "alt": "ER Menu Icon Attack Power.png",
+      "src": "https://eldenring.wiki.gg/images/thumb/c/c0/ER_Icon_Weapon_Thiollier%27s_Hidden_Needle.png/300px-ER_Icon_Weapon_Thiollier%27s_Hidden_Needle.png?d8aba0",
+      "alt": "ER Icon weapon Thiollier's Hidden Needle.png",
       "title": "Thiollier's Hidden Needle"
     },
     "dlc_exclusive": true
@@ -404,8 +404,8 @@
     },
     "status_buildup": "none",
     "image": {
-      "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Menu_Icon_Attack_Power.png/30px-ER_Menu_Icon_Attack_Power.png?f8f840",
-      "alt": "ER Menu Icon Attack Power.png",
+      "src": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_Weapon_Golem_Fist.png/300px-ER_Icon_Weapon_Golem_Fist.png?bf978e",
+      "alt": "ER Icon weapon Golem Fist.png",
       "title": "Golem Fist"
     },
     "dlc_exclusive": true
