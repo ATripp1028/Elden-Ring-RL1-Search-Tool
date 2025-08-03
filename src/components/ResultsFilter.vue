@@ -179,9 +179,7 @@ onUnmounted(() => {
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  flex-shrink: 0;
 }
 
 .filter-row {
@@ -333,7 +331,7 @@ select:focus {
   border-top: none;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  z-index: 20;
   max-height: 200px;
   overflow-y: auto;
 }

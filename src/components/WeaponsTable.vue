@@ -23,6 +23,8 @@ const paginatedWeapons = computed(() => {
           <th class="stat-col">Intelligence</th>
           <th class="stat-col">Faith</th>
           <th class="stat-col">Arcane</th>
+          <th class="damage-type-col">Primary Damage</th>
+          <th class="damage-type-col">Secondary Damage</th>
           <th class="wiki-link-cell">Wiki.gg</th>
           <th class="wiki-link-cell">Fextralife</th>
         </tr>
@@ -41,6 +43,13 @@ const paginatedWeapons = computed(() => {
           <td>{{ weapon.requiredAttributes.intelligence }}</td>
           <td>{{ weapon.requiredAttributes.faith }}</td>
           <td>{{ weapon.requiredAttributes.arcane }}</td>
+          <td>{{ weapon.damageTypes.major }}</td>
+          <td>
+            <span v-if="weapon.damageTypes.minor.length > 0">
+              {{ weapon.damageTypes.minor.join(', ') }}
+            </span>
+            <span v-else class="no-secondary">—</span>
+          </td>
           <td>
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
           </td>
@@ -58,10 +67,12 @@ const paginatedWeapons = computed(() => {
 <style scoped>
 .weapons-table {
   width: 100%;
-  overflow-x: auto;
+  height: 100%;
+  overflow: auto;
   color: black;
   margin: 0;
   padding: 0;
+  flex: 1;
 }
 
 table {
@@ -94,23 +105,30 @@ th {
   font-weight: 600;
   color: black;
   position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .image-col {
-  width: 10%;
+  width: 8%;
 }
 
 .name-col {
-  width: 20%;
+  width: 16%;
 }
 
 .stat-col {
+  width: 8%;
+  text-align: center;
+}
+
+.damage-type-col {
   width: 10%;
   text-align: center;
 }
 
 .links-col {
-  width: 10%;
+  width: 8%;
 }
 
 .weapon-image {
@@ -120,7 +138,7 @@ th {
 }
 
 .wiki-link-cell {
-  width: 10%;
+  width: 8%;
   text-align: center;
   white-space: nowrap;
 }
@@ -148,5 +166,10 @@ tr:hover {
 
 .error {
   color: red;
+}
+
+.no-secondary {
+  color: #999;
+  font-style: italic;
 }
 </style>
