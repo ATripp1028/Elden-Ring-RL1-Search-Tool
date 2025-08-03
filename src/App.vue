@@ -32,5 +32,9 @@ import WeaponsTable from './components/WeaponsTable.vue'
   flex: 1;
   width: 83%;
   background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 </style>

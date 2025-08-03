@@ -7,6 +7,10 @@ const stats = useStatsStore()
 // Multiselect state
 const isOpen = ref(false)
 const multiselectRef = ref<HTMLDivElement>()
+const isDamageTypeOpen = ref(false)
+const damageTypeMultiselectRef = ref<HTMLDivElement>()
+const isColumnOpen = ref(false)
+const columnMultiselectRef = ref<HTMLDivElement>()
 
 const toggleOption = (option: string) => {
   const index = stats.selectedWeaponTypes.indexOf(option)
@@ -21,15 +25,57 @@ const isSelected = (option: string) => {
   return stats.selectedWeaponTypes.includes(option)
 }
 
+const toggleDamageTypeOption = (option: string) => {
+  const index = stats.selectedDamageTypes.indexOf(option)
+  if (index > -1) {
+    stats.selectedDamageTypes.splice(index, 1)
+  } else {
+    stats.selectedDamageTypes.push(option)
+  }
+}
+
+const isDamageTypeSelected = (option: string) => {
+  return stats.selectedDamageTypes.includes(option)
+}
+
+const toggleColumnOption = (option: string) => {
+  // Prevent deselecting the last column - ensure at least one is always selected
+  if (stats.selectedColumns.includes(option) && stats.selectedColumns.length === 1) {
+    return
+  }
+
+  const index = stats.selectedColumns.indexOf(option)
+  if (index > -1) {
+    stats.selectedColumns.splice(index, 1)
+  } else {
+    stats.selectedColumns.push(option)
+  }
+}
+
+const isColumnSelected = (option: string) => {
+  return stats.selectedColumns.includes(option)
+}
+
 const handleClickOutside = (event: Event) => {
   if (multiselectRef.value && !multiselectRef.value.contains(event.target as Node)) {
     isOpen.value = false
+  }
+  if (
+    damageTypeMultiselectRef.value &&
+    !damageTypeMultiselectRef.value.contains(event.target as Node)
+  ) {
+    isDamageTypeOpen.value = false
+  }
+  if (columnMultiselectRef.value && !columnMultiselectRef.value.contains(event.target as Node)) {
+    isColumnOpen.value = false
   }
 }
 
 const handleKeydown = (event: KeyboardEvent) => {
   if (event.key === 'Escape') {
     isOpen.value = false
+    isDamageTypeOpen.value = false
+    isColumnOpen.value = false
   }
 }
 
@@ -111,6 +157,72 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
+      <div class="filter-group">
+        <label>Filter by Damage Type</label>
+        <div class="multiselect" ref="damageTypeMultiselectRef">
+          <div
+            class="multiselect-trigger"
+            @click="isDamageTypeOpen = !isDamageTypeOpen"
+            :class="{ open: isDamageTypeOpen }"
+          >
+            <span class="multiselect-display">
+              {{
+                stats.selectedDamageTypes.length > 0
+                  ? `${stats.selectedDamageTypes.length} selected`
+                  : 'Select Damage Types...'
+              }}
+            </span>
+            <span class="multiselect-arrow">▼</span>
+          </div>
+          <div class="multiselect-dropdown" v-if="isDamageTypeOpen">
+            <div class="multiselect-options">
+              <div
+                v-for="option in stats.damageTypes"
+                :key="option"
+                class="multiselect-option"
+                :class="{ selected: isDamageTypeSelected(option) }"
+                @click="toggleDamageTypeOption(option)"
+              >
+                <span class="checkbox">{{ isDamageTypeSelected(option) ? '✓' : '' }}</span>
+                <span class="option-text">{{ option }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>Show Columns</label>
+        <div class="multiselect" ref="columnMultiselectRef">
+          <div
+            class="multiselect-trigger"
+            @click="isColumnOpen = !isColumnOpen"
+            :class="{ open: isColumnOpen }"
+          >
+            <span class="multiselect-display">
+              {{
+                stats.selectedColumns.length > 0
+                  ? `${stats.selectedColumns.length} selected`
+                  : 'Select Columns...'
+              }}
+            </span>
+            <span class="multiselect-arrow">▼</span>
+          </div>
+          <div class="multiselect-dropdown" v-if="isColumnOpen">
+            <div class="multiselect-options">
+              <div
+                v-for="option in stats.availableColumns"
+                :key="option"
+                class="multiselect-option"
+                :class="{ selected: isColumnSelected(option) }"
+                @click="toggleColumnOption(option)"
+              >
+                <span class="checkbox">{{ isColumnSelected(option) ? '✓' : '' }}</span>
+                <span class="option-text">{{ option }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -124,9 +236,7 @@ onUnmounted(() => {
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  flex-shrink: 0;
 }
 
 .filter-row {
@@ -220,7 +330,6 @@ select:focus {
   color: #666;
 }
 
-/* Multiselect Styles */
 .multiselect {
   position: relative;
   flex: 1;
@@ -272,13 +381,13 @@ select:focus {
   position: absolute;
   top: 100%;
   left: 0;
-  right: 0;
+  width: 100%;
   background-color: white;
   border: 1px solid #ddd;
   border-top: none;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  z-index: 30;
   max-height: 200px;
   overflow-y: auto;
 }

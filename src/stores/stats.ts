@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, watch, computed } from 'vue'
-import { getStoredValue } from '../model/utils'
+import { getStoredValue, transformName } from '../model/utils'
 import weaponsThrustingShields from '../resources/weapons_thrusting_shields.json'
 import weaponsGreatshields from '../resources/weapons_greatshields.json'
 import weaponsMediumShields from '../resources/weapons_medium_shields.json'
@@ -100,6 +100,21 @@ export const useStatsStore = defineStore('stats', () => {
   const page = ref(1)
   const itemsPerPage = ref(10)
   const selectedWeaponTypes = ref<string[]>([])
+  const selectedDamageTypes = ref<string[]>([])
+  const selectedColumns = ref<string[]>((() => {
+    const stored = localStorage.getItem('stats.selectedColumns')
+    return stored ? JSON.parse(stored) : [
+      'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
+      'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+    ]
+  })())
+
+  const availableColumns = [
+    'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
+    'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+  ]
+
+  const damageTypes = ['Physical', 'Fire', 'Lightning', 'Holy', 'Magic']
 
   const searchQuery = ref('')
   const accountForTwoHanded = ref(true)
@@ -109,7 +124,6 @@ export const useStatsStore = defineStore('stats', () => {
     searchQuery.value = query
   }
 
-  // Process all weapons on component initialization
   const allWeaponArrays = [
     weaponsThrustingShields,
     weaponsGreatshields,
@@ -153,11 +167,10 @@ export const useStatsStore = defineStore('stats', () => {
     weaponsStraightSwords,
     weaponsDaggers,
     weaponsThrowingBlades,
-  ]
+  ].flat()
 
   const weapons = ref(
-    allWeaponArrays.flat().map((weapon: Weapon, index: number) => {
-      // Handle different attribute formats from the scraped data
+    (allWeaponArrays.flat() as Weapon[]).map((weapon: Weapon) => {
       let strengthOneHand = 0
       let strengthTwoHand = 0
       let dexterity = 0
@@ -167,7 +180,6 @@ export const useStatsStore = defineStore('stats', () => {
 
       if (weapon.attributes) {
         if (weapon.attributes.strength) {
-          // Handle the new format with one_hand/two_hand structure
           strengthOneHand = weapon.attributes.strength.one_hand || 0
           strengthTwoHand = weapon.attributes.strength.two_hand || 0
         }
@@ -178,10 +190,10 @@ export const useStatsStore = defineStore('stats', () => {
       }
 
       return {
-        id: weapon.weapon_name || `weapon-${index}`,
-        name: weapon.weapon_name || 'Unknown Weapon',
-        image: weapon.image?.src || '',
-        category: weapon.weapon_type || '',
+        id: weapon.weapon_name,
+        name: weapon.weapon_name,
+        image: weapon.image?.src,
+        category: weapon.weapon_type ,
         attack: {
           physical: 0,
           magic: 0,
@@ -198,8 +210,8 @@ export const useStatsStore = defineStore('stats', () => {
           faith,
           arcane,
         },
-        wikiGGLink: weapon.wikiGGLink || '',
-        wikiFextralifeLink: weapon.wikiFextralifeLink || '',
+        wikiGGLink: weapon.wikiGGLink,
+        wikiFextralifeLink: weapon.wikiFextralifeLink,
         damageTypes: weapon.damage_types,
         attackTypes: weapon.attack_types,
         statusBuildup: weapon.status_buildup,
@@ -215,11 +227,16 @@ export const useStatsStore = defineStore('stats', () => {
   const filteredWeapons = computed(() => {
     return weapons.value.filter((weapon) => {
       // Check if weapon name contains the search query
-      const matchesSearch = weapon.name.toLowerCase().includes(searchQuery.value.toLowerCase())
+      const matchesSearch = searchQuery.value === '' || transformName(weapon.name).includes(transformName(searchQuery.value))
 
       // Check if weapon type is selected (if no types selected, show all)
       const matchesWeaponType = selectedWeaponTypes.value.length === 0 ||
         selectedWeaponTypes.value.includes(weapon.category)
+
+      // Check if damage type is selected (if no types selected, show all)
+      const matchesDamageType = selectedDamageTypes.value.length === 0 ||
+        selectedDamageTypes.value.includes(weapon.damageTypes.major) ||
+        weapon.damageTypes.minor.some(damageType => selectedDamageTypes.value.includes(damageType))
 
       // Check DLC filter
       const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
@@ -236,7 +253,7 @@ export const useStatsStore = defineStore('stats', () => {
         weapon.requiredAttributes.faith <= faith.value &&
         weapon.requiredAttributes.arcane <= arcane.value
 
-      return matchesSearch && matchesWeaponType && matchesDlcFilter && meetsRequirements
+      return matchesSearch && matchesWeaponType && matchesDamageType && matchesDlcFilter && meetsRequirements
     })
   })
 
@@ -271,6 +288,14 @@ export const useStatsStore = defineStore('stats', () => {
     page.value = 1
   })
 
+  watch(selectedDamageTypes, () => {
+    page.value = 1
+  }, { deep: true })
+
+  watch(selectedColumns, (newValue) => {
+    localStorage.setItem('stats.selectedColumns', JSON.stringify(newValue))
+  }, { deep: true })
+
   return {
     strength,
     dexterity,
@@ -286,6 +311,10 @@ export const useStatsStore = defineStore('stats', () => {
     accountForTwoHanded,
     weaponTypes,
     selectedWeaponTypes,
+    damageTypes,
+    selectedDamageTypes,
+    availableColumns,
+    selectedColumns,
     showDlcWeapons,
   }
 })

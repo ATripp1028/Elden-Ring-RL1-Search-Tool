@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import { useStatsStore } from '../stores/stats'
+import { ref } from 'vue'
 
 const stats = useStatsStore()
+
+const showTwoHandedTooltip = ref(false)
+const showDlcTooltip = ref(false)
 
 const resetStats = () => {
   stats.strength = 10
@@ -10,6 +14,16 @@ const resetStats = () => {
   stats.faith = 10
   stats.arcane = 10
   stats.page = 1
+}
+
+const toggleTwoHandedTooltip = () => {
+  showTwoHandedTooltip.value = !showTwoHandedTooltip.value
+  showDlcTooltip.value = false // Close other tooltip
+}
+
+const toggleDlcTooltip = () => {
+  showDlcTooltip.value = !showDlcTooltip.value
+  showTwoHandedTooltip.value = false // Close other tooltip
 }
 </script>
 
@@ -50,34 +64,54 @@ const resetStats = () => {
     <div class="form-group">
       <div class="checkbox-line">
         <label for="field6" class="checkbox-label">Account for Two Hands</label>
-        <input
-          type="checkbox"
-          id="field6"
-          v-model="stats.accountForTwoHanded"
-          style="width: auto"
-        />
+        <div class="checkbox-with-help">
+          <input
+            type="checkbox"
+            id="field6"
+            v-model="stats.accountForTwoHanded"
+            style="width: auto"
+          />
+          <button
+            type="button"
+            class="help-button"
+            @click="toggleTwoHandedTooltip"
+            :class="{ active: showTwoHandedTooltip }"
+          >
+            ?
+          </button>
+        </div>
       </div>
-      <p class="form-group-description">
+      <div v-if="showTwoHandedTooltip" class="tooltip-bubble">
         If checked, the tool will query for weapons that can be effectively wielded with two hands
         for your desired strength. If unchecked, the tool will only compare against the in-game
         listed strength.
-      </p>
+      </div>
     </div>
 
     <div class="form-group">
       <div class="checkbox-line">
         <label for="dlcCheckbox" class="checkbox-label">Include DLC Weapons</label>
-        <input
-          type="checkbox"
-          id="dlcCheckbox"
-          v-model="stats.showDlcWeapons"
-          style="width: auto"
-        />
+        <div class="checkbox-with-help">
+          <input
+            type="checkbox"
+            id="dlcCheckbox"
+            v-model="stats.showDlcWeapons"
+            style="width: auto"
+          />
+          <button
+            type="button"
+            class="help-button"
+            @click="toggleDlcTooltip"
+            :class="{ active: showDlcTooltip }"
+          >
+            ?
+          </button>
+        </div>
       </div>
-      <p class="form-group-description">
+      <div v-if="showDlcTooltip" class="tooltip-bubble">
         If checked, weapons from the Shadow of the Erdtree DLC will be included in the results. If
         unchecked, only base game weapons will be shown.
-      </p>
+      </div>
     </div>
 
     <button @click="resetStats">Reset</button>
@@ -188,13 +222,79 @@ input:focus {
   color: #666;
 }
 
-.form-group-description {
-  font-size: 12px;
-  color: #666;
-}
-
 .checkbox-label {
   font-size: 12px;
   width: 100%;
+}
+
+.checkbox-with-help {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.help-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.help-button:hover {
+  border-color: #999;
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.help-button.active {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+}
+
+.tooltip-bubble {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background-color: #333;
+  color: white;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.tooltip-bubble::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #333;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
