@@ -1,14 +1,8 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useStatsStore } from '../stores/stats'
+import { usePaginationStore, useUIStore } from '../stores'
 
-const stats = useStatsStore()
-
-const paginatedWeapons = computed(() => {
-  const start = (stats.page - 1) * stats.itemsPerPage
-  const end = start + stats.itemsPerPage
-  return stats.filteredWeapons.slice(start, end)
-})
+const paginationStore = usePaginationStore()
+const uiStore = useUIStore()
 </script>
 
 <template>
@@ -16,85 +10,93 @@ const paginatedWeapons = computed(() => {
     <table>
       <thead>
         <tr>
-          <th v-if="stats.selectedColumns.includes('Image')" class="image-col" title="Image">
+          <th v-if="uiStore.selectedColumns.includes('Image')" class="image-col" title="Image">
             Image
           </th>
-          <th v-if="stats.selectedColumns.includes('Name')" class="name-col" title="Name">Name</th>
-          <th v-if="stats.selectedColumns.includes('Strength')" class="stat-col" title="Strength">
+          <th v-if="uiStore.selectedColumns.includes('Name')" class="name-col" title="Name">
+            Name
+          </th>
+          <th v-if="uiStore.selectedColumns.includes('Strength')" class="stat-col" title="Strength">
             Strength
           </th>
-          <th v-if="stats.selectedColumns.includes('Dexterity')" class="stat-col" title="Dexterity">
+          <th
+            v-if="uiStore.selectedColumns.includes('Dexterity')"
+            class="stat-col"
+            title="Dexterity"
+          >
             Dexterity
           </th>
           <th
-            v-if="stats.selectedColumns.includes('Intelligence')"
+            v-if="uiStore.selectedColumns.includes('Intelligence')"
             class="stat-col"
             title="Intelligence"
           >
             Intelligence
           </th>
-          <th v-if="stats.selectedColumns.includes('Faith')" class="stat-col" title="Faith">
+          <th v-if="uiStore.selectedColumns.includes('Faith')" class="stat-col" title="Faith">
             Faith
           </th>
-          <th v-if="stats.selectedColumns.includes('Arcane')" class="stat-col" title="Arcane">
+          <th v-if="uiStore.selectedColumns.includes('Arcane')" class="stat-col" title="Arcane">
             Arcane
           </th>
           <th
-            v-if="stats.selectedColumns.includes('Primary Damage')"
+            v-if="uiStore.selectedColumns.includes('Primary Damage')"
             class="damage-type-col"
             title="Primary Damage"
           >
             Primary Damage
           </th>
           <th
-            v-if="stats.selectedColumns.includes('Secondary Damage')"
+            v-if="uiStore.selectedColumns.includes('Secondary Damage')"
             class="damage-type-col"
             title="Secondary Damage"
           >
             Secondary Damage
           </th>
-          <th v-if="stats.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
-          <th v-if="stats.selectedColumns.includes('Fextralife')" title="Fextralife">Fextralife</th>
+          <th v-if="uiStore.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
+          <th v-if="uiStore.selectedColumns.includes('Fextralife')" title="Fextralife">
+            Fextralife
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="weapon in paginatedWeapons" :key="weapon.id">
-          <td v-if="stats.selectedColumns.includes('Image')">
+        <tr v-for="weapon in paginationStore.paginatedWeapons" :key="weapon.id">
+          <td v-if="uiStore.selectedColumns.includes('Image')">
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
-          <td v-if="stats.selectedColumns.includes('Name')">{{ weapon.name }}</td>
-          <td v-if="stats.selectedColumns.includes('Strength')">
+          <td v-if="uiStore.selectedColumns.includes('Name')">{{ weapon.name }}</td>
+          <td v-if="uiStore.selectedColumns.includes('Strength')">
             <div>One Hand: {{ weapon.requiredAttributes.strengthOneHand }}</div>
             <div>Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}</div>
           </td>
-          <td v-if="stats.selectedColumns.includes('Dexterity')">
+          <td v-if="uiStore.selectedColumns.includes('Dexterity')">
             {{ weapon.requiredAttributes.dexterity }}
           </td>
-          <td v-if="stats.selectedColumns.includes('Intelligence')">
+          <td v-if="uiStore.selectedColumns.includes('Intelligence')">
             {{ weapon.requiredAttributes.intelligence }}
           </td>
-          <td v-if="stats.selectedColumns.includes('Faith')">
+          <td v-if="uiStore.selectedColumns.includes('Faith')">
             {{ weapon.requiredAttributes.faith }}
           </td>
-          <td v-if="stats.selectedColumns.includes('Arcane')">
+          <td v-if="uiStore.selectedColumns.includes('Arcane')">
             {{ weapon.requiredAttributes.arcane }}
           </td>
-          <td v-if="stats.selectedColumns.includes('Primary Damage')">
+          <td v-if="uiStore.selectedColumns.includes('Primary Damage')">
             {{ weapon.damageTypes.major }}
           </td>
-          <td v-if="stats.selectedColumns.includes('Secondary Damage')">
+          <td v-if="uiStore.selectedColumns.includes('Secondary Damage')">
             <span v-if="weapon.damageTypes.minor.length > 0">
               {{ weapon.damageTypes.minor.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="stats.selectedColumns.includes('Wiki.gg')">
+          <td v-if="uiStore.selectedColumns.includes('Wiki.gg')">
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
           </td>
-          <td v-if="stats.selectedColumns.includes('Fextralife')">
-            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"
-              >Fextralife</a
-            >
+          <td v-if="uiStore.selectedColumns.includes('Fextralife')">
+            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer">
+              Fextralife
+            </a>
           </td>
         </tr>
       </tbody>

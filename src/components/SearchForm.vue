@@ -1,19 +1,17 @@
 <script setup lang="ts">
-import { useStatsStore } from '../stores/stats'
+import { useStatsStore, useFiltersStore, usePaginationStore } from '../stores'
 import { ref } from 'vue'
 
-const stats = useStatsStore()
+const statsStore = useStatsStore()
+const filtersStore = useFiltersStore()
+const paginationStore = usePaginationStore()
 
 const showTwoHandedTooltip = ref(false)
 const showDlcTooltip = ref(false)
 
 const resetStats = () => {
-  stats.strength = 10
-  stats.dexterity = 10
-  stats.intelligence = 10
-  stats.faith = 10
-  stats.arcane = 10
-  stats.page = 1
+  statsStore.resetStats()
+  paginationStore.resetPage()
 }
 
 const toggleTwoHandedTooltip = () => {
@@ -33,12 +31,17 @@ const toggleDlcTooltip = () => {
     <p class="subtitle">Enter stats to see what your options are.</p>
     <div class="form-group">
       <label for="field1">Strength</label>
-      <input type="number" id="field1" v-model="stats.strength" placeholder="Enter Strength" />
+      <input type="number" id="field1" v-model="statsStore.strength" placeholder="Enter Strength" />
     </div>
 
     <div class="form-group">
       <label for="field2">Dexterity</label>
-      <input type="number" id="field2" v-model="stats.dexterity" placeholder="Enter Dexterity" />
+      <input
+        type="number"
+        id="field2"
+        v-model="statsStore.dexterity"
+        placeholder="Enter Dexterity"
+      />
     </div>
 
     <div class="form-group">
@@ -46,19 +49,19 @@ const toggleDlcTooltip = () => {
       <input
         type="number"
         id="field3"
-        v-model="stats.intelligence"
+        v-model="statsStore.intelligence"
         placeholder="Enter Intelligence"
       />
     </div>
 
     <div class="form-group">
       <label for="field4">Faith</label>
-      <input type="number" id="field4" v-model="stats.faith" placeholder="Enter Faith" />
+      <input type="number" id="field4" v-model="statsStore.faith" placeholder="Enter Faith" />
     </div>
 
     <div class="form-group">
       <label for="field5">Arcane</label>
-      <input type="number" id="field5" v-model="stats.arcane" placeholder="Enter Arcane" />
+      <input type="number" id="field5" v-model="statsStore.arcane" placeholder="Enter Arcane" />
     </div>
 
     <div class="form-group">
@@ -68,7 +71,7 @@ const toggleDlcTooltip = () => {
           <input
             type="checkbox"
             id="field6"
-            v-model="stats.accountForTwoHanded"
+            v-model="statsStore.accountForTwoHanded"
             style="width: auto"
           />
           <button
@@ -95,7 +98,7 @@ const toggleDlcTooltip = () => {
           <input
             type="checkbox"
             id="dlcCheckbox"
-            v-model="stats.showDlcWeapons"
+            v-model="filtersStore.showDlcWeapons"
             style="width: auto"
           />
           <button
