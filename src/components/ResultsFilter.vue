@@ -34,7 +34,7 @@ const paginationStore = usePaginationStore()
       <div class="filter-group">
         <label>Filter by Type</label>
         <BaseMultiSelect
-          :options="weaponsStore.weaponTypes"
+          :options="filtersStore.filteredWeaponTypes"
           v-model:selected-items="filtersStore.selectedWeaponTypes"
           placeholder="Select Weapon Types..."
         />
