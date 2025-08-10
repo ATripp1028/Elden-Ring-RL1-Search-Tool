@@ -28,6 +28,14 @@ const toggleIgnoreStats = () => {
   // v-model already updated statsStore.ignoreStats; just reset pagination
   paginationStore.resetPage()
 }
+
+const showBuildModeTooltip = ref(false)
+const toggleBuildModeTooltip = () => {
+  showBuildModeTooltip.value = !showBuildModeTooltip.value
+  // Close other tooltips for consistency
+  showTwoHandedTooltip.value = false
+  showDlcTooltip.value = false
+}
 </script>
 
 <template>
@@ -36,15 +44,29 @@ const toggleIgnoreStats = () => {
     <p class="subtitle">Enter stats to see what your options are.</p>
 
     <div class="form-group">
-      <div class="switch-row">
-        <div class="switch-text">
-          <div class="switch-title">Build Mode</div>
-          <div class="switch-subtitle">Toggle to ignore stats and search all other filters</div>
+      <div class="checkbox-line">
+        <label for="ignoreStatsCheckbox" class="checkbox-label">Ignore Stats</label>
+        <div class="checkbox-with-help">
+          <input
+            type="checkbox"
+            id="ignoreStatsCheckbox"
+            v-model="statsStore.ignoreStats"
+            @change="toggleIgnoreStats"
+            style="width: auto"
+          />
+          <button
+            type="button"
+            class="help-button"
+            @click="toggleBuildModeTooltip"
+            :class="{ active: showBuildModeTooltip }"
+            aria-label="Ignore Stats info"
+          >
+            ?
+          </button>
         </div>
-        <label class="switch">
-          <input type="checkbox" v-model="statsStore.ignoreStats" @change="toggleIgnoreStats" />
-          <span class="slider"></span>
-        </label>
+      </div>
+      <div v-if="showBuildModeTooltip" class="tooltip-bubble">
+        Toggle to ignore stats and search all other filters
       </div>
     </div>
     <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
@@ -366,6 +388,12 @@ input:focus {
 .switch-subtitle {
   font-size: 12px;
   color: #666;
+}
+
+.switch-with-help {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .switch {
