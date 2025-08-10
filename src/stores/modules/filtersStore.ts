@@ -37,8 +37,8 @@ export const useFiltersStore = defineStore('filters', () => {
       // Check DLC filter
       const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
 
-      // Check if weapon stats are less than or equal to current stats
-      const meetsRequirements =
+      // Check if weapon stats are less than or equal to current stats (unless ignoring stats)
+      const meetsRequirements = statsStore.ignoreStats || (
         (
           statsStore.accountForTwoHanded
             ? weapon.requiredAttributes.strengthTwoHand <= statsStore.strength
@@ -48,6 +48,7 @@ export const useFiltersStore = defineStore('filters', () => {
         weapon.requiredAttributes.intelligence <= statsStore.intelligence &&
         weapon.requiredAttributes.faith <= statsStore.faith &&
         weapon.requiredAttributes.arcane <= statsStore.arcane
+      )
 
       return matchesSearch && matchesWeaponType && matchesDamageType && matchesDlcFilter && meetsRequirements
     })
