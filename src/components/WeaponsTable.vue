@@ -1,8 +1,18 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { usePaginationStore, useUIStore } from '../stores'
 
 const paginationStore = usePaginationStore()
 const uiStore = useUIStore()
+
+const sortIndicator = computed(() => (column: string) => {
+  if (uiStore.sortBy !== column) return ''
+  return uiStore.sortOrder === 'asc' ? '▲' : '▼'
+})
+
+const handleSort = (column: string) => {
+  uiStore.setSort(column)
+}
 </script>
 
 <template>
@@ -13,45 +23,70 @@ const uiStore = useUIStore()
           <th v-if="uiStore.selectedColumns.includes('Image')" class="image-col" title="Image">
             Image
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Name')" class="name-col" title="Name">
-            Name
+          <th
+            v-if="uiStore.selectedColumns.includes('Name')"
+            class="name-col sortable"
+            title="Name"
+            @click="handleSort('Name')"
+          >
+            Name <span class="sort-indicator">{{ sortIndicator('Name') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Strength')" class="stat-col" title="Strength">
-            Strength
+          <th
+            v-if="uiStore.selectedColumns.includes('Strength')"
+            class="stat-col sortable"
+            title="Strength"
+            @click="handleSort('Strength')"
+          >
+            Strength <span class="sort-indicator">{{ sortIndicator('Strength') }}</span>
           </th>
           <th
             v-if="uiStore.selectedColumns.includes('Dexterity')"
-            class="stat-col"
+            class="stat-col sortable"
             title="Dexterity"
+            @click="handleSort('Dexterity')"
           >
-            Dexterity
+            Dexterity <span class="sort-indicator">{{ sortIndicator('Dexterity') }}</span>
           </th>
           <th
             v-if="uiStore.selectedColumns.includes('Intelligence')"
-            class="stat-col"
+            class="stat-col sortable"
             title="Intelligence"
+            @click="handleSort('Intelligence')"
           >
-            Intelligence
+            Intelligence <span class="sort-indicator">{{ sortIndicator('Intelligence') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Faith')" class="stat-col" title="Faith">
-            Faith
+          <th
+            v-if="uiStore.selectedColumns.includes('Faith')"
+            class="stat-col sortable"
+            title="Faith"
+            @click="handleSort('Faith')"
+          >
+            Faith <span class="sort-indicator">{{ sortIndicator('Faith') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Arcane')" class="stat-col" title="Arcane">
-            Arcane
+          <th
+            v-if="uiStore.selectedColumns.includes('Arcane')"
+            class="stat-col sortable"
+            title="Arcane"
+            @click="handleSort('Arcane')"
+          >
+            Arcane <span class="sort-indicator">{{ sortIndicator('Arcane') }}</span>
           </th>
           <th
             v-if="uiStore.selectedColumns.includes('Primary Damage')"
-            class="damage-type-col"
+            class="damage-type-col sortable"
             title="Primary Damage"
+            @click="handleSort('Primary Damage')"
           >
-            Primary Damage
+            Primary Damage <span class="sort-indicator">{{ sortIndicator('Primary Damage') }}</span>
           </th>
           <th
             v-if="uiStore.selectedColumns.includes('Secondary Damage')"
-            class="damage-type-col"
+            class="damage-type-col sortable"
             title="Secondary Damage"
+            @click="handleSort('Secondary Damage')"
           >
             Secondary Damage
+            <span class="sort-indicator">{{ sortIndicator('Secondary Damage') }}</span>
           </th>
           <th v-if="uiStore.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
           <th v-if="uiStore.selectedColumns.includes('Fextralife')" title="Fextralife">
@@ -227,5 +262,14 @@ tbody td {
 .no-secondary {
   color: #999;
   font-style: italic;
+}
+
+.sortable {
+  cursor: pointer;
+}
+
+.sort-indicator {
+  font-size: 0.8em;
+  margin-left: 4px;
 }
 </style>
