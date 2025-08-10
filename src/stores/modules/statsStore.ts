@@ -12,6 +12,7 @@ export const useStatsStore = defineStore('stats', () => {
 
   // Settings
   const accountForTwoHanded = ref(true)
+  const ignoreStats = ref(localStorage.getItem('stats.ignoreStats') === 'true')
 
   const resetStats = () => {
     strength.value = 10
@@ -42,6 +43,11 @@ export const useStatsStore = defineStore('stats', () => {
     localStorage.setItem('stats.arcane', newValue.toString())
   })
 
+  // Persist settings
+  watch(ignoreStats, (newValue) => {
+    localStorage.setItem('stats.ignoreStats', newValue.toString())
+  })
+
   return {
     strength,
     dexterity,
@@ -49,6 +55,7 @@ export const useStatsStore = defineStore('stats', () => {
     faith,
     arcane,
     accountForTwoHanded,
+    ignoreStats,
     resetStats,
   }
 })

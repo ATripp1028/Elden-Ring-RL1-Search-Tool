@@ -23,48 +23,108 @@ const toggleDlcTooltip = () => {
   showDlcTooltip.value = !showDlcTooltip.value
   showTwoHandedTooltip.value = false // Close other tooltip
 }
+
+const toggleIgnoreStats = () => {
+  // v-model already updated statsStore.ignoreStats; just reset pagination
+  paginationStore.resetPage()
+}
+
+const showBuildModeTooltip = ref(false)
+const toggleBuildModeTooltip = () => {
+  showBuildModeTooltip.value = !showBuildModeTooltip.value
+  // Close other tooltips for consistency
+  showTwoHandedTooltip.value = false
+  showDlcTooltip.value = false
+}
 </script>
 
 <template>
   <div class="search-form">
     <h1 class="title">Elden Ring RL1 Search Tool</h1>
     <p class="subtitle">Enter stats to see what your options are.</p>
-    <div class="form-group">
-      <label for="field1">Strength</label>
-      <input type="number" id="field1" v-model="statsStore.strength" placeholder="Enter Strength" />
-    </div>
 
     <div class="form-group">
+      <div class="checkbox-line">
+        <label for="ignoreStatsCheckbox" class="checkbox-label">Ignore Stats</label>
+        <div class="checkbox-with-help">
+          <input
+            type="checkbox"
+            id="ignoreStatsCheckbox"
+            v-model="statsStore.ignoreStats"
+            @change="toggleIgnoreStats"
+            style="width: auto"
+          />
+          <button
+            type="button"
+            class="help-button"
+            @click="toggleBuildModeTooltip"
+            :class="{ active: showBuildModeTooltip }"
+            aria-label="Ignore Stats info"
+          >
+            ?
+          </button>
+        </div>
+      </div>
+      <div v-if="showBuildModeTooltip" class="tooltip-bubble">
+        Toggle to ignore stats and search all other filters
+      </div>
+    </div>
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
+      <label for="field1">Strength</label>
+      <input
+        type="number"
+        id="field1"
+        v-model="statsStore.strength"
+        :disabled="statsStore.ignoreStats"
+        placeholder="Enter Strength"
+      />
+    </div>
+
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
       <label for="field2">Dexterity</label>
       <input
         type="number"
         id="field2"
         v-model="statsStore.dexterity"
+        :disabled="statsStore.ignoreStats"
         placeholder="Enter Dexterity"
       />
     </div>
 
-    <div class="form-group">
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
       <label for="field3">Intelligence</label>
       <input
         type="number"
         id="field3"
         v-model="statsStore.intelligence"
+        :disabled="statsStore.ignoreStats"
         placeholder="Enter Intelligence"
       />
     </div>
 
-    <div class="form-group">
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
       <label for="field4">Faith</label>
-      <input type="number" id="field4" v-model="statsStore.faith" placeholder="Enter Faith" />
+      <input
+        type="number"
+        id="field4"
+        v-model="statsStore.faith"
+        :disabled="statsStore.ignoreStats"
+        placeholder="Enter Faith"
+      />
     </div>
 
-    <div class="form-group">
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
       <label for="field5">Arcane</label>
-      <input type="number" id="field5" v-model="statsStore.arcane" placeholder="Enter Arcane" />
+      <input
+        type="number"
+        id="field5"
+        v-model="statsStore.arcane"
+        :disabled="statsStore.ignoreStats"
+        placeholder="Enter Arcane"
+      />
     </div>
 
-    <div class="form-group">
+    <div class="form-group" :class="{ disabled: statsStore.ignoreStats }">
       <div class="checkbox-line">
         <label for="field6" class="checkbox-label">Account for Two Hands</label>
         <div class="checkbox-with-help">
@@ -72,6 +132,7 @@ const toggleDlcTooltip = () => {
             type="checkbox"
             id="field6"
             v-model="statsStore.accountForTwoHanded"
+            :disabled="statsStore.ignoreStats"
             style="width: auto"
           />
           <button
@@ -79,12 +140,13 @@ const toggleDlcTooltip = () => {
             class="help-button"
             @click="toggleTwoHandedTooltip"
             :class="{ active: showTwoHandedTooltip }"
+            :disabled="statsStore.ignoreStats"
           >
             ?
           </button>
         </div>
       </div>
-      <div v-if="showTwoHandedTooltip" class="tooltip-bubble">
+      <div v-if="showTwoHandedTooltip && !statsStore.ignoreStats" class="tooltip-bubble">
         If checked, the tool will query for weapons that can be effectively wielded with two hands
         for your desired strength. If unchecked, the tool will only compare against the in-game
         listed strength.
@@ -117,7 +179,7 @@ const toggleDlcTooltip = () => {
       </div>
     </div>
 
-    <button @click="resetStats">Reset</button>
+    <button @click="resetStats" :disabled="statsStore.ignoreStats">Reset</button>
 
     <!-- <div class="debug-section">
       <h3>Debug Info</h3>
@@ -166,6 +228,10 @@ const toggleDlcTooltip = () => {
 
 .form-group {
   margin-bottom: 20px;
+}
+
+.form-group.disabled {
+  opacity: 0.6;
 }
 
 .checkbox-line {
@@ -299,5 +365,84 @@ input:focus {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Switch styles */
+.switch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.switch-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.switch-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.switch-subtitle {
+  font-size: 12px;
+  color: #666;
+}
+
+.switch-with-help {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.2s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.2s;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+input:checked + .slider {
+  background-color: #4caf50;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4caf50;
+}
+
+input:checked + .slider:before {
+  transform: translateX(12px);
 }
 </style>
