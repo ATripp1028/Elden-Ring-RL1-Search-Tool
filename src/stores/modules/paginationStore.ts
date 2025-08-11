@@ -53,17 +53,14 @@ export const usePaginationStore = defineStore('pagination', () => {
         case 'Arcane':
           result = compareNumbers(a.requiredAttributes.arcane, b.requiredAttributes.arcane)
           break
-        case 'Primary Damage':
-          result = compareStrings(a.damageTypes.major, b.damageTypes.major)
-          break
-        case 'Secondary Damage': {
-          const aMinor = (a.damageTypes.minor && a.damageTypes.minor.length)
-            ? a.damageTypes.minor.join(', ')
+        case 'Damage Type': {
+          const aJoined = (a.trackedDamageTypes && a.trackedDamageTypes.length)
+            ? a.trackedDamageTypes.join(', ')
             : ''
-          const bMinor = (b.damageTypes.minor && b.damageTypes.minor.length)
-            ? b.damageTypes.minor.join(', ')
+          const bJoined = (b.trackedDamageTypes && b.trackedDamageTypes.length)
+            ? b.trackedDamageTypes.join(', ')
             : ''
-          result = compareStrings(aMinor, bMinor)
+          result = compareStrings(aJoined, bJoined)
           break
         }
         case 'Attack Type': {

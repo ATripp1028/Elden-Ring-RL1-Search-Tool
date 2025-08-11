@@ -72,21 +72,12 @@ const handleSort = (column: string) => {
             Arcane <span class="sort-indicator">{{ sortIndicator('Arcane') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Primary Damage')"
+            v-if="uiStore.selectedColumns.includes('Damage Type')"
             class="damage-type-col sortable"
-            title="Primary Damage"
-            @click="handleSort('Primary Damage')"
+            title="Damage Type"
+            @click="handleSort('Damage Type')"
           >
-            Primary Damage <span class="sort-indicator">{{ sortIndicator('Primary Damage') }}</span>
-          </th>
-          <th
-            v-if="uiStore.selectedColumns.includes('Secondary Damage')"
-            class="damage-type-col sortable"
-            title="Secondary Damage"
-            @click="handleSort('Secondary Damage')"
-          >
-            Secondary Damage
-            <span class="sort-indicator">{{ sortIndicator('Secondary Damage') }}</span>
+            Damage Type <span class="sort-indicator">{{ sortIndicator('Damage Type') }}</span>
           </th>
           <th
             v-if="uiStore.selectedColumns.includes('Attack Type')"
@@ -125,12 +116,9 @@ const handleSort = (column: string) => {
           <td v-if="uiStore.selectedColumns.includes('Arcane')">
             {{ weapon.requiredAttributes.arcane }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Primary Damage')">
-            {{ weapon.damageTypes.major }}
-          </td>
-          <td v-if="uiStore.selectedColumns.includes('Secondary Damage')">
-            <span v-if="weapon.damageTypes.minor.length > 0">
-              {{ weapon.damageTypes.minor.join(', ') }}
+          <td v-if="uiStore.selectedColumns.includes('Damage Type')">
+            <span v-if="weapon.trackedDamageTypes && weapon.trackedDamageTypes.length > 0">
+              {{ weapon.trackedDamageTypes.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
           </td>

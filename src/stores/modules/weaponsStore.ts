@@ -30,6 +30,9 @@ export interface ProcessedWeapon {
     major: string
     minor: string[]
   }
+  // Combined, display- and filter-ready damage types.
+  // If any elemental (non-Physical) types are present, Physical is excluded.
+  trackedDamageTypes: string[]
   attackTypes: {
     primary: string
     secondary: string
@@ -139,6 +142,13 @@ export const useWeaponsStore = defineStore('weapons', () => {
         wikiGGLink: weapon.wikiGGLink,
         wikiFextralifeLink: weapon.wikiFextralifeLink,
         damageTypes: weapon.damage_types,
+        trackedDamageTypes: (() => {
+          const major = weapon.damage_types?.major
+          const minors = weapon.damage_types?.minor || []
+          const allTypes = [major, ...minors].filter(Boolean) as string[]
+          const hasElemental = allTypes.some((t) => t !== 'Physical')
+          return hasElemental ? allTypes.filter((t) => t !== 'Physical') : ['Physical']
+        })(),
         attackTypes: weapon.attack_types,
         statusBuildup: weapon.status_buildup,
         dlcExclusive: weapon.dlc_exclusive,
