@@ -22,6 +22,16 @@ const paginationStore = usePaginationStore()
         />
       </div>
 
+      <div class="filter-group">
+        <label>Show Columns</label>
+        <BaseMultiSelect
+          :options="uiStore.availableColumns"
+          v-model:selected-items="uiStore.selectedColumns"
+          placeholder="Select Columns..."
+          :prevent-deselection-of-last="true"
+        />
+      </div>
+
       <BasePagination
         v-model:current-page="paginationStore.page"
         v-model:items-per-page="paginationStore.itemsPerPage"
@@ -55,16 +65,6 @@ const paginationStore = usePaginationStore()
           :options="weaponsStore.attackTypes"
           v-model:selected-items="filtersStore.selectedAttackTypes"
           placeholder="Select Attack Types..."
-        />
-      </div>
-
-      <div class="filter-group">
-        <label>Show Columns</label>
-        <BaseMultiSelect
-          :options="uiStore.availableColumns"
-          v-model:selected-items="uiStore.selectedColumns"
-          placeholder="Select Columns..."
-          :prevent-deselection-of-last="true"
         />
       </div>
     </div>

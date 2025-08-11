@@ -271,8 +271,8 @@
       "minor": []
     },
     "attack_types": {
-      "primary": "Strike",
-      "secondary": "Strike"
+      "primary": "Slash",
+      "secondary": "Pierce"
     },
     "status_buildup": "none",
     "image": {
