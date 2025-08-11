@@ -8,6 +8,7 @@ const paginationStore = usePaginationStore()
 
 const showTwoHandedTooltip = ref(false)
 const showDlcTooltip = ref(false)
+const showHideShieldsTooltip = ref(false)
 
 const resetStats = () => {
   statsStore.resetStats()
@@ -22,6 +23,11 @@ const toggleTwoHandedTooltip = () => {
 const toggleDlcTooltip = () => {
   showDlcTooltip.value = !showDlcTooltip.value
   showTwoHandedTooltip.value = false // Close other tooltip
+}
+
+const toggleHideShieldsTooltip = () => {
+  showHideShieldsTooltip.value = !showHideShieldsTooltip.value
+  showDlcTooltip.value = false // Close other tooltip
 }
 
 const toggleIgnoreStats = () => {
@@ -179,23 +185,32 @@ const toggleBuildModeTooltip = () => {
       </div>
     </div>
 
-    <button @click="resetStats" :disabled="statsStore.ignoreStats">Reset</button>
+    <div class="form-group">
+      <div class="checkbox-line">
+        <label for="dlcCheckbox" class="checkbox-label">Hide Shields</label>
+        <div class="checkbox-with-help">
+          <input
+            type="checkbox"
+            id="hideShieldsCheckbox"
+            v-model="filtersStore.hideShields"
+            style="width: auto"
+          />
+          <button
+            type="button"
+            class="help-button"
+            @click="toggleHideShieldsTooltip"
+            :class="{ active: showHideShieldsTooltip }"
+          >
+            ?
+          </button>
+        </div>
+      </div>
+      <div v-if="showHideShieldsTooltip" class="tooltip-bubble">
+        If checked, shields will be hidden from the results.
+      </div>
+    </div>
 
-    <!-- <div class="debug-section">
-      <h3>Debug Info</h3>
-      <pre>{{ JSON.stringify({
-        stats: {
-          strength: stats.strength,
-          dexterity: stats.dexterity,
-          intelligence: stats.intelligence,
-          faith: stats.faith,
-          arcane: stats.arcane
-        },
-        filter: {
-          searchQuery: filter.searchQuery
-        }
-      }, null, 2) }}</pre>
-    </div> -->
+    <button @click="resetStats" :disabled="statsStore.ignoreStats">Reset</button>
     <p class="made-by">Made by MrSporkMan</p>
   </div>
 </template>

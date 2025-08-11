@@ -10,7 +10,6 @@ export const useStatsStore = defineStore('stats', () => {
   const faith = ref(getStoredValue('stats.faith', 10))
   const arcane = ref(getStoredValue('stats.arcane', 10))
 
-  // Settings
   const accountForTwoHanded = ref(true)
   const ignoreStats = ref(localStorage.getItem('stats.ignoreStats') === 'true')
 
@@ -43,7 +42,6 @@ export const useStatsStore = defineStore('stats', () => {
     localStorage.setItem('stats.arcane', newValue.toString())
   })
 
-  // Persist settings
   watch(ignoreStats, (newValue) => {
     localStorage.setItem('stats.ignoreStats', newValue.toString())
   })
