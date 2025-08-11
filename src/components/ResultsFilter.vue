@@ -50,6 +50,15 @@ const paginationStore = usePaginationStore()
       </div>
 
       <div class="filter-group">
+        <label>Filter by Attack Type</label>
+        <BaseMultiSelect
+          :options="weaponsStore.attackTypes"
+          v-model:selected-items="filtersStore.selectedAttackTypes"
+          placeholder="Select Attack Types..."
+        />
+      </div>
+
+      <div class="filter-group">
         <label>Show Columns</label>
         <BaseMultiSelect
           :options="uiStore.availableColumns"

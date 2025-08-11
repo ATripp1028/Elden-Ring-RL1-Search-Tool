@@ -88,6 +88,15 @@ const handleSort = (column: string) => {
             Secondary Damage
             <span class="sort-indicator">{{ sortIndicator('Secondary Damage') }}</span>
           </th>
+          <th
+            v-if="uiStore.selectedColumns.includes('Attack Type')"
+            class="damage-type-col sortable"
+            title="Attack Type"
+            @click="handleSort('Attack Type')"
+          >
+            Attack Type
+            <span class="sort-indicator">{{ sortIndicator('Attack Type') }}</span>
+          </th>
           <th v-if="uiStore.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
           <th v-if="uiStore.selectedColumns.includes('Fextralife')" title="Fextralife">
             Fextralife
@@ -124,6 +133,17 @@ const handleSort = (column: string) => {
               {{ weapon.damageTypes.minor.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
+          </td>
+          <td v-if="uiStore.selectedColumns.includes('Attack Type')">
+            <span>{{ weapon.attackTypes.primary }}</span>
+            <span
+              v-if="
+                weapon.attackTypes.secondary &&
+                weapon.attackTypes.secondary !== weapon.attackTypes.primary
+              "
+            >
+              , {{ weapon.attackTypes.secondary }}
+            </span>
           </td>
           <td v-if="uiStore.selectedColumns.includes('Wiki.gg')">
             <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>

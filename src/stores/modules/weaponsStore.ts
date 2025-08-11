@@ -89,6 +89,9 @@ export const useWeaponsStore = defineStore('weapons', () => {
 
   const damageTypes = ['Physical', 'Fire', 'Lightning', 'Holy', 'Magic']
 
+  // Primary/secondary attack type options
+  const attackTypes = ['Standard', 'Slash', 'Strike', 'Pierce']
+
   // Initialize weapons data
   const initializeWeapons = () => {
     const allWeaponArrays = loadWeaponsData()
@@ -150,5 +153,6 @@ export const useWeaponsStore = defineStore('weapons', () => {
     weapons: computed(() => weapons.value),
     weaponTypes,
     damageTypes,
+    attackTypes,
   }
 })

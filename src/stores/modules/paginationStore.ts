@@ -3,6 +3,7 @@ import { ref, computed, watch } from 'vue'
 import { useFiltersStore } from './filtersStore'
 import { useStatsStore } from './statsStore'
 import { useUIStore } from './uiStore'
+import type { ProcessedWeapon } from './weaponsStore'
 
 export const usePaginationStore = defineStore('pagination', () => {
   const filtersStore = useFiltersStore()
@@ -17,7 +18,7 @@ export const usePaginationStore = defineStore('pagination', () => {
   })
 
   const sortedWeapons = computed(() => {
-    const list = [...filtersStore.filteredWeapons]
+    const list: ProcessedWeapon[] = [...filtersStore.filteredWeapons]
     const column = uiStore.sortBy
     const order = uiStore.sortOrder
 
@@ -31,7 +32,7 @@ export const usePaginationStore = defineStore('pagination', () => {
       return na - nb
     }
 
-    list.sort((a: any, b: any) => {
+    list.sort((a: ProcessedWeapon, b: ProcessedWeapon) => {
       let result = 0
       switch (column) {
         case 'Name':
@@ -65,6 +66,10 @@ export const usePaginationStore = defineStore('pagination', () => {
           result = compareStrings(aMinor, bMinor)
           break
         }
+        case 'Attack Type': {
+          result = compareStrings(a.attackTypes.primary, b.attackTypes.primary)
+          break
+        }
         default:
           // If unknown or non-sortable, keep original order
           result = 0
@@ -94,6 +99,7 @@ export const usePaginationStore = defineStore('pagination', () => {
   watch(() => statsStore.arcane, resetPage)
   watch(() => filtersStore.showDlcWeapons, resetPage)
   watch(() => filtersStore.selectedDamageTypes, resetPage, { deep: true })
+  watch(() => filtersStore.selectedAttackTypes, resetPage, { deep: true })
   watch(() => uiStore.sortBy, resetPage)
   watch(() => uiStore.sortOrder, resetPage)
 

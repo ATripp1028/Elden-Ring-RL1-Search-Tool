@@ -2,18 +2,16 @@ import { defineStore } from 'pinia'
 import { ref, watch } from 'vue'
 
 export const useUIStore = defineStore('ui', () => {
-  const selectedColumns = ref<string[]>((() => {
-    const stored = localStorage.getItem('stats.selectedColumns')
-    return stored ? JSON.parse(stored) : [
-      'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-      'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
-    ]
-  })())
 
   const availableColumns = [
     'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-    'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+    'Primary Damage', 'Secondary Damage', 'Attack Type', 'Wiki.gg', 'Fextralife'
   ]
+
+  const selectedColumns = ref<string[]>((() => {
+    const stored = localStorage.getItem('stats.selectedColumns')
+    return stored ? JSON.parse(stored) : availableColumns
+  })())
 
   // Sorting state
   const sortBy = ref<string>((() => {
