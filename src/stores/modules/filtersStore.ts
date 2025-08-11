@@ -12,6 +12,7 @@ export const useFiltersStore = defineStore('filters', () => {
   const searchQuery = ref('')
   const selectedWeaponTypes = ref<string[]>([])
   const selectedDamageTypes = ref<string[]>([])
+  const selectedAttackTypes = ref<string[]>([])
   const showDlcWeapons = ref(localStorage.getItem('stats.showDlcWeapons') !== 'false')
   const hideShields = ref(localStorage.getItem('stats.hideShields') === 'true')
 
@@ -34,9 +35,13 @@ export const useFiltersStore = defineStore('filters', () => {
         selectedWeaponTypes.value.includes(weapon.category)
 
       // Check if damage type is selected (if no types selected, show all)
+      // For weapons with Physical + Elemental, only match on elemental types
       const matchesDamageType = selectedDamageTypes.value.length === 0 ||
-        selectedDamageTypes.value.includes(weapon.damageTypes.major) ||
-        weapon.damageTypes.minor.some(damageType => selectedDamageTypes.value.includes(damageType))
+        weapon.trackedDamageTypes.some((damageType) => selectedDamageTypes.value.includes(damageType))
+
+      // Check if primary attack type is selected (if no types selected, show all)
+      const matchesAttackType = selectedAttackTypes.value.length === 0 ||
+        selectedAttackTypes.value.includes(weapon.attackTypes.primary)
 
       // Check DLC filter
       const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
@@ -54,7 +59,7 @@ export const useFiltersStore = defineStore('filters', () => {
         weapon.requiredAttributes.arcane <= statsStore.arcane
       )
 
-      return matchesSearch && matchesWeaponType && matchesDamageType && matchesDlcFilter && meetsRequirements && !shouldHideShield
+      return matchesSearch && matchesWeaponType && matchesDamageType && matchesAttackType && matchesDlcFilter && meetsRequirements && !shouldHideShield
     })
   })
 
@@ -77,6 +82,7 @@ export const useFiltersStore = defineStore('filters', () => {
     searchQuery,
     selectedWeaponTypes,
     selectedDamageTypes,
+    selectedAttackTypes,
     showDlcWeapons,
     hideShields,
     setSearchQuery,

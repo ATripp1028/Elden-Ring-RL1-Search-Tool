@@ -2,23 +2,46 @@ import { defineStore } from 'pinia'
 import { ref, watch } from 'vue'
 
 export const useUIStore = defineStore('ui', () => {
-  const selectedColumns = ref<string[]>((() => {
-    const stored = localStorage.getItem('stats.selectedColumns')
-    return stored ? JSON.parse(stored) : [
-      'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-      'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
-    ]
-  })())
 
   const availableColumns = [
     'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-    'Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'
+    'Damage Type', 'Attack Type', 'Wiki'
   ]
+
+  const selectedColumns = ref<string[]>((() => {
+    const stored = localStorage.getItem('stats.selectedColumns')
+    const parsed: unknown = stored ? JSON.parse(stored) : availableColumns
+    let cols = Array.isArray(parsed) ? (parsed as string[]) : availableColumns
+    const hadOldDamageCols = cols.includes('Primary Damage') || cols.includes('Secondary Damage')
+    const hadOldWikiCols = cols.includes('Wiki.gg') || cols.includes('Fextralife')
+    // Remove deprecated columns and any unknowns
+    cols = cols.filter((c) => !['Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'].includes(c) && availableColumns.includes(c))
+    // If user previously showed either old damage column, include the new combined column
+    if (hadOldDamageCols && !cols.includes('Damage Type')) {
+      // Insert near stats columns by default: after Arcane if present, else append
+      const arcaneIndex = cols.indexOf('Arcane')
+      if (arcaneIndex >= 0) {
+        cols.splice(arcaneIndex + 1, 0, 'Damage Type')
+      } else {
+        cols.push('Damage Type')
+      }
+    }
+    // If user previously showed either old wiki column, include the new combined column
+    if (hadOldWikiCols && !cols.includes('Wiki')) {
+      cols.push('Wiki')
+    }
+    return cols
+  })())
 
   // Sorting state
   const sortBy = ref<string>((() => {
     const stored = localStorage.getItem('stats.sortBy')
-    return stored ? stored : 'Name'
+    let value = stored ? stored : 'Name'
+    if (value === 'Primary Damage' || value === 'Secondary Damage') {
+      value = 'Damage Type'
+      localStorage.setItem('stats.sortBy', value)
+    }
+    return value
   })())
 
   const sortOrder = ref<'asc' | 'desc'>((() => {
@@ -26,7 +49,7 @@ export const useUIStore = defineStore('ui', () => {
     return stored === 'asc' || stored === 'desc' ? stored : 'asc'
   })())
 
-  const nonSortableColumns = new Set(['Image', 'Wiki.gg', 'Fextralife'])
+  const nonSortableColumns = new Set(['Image', 'Wiki'])
 
   const setSort = (columnLabel: string) => {
     if (nonSortableColumns.has(columnLabel)) return

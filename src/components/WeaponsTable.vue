@@ -72,25 +72,24 @@ const handleSort = (column: string) => {
             Arcane <span class="sort-indicator">{{ sortIndicator('Arcane') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Primary Damage')"
+            v-if="uiStore.selectedColumns.includes('Damage Type')"
             class="damage-type-col sortable"
-            title="Primary Damage"
-            @click="handleSort('Primary Damage')"
+            title="Damage Type"
+            @click="handleSort('Damage Type')"
           >
-            Primary Damage <span class="sort-indicator">{{ sortIndicator('Primary Damage') }}</span>
+            Damage Type <span class="sort-indicator">{{ sortIndicator('Damage Type') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Secondary Damage')"
+            v-if="uiStore.selectedColumns.includes('Attack Type')"
             class="damage-type-col sortable"
-            title="Secondary Damage"
-            @click="handleSort('Secondary Damage')"
+            title="Attack Type"
+            @click="handleSort('Attack Type')"
           >
-            Secondary Damage
-            <span class="sort-indicator">{{ sortIndicator('Secondary Damage') }}</span>
+            Attack Type
+            <span class="sort-indicator">{{ sortIndicator('Attack Type') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
-          <th v-if="uiStore.selectedColumns.includes('Fextralife')" title="Fextralife">
-            Fextralife
+          <th v-if="uiStore.selectedColumns.includes('Wiki')" class="wiki-col" title="Wiki">
+            Wiki
           </th>
         </tr>
       </thead>
@@ -116,22 +115,22 @@ const handleSort = (column: string) => {
           <td v-if="uiStore.selectedColumns.includes('Arcane')">
             {{ weapon.requiredAttributes.arcane }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Primary Damage')">
-            {{ weapon.damageTypes.major }}
-          </td>
-          <td v-if="uiStore.selectedColumns.includes('Secondary Damage')">
-            <span v-if="weapon.damageTypes.minor.length > 0">
-              {{ weapon.damageTypes.minor.join(', ') }}
+          <td v-if="uiStore.selectedColumns.includes('Damage Type')">
+            <span v-if="weapon.trackedDamageTypes && weapon.trackedDamageTypes.length > 0">
+              {{ weapon.trackedDamageTypes.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Wiki.gg')">
-            <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
+          <td v-if="uiStore.selectedColumns.includes('Attack Type')">
+            <span>{{ weapon.attackTypes.primary }}</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Fextralife')">
-            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer">
-              Fextralife
-            </a>
+          <td v-if="uiStore.selectedColumns.includes('Wiki')">
+            <div class="wiki-links">
+              <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
+              <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"
+                >Fextralife</a
+              >
+            </div>
           </td>
         </tr>
       </tbody>
@@ -173,6 +172,7 @@ td {
 
 td {
   text-align: center;
+  vertical-align: middle;
 }
 
 th {
@@ -202,8 +202,8 @@ th {
   text-align: center;
 }
 
-.links-col {
-  width: 8%;
+.wiki-col {
+  width: 5%;
 }
 
 .weapon-image {
@@ -212,25 +212,22 @@ th {
   object-fit: contain;
 }
 
-.wiki-link-cell {
-  width: 8%;
-  text-align: center;
-  white-space: nowrap;
-  position: relative;
-  z-index: 30;
+.wiki-links {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
-.wiki-link-cell a {
-  margin-right: 10px;
-  color: black;
+.wiki-links a {
+  color: green;
   text-decoration: none;
   position: relative;
   z-index: 35;
   pointer-events: auto;
-  display: inline-block;
 }
 
-.wiki-link-cell a:hover {
+.wiki-links a:hover {
   text-decoration: underline;
 }
 

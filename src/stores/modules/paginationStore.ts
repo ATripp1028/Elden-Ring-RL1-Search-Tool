@@ -3,6 +3,7 @@ import { ref, computed, watch } from 'vue'
 import { useFiltersStore } from './filtersStore'
 import { useStatsStore } from './statsStore'
 import { useUIStore } from './uiStore'
+import type { ProcessedWeapon } from './weaponsStore'
 
 export const usePaginationStore = defineStore('pagination', () => {
   const filtersStore = useFiltersStore()
@@ -17,7 +18,7 @@ export const usePaginationStore = defineStore('pagination', () => {
   })
 
   const sortedWeapons = computed(() => {
-    const list = [...filtersStore.filteredWeapons]
+    const list: ProcessedWeapon[] = [...filtersStore.filteredWeapons]
     const column = uiStore.sortBy
     const order = uiStore.sortOrder
 
@@ -31,7 +32,7 @@ export const usePaginationStore = defineStore('pagination', () => {
       return na - nb
     }
 
-    list.sort((a: any, b: any) => {
+    list.sort((a: ProcessedWeapon, b: ProcessedWeapon) => {
       let result = 0
       switch (column) {
         case 'Name':
@@ -52,17 +53,18 @@ export const usePaginationStore = defineStore('pagination', () => {
         case 'Arcane':
           result = compareNumbers(a.requiredAttributes.arcane, b.requiredAttributes.arcane)
           break
-        case 'Primary Damage':
-          result = compareStrings(a.damageTypes.major, b.damageTypes.major)
+        case 'Damage Type': {
+          const aJoined = (a.trackedDamageTypes && a.trackedDamageTypes.length)
+            ? a.trackedDamageTypes.join(', ')
+            : ''
+          const bJoined = (b.trackedDamageTypes && b.trackedDamageTypes.length)
+            ? b.trackedDamageTypes.join(', ')
+            : ''
+          result = compareStrings(aJoined, bJoined)
           break
-        case 'Secondary Damage': {
-          const aMinor = (a.damageTypes.minor && a.damageTypes.minor.length)
-            ? a.damageTypes.minor.join(', ')
-            : ''
-          const bMinor = (b.damageTypes.minor && b.damageTypes.minor.length)
-            ? b.damageTypes.minor.join(', ')
-            : ''
-          result = compareStrings(aMinor, bMinor)
+        }
+        case 'Attack Type': {
+          result = compareStrings(a.attackTypes.primary, b.attackTypes.primary)
           break
         }
         default:
@@ -94,6 +96,7 @@ export const usePaginationStore = defineStore('pagination', () => {
   watch(() => statsStore.arcane, resetPage)
   watch(() => filtersStore.showDlcWeapons, resetPage)
   watch(() => filtersStore.selectedDamageTypes, resetPage, { deep: true })
+  watch(() => filtersStore.selectedAttackTypes, resetPage, { deep: true })
   watch(() => uiStore.sortBy, resetPage)
   watch(() => uiStore.sortOrder, resetPage)
 
