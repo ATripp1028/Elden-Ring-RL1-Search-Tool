@@ -123,14 +123,6 @@ const handleSort = (column: string) => {
           </td>
           <td v-if="uiStore.selectedColumns.includes('Attack Type')">
             <span>{{ weapon.attackTypes.primary }}</span>
-            <span
-              v-if="
-                weapon.attackTypes.secondary &&
-                weapon.attackTypes.secondary !== weapon.attackTypes.primary
-              "
-            >
-              , {{ weapon.attackTypes.secondary }}
-            </span>
           </td>
           <td v-if="uiStore.selectedColumns.includes('Wiki')">
             <div class="wiki-links">
@@ -228,7 +220,7 @@ th {
 }
 
 .wiki-links a {
-  color: black;
+  color: green;
   text-decoration: none;
   position: relative;
   z-index: 35;
