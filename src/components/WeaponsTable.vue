@@ -88,9 +88,8 @@ const handleSort = (column: string) => {
             Attack Type
             <span class="sort-indicator">{{ sortIndicator('Attack Type') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Wiki.gg')" title="Wiki.gg">Wiki.gg</th>
-          <th v-if="uiStore.selectedColumns.includes('Fextralife')" title="Fextralife">
-            Fextralife
+          <th v-if="uiStore.selectedColumns.includes('Wiki')" class="wiki-col" title="Wiki">
+            Wiki
           </th>
         </tr>
       </thead>
@@ -133,13 +132,13 @@ const handleSort = (column: string) => {
               , {{ weapon.attackTypes.secondary }}
             </span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Wiki.gg')">
-            <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
-          </td>
-          <td v-if="uiStore.selectedColumns.includes('Fextralife')">
-            <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer">
-              Fextralife
-            </a>
+          <td v-if="uiStore.selectedColumns.includes('Wiki')">
+            <div class="wiki-links">
+              <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
+              <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"
+                >Fextralife</a
+              >
+            </div>
           </td>
         </tr>
       </tbody>
@@ -181,6 +180,7 @@ td {
 
 td {
   text-align: center;
+  vertical-align: middle;
 }
 
 th {
@@ -210,8 +210,8 @@ th {
   text-align: center;
 }
 
-.links-col {
-  width: 8%;
+.wiki-col {
+  width: 5%;
 }
 
 .weapon-image {
@@ -220,25 +220,22 @@ th {
   object-fit: contain;
 }
 
-.wiki-link-cell {
-  width: 8%;
-  text-align: center;
-  white-space: nowrap;
-  position: relative;
-  z-index: 30;
+.wiki-links {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
-.wiki-link-cell a {
-  margin-right: 10px;
+.wiki-links a {
   color: black;
   text-decoration: none;
   position: relative;
   z-index: 35;
   pointer-events: auto;
-  display: inline-block;
 }
 
-.wiki-link-cell a:hover {
+.wiki-links a:hover {
   text-decoration: underline;
 }
 

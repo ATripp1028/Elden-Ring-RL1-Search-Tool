@@ -5,7 +5,7 @@ export const useUIStore = defineStore('ui', () => {
 
   const availableColumns = [
     'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-    'Damage Type', 'Attack Type', 'Wiki.gg', 'Fextralife'
+    'Damage Type', 'Attack Type', 'Wiki'
   ]
 
   const selectedColumns = ref<string[]>((() => {
@@ -13,8 +13,9 @@ export const useUIStore = defineStore('ui', () => {
     const parsed: unknown = stored ? JSON.parse(stored) : availableColumns
     let cols = Array.isArray(parsed) ? (parsed as string[]) : availableColumns
     const hadOldDamageCols = cols.includes('Primary Damage') || cols.includes('Secondary Damage')
+    const hadOldWikiCols = cols.includes('Wiki.gg') || cols.includes('Fextralife')
     // Remove deprecated columns and any unknowns
-    cols = cols.filter((c) => c !== 'Primary Damage' && c !== 'Secondary Damage' && availableColumns.includes(c))
+    cols = cols.filter((c) => !['Primary Damage', 'Secondary Damage', 'Wiki.gg', 'Fextralife'].includes(c) && availableColumns.includes(c))
     // If user previously showed either old damage column, include the new combined column
     if (hadOldDamageCols && !cols.includes('Damage Type')) {
       // Insert near stats columns by default: after Arcane if present, else append
@@ -24,6 +25,10 @@ export const useUIStore = defineStore('ui', () => {
       } else {
         cols.push('Damage Type')
       }
+    }
+    // If user previously showed either old wiki column, include the new combined column
+    if (hadOldWikiCols && !cols.includes('Wiki')) {
+      cols.push('Wiki')
     }
     return cols
   })())
@@ -44,7 +49,7 @@ export const useUIStore = defineStore('ui', () => {
     return stored === 'asc' || stored === 'desc' ? stored : 'asc'
   })())
 
-  const nonSortableColumns = new Set(['Image', 'Wiki.gg', 'Fextralife'])
+  const nonSortableColumns = new Set(['Image', 'Wiki'])
 
   const setSort = (columnLabel: string) => {
     if (nonSortableColumns.has(columnLabel)) return
