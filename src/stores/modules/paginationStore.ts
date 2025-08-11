@@ -31,12 +31,6 @@ export const usePaginationStore = defineStore('pagination', () => {
       return na - nb
     }
 
-    const getStrength = (w: any) => {
-      return statsStore.accountForTwoHanded
-        ? w.requiredAttributes.strengthTwoHand
-        : w.requiredAttributes.strengthOneHand
-    }
-
     list.sort((a: any, b: any) => {
       let result = 0
       switch (column) {
@@ -44,7 +38,7 @@ export const usePaginationStore = defineStore('pagination', () => {
           result = compareStrings(a.name, b.name)
           break
         case 'Strength':
-          result = compareNumbers(getStrength(a), getStrength(b))
+          result = compareNumbers(a.requiredAttributes.strengthOneHand, b.requiredAttributes.strengthOneHand)
           break
         case 'Dexterity':
           result = compareNumbers(a.requiredAttributes.dexterity, b.requiredAttributes.dexterity)

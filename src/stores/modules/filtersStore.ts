@@ -3,7 +3,7 @@ import { ref, computed, watch } from 'vue'
 import { useStatsStore } from './statsStore'
 import { useWeaponsStore } from './weaponsStore'
 import { transformName } from '../../model/utils'
-import { SHIELD_CATEGORIES } from '@/utils/constants'
+import { SHIELD_CATEGORIES } from '@/model/constants'
 
 export const useFiltersStore = defineStore('filters', () => {
   const statsStore = useStatsStore()
