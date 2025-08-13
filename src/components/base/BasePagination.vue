@@ -57,8 +57,8 @@ const updateItemsPerPage = (event: Event) => {
 .pagination {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
 }
 
 .result-count {
@@ -78,7 +78,7 @@ const updateItemsPerPage = (event: Event) => {
 }
 
 .items-per-page select {
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.4rem;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -90,7 +90,7 @@ const updateItemsPerPage = (event: Event) => {
 }
 
 .page-navigation button {
-  padding: 0.5rem 1rem;
+  padding: 0.35rem 0.75rem;
   border: 1px solid #ddd;
   border-radius: 4px;
   background-color: white;

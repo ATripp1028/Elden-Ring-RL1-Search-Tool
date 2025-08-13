@@ -32,6 +32,14 @@ const handleSort = (column: string) => {
             Name <span class="sort-indicator">{{ sortIndicator('Name') }}</span>
           </th>
           <th
+            v-if="uiStore.selectedColumns.includes('Weapon Type')"
+            class="type-col sortable"
+            title="Weapon Type"
+            @click="handleSort('Weapon Type')"
+          >
+            Weapon Type <span class="sort-indicator">{{ sortIndicator('Weapon Type') }}</span>
+          </th>
+          <th
             v-if="uiStore.selectedColumns.includes('Strength')"
             class="stat-col sortable"
             title="Strength"
@@ -99,6 +107,9 @@ const handleSort = (column: string) => {
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
           <td v-if="uiStore.selectedColumns.includes('Name')">{{ weapon.name }}</td>
+          <td v-if="uiStore.selectedColumns.includes('Weapon Type')">
+            {{ weapon.category }}
+          </td>
           <td v-if="uiStore.selectedColumns.includes('Strength')">
             <div>One Hand: {{ weapon.requiredAttributes.strengthOneHand }}</div>
             <div>Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}</div>
