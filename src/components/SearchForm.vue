@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { useStatsStore, useFiltersStore, usePaginationStore } from '../stores'
+import { useStatsStore, useFiltersStore, usePaginationStore, useWeaponsStore } from '../stores'
 import { ref } from 'vue'
+import BaseMultiSelect from './base/BaseMultiSelect.vue'
 
 const statsStore = useStatsStore()
 const filtersStore = useFiltersStore()
 const paginationStore = usePaginationStore()
+const weaponsStore = useWeaponsStore()
 
 const showTwoHandedTooltip = ref(false)
 const showDlcTooltip = ref(false)
@@ -208,6 +210,33 @@ const toggleBuildModeTooltip = () => {
       <div v-if="showHideShieldsTooltip" class="tooltip-bubble">
         If checked, shields will be hidden from the results.
       </div>
+    </div>
+
+    <div class="form-group">
+      <label>Filter by Type</label>
+      <BaseMultiSelect
+        :options="filtersStore.filteredWeaponTypes"
+        v-model:selected-items="filtersStore.selectedWeaponTypes"
+        placeholder="Select Weapon Types..."
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Filter by Damage Type</label>
+      <BaseMultiSelect
+        :options="weaponsStore.damageTypes"
+        v-model:selected-items="filtersStore.selectedDamageTypes"
+        placeholder="Select Damage Types..."
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Filter by Attack Type</label>
+      <BaseMultiSelect
+        :options="weaponsStore.attackTypes"
+        v-model:selected-items="filtersStore.selectedAttackTypes"
+        placeholder="Select Attack Types..."
+      />
     </div>
 
     <button @click="resetStats" :disabled="statsStore.ignoreStats">Reset</button>

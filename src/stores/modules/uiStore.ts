@@ -4,14 +4,20 @@ import { ref, watch } from 'vue'
 export const useUIStore = defineStore('ui', () => {
 
   const availableColumns = [
+    'Image', 'Name', 'Weapon Type', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
+    'Damage Type', 'Attack Type', 'Wiki'
+  ]
+
+  // Columns shown by default (exclude 'Weapon Type' so it is hidden by default)
+  const defaultSelectedColumns = [
     'Image', 'Name', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
     'Damage Type', 'Attack Type', 'Wiki'
   ]
 
   const selectedColumns = ref<string[]>((() => {
     const stored = localStorage.getItem('stats.selectedColumns')
-    const parsed: unknown = stored ? JSON.parse(stored) : availableColumns
-    let cols = Array.isArray(parsed) ? (parsed as string[]) : availableColumns
+    const parsed: unknown = stored ? JSON.parse(stored) : defaultSelectedColumns
+    let cols = Array.isArray(parsed) ? (parsed as string[]) : defaultSelectedColumns
     const hadOldDamageCols = cols.includes('Primary Damage') || cols.includes('Secondary Damage')
     const hadOldWikiCols = cols.includes('Wiki.gg') || cols.includes('Fextralife')
     // Remove deprecated columns and any unknowns

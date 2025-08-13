@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { useFiltersStore, useWeaponsStore, useUIStore, usePaginationStore } from '../stores'
+import { useFiltersStore, useUIStore, usePaginationStore } from '../stores'
 import BaseMultiSelect from './base/BaseMultiSelect.vue'
 import BasePagination from './base/BasePagination.vue'
 
 const filtersStore = useFiltersStore()
-const weaponsStore = useWeaponsStore()
 const uiStore = useUIStore()
 const paginationStore = usePaginationStore()
 </script>
@@ -39,35 +38,6 @@ const paginationStore = usePaginationStore()
         :total-items="filtersStore.filteredWeapons.length"
       />
     </div>
-
-    <div class="filter-row">
-      <div class="filter-group">
-        <label>Filter by Type</label>
-        <BaseMultiSelect
-          :options="filtersStore.filteredWeaponTypes"
-          v-model:selected-items="filtersStore.selectedWeaponTypes"
-          placeholder="Select Weapon Types..."
-        />
-      </div>
-
-      <div class="filter-group">
-        <label>Filter by Damage Type</label>
-        <BaseMultiSelect
-          :options="weaponsStore.damageTypes"
-          v-model:selected-items="filtersStore.selectedDamageTypes"
-          placeholder="Select Damage Types..."
-        />
-      </div>
-
-      <div class="filter-group">
-        <label>Filter by Attack Type</label>
-        <BaseMultiSelect
-          :options="weaponsStore.attackTypes"
-          v-model:selected-items="filtersStore.selectedAttackTypes"
-          placeholder="Select Attack Types..."
-        />
-      </div>
-    </div>
   </div>
 </template>
 
@@ -75,8 +45,8 @@ const paginationStore = usePaginationStore()
 .results-filter {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 15px;
+  gap: 6px;
+  padding: 8px 10px;
   background-color: #f5f5f5;
   border-bottom: 1px solid #ddd;
   width: 100%;
@@ -85,7 +55,7 @@ const paginationStore = usePaginationStore()
 
 .filter-row {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   align-items: center;
   width: 100%;
 }
@@ -106,10 +76,10 @@ label {
 }
 
 input {
-  padding: 6px 10px;
+  padding: 4px 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 13px;
   flex: 1;
   min-width: 0;
 }

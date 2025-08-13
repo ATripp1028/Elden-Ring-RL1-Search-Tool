@@ -38,6 +38,9 @@ export const usePaginationStore = defineStore('pagination', () => {
         case 'Name':
           result = compareStrings(a.name, b.name)
           break
+        case 'Weapon Type':
+          result = compareStrings(a.category, b.category)
+          break
         case 'Strength':
           result = compareNumbers(a.requiredAttributes.strengthOneHand, b.requiredAttributes.strengthOneHand)
           break
