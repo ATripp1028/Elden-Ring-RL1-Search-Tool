@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/16/ER_Icon_weapon_Great_%C3%89p%C3%A9e.png/300px-ER_Icon_weapon_Great_%C3%89p%C3%A9e.png?18b8a5",
       "alt": "ER Icon weapon Great Epee.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Godskin_Stitcher.png/300px-ER_Icon_weapon_Godskin_Stitcher.png?48c297",
       "alt": "ER Icon weapon Godskin Stitcher.png",
@@ -86,7 +86,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a2/ER_Icon_Weapon_Queelign%27s_Greatsword.png/300px-ER_Icon_Weapon_Queelign%27s_Greatsword.png?cd1ee5",
       "alt": "ER Icon weapon Queelign's Greatsword.png",
@@ -117,7 +117,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4f/ER_Icon_weapon_Bloody_Helice.png/300px-ER_Icon_weapon_Bloody_Helice.png?b7398c",
       "alt": "ER Icon weapon Bloody Helice.png",
@@ -150,7 +150,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Dragon_King%27s_Cragblade.png/300px-ER_Icon_weapon_Dragon_King%27s_Cragblade.png?a7c85e",
       "alt": "ER Icon weapon Dragon King's Cragblade.png",
@@ -181,7 +181,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_Weapon_Sword_Lance.png/300px-ER_Icon_Weapon_Sword_Lance.png?8bb41a",
       "alt": "ER Icon weapon Sword Lance.png",

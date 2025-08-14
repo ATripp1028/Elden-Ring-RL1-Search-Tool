@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f1/ER_Icon_shield_Wooden_Greatshield.png/300px-ER_Icon_shield_Wooden_Greatshield.png?2f273b",
       "alt": "ER Icon shield Wooden Greatshield.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_shield_Lordsworn%27s_Shield.png/300px-ER_Icon_shield_Lordsworn%27s_Shield.png?4b42e4",
       "alt": "ER Icon shield Lordsworn's Shield.png",
@@ -84,7 +84,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/60/ER_Icon_shield_Briar_Greatshield.png/300px-ER_Icon_shield_Briar_Greatshield.png?7a48d7",
       "alt": "ER Icon shield Briar Greatshield.png",
@@ -115,7 +115,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_shield_Spiked_Palisade_Shield.png/300px-ER_Icon_shield_Spiked_Palisade_Shield.png?ff6a1d",
       "alt": "ER Icon shield Spiked Palisade Shield.png",
@@ -146,7 +146,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0a/ER_Icon_shield_Icon_Shield.png/300px-ER_Icon_shield_Icon_Shield.png?945850",
       "alt": "ER Icon shield Icon Shield.png",
@@ -177,7 +177,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_shield_Golden_Beast_Crest_Shield.png/300px-ER_Icon_shield_Golden_Beast_Crest_Shield.png?ab8851",
       "alt": "ER Icon shield Golden Beast Crest Shield.png",
@@ -208,7 +208,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/5a/ER_Icon_shield_Manor_Towershield.png/300px-ER_Icon_shield_Manor_Towershield.png?b8388f",
       "alt": "ER Icon shield Manor Towershield.png",
@@ -239,7 +239,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ea/ER_Icon_shield_Crossed-Tree_Towershield.png/300px-ER_Icon_shield_Crossed-Tree_Towershield.png?fb883a",
       "alt": "ER Icon shield Crossed-Tree Towershield.png",
@@ -270,7 +270,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_shield_Inverted_Hawk_Towershield.png/300px-ER_Icon_shield_Inverted_Hawk_Towershield.png?412c67",
       "alt": "ER Icon shield Inverted Hawk Towershield.png",
@@ -301,7 +301,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/db/ER_Icon_shield_Dragon_Towershield.png/300px-ER_Icon_shield_Dragon_Towershield.png?c9f213",
       "alt": "ER Icon shield Dragon Towershield.png",
@@ -332,7 +332,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7b/ER_Icon_shield_Distinguished_Greatshield.png/300px-ER_Icon_shield_Distinguished_Greatshield.png?fedfbe",
       "alt": "ER Icon shield Distinguished Greatshield.png",
@@ -363,7 +363,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_shield_Gilded_Greatshield.png/300px-ER_Icon_shield_Gilded_Greatshield.png?f671df",
       "alt": "ER Icon shield Gilded Greatshield.png",
@@ -394,7 +394,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1c/ER_Icon_shield_Cuckoo_Greatshield.png/300px-ER_Icon_shield_Cuckoo_Greatshield.png?306e53",
       "alt": "ER Icon shield Cuckoo Greatshield.png",
@@ -425,7 +425,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_shield_Redmane_Greatshield.png/300px-ER_Icon_shield_Redmane_Greatshield.png?907491",
       "alt": "ER Icon shield Redmane Greatshield.png",
@@ -456,7 +456,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f1/ER_Icon_shield_Golden_Greatshield.png/300px-ER_Icon_shield_Golden_Greatshield.png?efae77",
       "alt": "ER Icon shield Golden Greatshield.png",
@@ -487,7 +487,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_shield_Haligtree_Crest_Greatshield.png/300px-ER_Icon_shield_Haligtree_Crest_Greatshield.png?605482",
       "alt": "ER Icon shield Haligtree Crest Greatshield.png",
@@ -518,7 +518,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/21/ER_Icon_Shield_Black_Steel_Greatshield.png/300px-ER_Icon_Shield_Black_Steel_Greatshield.png?f2e018",
       "alt": "ER Icon shield Black Steel Greatshield.png",
@@ -549,7 +549,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/54/ER_Icon_shield_Crucible_Hornshield.png/300px-ER_Icon_shield_Crucible_Hornshield.png?c88c51",
       "alt": "ER Icon shield Crucible Hornshield.png",
@@ -582,7 +582,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e7/ER_Icon_shield_Dragonclaw_Shield.png/300px-ER_Icon_shield_Dragonclaw_Shield.png?f24e1a",
       "alt": "ER Icon shield Dragonclaw Shield.png",
@@ -613,7 +613,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/69/ER_Icon_shield_Fingerprint_Stone_Shield.png/300px-ER_Icon_shield_Fingerprint_Stone_Shield.png?f8b0a9",
       "alt": "ER Icon shield Fingerprint Stone Shield.png",
@@ -644,7 +644,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/39/ER_Icon_shield_Eclipse_Crest_Greatshield.png/300px-ER_Icon_shield_Eclipse_Crest_Greatshield.png?995f10",
       "alt": "ER Icon shield Eclipse Crest Greatshield.png",
@@ -675,7 +675,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_shield_Ant%27s_Skull_Plate.png/300px-ER_Icon_shield_Ant%27s_Skull_Plate.png?ed4fab",
       "alt": "ER Icon shield Ant's Skull Plate.png",
@@ -708,7 +708,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4f/ER_Icon_shield_Erdtree_Greatshield.png/300px-ER_Icon_shield_Erdtree_Greatshield.png?7d1062",
       "alt": "ER Icon shield Erdtree Greatshield.png",
@@ -739,7 +739,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c9/ER_Icon_shield_Jellyfish_Shield.png/300px-ER_Icon_shield_Jellyfish_Shield.png?1ba3f0",
       "alt": "ER Icon shield Jellyfish Shield.png",
@@ -770,7 +770,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c0/ER_Icon_shield_Visage_Shield.png/300px-ER_Icon_shield_Visage_Shield.png?fbc522",
       "alt": "ER Icon shield Visage Shield.png",
@@ -801,7 +801,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f0/ER_Icon_shield_One-Eyed_Shield.png/300px-ER_Icon_shield_One-Eyed_Shield.png?39719f",
       "alt": "ER Icon shield One-Eyed Shield.png",
@@ -832,7 +832,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8d/ER_Icon_Shield_Verdigris_Greatshield.png/300px-ER_Icon_Shield_Verdigris_Greatshield.png?3e18de",
       "alt": "ER Icon shield Verdigris Greatshield.png",

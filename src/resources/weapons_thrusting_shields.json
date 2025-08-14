@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/76/ER_Icon_Shield_Dueling_Shield.png/300px-ER_Icon_Shield_Dueling_Shield.png?7b23a6",
       "alt": "ER Icon shield Dueling Shield.png",
@@ -55,7 +55,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e1/ER_Icon_Shield_Carian_Thrusting_Shield.png/300px-ER_Icon_Shield_Carian_Thrusting_Shield.png?5b1743",
       "alt": "ER Icon shield Carian Thrusting Shield.png",

@@ -5,7 +5,7 @@ export const useUIStore = defineStore('ui', () => {
 
   const availableColumns = [
     'Image', 'Name', 'Weapon Type', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
-    'Damage Type', 'Attack Type', 'Wiki'
+    'Damage Type', 'Attack Type', 'Status Buildups', 'Wiki'
   ]
 
   // Columns shown by default (exclude 'Weapon Type' so it is hidden by default)

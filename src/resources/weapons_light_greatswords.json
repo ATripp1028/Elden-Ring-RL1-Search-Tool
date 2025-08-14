@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1b/ER_Icon_Weapon_Milady.png/300px-ER_Icon_Weapon_Milady.png?aedb93",
       "alt": "ER Icon weapon Milady.png",
@@ -55,7 +55,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/df/ER_Icon_Weapon_Leda%27s_Sword.png/300px-ER_Icon_Weapon_Leda%27s_Sword.png?156df3",
       "alt": "ER Icon weapon Leda's Sword.png",
@@ -89,7 +89,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/13/ER_Icon_Weapon_Rellana%27s_Twin_Blades.png/300px-ER_Icon_Weapon_Rellana%27s_Twin_Blades.png?d0e898",
       "alt": "ER Icon weapon Rellana's Twin Blades.png",

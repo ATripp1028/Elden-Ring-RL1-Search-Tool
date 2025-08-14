@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b1/ER_Icon_weapon_Short_Spear.png/300px-ER_Icon_weapon_Short_Spear.png?f99f4a",
       "alt": "ER Icon weapon Short Spear.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0d/ER_Icon_weapon_Iron_Spear.png/300px-ER_Icon_weapon_Iron_Spear.png?58088a",
       "alt": "ER Icon weapon Iron Spear.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_weapon_Spear.png/300px-ER_Icon_weapon_Spear.png?7fc2e9",
       "alt": "ER Icon weapon Spear.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8c/ER_Icon_weapon_Partisan.png/300px-ER_Icon_weapon_Partisan.png?ea6b03",
       "alt": "ER Icon weapon Partisan.png",
@@ -146,7 +146,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Pike.png/300px-ER_Icon_weapon_Pike.png?69457a",
       "alt": "ER Icon weapon Pike.png",
@@ -177,7 +177,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/cd/ER_Icon_Weapon_Swift_Spear.png/300px-ER_Icon_Weapon_Swift_Spear.png?1f500e",
       "alt": "ER Icon weapon Swift Spear.png",
@@ -208,7 +208,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_weapon_Spiked_Spear.png/300px-ER_Icon_weapon_Spiked_Spear.png?4faa1d",
       "alt": "ER Icon weapon Spiked Spear.png",
@@ -239,7 +239,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e5/ER_Icon_weapon_Cross-Naginata.png/300px-ER_Icon_weapon_Cross-Naginata.png?ab9c18",
       "alt": "ER Icon weapon Cross-Naginata.png",
@@ -272,7 +272,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a9/ER_Icon_weapon_Clayman%27s_Harpoon.png/300px-ER_Icon_weapon_Clayman%27s_Harpoon.png?42d3de",
       "alt": "ER Icon weapon Clayman's Harpoon.png",
@@ -303,7 +303,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/92/ER_Icon_Weapon_Bloodfiend%27s_Fork.png/300px-ER_Icon_Weapon_Bloodfiend%27s_Fork.png?d3aabc",
       "alt": "ER Icon weapon Bloodfiend's Fork.png",
@@ -334,7 +334,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_weapon_Celebrant%27s_Rib-Rake.png/300px-ER_Icon_weapon_Celebrant%27s_Rib-Rake.png?53d9f2",
       "alt": "ER Icon weapon Celebrant's Rib-Rake.png",
@@ -367,7 +367,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/ba/ER_Icon_weapon_Torchpole.png/300px-ER_Icon_weapon_Torchpole.png?c2eb83",
       "alt": "ER Icon weapon Torchpole.png",
@@ -398,7 +398,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_Weapon_Smithscript_Spear.png/300px-ER_Icon_Weapon_Smithscript_Spear.png?aed3cc",
       "alt": "ER Icon weapon Smithscript Spear.png",
@@ -431,7 +431,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2e/ER_Icon_weapon_Inquisitor%27s_Girandole.png/300px-ER_Icon_weapon_Inquisitor%27s_Girandole.png?9d9248",
       "alt": "ER Icon weapon Inquisitor's Girandole.png",
@@ -464,7 +464,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ad/ER_Icon_weapon_Crystal_Spear.png/300px-ER_Icon_weapon_Crystal_Spear.png?90acb0",
       "alt": "ER Icon weapon Crystal Spear.png",
@@ -497,7 +497,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Rotten_Crystal_Spear.png/300px-ER_Icon_weapon_Rotten_Crystal_Spear.png?c4d298",
       "alt": "ER Icon weapon Rotten Crystal Spear.png",
@@ -530,7 +530,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e8/ER_Icon_weapon_Cleanrot_Spear.png/300px-ER_Icon_weapon_Cleanrot_Spear.png?9248e3",
       "alt": "ER Icon weapon Cleanrot Spear.png",
@@ -563,7 +563,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_weapon_Death_Ritual_Spear.png/300px-ER_Icon_weapon_Death_Ritual_Spear.png?3e2eba",
       "alt": "ER Icon weapon Death Ritual Spear.png",
@@ -596,7 +596,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Bolt_of_Gransax.png/300px-ER_Icon_weapon_Bolt_of_Gransax.png?601cd0",
       "alt": "ER Icon weapon Bolt of Gransax.png",

@@ -24,7 +24,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Torch.png/300px-ER_Icon_weapon_Torch.png?3d7ed5",
       "alt": "ER Icon weapon Torch.png",
@@ -57,7 +57,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_weapon_Beast-Repellent_Torch.png/300px-ER_Icon_weapon_Beast-Repellent_Torch.png?48061c",
       "alt": "ER Icon weapon Beast-Repellent Torch.png",
@@ -90,7 +90,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9a/ER_Icon_weapon_Steel-Wire_Torch.png/300px-ER_Icon_weapon_Steel-Wire_Torch.png?d10b1d",
       "alt": "ER Icon weapon Steel-Wire Torch.png",
@@ -123,7 +123,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Sentry%27s_Torch.png/300px-ER_Icon_weapon_Sentry%27s_Torch.png?1809c3",
       "alt": "ER Icon weapon Sentry's Torch.png",
@@ -156,7 +156,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Ghostflame_Torch.png/300px-ER_Icon_weapon_Ghostflame_Torch.png?efa03e",
       "alt": "ER Icon weapon Ghostflame Torch.png",
@@ -189,7 +189,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "sleep",
+    "status_buildup": "Sleep",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/cb/ER_Icon_weapon_St._Trina%27s_Torch.png/300px-ER_Icon_weapon_St._Trina%27s_Torch.png?fa3f67",
       "alt": "ER Icon weapon St. Trina's Torch.png",
@@ -222,7 +222,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/52/ER_Icon_Weapon_Nanaya%27s_Torch.png/300px-ER_Icon_Weapon_Nanaya%27s_Torch.png?73c537",
       "alt": "ER Icon weapon Nanaya's Torch.png",
@@ -253,7 +253,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/87/ER_Icon_Weapon_Lamenting_Visage.png/300px-ER_Icon_Weapon_Lamenting_Visage.png?8de6ea",
       "alt": "ER Icon weapon Lamenting Visage.png",

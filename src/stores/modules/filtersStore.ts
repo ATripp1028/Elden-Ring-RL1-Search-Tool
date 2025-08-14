@@ -13,6 +13,7 @@ export const useFiltersStore = defineStore('filters', () => {
   const selectedWeaponTypes = ref<string[]>([])
   const selectedDamageTypes = ref<string[]>([])
   const selectedAttackTypes = ref<string[]>([])
+  const selectedStatusBuildups = ref<string[]>([])
   const showDlcWeapons = ref(localStorage.getItem('stats.showDlcWeapons') !== 'false')
   const hideShields = ref(localStorage.getItem('stats.hideShields') === 'true')
 
@@ -43,6 +44,10 @@ export const useFiltersStore = defineStore('filters', () => {
       const matchesAttackType = selectedAttackTypes.value.length === 0 ||
         selectedAttackTypes.value.includes(weapon.attackTypes.primary)
 
+      // Check if status buildup is selected (if no types selected, show all)
+      const matchesStatusBuildup = selectedStatusBuildups.value.length === 0 ||
+        selectedStatusBuildups.value.includes(weapon.statusBuildup)
+
       // Check DLC filter
       const matchesDlcFilter = showDlcWeapons.value || !weapon.dlcExclusive
 
@@ -59,7 +64,7 @@ export const useFiltersStore = defineStore('filters', () => {
         weapon.requiredAttributes.arcane <= statsStore.arcane
       )
 
-      return matchesSearch && matchesWeaponType && matchesDamageType && matchesAttackType && matchesDlcFilter && meetsRequirements && !shouldHideShield
+      return matchesSearch && matchesWeaponType && matchesDamageType && matchesAttackType && matchesStatusBuildup && matchesDlcFilter && meetsRequirements && !shouldHideShield
     })
   })
 
@@ -83,6 +88,7 @@ export const useFiltersStore = defineStore('filters', () => {
     selectedWeaponTypes,
     selectedDamageTypes,
     selectedAttackTypes,
+    selectedStatusBuildups,
     showDlcWeapons,
     hideShields,
     setSearchQuery,

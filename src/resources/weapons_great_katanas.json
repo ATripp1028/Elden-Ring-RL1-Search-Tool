@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8f/ER_Icon_Weapon_Great_Katana.png/300px-ER_Icon_Weapon_Great_Katana.png?7dec2b",
       "alt": "ER Icon weapon Great Katana.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/6f/ER_Icon_Weapon_Dragon-Hunter%27s_Great_Katana.png/300px-ER_Icon_Weapon_Dragon-Hunter%27s_Great_Katana.png?95a455",
       "alt": "ER Icon weapon Dragon Hunter's Great Katana.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1c/ER_Icon_Weapon_Rakshasa%27s_Great_Katana.png/300px-ER_Icon_Weapon_Rakshasa%27s_Great_Katana.png?b1085f",
       "alt": "ER Icon weapon Rakshasa's Great Katana.png",

@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/98/ER_Icon_weapon_Lance.png/300px-ER_Icon_weapon_Lance.png?462bb0",
       "alt": "ER Icon weapon Lance.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/22/ER_Icon_Weapon_Messmer_Soldier%27s_Spear.png/300px-ER_Icon_Weapon_Messmer_Soldier%27s_Spear.png?640781",
       "alt": "ER Icon weapon Messmer Soldier's Spear.png",
@@ -86,7 +86,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Treespear.png/300px-ER_Icon_weapon_Treespear.png?191d96",
       "alt": "ER Icon weapon Treespear.png",
@@ -117,7 +117,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/06/ER_Icon_weapon_Serpent-Hunter.png/300px-ER_Icon_weapon_Serpent-Hunter.png?fc72bf",
       "alt": "ER Icon weapon Serpent-Hunter.png",
@@ -150,7 +150,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_weapon_Siluria%27s_Tree.png/300px-ER_Icon_weapon_Siluria%27s_Tree.png?5efa95",
       "alt": "ER Icon weapon Siluria's Tree.png",
@@ -183,7 +183,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Vyke%27s_War_Spear.png/300px-ER_Icon_weapon_Vyke%27s_War_Spear.png?bb0b82",
       "alt": "ER Icon weapon Vyke's War Spear.png",
@@ -216,7 +216,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8d/ER_Icon_Weapon_Barbed_Staff-Spear.png/300px-ER_Icon_Weapon_Barbed_Staff-Spear.png?91caa8",
       "alt": "ER Icon weapon Barbed Staff-Spear.png",
@@ -247,7 +247,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2c/ER_Icon_Weapon_Bloodfiend%27s_Sacred_Spear.png/300px-ER_Icon_Weapon_Bloodfiend%27s_Sacred_Spear.png?5b505f",
       "alt": "ER Icon weapon Bloodfiend's Sacred Spear.png",
@@ -280,7 +280,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/18/ER_Icon_weapon_Mohgwyn%27s_Sacred_Spear.png/300px-ER_Icon_weapon_Mohgwyn%27s_Sacred_Spear.png?ebacfd",
       "alt": "ER Icon weapon Mohgwyn's Sacred Spear.png",
@@ -313,7 +313,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/30/ER_Icon_Weapon_Spear_of_the_Impaler.png/300px-ER_Icon_Weapon_Spear_of_the_Impaler.png?7ff835",
       "alt": "ER Icon weapon Spear of the Impaler.png",

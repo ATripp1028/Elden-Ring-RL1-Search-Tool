@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9c/ER_Icon_weapon_Zweihander.png/300px-ER_Icon_weapon_Zweihander.png?5efc29",
       "alt": "ER Icon weapon Zweihander.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c4/ER_Icon_weapon_Greatsword.png/300px-ER_Icon_weapon_Greatsword.png?16a76e",
       "alt": "ER Icon weapon Greatsword.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_weapon_Watchdog%27s_Greatsword.png/300px-ER_Icon_weapon_Watchdog%27s_Greatsword.png?64d4bf",
       "alt": "ER Icon weapon Watchdog's Greatsword.png",
@@ -117,7 +117,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3c/ER_Icon_Weapon_Fire_Knight%27s_Greatsword.png/300px-ER_Icon_Weapon_Fire_Knight%27s_Greatsword.png?14a1cb",
       "alt": "ER Icon weapon Fire Knight's Greatsword.png",
@@ -148,7 +148,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/00/ER_Icon_weapon_Troll%27s_Golden_Sword.png/300px-ER_Icon_weapon_Troll%27s_Golden_Sword.png?8ba448",
       "alt": "ER Icon weapon Troll's Golden Sword.png",
@@ -181,7 +181,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/48/ER_Icon_weapon_Troll_Knight%27s_Sword.png/300px-ER_Icon_weapon_Troll_Knight%27s_Sword.png?d19f79",
       "alt": "ER Icon weapon Troll Knight's Sword.png",
@@ -214,7 +214,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/48/ER_Icon_weapon_Troll_Knight%27s_Sword.png/300px-ER_Icon_weapon_Troll_Knight%27s_Sword.png?d19f79",
       "alt": "ER Icon weapon Moonrithyll's Knight Sword.png",
@@ -247,7 +247,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b1/ER_Icon_weapon_Royal_Greatsword.png/300px-ER_Icon_weapon_Royal_Greatsword.png?2f64bc",
       "alt": "ER Icon weapon Royal Greatsword.png",
@@ -278,7 +278,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/50/ER_Icon_weapon_Grafted_Blade_Greatsword.png/300px-ER_Icon_weapon_Grafted_Blade_Greatsword.png?dae7cd",
       "alt": "ER Icon weapon Grafted Blade Greatsword.png",
@@ -311,7 +311,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bb/ER_Icon_weapon_Ruins_Greatsword.png/300px-ER_Icon_weapon_Ruins_Greatsword.png?b2396f",
       "alt": "ER Icon weapon Ruins Greatsword.png",
@@ -344,7 +344,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/12/ER_Icon_Weapon_Ancient_Meteoric_Ore_Greatsword.png/300px-ER_Icon_Weapon_Ancient_Meteoric_Ore_Greatsword.png?ea7800",
       "alt": "ER Icon weapon Ancient Meteoric Ore Greatsword.png",
@@ -377,7 +377,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_weapon_Starscourge_Greatsword.png/300px-ER_Icon_weapon_Starscourge_Greatsword.png?a18c66",
       "alt": "ER Icon weapon Starscourge Greatsword.png",
@@ -410,7 +410,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a5/ER_Icon_Weapon_Greatsword_of_Radahn.png/300px-ER_Icon_Weapon_Greatsword_of_Radahn.png?46f5b8",
       "alt": "ER Icon weapon Greatsword of Radahn (Lord).png",
@@ -443,7 +443,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a5/ER_Icon_Weapon_Greatsword_of_Radahn.png/300px-ER_Icon_Weapon_Greatsword_of_Radahn.png?46f5b8",
       "alt": "ER Icon weapon Greatsword of Radahn (Light).png",
@@ -476,7 +476,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0a/ER_Icon_weapon_Godslayer%27s_Greatsword.png/300px-ER_Icon_weapon_Godslayer%27s_Greatsword.png?e17b08",
       "alt": "ER Icon weapon Godslayer's Greatsword.png",
@@ -509,7 +509,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3c/ER_Icon_weapon_Maliketh%27s_Black_Blade.png/300px-ER_Icon_weapon_Maliketh%27s_Black_Blade.png?dd5249",
       "alt": "ER Icon weapon Maliketh's Black Blade.png",

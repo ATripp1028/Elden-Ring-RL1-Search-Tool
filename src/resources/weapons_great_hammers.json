@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/60/ER_Icon_weapon_Large_Club.png/300px-ER_Icon_weapon_Large_Club.png?fe535e",
       "alt": "ER Icon weapon Large Club.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8f/ER_Icon_weapon_Curved_Great_Club.png/300px-ER_Icon_weapon_Curved_Great_Club.png?95c0d3",
       "alt": "ER Icon weapon Curved Great Club.png",
@@ -84,7 +84,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2d/ER_Icon_weapon_Great_Mace.png/300px-ER_Icon_weapon_Great_Mace.png?b9ef6e",
       "alt": "ER Icon weapon Great Mace.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Pickaxe.png/300px-ER_Icon_weapon_Pickaxe.png?1948fa",
       "alt": "ER Icon weapon Pickaxe.png",
@@ -146,7 +146,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_weapon_Brick_Hammer.png/300px-ER_Icon_weapon_Brick_Hammer.png?c99b6f",
       "alt": "ER Icon weapon Brick Hammer.png",
@@ -177,7 +177,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/83/ER_Icon_weapon_Battle_Hammer.png/300px-ER_Icon_weapon_Battle_Hammer.png?52239b",
       "alt": "ER Icon weapon Battle Hammer.png",
@@ -208,7 +208,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f7/ER_Icon_weapon_Rotten_Battle_Hammer.png/300px-ER_Icon_weapon_Rotten_Battle_Hammer.png?cc1bbc",
       "alt": "ER Icon weapon Rotten Battle Hammer.png",
@@ -239,7 +239,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_weapon_Celebrant%27s_Skull.png/300px-ER_Icon_weapon_Celebrant%27s_Skull.png?89c493",
       "alt": "ER Icon weapon Celebrant's Skull.png",
@@ -270,7 +270,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/5a/ER_Icon_weapon_Great_Stars.png/300px-ER_Icon_weapon_Great_Stars.png?da9fb3",
       "alt": "ER Icon weapon Great Stars.png",
@@ -303,7 +303,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/73/ER_Icon_Weapon_Black_Steel_Greathammer.png/300px-ER_Icon_Weapon_Black_Steel_Greathammer.png?7a3b73",
       "alt": "ER Icon weapon Black Steel Greathammer.png",
@@ -334,7 +334,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/38/ER_Icon_Weapon_Smithscript_Greathammer.png/300px-ER_Icon_Weapon_Smithscript_Greathammer.png?34d373",
       "alt": "ER Icon weapon Smithscript Greathammer.png",
@@ -365,7 +365,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Greathorn_Hammer.png/300px-ER_Icon_weapon_Greathorn_Hammer.png?ab8024",
       "alt": "ER Icon weapon Greathorn Hammer.png",
@@ -398,7 +398,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/41/ER_Icon_weapon_Envoy%27s_Long_Horn.png/300px-ER_Icon_weapon_Envoy%27s_Long_Horn.png?5e8d4d",
       "alt": "ER Icon weapon Envoy's Long Horn.png",
@@ -431,7 +431,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Cranial_Vessel_Candlestand.png/300px-ER_Icon_weapon_Cranial_Vessel_Candlestand.png?598285",
       "alt": "ER Icon weapon Cranial Vessel Candlestand.png",
@@ -464,7 +464,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/25/ER_Icon_weapon_Beastclaw_Greathammer.png/300px-ER_Icon_weapon_Beastclaw_Greathammer.png?db69e1",
       "alt": "ER Icon weapon Beastclaw Greathammer.png",
@@ -497,7 +497,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/79/ER_Icon_weapon_Devourer%27s_Scepter.png/300px-ER_Icon_weapon_Devourer%27s_Scepter.png?5ac549",
       "alt": "ER Icon weapon Devourer's Scepter.png",

@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1e/ER_Icon_Weapon_Beast_Claw.png/300px-ER_Icon_Weapon_Beast_Claw.png?7be21e",
       "alt": "ER Icon weapon Beast Claw.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f9/ER_Icon_Weapon_Red_Bear%27s_Claw.png/300px-ER_Icon_Weapon_Red_Bear%27s_Claw.png?77c9a8",
       "alt": "ER Icon weapon Red Bear's Claw.png",

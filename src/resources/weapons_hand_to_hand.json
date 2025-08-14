@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/82/ER_Icon_Weapon_Dryleaf_Arts.png/300px-ER_Icon_Weapon_Dryleaf_Arts.png?a94806",
       "alt": "ER Icon weapon Dryleaf Arts.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_Weapon_Dane%27s_Footwork.png/300px-ER_Icon_Weapon_Dane%27s_Footwork.png?bb4ac5",
       "alt": "ER Icon weapon Dane's Footwork.png",

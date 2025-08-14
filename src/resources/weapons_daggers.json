@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Parrying_Dagger.png/300px-ER_Icon_weapon_Parrying_Dagger.png?fae880",
       "alt": "ER Icon weapon Parrying Dagger.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/eb/ER_Icon_weapon_Mis%C3%A9ricorde.png/300px-ER_Icon_weapon_Mis%C3%A9ricorde.png?f60547",
       "alt": "ER Icon weapon Misericorde.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/31/ER_Icon_weapon_Great_Knife.png/300px-ER_Icon_weapon_Great_Knife.png?7165fe",
       "alt": "ER Icon weapon Great Knife.png",
@@ -115,7 +115,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Bloodstained_Dagger.png/300px-ER_Icon_weapon_Bloodstained_Dagger.png?2f8b39",
       "alt": "ER Icon weapon Bloodstained Dagger.png",
@@ -146,7 +146,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Erdsteel_Dagger.png/300px-ER_Icon_weapon_Erdsteel_Dagger.png?9f9944",
       "alt": "ER Icon weapon Erdsteel Dagger.png",
@@ -179,7 +179,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f1/ER_Icon_Weapon_Fire_Knight%27s_Shortsword.png/300px-ER_Icon_Weapon_Fire_Knight%27s_Shortsword.png?3c9470",
       "alt": "ER Icon weapon Fire Knight's Shortsword.png",
@@ -210,7 +210,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Wakizashi.png/300px-ER_Icon_weapon_Wakizashi.png?cb732e",
       "alt": "ER Icon weapon Wakizashi.png",
@@ -241,7 +241,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ec/ER_Icon_Weapon_Main-gauche.png/300px-ER_Icon_Weapon_Main-gauche.png?44ced0",
       "alt": "ER Icon weapon Main-gauche.png",
@@ -272,7 +272,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Celebrant%27s_Sickle.png/300px-ER_Icon_weapon_Celebrant%27s_Sickle.png?7c77cd",
       "alt": "ER Icon weapon Celebrant's Sickle.png",
@@ -305,7 +305,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/33/ER_Icon_weapon_Ivory_Sickle.png/300px-ER_Icon_weapon_Ivory_Sickle.png?ff3046",
       "alt": "ER Icon weapon Ivory Sickle.png",
@@ -338,7 +338,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2b/ER_Icon_weapon_Crystal_Knife.png/300px-ER_Icon_weapon_Crystal_Knife.png?6d416b",
       "alt": "ER Icon weapon Crystal Knife.png",
@@ -369,7 +369,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_weapon_Scorpion%27s_Stinger.png/300px-ER_Icon_weapon_Scorpion%27s_Stinger.png?9c9b1f",
       "alt": "ER Icon weapon Scorpion's Stinger.png",
@@ -400,7 +400,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Cinquedea.png/300px-ER_Icon_weapon_Cinquedea.png?b0a31b",
       "alt": "ER Icon weapon Cinquedea.png",
@@ -433,7 +433,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/88/ER_Icon_weapon_Glintstone_Kris.png/300px-ER_Icon_weapon_Glintstone_Kris.png?23b22b",
       "alt": "ER Icon weapon Glintstone Kris.png",
@@ -464,7 +464,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/57/ER_Icon_weapon_Reduvia.png/300px-ER_Icon_weapon_Reduvia.png?9d5377",
       "alt": "ER Icon weapon Reduvia.png",
@@ -497,7 +497,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Blade_of_Calling.png/300px-ER_Icon_weapon_Blade_of_Calling.png?f1d082",
       "alt": "ER Icon weapon Blade of Calling.png",
@@ -530,7 +530,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_weapon_Black_Knife.png/300px-ER_Icon_weapon_Black_Knife.png?289e70",
       "alt": "ER Icon weapon Black Knife.png",

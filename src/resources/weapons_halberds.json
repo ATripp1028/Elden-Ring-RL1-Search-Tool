@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/93/ER_Icon_weapon_Halberd.png/300px-ER_Icon_weapon_Halberd.png?ffa221",
       "alt": "ER Icon weapon Halberd.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Banished_Knight%27s_Halberd.png/300px-ER_Icon_weapon_Banished_Knight%27s_Halberd.png?1b1bcc",
       "alt": "ER Icon weapon Banished Knight's Halberd.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Lucerne.png/300px-ER_Icon_weapon_Lucerne.png?7ddbe5",
       "alt": "ER Icon weapon Lucerne.png",
@@ -115,7 +115,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8a/ER_Icon_weapon_Glaive.png/300px-ER_Icon_weapon_Glaive.png?e75d19",
       "alt": "ER Icon weapon Glaive.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9f/ER_Icon_weapon_Vulgar_Militia_Shotel.png/300px-ER_Icon_weapon_Vulgar_Militia_Shotel.png?4b3df5",
       "alt": "ER Icon weapon Vulgar Militia Shotel.png",
@@ -177,7 +177,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/cf/ER_Icon_weapon_Vulgar_Militia_Saw.png/300px-ER_Icon_weapon_Vulgar_Militia_Saw.png?c9e35d",
       "alt": "ER Icon weapon Vulgar Militia Saw.png",
@@ -208,7 +208,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_weapon_Guardian%27s_Swordspear.png/300px-ER_Icon_weapon_Guardian%27s_Swordspear.png?ae6955",
       "alt": "ER Icon weapon Guardian's Swordspear.png",
@@ -239,7 +239,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/04/ER_Icon_weapon_Gargoyle%27s_Halberd.png/300px-ER_Icon_weapon_Gargoyle%27s_Halberd.png?e7c895",
       "alt": "ER Icon weapon Gargoyle's Halberd.png",
@@ -272,7 +272,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Gargoyle%27s_Black_Halberd.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Halberd.png?ebe5bd",
       "alt": "ER Icon weapon Gargoyle's Black Halberd.png",
@@ -303,7 +303,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_weapon_Nightrider_Glaive.png/300px-ER_Icon_weapon_Nightrider_Glaive.png?dbdf3d",
       "alt": "ER Icon weapon Nightrider Glaive.png",
@@ -334,7 +334,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/26/ER_Icon_weapon_Pest%27s_Glaive.png/300px-ER_Icon_weapon_Pest%27s_Glaive.png?657c7d",
       "alt": "ER Icon weapon Pest's Glaive.png",
@@ -365,7 +365,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/82/ER_Icon_weapon_Ripple_Crescent_Halberd.png/300px-ER_Icon_weapon_Ripple_Crescent_Halberd.png?9740cf",
       "alt": "ER Icon weapon Ripple Crescent Halberd.png",
@@ -398,7 +398,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_weapon_Golden_Halberd.png/300px-ER_Icon_weapon_Golden_Halberd.png?65beda",
       "alt": "ER Icon weapon Golden Halberd.png",
@@ -429,7 +429,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_weapon_Dragon_Halberd.png/300px-ER_Icon_weapon_Dragon_Halberd.png?92d4da",
       "alt": "ER Icon weapon Dragon Halberd.png",
@@ -462,7 +462,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_weapon_Loretta%27s_War_Sickle.png/300px-ER_Icon_weapon_Loretta%27s_War_Sickle.png?81076c",
       "alt": "ER Icon weapon Loretta's War Sickle.png",
@@ -493,7 +493,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/28/ER_Icon_weapon_Commander%27s_Standard.png/300px-ER_Icon_weapon_Commander%27s_Standard.png?6bdb33",
       "alt": "ER Icon weapon Commander's Standard.png",
@@ -526,7 +526,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ee/ER_Icon_Weapon_Spirit_Glaive.png/300px-ER_Icon_Weapon_Spirit_Glaive.png?a436e3",
       "alt": "ER Icon weapon Spirit Glaive.png",
@@ -557,7 +557,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_Weapon_Poleblade_of_the_Bud.png/300px-ER_Icon_Weapon_Poleblade_of_the_Bud.png?731893",
       "alt": "ER Icon weapon Poleblade of the Bud.png",

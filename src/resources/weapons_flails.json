@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9a/ER_Icon_weapon_Flail.png/300px-ER_Icon_weapon_Flail.png?517d67",
       "alt": "ER Icon weapon Flail.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/6e/ER_Icon_weapon_Nightrider_Flail.png/300px-ER_Icon_weapon_Nightrider_Flail.png?2bf32f",
       "alt": "ER Icon weapon Nightrider Flail.png",
@@ -84,7 +84,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Chainlink_Flail.png/300px-ER_Icon_weapon_Chainlink_Flail.png?13159a",
       "alt": "ER Icon weapon Chainlink Flail.png",
@@ -117,7 +117,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b8/ER_Icon_weapon_Family_Heads.png/300px-ER_Icon_weapon_Family_Heads.png?8c7d77",
       "alt": "ER Icon weapon Family Heads.png",
@@ -150,7 +150,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_Weapon_Serpent_Flail.png/300px-ER_Icon_Weapon_Serpent_Flail.png?b3de05",
       "alt": "ER Icon weapon Serpent Flail.png",
@@ -183,7 +183,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Bastard%27s_Stars.png/300px-ER_Icon_weapon_Bastard%27s_Stars.png?dd8533",
       "alt": "ER Icon weapon Bastard's Stars.png",

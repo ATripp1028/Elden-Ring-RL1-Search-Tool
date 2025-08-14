@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_weapon_Dismounter.png/300px-ER_Icon_weapon_Dismounter.png?556b94",
       "alt": "ER Icon weapon Dismounter.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_weapon_Omen_Cleaver.png/300px-ER_Icon_weapon_Omen_Cleaver.png?560e9e",
       "alt": "ER Icon weapon Omen Cleaver.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/5b/ER_Icon_weapon_Monk%27s_Flameblade.png/300px-ER_Icon_weapon_Monk%27s_Flameblade.png?e045ed",
       "alt": "ER Icon weapon Monk's Flameblade.png",
@@ -115,7 +115,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_weapon_Beastman%27s_Cleaver.png/300px-ER_Icon_weapon_Beastman%27s_Cleaver.png?e2d806",
       "alt": "ER Icon weapon Beastman's Cleaver.png",
@@ -146,7 +146,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/18/ER_Icon_Weapon_Freyja%27s_Greatsword.png/300px-ER_Icon_Weapon_Freyja%27s_Greatsword.png?ec031a",
       "alt": "ER Icon weapon Freyja's Greatsword.png",
@@ -177,7 +177,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/00/ER_Icon_weapon_Bloodhound%27s_Fang.png/300px-ER_Icon_weapon_Bloodhound%27s_Fang.png?ecb228",
       "alt": "ER Icon weapon Bloodhound's Fang.png",
@@ -210,7 +210,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Onyx_Lord%27s_Greatsword.png/300px-ER_Icon_weapon_Onyx_Lord%27s_Greatsword.png?cc1272",
       "alt": "ER Icon weapon Onyx Lord's Greatsword.png",
@@ -241,7 +241,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_weapon_Zamor_Curved_Sword.png/300px-ER_Icon_weapon_Zamor_Curved_Sword.png?55062f",
       "alt": "ER Icon weapon Zamor Curved Sword.png",
@@ -274,7 +274,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/cc/ER_Icon_weapon_Magma_Wyrm%27s_Scalesword.png/300px-ER_Icon_weapon_Magma_Wyrm%27s_Scalesword.png?131d8b",
       "alt": "ER Icon weapon Magma Wyrm's Scalesword.png",
@@ -305,7 +305,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a8/ER_Icon_Weapon_Horned_Warrior%27s_Greatsword.png/300px-ER_Icon_Weapon_Horned_Warrior%27s_Greatsword.png?13d2a0",
       "alt": "ER Icon weapon Horned Warrior's Greatsword.png",
@@ -336,7 +336,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_weapon_Morgott%27s_Cursed_Sword.png/300px-ER_Icon_weapon_Morgott%27s_Cursed_Sword.png?7a1975",
       "alt": "ER Icon weapon Morgott's Cursed Sword.png",

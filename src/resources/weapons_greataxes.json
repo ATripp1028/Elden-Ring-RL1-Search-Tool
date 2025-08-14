@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_weapon_Greataxe.png/300px-ER_Icon_weapon_Greataxe.png?96515e",
       "alt": "ER Icon weapon Greataxe.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f0/ER_Icon_weapon_Crescent_Moon_Axe.png/300px-ER_Icon_weapon_Crescent_Moon_Axe.png?c440ab",
       "alt": "ER Icon weapon Crescent Moon Axe.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e0/ER_Icon_weapon_Longhaft_Axe.png/300px-ER_Icon_weapon_Longhaft_Axe.png?d4973f",
       "alt": "ER Icon weapon Longhaft Axe.png",
@@ -115,7 +115,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Executioner%27s_Greataxe.png/300px-ER_Icon_weapon_Executioner%27s_Greataxe.png?f12334",
       "alt": "ER Icon weapon Executioner's Greataxe.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a0/ER_Icon_weapon_Great_Omenkiller_Cleaver.png/300px-ER_Icon_weapon_Great_Omenkiller_Cleaver.png?e5aee7",
       "alt": "ER Icon weapon Great Omenkiller Cleaver.png",
@@ -177,7 +177,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_weapon_Rusted_Anchor.png/300px-ER_Icon_weapon_Rusted_Anchor.png?2031df",
       "alt": "ER Icon weapon Rusted Anchor.png",
@@ -208,7 +208,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/99/ER_Icon_weapon_Butchering_Knife.png/300px-ER_Icon_weapon_Butchering_Knife.png?c1b835",
       "alt": "ER Icon weapon Butchering Knife.png",
@@ -239,7 +239,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/99/ER_Icon_weapon_Butchering_Knife.png/300px-ER_Icon_weapon_Butchering_Knife.png?c1b835",
       "alt": "ER Icon weapon Butchering Knife.png",
@@ -270,7 +270,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_weapon_Gargoyle%27s_Great_Axe.png/300px-ER_Icon_weapon_Gargoyle%27s_Great_Axe.png?72b621",
       "alt": "ER Icon weapon Gargoyle's Great Axe.png",
@@ -303,7 +303,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_weapon_Gargoyle%27s_Black_Axe.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Axe.png?b21227",
       "alt": "ER Icon weapon Gargoyle's Black Axe.png",
@@ -336,7 +336,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ac/ER_Icon_Weapon_Death_Knight%27s_Longhaft_Axe.png/300px-ER_Icon_Weapon_Death_Knight%27s_Longhaft_Axe.png?7f6e6e",
       "alt": "ER Icon weapon Death Knight's Longhaft Axe.png",
@@ -367,7 +367,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d1/ER_Icon_weapon_Winged_Greathorn.png/300px-ER_Icon_weapon_Winged_Greathorn.png?665cbe",
       "alt": "ER Icon weapon Winged Greathorn.png",
@@ -398,7 +398,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_weapon_Axe_of_Godrick.png/300px-ER_Icon_weapon_Axe_of_Godrick.png?a29a5e",
       "alt": "ER Icon weapon Axe of Godrick.png",
@@ -429,7 +429,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_Weapon_Putrescence_Cleaver.png/300px-ER_Icon_Weapon_Putrescence_Cleaver.png?2dd3dc",
       "alt": "ER Icon weapon Putrescence Cleaver.png",

@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ef/ER_Icon_weapon_Caestus.png/300px-ER_Icon_weapon_Caestus.png?8201fb",
       "alt": "ER Icon weapon Caestus.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Spiked_Caestus.png/300px-ER_Icon_weapon_Spiked_Caestus.png?8d9362",
       "alt": "ER Icon weapon Spiked Caestus.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a5/ER_Icon_weapon_Katar.png/300px-ER_Icon_weapon_Katar.png?24853c",
       "alt": "ER Icon weapon Katar.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_Weapon_Pata.png/300px-ER_Icon_Weapon_Pata.png?c460a9",
       "alt": "ER Icon weapon Pata.png",
@@ -146,7 +146,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Iron_Ball.png/300px-ER_Icon_weapon_Iron_Ball.png?26f61b",
       "alt": "ER Icon weapon Iron Ball.png",
@@ -177,7 +177,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a4/ER_Icon_weapon_Star_Fist.png/300px-ER_Icon_weapon_Star_Fist.png?3587ae",
       "alt": "ER Icon weapon Star Fist.png",
@@ -210,7 +210,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c4/ER_Icon_weapon_Clinging_Bone.png/300px-ER_Icon_weapon_Clinging_Bone.png?d28bb9",
       "alt": "ER Icon weapon Clinging Bone.png",
@@ -243,7 +243,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Veteran%27s_Prosthesis.png/300px-ER_Icon_weapon_Veteran%27s_Prosthesis.png?16f03a",
       "alt": "ER Icon weapon Veteran's Prosthesis.png",
@@ -274,7 +274,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/db/ER_Icon_weapon_Cipher_Pata.png/300px-ER_Icon_weapon_Cipher_Pata.png?208ed0",
       "alt": "ER Icon weapon Cipher Pata.png",
@@ -305,7 +305,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c5/ER_Icon_Weapon_Poisoned_Hand.png/300px-ER_Icon_Weapon_Poisoned_Hand.png?571bd0",
       "alt": "ER Icon weapon Poisoned Hand.png",
@@ -338,7 +338,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_Weapon_Madding_Hand.png/300px-ER_Icon_Weapon_Madding_Hand.png?44ad79",
       "alt": "ER Icon Weapon Madding Hand.png",
@@ -371,7 +371,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "sleep",
+    "status_buildup": "Sleep",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c0/ER_Icon_Weapon_Thiollier%27s_Hidden_Needle.png/300px-ER_Icon_Weapon_Thiollier%27s_Hidden_Needle.png?d8aba0",
       "alt": "ER Icon weapon Thiollier's Hidden Needle.png",
@@ -402,7 +402,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_Weapon_Golem_Fist.png/300px-ER_Icon_Weapon_Golem_Fist.png?bf978e",
       "alt": "ER Icon weapon Golem Fist.png",
@@ -435,7 +435,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_weapon_Grafted_Dragon.png/300px-ER_Icon_weapon_Grafted_Dragon.png?c86a3c",
       "alt": "ER Icon weapon Grafted Dragon.png",
