@@ -1,12 +1,34 @@
 <script setup lang="ts">
 import { useStatsStore, useFiltersStore, usePaginationStore, useWeaponsStore } from '../stores'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import BaseMultiSelect from './base/BaseMultiSelect.vue'
+import { DataType } from '../model/types'
 
 const statsStore = useStatsStore()
 const filtersStore = useFiltersStore()
 const paginationStore = usePaginationStore()
 const weaponsStore = useWeaponsStore()
+
+// Data type selection
+const dataTypeSelection = ref<string[]>([DataType.WeaponsOnly])
+
+// Watch for data type changes and update the store
+watch(
+  dataTypeSelection,
+  (newValue) => {
+    // Ensure only one item is selected at a time
+    if (newValue.length > 1) {
+      dataTypeSelection.value = [newValue[newValue.length - 1]]
+      return
+    }
+
+    if (newValue.length > 0) {
+      filtersStore.selectedDataType = newValue[0] as DataType
+      paginationStore.resetPage()
+    }
+  },
+  { immediate: true },
+)
 
 const showTwoHandedTooltip = ref(false)
 const showDlcTooltip = ref(false)
@@ -50,6 +72,16 @@ const toggleBuildModeTooltip = () => {
   <div class="search-form">
     <h1 class="title">Elden Ring RL1 Search Tool</h1>
     <p class="subtitle">Enter stats to see what your options are.</p>
+
+    <div class="form-group">
+      <label>Data Type</label>
+      <BaseMultiSelect
+        :options="['Weapons Only', 'Spells Only', 'Both']"
+        v-model:selected-items="dataTypeSelection"
+        placeholder="Select data type..."
+        :prevent-deselection-of-last="true"
+      />
+    </div>
 
     <div class="form-group">
       <div class="checkbox-line">

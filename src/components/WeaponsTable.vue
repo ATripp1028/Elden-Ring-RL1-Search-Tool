@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { usePaginationStore, useUIStore } from '../stores'
+import { usePaginationStore, useUIStore, useFiltersStore } from '../stores'
+import { DataType } from '../model/types'
 
 const paginationStore = usePaginationStore()
 const uiStore = useUIStore()
+const filtersStore = useFiltersStore()
 
 const sortIndicator = computed(() => (column: string) => {
   if (uiStore.sortBy !== column) return ''
@@ -13,6 +15,20 @@ const sortIndicator = computed(() => (column: string) => {
 const handleSort = (column: string) => {
   uiStore.setSort(column)
 }
+
+// Determine which columns should be shown based on data type
+const shouldShowColumn = computed(() => (column: string) => {
+  if (!uiStore.selectedColumns.includes(column)) return false
+
+  // For spells only, hide certain weapon-specific columns
+  if (filtersStore.selectedDataType === DataType.SpellsOnly) {
+    if (column === 'Strength' || column === 'Dexterity' || column === 'Attack Type') {
+      return false
+    }
+  }
+
+  return true
+})
 </script>
 
 <template>
@@ -20,11 +36,9 @@ const handleSort = (column: string) => {
     <table>
       <thead>
         <tr>
-          <th v-if="uiStore.selectedColumns.includes('Image')" class="image-col" title="Image">
-            Image
-          </th>
+          <th v-if="shouldShowColumn('Image')" class="image-col" title="Image">Image</th>
           <th
-            v-if="uiStore.selectedColumns.includes('Name')"
+            v-if="shouldShowColumn('Name')"
             class="name-col sortable"
             title="Name"
             @click="handleSort('Name')"
@@ -32,7 +46,7 @@ const handleSort = (column: string) => {
             Name <span class="sort-indicator">{{ sortIndicator('Name') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Weapon Type')"
+            v-if="shouldShowColumn('Weapon Type')"
             class="type-col sortable"
             title="Weapon Type"
             @click="handleSort('Weapon Type')"
@@ -40,7 +54,7 @@ const handleSort = (column: string) => {
             Weapon Type <span class="sort-indicator">{{ sortIndicator('Weapon Type') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Strength')"
+            v-if="shouldShowColumn('Strength')"
             class="stat-col sortable"
             title="Strength"
             @click="handleSort('Strength')"
@@ -48,7 +62,7 @@ const handleSort = (column: string) => {
             Strength <span class="sort-indicator">{{ sortIndicator('Strength') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Dexterity')"
+            v-if="shouldShowColumn('Dexterity')"
             class="stat-col sortable"
             title="Dexterity"
             @click="handleSort('Dexterity')"
@@ -56,7 +70,7 @@ const handleSort = (column: string) => {
             Dexterity <span class="sort-indicator">{{ sortIndicator('Dexterity') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Intelligence')"
+            v-if="shouldShowColumn('Intelligence')"
             class="stat-col sortable"
             title="Intelligence"
             @click="handleSort('Intelligence')"
@@ -64,7 +78,7 @@ const handleSort = (column: string) => {
             Intelligence <span class="sort-indicator">{{ sortIndicator('Intelligence') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Faith')"
+            v-if="shouldShowColumn('Faith')"
             class="stat-col sortable"
             title="Faith"
             @click="handleSort('Faith')"
@@ -72,7 +86,7 @@ const handleSort = (column: string) => {
             Faith <span class="sort-indicator">{{ sortIndicator('Faith') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Arcane')"
+            v-if="shouldShowColumn('Arcane')"
             class="stat-col sortable"
             title="Arcane"
             @click="handleSort('Arcane')"
@@ -80,7 +94,7 @@ const handleSort = (column: string) => {
             Arcane <span class="sort-indicator">{{ sortIndicator('Arcane') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Damage Type')"
+            v-if="shouldShowColumn('Damage Type')"
             class="damage-type-col sortable"
             title="Damage Type"
             @click="handleSort('Damage Type')"
@@ -88,7 +102,7 @@ const handleSort = (column: string) => {
             Damage Type <span class="sort-indicator">{{ sortIndicator('Damage Type') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Attack Type')"
+            v-if="shouldShowColumn('Attack Type')"
             class="damage-type-col sortable"
             title="Attack Type"
             @click="handleSort('Attack Type')"
@@ -97,7 +111,7 @@ const handleSort = (column: string) => {
             <span class="sort-indicator">{{ sortIndicator('Attack Type') }}</span>
           </th>
           <th
-            v-if="uiStore.selectedColumns.includes('Status Buildups')"
+            v-if="shouldShowColumn('Status Buildups')"
             class="status-buildups-col sortable"
             title="Status Buildups"
             @click="handleSort('Status Buildups')"
@@ -105,55 +119,64 @@ const handleSort = (column: string) => {
             Status Buildup
             <span class="sort-indicator">{{ sortIndicator('Status Buildups') }}</span>
           </th>
-          <th v-if="uiStore.selectedColumns.includes('Wiki')" class="wiki-col" title="Wiki">
-            Wiki
-          </th>
+          <th v-if="shouldShowColumn('Wiki')" class="wiki-col" title="Wiki">Wiki</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="weapon in paginationStore.paginatedWeapons" :key="weapon.id">
-          <td v-if="uiStore.selectedColumns.includes('Image')">
+          <td v-if="shouldShowColumn('Image')">
             <img :src="weapon.image" :alt="weapon.name" class="weapon-image" />
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Name')">{{ weapon.name }}</td>
-          <td v-if="uiStore.selectedColumns.includes('Weapon Type')">
+          <td v-if="shouldShowColumn('Name')">{{ weapon.name }}</td>
+          <td v-if="shouldShowColumn('Weapon Type')">
             {{ weapon.category }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Strength')">
-            <div>One Hand: {{ weapon.requiredAttributes.strengthOneHand }}</div>
-            <div>Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}</div>
+          <td v-if="shouldShowColumn('Strength')">
+            <div v-if="weapon.type === 'weapon'">
+              One Hand: {{ weapon.requiredAttributes.strengthOneHand }}
+            </div>
+            <div v-if="weapon.type === 'weapon'">
+              Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}
+            </div>
+            <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Dexterity')">
-            {{ weapon.requiredAttributes.dexterity }}
+          <td v-if="shouldShowColumn('Dexterity')">
+            <span v-if="weapon.type === 'weapon'">{{ weapon.requiredAttributes.dexterity }}</span>
+            <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Intelligence')">
+          <td v-if="shouldShowColumn('Intelligence')">
             {{ weapon.requiredAttributes.intelligence }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Faith')">
+          <td v-if="shouldShowColumn('Faith')">
             {{ weapon.requiredAttributes.faith }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Arcane')">
+          <td v-if="shouldShowColumn('Arcane')">
             {{ weapon.requiredAttributes.arcane }}
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Damage Type')">
+          <td v-if="shouldShowColumn('Damage Type')">
             <span v-if="weapon.trackedDamageTypes && weapon.trackedDamageTypes.length > 0">
               {{ weapon.trackedDamageTypes.join(', ') }}
             </span>
             <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Attack Type')">
-            <span>{{ weapon.attackTypes.primary }}</span>
+          <td v-if="shouldShowColumn('Attack Type')">
+            <span v-if="weapon.type === 'weapon'">{{ weapon.attackTypes.primary }}</span>
+            <span v-else class="no-secondary">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Status Buildups')">
+          <td v-if="shouldShowColumn('Status Buildups')">
             <span
-              v-if="weapon.statusBuildup && weapon.statusBuildup !== 'none'"
+              v-if="
+                weapon.statusBuildup &&
+                weapon.statusBuildup !== 'none' &&
+                weapon.statusBuildup !== 'None'
+              "
               class="status-buildup"
             >
               {{ weapon.statusBuildup.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()) }}
             </span>
             <span v-else class="no-status">—</span>
           </td>
-          <td v-if="uiStore.selectedColumns.includes('Wiki')">
+          <td v-if="shouldShowColumn('Wiki')">
             <div class="wiki-links">
               <a :href="weapon.wikiGGLink" target="_blank" rel="noopener noreferrer">Wiki.gg</a>
               <a :href="weapon.wikiFextralifeLink" target="_blank" rel="noopener noreferrer"

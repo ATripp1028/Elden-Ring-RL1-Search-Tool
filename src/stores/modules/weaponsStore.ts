@@ -1,13 +1,15 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { loadWeaponsData } from '../../utils/weaponDataLoader'
-import type { Weapon } from '../../model/types'
+import { loadSpellsData } from '../../utils/spellDataLoader'
+import type { Weapon, Spell } from '../../model/types'
 
-export interface ProcessedWeapon {
+export interface ProcessedItem {
   id: string
   name: string
   image?: string
   category: string
+  type: 'weapon' | 'spell'
   attack: {
     physical: number
     magic: number
@@ -41,8 +43,11 @@ export interface ProcessedWeapon {
   dlcExclusive: boolean
 }
 
+// Keep backwards compatibility alias
+export type ProcessedWeapon = ProcessedItem
+
 export const useWeaponsStore = defineStore('weapons', () => {
-  const weapons = ref<ProcessedWeapon[]>([])
+  const weapons = ref<ProcessedItem[]>([])
 
   // Weapon metadata
   const weaponTypes = [
@@ -90,6 +95,15 @@ export const useWeaponsStore = defineStore('weapons', () => {
     'Whips',
   ]
 
+  // Spell metadata
+  const spellTypes = [
+    'Sorcery',
+    'Incantation'
+  ]
+
+  // Combined list of all types for filtering
+  const allTypes = [...weaponTypes, ...spellTypes]
+
   const damageTypes = ['Physical', 'Fire', 'Lightning', 'Holy', 'Magic']
 
   // Primary/secondary attack type options
@@ -98,11 +112,13 @@ export const useWeaponsStore = defineStore('weapons', () => {
   // Status buildup options
   const statusBuildups = ['None', 'Blood Loss', 'Frostbite', 'Madness', 'Poison', 'Scarlet Rot', 'Sleep']
 
-  // Initialize weapons data
+  // Initialize weapons and spells data
   const initializeWeapons = () => {
     const allWeaponArrays = loadWeaponsData()
+    const allSpells = loadSpellsData()
 
-    weapons.value = (allWeaponArrays.flat() as Weapon[]).map((weapon: Weapon) => {
+    // Process weapons
+    const processedWeapons = (allWeaponArrays.flat() as Weapon[]).map((weapon: Weapon) => {
       let strengthOneHand = 0
       let strengthTwoHand = 0
       let dexterity = 0
@@ -126,6 +142,7 @@ export const useWeaponsStore = defineStore('weapons', () => {
         name: weapon.weapon_name,
         image: weapon.image?.src,
         category: weapon.weapon_type,
+        type: 'weapon' as const,
         attack: {
           physical: 0,
           magic: 0,
@@ -157,6 +174,48 @@ export const useWeaponsStore = defineStore('weapons', () => {
         dlcExclusive: weapon.dlc_exclusive,
       }
     })
+
+    // Process spells
+    const processedSpells = allSpells.map((spell: Spell) => {
+      return {
+        id: spell.spell_name,
+        name: spell.spell_name,
+        image: spell.imageUrl,
+        category: spell.spell_type,
+        type: 'spell' as const,
+        attack: {
+          physical: 0,
+          magic: 0,
+          fire: 0,
+          lightning: 0,
+          holy: 0,
+          critical: 0,
+        },
+        requiredAttributes: {
+          strengthOneHand: 0,
+          strengthTwoHand: 0,
+          dexterity: 0,
+          intelligence: spell.requirements.intelligence || 0,
+          faith: spell.requirements.faith || 0,
+          arcane: spell.requirements.arcane || 0,
+        },
+        wikiGGLink: spell.wikiGGLink,
+        wikiFextralifeLink: spell.wikiFextralifeLink,
+        damageTypes: {
+          major: spell.damage_types.length > 0 ? spell.damage_types[0] : '',
+          minor: spell.damage_types.slice(1)
+        },
+        trackedDamageTypes: spell.damage_types.length > 0 ? spell.damage_types : ['None'],
+        attackTypes: {
+          primary: 'None',
+          secondary: 'None'
+        },
+        statusBuildup: spell.status_buildup || 'None',
+        dlcExclusive: spell.dlc_exclusive,
+      }
+    })
+
+    weapons.value = [...processedWeapons, ...processedSpells]
   }
 
   // Initialize weapons on store creation
@@ -165,6 +224,8 @@ export const useWeaponsStore = defineStore('weapons', () => {
   return {
     weapons: computed(() => weapons.value),
     weaponTypes,
+    spellTypes,
+    allTypes,
     damageTypes,
     attackTypes,
     statusBuildups,
