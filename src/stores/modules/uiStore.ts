@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { ref, watch } from 'vue'
+import { DataType } from '@/model/types'
 
 export const useUIStore = defineStore('ui', () => {
 
@@ -7,6 +8,17 @@ export const useUIStore = defineStore('ui', () => {
     'Image', 'Name', 'Weapon Type', 'Strength', 'Dexterity', 'Intelligence', 'Faith', 'Arcane',
     'Damage Type', 'Attack Type', 'Status Buildups', 'Wiki'
   ]
+
+  // Function to get available columns based on data type
+  const getAvailableColumnsForDataType = (dataType: DataType) => {
+    if (dataType === DataType.SpellsOnly) {
+      // For spells only, hide Strength, Dexterity, and Attack Type
+      return availableColumns.filter(col =>
+        col !== 'Strength' && col !== 'Dexterity' && col !== 'Attack Type'
+      )
+    }
+    return availableColumns
+  }
 
   // Columns shown by default (exclude 'Weapon Type' so it is hidden by default)
   const defaultSelectedColumns = [
@@ -84,6 +96,7 @@ export const useUIStore = defineStore('ui', () => {
   return {
     selectedColumns,
     availableColumns,
+    getAvailableColumnsForDataType,
     sortBy,
     sortOrder,
     setSort,

@@ -55,6 +55,29 @@ export enum DamageType {
   Magic = "Magic",
 }
 
+export interface Spell {
+    spell_name: string
+    spell_type: "Sorcery" | "Incantation"
+    requirements: {
+        intelligence: number
+        faith: number
+        arcane: number
+    }
+    bonus: string
+    dlc_exclusive: boolean
+    damage_types: string[]
+    status_buildup: string
+    wikiGGLink: string
+    wikiFextralifeLink: string
+    imageUrl: string
+}
+
+export enum DataType {
+    WeaponsOnly = "Weapons Only",
+    SpellsOnly = "Spells Only",
+    Both = "Both"
+}
+
 export enum WeaponType {
     Dagger = "Dagger",
     ThrowingBlade = "Throwing Blade",

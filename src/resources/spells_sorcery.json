@@ -10,7 +10,7 @@
     "bonus": "Carian",
     "dlc_exclusive": true,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Miriam's_Vanishing",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Miriam's+Vanishing",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_Spell_Miriam%27s_Vanishing.png/64px-ER_Icon_Spell_Miriam%27s_Vanishing.png?4f5ad7"
@@ -28,7 +28,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Trio",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Trio",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/aa/ER_Icon_Spell_Glintblade_Trio.png/64px-ER_Icon_Spell_Glintblade_Trio.png?5caee2"
@@ -46,7 +46,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rellana's_Twin_Moons",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rellana's+Twin+Moons",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/52/ER_Icon_Spell_Rellana%27s_Twin_Moons.png/64px-ER_Icon_Spell_Rellana%27s_Twin_Moons.png?b480eb"
@@ -64,7 +64,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nail",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nail",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ac/ER_Icon_Spell_Glintstone_Nail.png/64px-ER_Icon_Spell_Glintstone_Nail.png?22cdcb"
@@ -82,7 +82,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Nails",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Nails",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d5/ER_Icon_Spell_Glintstone_Nails.png/64px-ER_Icon_Spell_Glintstone_Nails.png?fc6f2f"
@@ -100,7 +100,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blades_of_Stone",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blades+of+Stone",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d8/ER_Icon_Spell_Blades_of_Stone.png/64px-ER_Icon_Spell_Blades_of_Stone.png?fc758a"
@@ -118,7 +118,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravitational_Missile",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravitational+Missile",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/7b/ER_Icon_Spell_Gravitational_Missile.png/64px-ER_Icon_Spell_Gravitational_Missile.png?1e4766"
@@ -136,7 +136,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mantle_of_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mantle+of+Thorns",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/0c/ER_Icon_Spell_Mantle_of_Thorns.png/64px-ER_Icon_Spell_Mantle_of_Thorns.png?cdccec"
@@ -154,7 +154,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Impenetrable_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Impenetrable+Thorns",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_Spell_Impenetrable_Thorns.png/64px-ER_Icon_Spell_Impenetrable_Thorns.png?e85067"
@@ -172,7 +172,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rings_of_Spectral_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rings+of+Spectral+Light",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f5/ER_Icon_Spell_Rings_of_Spectral_Light.png/64px-ER_Icon_Spell_Rings_of_Spectral_Light.png?46ea25"
@@ -190,7 +190,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vortex_of_Putrescence",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Vortex+of+Putrescence",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b0/ER_Icon_Spell_Vortex_of_Putrescence.png/64px-ER_Icon_Spell_Vortex_of_Putrescence.png?c80330"
@@ -208,7 +208,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+        "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Mass_of_Putrescence",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Mass+of+Putrescence",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/73/ER_Icon_Spell_Mass_of_Putrescence.png/64px-ER_Icon_Spell_Mass_of_Putrescence.png?a4737d"
@@ -226,7 +226,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fleeting_Microcosm",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fleeting+Microcosm",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f6/ER_Icon_Spell_Fleeting_Microcosm.png/64px-ER_Icon_Spell_Fleeting_Microcosm.png?2ce0dd"
@@ -244,7 +244,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cherishing_Fingers",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cherishing+Fingers",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e8/ER_Icon_Spell_Cherishing_Fingers.png/64px-ER_Icon_Spell_Cherishing_Fingers.png?b740a2"
@@ -262,7 +262,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Adula's_Moonblade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Adula's+Moonblade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_Spell_Adula%27s_Moonblade.png/64px-ER_Icon_Spell_Adula%27s_Moonblade.png?ee0a8b"
@@ -280,7 +280,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ambush_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ambush+Shard",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a3/ER_Icon_Spell_Ambush_Shard.png/64px-ER_Icon_Spell_Ambush_Shard.png?b6d314"
@@ -298,7 +298,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Death_Rancor",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Death+of+Rancor",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_Spell_Ancient_Death_Rancor.png/64px-ER_Icon_Spell_Ancient_Death_Rancor.png?2fc1ce"
@@ -316,7 +316,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Punishment",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Punishment",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e9/ER_Icon_Spell_Briars_of_Punishment.png/64px-ER_Icon_Spell_Briars_of_Punishment.png?b8ea0f"
@@ -334,7 +334,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Briars_of_Sin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Briars+of+Sin",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/16/ER_Icon_Spell_Briars_of_Sin.png/64px-ER_Icon_Spell_Briars_of_Sin.png?bbdc76"
@@ -352,7 +352,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cannon_of_Haima",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cannon+of+Haima",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6a/ER_Icon_Spell_Cannon_of_Haima.png/64px-ER_Icon_Spell_Cannon_of_Haima.png?e3bf45"
@@ -370,7 +370,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Greatsword",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Greatsword",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b2/ER_Icon_Spell_Carian_Greatsword.png/64px-ER_Icon_Spell_Carian_Greatsword.png?2efeb3"
@@ -388,7 +388,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Phalanx",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ab/ER_Icon_Spell_Carian_Phalanx.png/64px-ER_Icon_Spell_Carian_Phalanx.png?3924e3"
@@ -406,7 +406,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Piercer",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Piercer",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/61/ER_Icon_Spell_Carian_Piercer.png/64px-ER_Icon_Spell_Carian_Piercer.png?dc68f1"
@@ -424,7 +424,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Retaliation",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Retaliation",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/61/ER_Icon_Spell_Carian_Retaliation.png/64px-ER_Icon_Spell_Carian_Retaliation.png?eab747"
@@ -442,7 +442,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Carian_Slicer",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Carian+Slicer",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_Spell_Carian_Slicer.png/64px-ER_Icon_Spell_Carian_Slicer.png?6a5d50"
@@ -460,7 +460,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Collapsing_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Collapsing+Stars",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9e/ER_Icon_Spell_Collapsing_Stars.png/64px-ER_Icon_Spell_Collapsing_Stars.png?93c78a"
@@ -478,7 +478,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_Spell_Comet.png/64px-ER_Icon_Spell_Comet.png?d09b22"
@@ -496,7 +496,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Comet_Azur",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Comet+Azur",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Comet_Azur.png/64px-ER_Icon_Spell_Comet_Azur.png?2d62e3"
@@ -514,7 +514,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Barrage",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Barrage",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/cb/ER_Icon_Spell_Crystal_Barrage.png/64px-ER_Icon_Spell_Crystal_Barrage.png?e760d7"
@@ -532,7 +532,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Burst",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Burst",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/03/ER_Icon_Spell_Crystal_Burst.png/64px-ER_Icon_Spell_Crystal_Burst.png?6ac181"
@@ -550,7 +550,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Release",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Release",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/55/ER_Icon_Spell_Crystal_Release.png/64px-ER_Icon_Spell_Crystal_Release.png?1f7e75"
@@ -568,7 +568,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Crystal_Torrent",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Crystal+Torrent",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/49/ER_Icon_Spell_Crystal_Torrent.png/64px-ER_Icon_Spell_Crystal_Torrent.png?13a0b4"
@@ -586,7 +586,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Eternal_Darkness",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Eternal+Darkness",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/0e/ER_Icon_Spell_Eternal_Darkness.png/64px-ER_Icon_Spell_Eternal_Darkness.png?fbc878"
@@ -604,7 +604,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Explosive_Ghostflame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Explosive+Ghostflame",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_Spell_Explosive_Ghostflame.png/64px-ER_Icon_Spell_Explosive_Ghostflame.png?a7854a"
@@ -622,7 +622,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fia's_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fia's+Mist",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_Spell_Fia%27s_Mist.png/64px-ER_Icon_Spell_Fia%27s_Mist.png?d2f6a3"
@@ -640,7 +640,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Founding_Rain_of_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Founding+Rain+of+Stars",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_Spell_Founding_Rain_of_Stars.png/64px-ER_Icon_Spell_Founding_Rain_of_Stars.png?f5f8e0"
@@ -658,7 +658,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Freezing_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Freezing+Mist",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/51/ER_Icon_Spell_Freezing_Mist.png/64px-ER_Icon_Spell_Freezing_Mist.png?e91c8f"
@@ -676,7 +676,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frozen+Armament",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/61/ER_Icon_Spell_Frozen_Armament.png/64px-ER_Icon_Spell_Frozen_Armament.png?702430"
@@ -694,7 +694,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gavel_of_Haima",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gavel+of+Haima",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/7d/ER_Icon_Spell_Gavel_of_Haima.png/64px-ER_Icon_Spell_Gavel_of_Haima.png?dc428f"
@@ -712,7 +712,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gelmir's_Fury",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gelmir's+Fury",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/21/ER_Icon_Spell_Gelmir%27s_Fury.png/64px-ER_Icon_Spell_Gelmir%27s_Fury.png?cc7cfa"
@@ -730,7 +730,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintblade_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintblade+Phalanx",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/71/ER_Icon_Spell_Glintblade_Phalanx.png/64px-ER_Icon_Spell_Glintblade_Phalanx.png?35a732"
@@ -748,7 +748,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Arc",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Arc",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/14/ER_Icon_Spell_Glintstone_Arc.png/64px-ER_Icon_Spell_Glintstone_Arc.png?a5be28"
@@ -766,7 +766,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Cometshard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Cometshard",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/55/ER_Icon_Spell_Glintstone_Cometshard.png/64px-ER_Icon_Spell_Glintstone_Cometshard.png?840c71"
@@ -784,7 +784,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Icecrag",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Icecrag",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_Spell_Glintstone_Icecrag.png/64px-ER_Icon_Spell_Glintstone_Icecrag.png?1b66e1"
@@ -802,7 +802,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Pebble",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Pebble",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/2e/ER_Icon_Spell_Glintstone_Pebble.png/64px-ER_Icon_Spell_Glintstone_Pebble.png?76e9c1"
@@ -820,7 +820,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Stars",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/36/ER_Icon_Spell_Glintstone_Stars.png/64px-ER_Icon_Spell_Glintstone_Stars.png?37c096"
@@ -838,7 +838,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gravity_Well",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gravity+Well",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d9/ER_Icon_Spell_Gravity_Well.png/64px-ER_Icon_Spell_Gravity_Well.png?8aaf4b"
@@ -856,7 +856,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Glintstone_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Glintstone+Shard",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9e/ER_Icon_Spell_Great_Glintstone_Shard.png/64px-ER_Icon_Spell_Great_Glintstone_Shard.png?5bced7"
@@ -874,7 +874,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Oracular_Bubble",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Oracular+Bubble",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/fe/ER_Icon_Spell_Great_Oracular_Bubble.png/64px-ER_Icon_Spell_Great_Oracular_Bubble.png?c93a61"
@@ -892,7 +892,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greatblade_Phalanx",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greatblade+Phalanx",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a0/ER_Icon_Spell_Greatblade_Phalanx.png/64px-ER_Icon_Spell_Greatblade_Phalanx.png?9568c4"
@@ -910,7 +910,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Greatbow",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Greatbow",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/cf/ER_Icon_Spell_Loretta%27s_Greatbow.png/64px-ER_Icon_Spell_Loretta%27s_Greatbow.png?b359a1"
@@ -928,7 +928,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Loretta's_Mastery",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Loretta's+Mastery",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f5/ER_Icon_Spell_Loretta%27s_Mastery.png/64px-ER_Icon_Spell_Loretta%27s_Mastery.png?41f78a"
@@ -944,7 +944,7 @@
     "bonus": "Carian",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lucidity",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lucidity",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/32/ER_Icon_Spell_Lucidity.png/64px-ER_Icon_Spell_Lucidity.png?c0a6ab"
@@ -962,7 +962,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Downpour",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Downpour",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/29/ER_Icon_Spell_Magic_Downpour.png/64px-ER_Icon_Spell_Magic_Downpour.png?106169"
@@ -980,7 +980,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Glintblade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Glintblade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ab/ER_Icon_Spell_Magic_Glintblade.png/64px-ER_Icon_Spell_Magic_Glintblade.png?eac7c6"
@@ -998,7 +998,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Shot",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magma+Shot",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_Spell_Magma_Shot.png/64px-ER_Icon_Spell_Magma_Shot.png?92a459"
@@ -1017,7 +1017,7 @@
       "Physical",
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Meteorite",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/cc/ER_Icon_Spell_Meteorite.png/64px-ER_Icon_Spell_Meteorite.png?2d4e67"
@@ -1036,7 +1036,7 @@
       "Physical",
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Meteorite_of_Astel",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Meteorite+of+Astel",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_Spell_Meteorite_of_Astel.png/64px-ER_Icon_Spell_Meteorite_of_Astel.png?b276d1"
@@ -1054,7 +1054,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Comet",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Comet",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/29/ER_Icon_Spell_Night_Comet.png/64px-ER_Icon_Spell_Night_Comet.png?b408fe"
@@ -1072,7 +1072,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Maiden's_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Maiden's+Mist",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_Spell_Night_Maiden%27s_Mist.png/64px-ER_Icon_Spell_Night_Maiden%27s_Mist.png?84bade"
@@ -1090,7 +1090,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Night_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Night+Shard",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_Spell_Night_Shard.png/64px-ER_Icon_Spell_Night_Shard.png?3ec064"
@@ -1108,7 +1108,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Oracle_Bubbles",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Oracle+Bubbles",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/ca/ER_Icon_Spell_Oracle_Bubbles.png/64px-ER_Icon_Spell_Oracle_Bubbles.png?acc47d"
@@ -1126,7 +1126,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rancorcall",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rancorcall",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_Spell_Rancorcall.png/64px-ER_Icon_Spell_Rancorcall.png?cb3b2a"
@@ -1144,7 +1144,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ranni's_Dark_Moon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ranni's+Dark+Moon",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a9/ER_Icon_Spell_Ranni%27s_Dark_Moon.png/64px-ER_Icon_Spell_Ranni%27s_Dark_Moon.png?d5b5ad"
@@ -1162,7 +1162,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rennala's_Full_Moon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rennala's+Full+Moon",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_Spell_Rennala%27s_Full_Moon.png/64px-ER_Icon_Spell_Rennala%27s_Full_Moon.png?c854f3"
@@ -1180,7 +1180,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rock_Blaster",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rock+Blaster",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6d/ER_Icon_Spell_Rock_Blaster.png/64px-ER_Icon_Spell_Rock_Blaster.png?47b1b6"
@@ -1198,7 +1198,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rock_Sling",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rock+Sling",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/10/ER_Icon_Spell_Rock_Sling.png/64px-ER_Icon_Spell_Rock_Sling.png?21d070"
@@ -1216,7 +1216,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Roiling_Magma",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Roiling+Magma",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/ee/ER_Icon_Spell_Roiling_Magma.png/64px-ER_Icon_Spell_Roiling_Magma.png?82db01"
@@ -1234,7 +1234,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rykard's_Rancor",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rykard's+Rancor",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/10/ER_Icon_Spell_Rykard%27s_Rancor.png/64px-ER_Icon_Spell_Rykard%27s_Rancor.png?451a07"
@@ -1252,7 +1252,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scholar's_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scholar's+Armament",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/00/ER_Icon_Spell_Scholar%27s_Armament.png/64px-ER_Icon_Spell_Scholar%27s_Armament.png?86c802"
@@ -1268,7 +1268,7 @@
     "bonus": "Glintstone",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scholar's_Shield",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scholar's+Shield",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/bd/ER_Icon_Spell_Scholar%27s_Shield.png/64px-ER_Icon_Spell_Scholar%27s_Shield.png?dbe49d"
@@ -1286,7 +1286,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shard_Spiral",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shard+Spiral",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/ba/ER_Icon_Spell_Shard_Spiral.png/64px-ER_Icon_Spell_Shard_Spiral.png?81b21f"
@@ -1304,7 +1304,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shatter_Earth",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shatter+Earth",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1e/ER_Icon_Spell_Shatter_Earth.png/64px-ER_Icon_Spell_Shatter_Earth.png?12409c"
@@ -1322,7 +1322,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shattering_Crystal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shattering+Crystal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6c/ER_Icon_Spell_Shattering_Crystal.png/64px-ER_Icon_Spell_Shattering_Crystal.png?c30b72"
@@ -1340,7 +1340,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Star_Shower",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Star+Shower",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c6/ER_Icon_Spell_Star_Shower.png/64px-ER_Icon_Spell_Star_Shower.png?9cea7e"
@@ -1356,7 +1356,7 @@
     "bonus": "Glintstone",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Starlight",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Starlight",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/58/ER_Icon_Spell_Starlight.png/64px-ER_Icon_Spell_Starlight.png?a9c4e2"
@@ -1374,7 +1374,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stars_of_Ruin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Stars+of+Ruin",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/0e/ER_Icon_Spell_Stars_of_Ruin.png/64px-ER_Icon_Spell_Stars_of_Ruin.png?3f3ae4"
@@ -1392,7 +1392,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swift_Glintstone_Shard",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Swift+Glintstone+Shard",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/48/ER_Icon_Spell_Swift_Glintstone_Shard.png/64px-ER_Icon_Spell_Swift_Glintstone_Shard.png?771452"
@@ -1410,7 +1410,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+          "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Terra_Magica",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Terra+Magica",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1a/ER_Icon_Spell_Terra_Magica.png/64px-ER_Icon_Spell_Terra_Magica.png?114511"
@@ -1426,7 +1426,7 @@
     "bonus": "Glintstone",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Thops's_Barrier",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Thops's+Barrier+(Spell)",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e2/ER_Icon_Spell_Thops%27s_Barrier.png/64px-ER_Icon_Spell_Thops%27s_Barrier.png?b353fd"
@@ -1444,7 +1444,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Tibia's_Summons",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Tibia's+Summons",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_Spell_Tibia%27s_Summons.png/64px-ER_Icon_Spell_Tibia%27s_Summons.png?dcb193"
@@ -1460,7 +1460,7 @@
     "bonus": "Sellian",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unseen_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unseen+Blade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d9/ER_Icon_Spell_Unseen_Blade.png/64px-ER_Icon_Spell_Unseen_Blade.png?706249"
@@ -1476,7 +1476,7 @@
     "bonus": "Sellian",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unseen_Form",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unseen+Form",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/27/ER_Icon_Spell_Unseen_Form.png/64px-ER_Icon_Spell_Unseen_Form.png?461964"
@@ -1494,7 +1494,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Zamor_Ice_Storm",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Zamor+Ice+Storm+(Spell)",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_Spell_Zamor_Ice_Storm.png/64px-ER_Icon_Spell_Zamor_Ice_Storm.png?3af1f2"
