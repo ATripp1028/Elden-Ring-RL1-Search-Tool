@@ -12,7 +12,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Furious_Blade_of_Ansbach",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Furious+Blade+of+Ansbach",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_Spell_Furious_Blade_of_Ansbach.png/64px-ER_Icon_Spell_Furious_Blade_of_Ansbach.png?2a75e2"
@@ -28,7 +28,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": true,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heal_from_Afar",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Heal+from+Afar",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/60/ER_Icon_Spell_Heal_from_Afar.png/64px-ER_Icon_Spell_Heal_from_Afar.png?b92cc0"
@@ -46,7 +46,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Thorns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Thorns",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/41/ER_Icon_Spell_Aspects_of_the_Crucible_Thorns.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Thorns.png?51c4a5"
@@ -64,7 +64,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Bloom",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Bloom",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_Spell_Aspects_of_the_Crucible_Bloom.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Bloom.png?1d8541"
@@ -80,7 +80,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": true,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Minor_Erdtree",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Minor+Erdtree",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_Spell_Minor_Erdtree.png/64px-ER_Icon_Spell_Minor_Erdtree.png?5b5328"
@@ -98,7 +98,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Land_of_Shadow_(Incantation)",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Land+of+Shadow+(Incantation)",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/59/ER_Icon_Spell_Land_of_Shadow.png/64px-ER_Icon_Spell_Land_of_Shadow.png?db7424"
@@ -116,7 +116,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wrath_from_Afar",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Wrath+from+Afar",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/12/ER_Icon_Spell_Wrath_from_Afar.png/64px-ER_Icon_Spell_Wrath_from_Afar.png?712dfc"
@@ -134,7 +134,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Light_of_Miquella",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Light+of+Miquella",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_Spell_Light_of_Miquella.png/64px-ER_Icon_Spell_Light_of_Miquella.png?c58458"
@@ -152,7 +152,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Multilayered_Ring_of_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Multilayered+Ring+of+Light",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/dc/ER_Icon_Spell_Multilayered_Ring_of_Light.png/64px-ER_Icon_Spell_Multilayered_Ring_of_Light.png?1245e9"
@@ -170,7 +170,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Roar_of_Rugalea",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Roar+of+Rugalea",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/01/ER_Icon_Spell_Roar_of_Rugalea.png/64px-ER_Icon_Spell_Roar_of_Rugalea.png?3b2e58"
@@ -188,7 +188,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Knight's_Lightning_Spear",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Knight's+Lightning+Spear",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_Spell_Knight%27s_Lightning_Spear.png/64px-ER_Icon_Spell_Knight%27s_Lightning_Spear.png?92dd8d"
@@ -204,7 +204,7 @@
     "bonus": "Dragon Cult",
     "dlc_exclusive": true,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonbolt_of_Florissax",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonbolt+of+Florissax",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/95/ER_Icon_Spell_Dragonbolt_of_Florissax.png/64px-ER_Icon_Spell_Dragonbolt_of_Florissax.png?590686"
@@ -222,7 +222,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Electrocharge",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Electrocharge",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c4/ER_Icon_Spell_Electrocharge.png/64px-ER_Icon_Spell_Electrocharge.png?95f1f0"
@@ -241,7 +241,7 @@
       "Fire",
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bayle's_Tyranny",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bayle's+Tyranny",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_Spell_Bayle%27s_Tyranny.png/64px-ER_Icon_Spell_Bayle%27s_Tyranny.png?786966"
@@ -260,7 +260,7 @@
       "Fire",
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bayle's_Flame_Lightning",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bayle's+Flame+Lightning",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_Spell_Bayle%27s_Flame_Lightning.png/64px-ER_Icon_Spell_Bayle%27s_Flame_Lightning.png?a8d10f"
@@ -278,7 +278,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ghostflame_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ghostflame+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/57/ER_Icon_Spell_Ghostflame_Breath.png/64px-ER_Icon_Spell_Ghostflame_Breath.png?50d3e4"
@@ -296,7 +296,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Butterflies",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rotten+Butterflies",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/3a/ER_Icon_Spell_Rotten_Butterflies.png/64px-ER_Icon_Spell_Rotten_Butterflies.png?3e9574"
@@ -314,7 +314,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest-Thread_Spears",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Pest-Thread+Spears",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_Spell_Pest-Thread_Spears.png/64px-ER_Icon_Spell_Pest-Thread_Spears.png?10448b"
@@ -332,7 +332,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Midra's_Flame_of_Frenzy",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Midra's+Flame+of+Frenzy",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/2f/ER_Icon_Spell_Midra%27s_Flame_of_Frenzy.png/64px-ER_Icon_Spell_Midra%27s_Flame_of_Frenzy.png?661247"
@@ -350,7 +350,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Beast_Tornado",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Beast+Tornado",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/40/ER_Icon_Spell_Divine_Beast_Tornado.png/64px-ER_Icon_Spell_Divine_Beast_Tornado.png?b68f9b"
@@ -368,7 +368,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Bird_Feathers",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Bird+Feathers",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8b/ER_Icon_Spell_Divine_Bird_Feathers.png/64px-ER_Icon_Spell_Divine_Bird_Feathers.png?c63668"
@@ -386,7 +386,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire_Serpent",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fire+Serpent",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/91/ER_Icon_Spell_Fire_Serpent.png/64px-ER_Icon_Spell_Fire_Serpent.png?3e3261"
@@ -404,7 +404,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rain_of_Fire",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rain+of+Fire",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/40/ER_Icon_Spell_Rain_of_Fire.png/64px-ER_Icon_Spell_Rain_of_Fire.png?441262"
@@ -422,7 +422,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Messmer's_Orb",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Messmer's+Orb",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_Spell_Messmer%27s_Orb.png/64px-ER_Icon_Spell_Messmer%27s_Orb.png?814690"
@@ -440,7 +440,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Watchful_Spirit",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Watchful+Spirit",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d6/ER_Icon_Spell_Watchful_Spirit.png/64px-ER_Icon_Spell_Watchful_Spirit.png?1041a6"
@@ -458,7 +458,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Arcs",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Arcs",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/7d/ER_Icon_Spell_Golden_Arcs.png/64px-ER_Icon_Spell_Golden_Arcs.png?f0e3a5"
@@ -476,7 +476,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giant_Golden_Arc",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Giant+Golden+Arc",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Icon_Spell_Giant_Golden_Arc.png/64px-ER_Icon_Spell_Giant_Golden_Arc.png?13cd06"
@@ -494,7 +494,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Spira",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Spira",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/28/ER_Icon_Spell_Spira.png/64px-ER_Icon_Spell_Spira.png?e04aae"
@@ -512,7 +512,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Agheel's_Flame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Agheel's+Flame",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/42/ER_Icon_Spell_Agheel%27s_Flame.png/64px-ER_Icon_Spell_Agheel%27s_Flame.png?bd98a3"
@@ -530,7 +530,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Dragons'_Lightning_Spear",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Dragons'+Lightning+Spear",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e5/ER_Icon_Spell_Ancient_Dragons%27_Lightning_Spear.png/64px-ER_Icon_Spell_Ancient_Dragons%27_Lightning_Spear.png?17b320"
@@ -548,7 +548,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ancient_Dragons'_Lightning_Strike",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ancient+Dragons'+Lightning+Strike",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_Spell_Ancient_Dragons%27_Lightning_Strike.png/64px-ER_Icon_Spell_Ancient_Dragons%27_Lightning_Strike.png?70e0a7"
@@ -566,7 +566,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/5b/ER_Icon_Spell_Aspects_of_the_Crucible_Breath.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Breath.png?3e556a"
@@ -584,7 +584,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspect_of_the_Crucible_Horns",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspect+of+the+Crucible:+Horns",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/51/ER_Icon_Spell_Aspects_of_the_Crucible_Horns.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Horns.png?40e64e"
@@ -602,7 +602,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Aspects_of_the_Crucible_Tail",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Aspects+of+the+Crucible:+Tail",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9d/ER_Icon_Spell_Aspects_of_the_Crucible_Tail.png/64px-ER_Icon_Spell_Aspects_of_the_Crucible_Tail.png?78d9e0"
@@ -618,7 +618,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Assassin's_Approach",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Assassin's+Approach",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_Spell_Assassin%27s_Approach.png/64px-ER_Icon_Spell_Assassin%27s_Approach.png?189f7c"
@@ -634,7 +634,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Barrier_of_Gold",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Barrier+of+Gold",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d0/ER_Icon_Spell_Barrier_of_Gold.png/64px-ER_Icon_Spell_Barrier_of_Gold.png?1f330f"
@@ -652,7 +652,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Beast_Claw",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Beast+Claw",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/56/ER_Icon_Spell_Beast_Claw.png/64px-ER_Icon_Spell_Beast_Claw.png?ecc38e"
@@ -668,7 +668,7 @@
     "bonus": "Bestial",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Constitution",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Constitution",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/71/ER_Icon_Spell_Bestial_Constitution.png/64px-ER_Icon_Spell_Bestial_Constitution.png?cbb3ec"
@@ -686,7 +686,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Sling",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Sling",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_Spell_Bestial_Sling.png/64px-ER_Icon_Spell_Bestial_Sling.png?2d181a"
@@ -702,7 +702,7 @@
     "bonus": "Bestial",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bestial_Vitality",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bestial+Vitality",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d5/ER_Icon_Spell_Bestial_Vitality.png/64px-ER_Icon_Spell_Bestial_Vitality.png?9baf79"
@@ -720,7 +720,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Blade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8d/ER_Icon_Spell_Black_Blade.png/64px-ER_Icon_Spell_Black_Blade.png?2fed5f"
@@ -738,7 +738,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9d/ER_Icon_Spell_Black_Flame.png/64px-ER_Icon_Spell_Black_Flame.png?d9d600"
@@ -756,7 +756,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame+Blade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ad/ER_Icon_Spell_Black_Flame_Blade.png/64px-ER_Icon_Spell_Black_Flame_Blade.png?72f146"
@@ -774,7 +774,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame_Ritual",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame+Ritual",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/64/ER_Icon_Spell_Black_Flame_Ritual.png/64px-ER_Icon_Spell_Black_Flame_Ritual.png?daf7be"
@@ -790,7 +790,7 @@
     "bonus": "Black Flame",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Black_Flame's_Protection",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Black+Flame's+Protection",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_Spell_Black_Flame%27s_Protection.png/64px-ER_Icon_Spell_Black_Flame%27s_Protection.png?7a3eed"
@@ -806,7 +806,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blessing_of_the_Erdtree",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blessing+of+the+Erdtree",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_Spell_Blessing_of_the_Erdtree.png/64px-ER_Icon_Spell_Blessing_of_the_Erdtree.png?c9e438"
@@ -822,7 +822,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Blessing's_Boon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Blessing's+Boon",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_Spell_Blessing%27s_Boon.png/64px-ER_Icon_Spell_Blessing%27s_Boon.png?443598"
@@ -840,7 +840,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodboon",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodboon",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ab/ER_Icon_Spell_Bloodboon.png/64px-ER_Icon_Spell_Bloodboon.png?64fd04"
@@ -858,7 +858,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodflame_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodflame+Blade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_Spell_Bloodflame_Blade.png/64px-ER_Icon_Spell_Bloodflame_Blade.png?2b6486"
@@ -876,7 +876,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Bloodflame_Talons",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Bloodflame+Talons",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_Spell_Bloodflame_Talons.png/64px-ER_Icon_Spell_Bloodflame_Talons.png?eabc85"
@@ -894,7 +894,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Borealis's_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Borealis's+Mist",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_Spell_Borealis%27s_Mist.png/64px-ER_Icon_Spell_Borealis%27s_Mist.png?b52aad"
@@ -912,7 +912,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Burn,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Burn+O+Flame!",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/5d/ER_Icon_Spell_Burn%2C_O_Flame%21.png/64px-ER_Icon_Spell_Burn%2C_O_Flame%21.png?d7c69f"
@@ -930,7 +930,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Catch_Flame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Catch+Flame",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_Spell_Catch_Flame.png/64px-ER_Icon_Spell_Catch_Flame.png?7ec510"
@@ -946,7 +946,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Cure_Poison",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Cure+Poison",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/54/ER_Icon_Spell_Cure_Poison.png/64px-ER_Icon_Spell_Cure_Poison.png?d04bd6"
@@ -962,7 +962,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Darkness",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Darkness",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a8/ER_Icon_Spell_Darkness.png/64px-ER_Icon_Spell_Darkness.png?f820a7"
@@ -980,7 +980,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Death_Lightning",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Death+Lightning",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1c/ER_Icon_Spell_Death_Lightning.png/64px-ER_Icon_Spell_Death_Lightning.png?24ac9f"
@@ -998,7 +998,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Discus_of_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Discus+of+Light",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/3b/ER_Icon_Spell_Discus_of_Light.png/64px-ER_Icon_Spell_Discus_of_Light.png?b69279"
@@ -1014,7 +1014,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Divine_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Divine+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d9/ER_Icon_Spell_Divine_Fortification.png/64px-ER_Icon_Spell_Divine_Fortification.png?97e810"
@@ -1030,7 +1030,7 @@
     "bonus": "Dragon Cult",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonbolt_Blessing",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonbolt+Blessing",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/67/ER_Icon_Spell_Dragonbolt_Blessing.png/64px-ER_Icon_Spell_Dragonbolt_Blessing.png?1867c8"
@@ -1048,7 +1048,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonclaw",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonclaw",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/69/ER_Icon_Spell_Dragonclaw.png/64px-ER_Icon_Spell_Dragonclaw.png?34e3ab"
@@ -1066,7 +1066,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonfire",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonfire",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6f/ER_Icon_Spell_Dragonfire.png/64px-ER_Icon_Spell_Dragonfire.png?ecaf3c"
@@ -1084,7 +1084,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonice",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonice",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/ec/ER_Icon_Spell_Dragonice.png/64px-ER_Icon_Spell_Dragonice.png?361d7a"
@@ -1102,7 +1102,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Dragonmaw",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Dragonmaw",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/39/ER_Icon_Spell_Dragonmaw.png/64px-ER_Icon_Spell_Dragonmaw.png?5f0412"
@@ -1120,7 +1120,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Ekzykes's_Decay",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Ekzykes's+Decay",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_Spell_Ekzykes%27s_Decay.png/64px-ER_Icon_Spell_Ekzykes%27s_Decay.png?2096ad"
@@ -1138,7 +1138,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Elden_Stars",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Elden+Stars",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_Spell_Elden_Stars.png/64px-ER_Icon_Spell_Elden_Stars.png?35b52a"
@@ -1156,7 +1156,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Electrify_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Electrify+Armament",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/3/32/ER_Icon_Spell_Electrify_Armament.png/64px-ER_Icon_Spell_Electrify_Armament.png?133daf"
@@ -1172,7 +1172,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Erdtree_Heal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Erdtree+Heal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/56/ER_Icon_Spell_Erdtree_Heal.png/64px-ER_Icon_Spell_Erdtree_Heal.png?81fcef"
@@ -1190,7 +1190,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fire's_Deadly_Sin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fire's+Deadly+Sin",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_Spell_Fire%27s_Deadly_Sin.png/64px-ER_Icon_Spell_Fire%27s_Deadly_Sin.png?ffc47a"
@@ -1206,7 +1206,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/ba/ER_Icon_Spell_Flame_Fortification.png/64px-ER_Icon_Spell_Flame_Fortification.png?c4f515"
@@ -1224,7 +1224,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_Sling",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Sling",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b6/ER_Icon_Spell_Flame_Sling.png/64px-ER_Icon_Spell_Flame_Sling.png?41e1e0"
@@ -1242,7 +1242,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame_of_the_Fell_God",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+of+the+Fell+God",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/5f/ER_Icon_Spell_Flame_of_the_Fell_God.png/64px-ER_Icon_Spell_Flame_of_the_Fell_God.png?570980"
@@ -1258,7 +1258,7 @@
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Cleanse_Me",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Cleanse+Me",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/82/ER_Icon_Spell_Flame%2C_Cleanse_Me.png/64px-ER_Icon_Spell_Flame%2C_Cleanse_Me.png?f56021"
@@ -1276,7 +1276,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Fall_Upon_Them",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Fall+Upon+Them",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_Spell_Flame%2C_Fall_Upon_Them.png/64px-ER_Icon_Spell_Flame%2C_Fall_Upon_Them.png?bff148"
@@ -1292,7 +1292,7 @@
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Grant_me_Strength",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Grant+me+Strength",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/75/ER_Icon_Spell_Flame%2C_Grant_Me_Strength.png/64px-ER_Icon_Spell_Flame%2C_Grant_Me_Strength.png?c581e7"
@@ -1308,7 +1308,7 @@
     "bonus": "Giants' Flame",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Flame,_Protect_Me",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Flame+Protect+Me",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/cf/ER_Icon_Spell_Flame%2C_Protect_Me.png/64px-ER_Icon_Spell_Flame%2C_Protect_Me.png?c19862"
@@ -1326,7 +1326,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Fortissax's_Lightning_Spear",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Fortissax's+Lightning+Spear",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/83/ER_Icon_Spell_Fortissax%27s_Lightning_Spear.png/64px-ER_Icon_Spell_Fortissax%27s_Lightning_Spear.png?f5a400"
@@ -1344,7 +1344,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frenzied_Burst",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frenzied+Burst",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_Spell_Frenzied_Burst.png/64px-ER_Icon_Spell_Frenzied_Burst.png?7326e8"
@@ -1362,7 +1362,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Frozen_Lightning_Spear",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Frozen+Lightning+Spear",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/52/ER_Icon_Spell_Frozen_Lightning_Spear.png/64px-ER_Icon_Spell_Frozen_Lightning_Spear.png?985a2f"
@@ -1380,7 +1380,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Giantsflame_Take_Thee",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Giantsflame+Take+Thee",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a3/ER_Icon_Spell_Giantsflame_Take_Thee.png/64px-ER_Icon_Spell_Giantsflame_Take_Thee.png?f85eab"
@@ -1398,7 +1398,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Glintstone_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Glintstone+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/4e/ER_Icon_Spell_Glintstone_Breath.png/64px-ER_Icon_Spell_Glintstone_Breath.png?b15999"
@@ -1414,7 +1414,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Lightning_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Lightning+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Icon_Spell_Golden_Lightning_Fortification.png/64px-ER_Icon_Spell_Golden_Lightning_Fortification.png?1ecc56"
@@ -1430,7 +1430,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Golden_Vow",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Golden+Vow+(Spell)",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/75/ER_Icon_Spell_Golden_Vow.png/64px-ER_Icon_Spell_Golden_Vow.png?358e31"
@@ -1446,7 +1446,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Great_Heal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Great+Heal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_Spell_Great_Heal.png/64px-ER_Icon_Spell_Great_Heal.png?239c44"
@@ -1464,7 +1464,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Greyoll's_Roar",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Greyoll's+Roar",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/47/ER_Icon_Spell_Greyoll%27s_Roar.png/64px-ER_Icon_Spell_Greyoll%27s_Roar.png?371488"
@@ -1482,7 +1482,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Gurrang's_Beast_Claw",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Gurrang's+Beast+Claw",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b1/ER_Icon_Spell_Gurranq%27s_Beast_Claw.png/64px-ER_Icon_Spell_Gurranq%27s_Beast_Claw.png?2fa116"
@@ -1498,7 +1498,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Heal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Heal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6c/ER_Icon_Spell_Heal.png/64px-ER_Icon_Spell_Heal.png?dbc2c7"
@@ -1516,7 +1516,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+      "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Honed_Bolt",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Honed+Bolt",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b6/ER_Icon_Spell_Honed_Bolt.png/64px-ER_Icon_Spell_Honed_Bolt.png?c7f465"
@@ -1535,7 +1535,7 @@
       "Fire",
       "Physical"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Howl_of_Shabriri",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Howl+of+Shabriri",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/7d/ER_Icon_Spell_Howl_of_Shabriri.png/64px-ER_Icon_Spell_Howl_of_Shabriri.png?bb146d"
@@ -1551,7 +1551,7 @@
     "bonus": "Golden Order",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Immutable_Shield",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Immutable+Shield",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9d/ER_Icon_Spell_Immutable_Shield.png/64px-ER_Icon_Spell_Immutable_Shield.png?e6f2c9"
@@ -1569,7 +1569,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Inescapable_Frenzy",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Inescapable+Frenzy",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_Spell_Inescapable_Frenzy.png/64px-ER_Icon_Spell_Inescapable_Frenzy.png?f640f6"
@@ -1587,7 +1587,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lansseax's_Glaive",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lansseax's+Glaive",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/4/4a/ER_Icon_Spell_Lansseax%27s_Glaive.png/64px-ER_Icon_Spell_Lansseax%27s_Glaive.png?6a36c9"
@@ -1605,7 +1605,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Law_of_Causality",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Law+of+Causality",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/5f/ER_Icon_Spell_Law_of_Causality.png/64px-ER_Icon_Spell_Law_of_Causality.png?1c5185"
@@ -1621,7 +1621,7 @@
     "bonus": "Golden Order",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Law_of_Regression",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Law+of+Regression",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_Spell_Law_of_Regression.png/64px-ER_Icon_Spell_Law_of_Regression.png?6c96dd"
@@ -1637,7 +1637,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e1/ER_Icon_Spell_Lightning_Fortification.png/64px-ER_Icon_Spell_Lightning_Fortification.png?a52bd7"
@@ -1655,7 +1655,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Spear",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Spear",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/6a/ER_Icon_Spell_Lightning_Spear.png/64px-ER_Icon_Spell_Lightning_Spear.png?c0ca44"
@@ -1673,7 +1673,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lightning_Strike",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lightning+Strike",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b9/ER_Icon_Spell_Lightning_Strike.png/64px-ER_Icon_Spell_Lightning_Strike.png?9e3466"
@@ -1691,7 +1691,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Litany_of_Proper_Death",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Litany+of+Proper+Death",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d5/ER_Icon_Spell_Litany_of_Proper_Death.png/64px-ER_Icon_Spell_Litany_of_Proper_Death.png?e3db97"
@@ -1707,7 +1707,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Aid",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Aid",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Icon_Spell_Lord%27s_Aid.png/64px-ER_Icon_Spell_Lord%27s_Aid.png?af1d8f"
@@ -1723,7 +1723,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Divine_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Divine+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c8/ER_Icon_Spell_Lord%27s_Divine_Fortification.png/64px-ER_Icon_Spell_Lord%27s_Divine_Fortification.png?dbcf24"
@@ -1739,7 +1739,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Lord's_Heal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Lord's+Heal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_Spell_Lord%27s_Heal.png/64px-ER_Icon_Spell_Lord%27s_Heal.png?924dec"
@@ -1755,7 +1755,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magic_Fortification",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magic+Fortification",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/5/51/ER_Icon_Spell_Magic_Fortification.png/64px-ER_Icon_Spell_Magic_Fortification.png?62a30d"
@@ -1773,7 +1773,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Magma_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Magma+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_Spell_Magma_Breath.png/64px-ER_Icon_Spell_Magma_Breath.png?d85907"
@@ -1791,7 +1791,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Noble_Presence",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Noble+Presence",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_Spell_Noble_Presence.png/64px-ER_Icon_Spell_Noble_Presence.png?3743b0"
@@ -1809,7 +1809,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/O,_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//O+Flame!",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b8/ER_Icon_Spell_O%2C_Flame%21.png/64px-ER_Icon_Spell_O%2C_Flame%21.png?87cc4f"
@@ -1825,7 +1825,7 @@
     "bonus": "Golden Order",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Order_Healing",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Order+Healing",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/0f/ER_Icon_Spell_Order_Healing.png/64px-ER_Icon_Spell_Order_Healing.png?f4979f"
@@ -1843,7 +1843,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Order's_Blade",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Order's+Blade",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/d7/ER_Icon_Spell_Order%27s_Blade.png/64px-ER_Icon_Spell_Order%27s_Blade.png?e7bc3b"
@@ -1861,7 +1861,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Pest_Threads",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Pest+Threads",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/91/ER_Icon_Spell_Pest_Threads.png/64px-ER_Icon_Spell_Pest_Threads.png?6796d2"
@@ -1880,7 +1880,7 @@
       "Fire",
       "Lightning"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Placidusax's_Ruin",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Placidusax's+Ruin",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/dd/ER_Icon_Spell_Placidusax%27s_Ruin.png/64px-ER_Icon_Spell_Placidusax%27s_Ruin.png?29d5d6"
@@ -1896,7 +1896,7 @@
     "bonus": "Servants of Rot",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poison_Armament",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Poison+Armament",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/0/04/ER_Icon_Spell_Poison_Armament.png/64px-ER_Icon_Spell_Poison_Armament.png?19c034"
@@ -1912,7 +1912,7 @@
     "bonus": "Servants of Rot",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Poison_Mist",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Poison+Mist",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/2/22/ER_Icon_Spell_Poison_Mist.png/64px-ER_Icon_Spell_Poison_Mist.png?57acc9"
@@ -1928,7 +1928,7 @@
     "bonus": "Erdtree",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Protection_of_the_Erdtree",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Protection+of+the+Erdtree",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f6/ER_Icon_Spell_Protection_of_the_Erdtree.png/64px-ER_Icon_Spell_Protection_of_the_Erdtree.png?c89075"
@@ -1946,7 +1946,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Radagon's_Rings_of_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Radagon's+Rings+of+Light",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/da/ER_Icon_Spell_Radagon%27s_Rings_of_Light.png/64px-ER_Icon_Spell_Radagon%27s_Rings_of_Light.png?66e2b1"
@@ -1962,7 +1962,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rejection",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rejection",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_Spell_Rejection.png/64px-ER_Icon_Spell_Rejection.png?36bfa9"
@@ -1980,7 +1980,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Rotten_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Rotten+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_Spell_Rotten_Breath.png/64px-ER_Icon_Spell_Rotten_Breath.png?658f6d"
@@ -1998,7 +1998,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scarlet_Aeonia",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scarlet+Aeonia",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_Spell_Scarlet_Aeonia.png/64px-ER_Icon_Spell_Scarlet_Aeonia.png?98d5f3"
@@ -2016,7 +2016,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Scouring_Black_Flame",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Scouring+Black+Flame",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_Spell_Scouring_Black_Flame.png/64px-ER_Icon_Spell_Scouring_Black_Flame.png?5517dc"
@@ -2032,7 +2032,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Shadow_Bait",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Shadow+Bait",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/a/a2/ER_Icon_Spell_Shadow_Bait.png/64px-ER_Icon_Spell_Shadow_Bait.png?738486"
@@ -2050,7 +2050,7 @@
     "damage_types": [
       "Magic"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Smarag's_Glintstone_Breath",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Smarag's+Glintstone+Breath",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/d/db/ER_Icon_Spell_Smarag%27s_Glintstone_Breath.png/64px-ER_Icon_Spell_Smarag%27s_Glintstone_Breath.png?a2c46e"
@@ -2068,7 +2068,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Stone_of_Gurranq",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Stone+of+Gurranq",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9e/ER_Icon_Spell_Stone_of_Gurranq.png/64px-ER_Icon_Spell_Stone_of_Gurranq.png?c582ca"
@@ -2086,7 +2086,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Surge,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Surge+O+Flame!",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_Spell_Surge%2C_O_Flame%21.png/64px-ER_Icon_Spell_Surge%2C_O_Flame%21.png?e64ad0"
@@ -2104,7 +2104,7 @@
     "damage_types": [
       "Physical"
     ],
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Swarm_of_Flies",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Swarm+of+Flies",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/63/ER_Icon_Spell_Swarm_of_Flies.png/64px-ER_Icon_Spell_Swarm_of_Flies.png?b6491c"
@@ -2122,7 +2122,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/The_Flame_of_Frenzy",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//The+Flame+of+Frenzy",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_Spell_The_Flame_of_Frenzy.png/64px-ER_Icon_Spell_The_Flame_of_Frenzy.png?c4e423"
@@ -2140,7 +2140,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Theodorix's_Magma",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Theodorix's+Magma",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_Spell_Theodorix%27s_Magma.png/64px-ER_Icon_Spell_Theodorix%27s_Magma.png?10e548"
@@ -2158,7 +2158,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Triple_Rings_of_Light",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Triple+Rings+of+Light",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/6/66/ER_Icon_Spell_Triple_Rings_of_Light.png/64px-ER_Icon_Spell_Triple_Rings_of_Light.png?7ebf1d"
@@ -2176,7 +2176,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Unendurable_Frenzy",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Unendurable+Frenzy",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/e/e2/ER_Icon_Spell_Unendurable_Frenzy.png/64px-ER_Icon_Spell_Unendurable_Frenzy.png?be6d1e"
@@ -2192,7 +2192,7 @@
     "bonus": "Two Fingers",
     "dlc_exclusive": false,
     "damage_types": [],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Urgent_Heal",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Urgent+Heal",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/1/1b/ER_Icon_Spell_Urgent_Heal.png/64px-ER_Icon_Spell_Urgent_Heal.png?114e86"
@@ -2210,7 +2210,7 @@
     "damage_types": [
       "Lightning"
     ],
-    "status_buildup": "none",
+        "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Vyke's_Dragonbolt",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Vyke's+Dragonbolt",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/b/b6/ER_Icon_Spell_Vyke%27s_Dragonbolt.png/64px-ER_Icon_Spell_Vyke%27s_Dragonbolt.png?85d147"
@@ -2228,7 +2228,7 @@
     "damage_types": [
       "Fire"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Whirl,_O_Flame!",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Whirl+O+Flame!",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/8/8d/ER_Icon_Spell_Whirl%2C_O_Flame%21.png/64px-ER_Icon_Spell_Whirl%2C_O_Flame%21.png?c329de"
@@ -2246,7 +2246,7 @@
     "damage_types": [
       "Holy"
     ],
-    "status_buildup": "none",
+    "status_buildup": "None",
     "wikiGGLink": "https://eldenring.wiki.gg/wiki/Wrath_of_Gold",
     "wikiFextralifeLink": "https://eldenring.wiki.fextralife.com//Wrath+of+Gold",
     "imageUrl": "https://eldenring.wiki.gg/images/thumb/9/9d/ER_Icon_Spell_Wrath_of_Gold.png/64px-ER_Icon_Spell_Wrath_of_Gold.png?7c2360"
