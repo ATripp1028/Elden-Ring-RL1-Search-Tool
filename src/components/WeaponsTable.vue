@@ -102,7 +102,7 @@ const handleSort = (column: string) => {
             title="Status Buildups"
             @click="handleSort('Status Buildups')"
           >
-            Status Buildups
+            Status Buildup
             <span class="sort-indicator">{{ sortIndicator('Status Buildups') }}</span>
           </th>
           <th v-if="uiStore.selectedColumns.includes('Wiki')" class="wiki-col" title="Wiki">
