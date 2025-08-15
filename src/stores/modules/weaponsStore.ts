@@ -95,6 +95,9 @@ export const useWeaponsStore = defineStore('weapons', () => {
   // Primary/secondary attack type options
   const attackTypes = ['Standard', 'Slash', 'Strike', 'Pierce']
 
+  // Status buildup options
+  const statusBuildups = ['None', 'Blood Loss', 'Frostbite', 'Madness', 'Poison', 'Scarlet Rot', 'Sleep']
+
   // Initialize weapons data
   const initializeWeapons = () => {
     const allWeaponArrays = loadWeaponsData()
@@ -164,5 +167,6 @@ export const useWeaponsStore = defineStore('weapons', () => {
     weaponTypes,
     damageTypes,
     attackTypes,
+    statusBuildups,
   }
 })

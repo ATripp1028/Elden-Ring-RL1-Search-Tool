@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b6/ER_Icon_weapon_Club.png/300px-ER_Icon_weapon_Club.png?83c69c",
       "alt": "ER Icon weapon Club.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a2/ER_Icon_weapon_Curved_Club.png/300px-ER_Icon_weapon_Curved_Club.png?6a9ac6",
       "alt": "ER Icon weapon Curved Club.png",
@@ -84,7 +84,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d5/ER_Icon_weapon_Spiked_Club.png/300px-ER_Icon_weapon_Spiked_Club.png?beadaa",
       "alt": "ER Icon weapon Spiked Club.png",
@@ -115,7 +115,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Stone_Club.png/300px-ER_Icon_weapon_Stone_Club.png?53ed08",
       "alt": "ER Icon weapon Stone Club.png",
@@ -146,7 +146,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ec/ER_Icon_weapon_Mace.png/300px-ER_Icon_weapon_Mace.png?42fc63",
       "alt": "ER Icon weapon Mace.png",
@@ -177,7 +177,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/02/ER_Icon_weapon_Morning_Star.png/300px-ER_Icon_weapon_Morning_Star.png?be69f2",
       "alt": "ER Icon weapon Morning Star.png",
@@ -208,7 +208,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/07/ER_Icon_weapon_Warpick.png/300px-ER_Icon_weapon_Warpick.png?b20d79",
       "alt": "ER Icon weapon Warpick.png",
@@ -239,7 +239,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/df/ER_Icon_weapon_Hammer.png/300px-ER_Icon_weapon_Hammer.png?cbb4cc",
       "alt": "ER Icon weapon Hammer.png",
@@ -270,7 +270,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_weapon_Monk%27s_Flamemace.png/300px-ER_Icon_weapon_Monk%27s_Flamemace.png?352880",
       "alt": "ER Icon weapon Monk's Flamemace.png",
@@ -301,7 +301,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ef/ER_Icon_weapon_Varr%C3%A9%27s_Bouquet.png/300px-ER_Icon_weapon_Varr%C3%A9%27s_Bouquet.png?30ac66",
       "alt": "ER Icon weapon Varre's Bouquet.png",
@@ -334,7 +334,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1d/ER_Icon_weapon_Envoy%27s_Horn.png/300px-ER_Icon_weapon_Envoy%27s_Horn.png?f2947a",
       "alt": "ER Icon weapon Envoy's Horn.png",
@@ -365,7 +365,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Nox_Flowing_Hammer.png/300px-ER_Icon_weapon_Nox_Flowing_Hammer.png?188b6b",
       "alt": "ER Icon weapon Nox Flowing Hammer.png",
@@ -396,7 +396,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_weapon_Ringed_Finger.png/300px-ER_Icon_weapon_Ringed_Finger.png?b389ed",
       "alt": "ER Icon weapon Ringed Finger.png",
@@ -429,7 +429,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Scepter_of_the_All-Knowing.png/300px-ER_Icon_weapon_Scepter_of_the_All-Knowing.png?172511",
       "alt": "ER Icon weapon Scepter of the All-Knowing.png",
@@ -460,7 +460,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/54/ER_Icon_Weapon_Flowerstone_Gavel.png/300px-ER_Icon_Weapon_Flowerstone_Gavel.png?d14c8b",
       "alt": "ER Icon weapon Flowerstone Gavel.png",
@@ -493,7 +493,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3b/ER_Icon_weapon_Marika%27s_Hammer.png/300px-ER_Icon_weapon_Marika%27s_Hammer.png?45a674",
       "alt": "ER Icon weapon Marika's Hammer.png",

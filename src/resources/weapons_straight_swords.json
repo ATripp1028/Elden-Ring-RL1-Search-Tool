@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b2/ER_Icon_weapon_Short_Sword.png/300px-ER_Icon_weapon_Short_Sword.png?988b16",
       "alt": "ER Icon weapon Short Sword.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Longsword.png/300px-ER_Icon_weapon_Longsword.png?470477",
       "alt": "ER Icon weapon Longsword.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Broadsword.png/300px-ER_Icon_weapon_Broadsword.png?b0bf1f",
       "alt": "ER Icon weapon Broadsword.png",
@@ -115,7 +115,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8c/ER_Icon_weapon_Weathered_Straight_Sword.png/300px-ER_Icon_weapon_Weathered_Straight_Sword.png?7481a5",
       "alt": "ER Icon weapon Weathered Straight Sword.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b0/ER_Icon_weapon_Lordsworn%27s_Straight_Sword.png/300px-ER_Icon_weapon_Lordsworn%27s_Straight_Sword.png?6f2bdd",
       "alt": "ER Icon weapon Lordsworn's Straight Sword.png",
@@ -177,7 +177,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e7/ER_Icon_weapon_Noble%27s_Slender_Sword.png/300px-ER_Icon_weapon_Noble%27s_Slender_Sword.png?40705a",
       "alt": "ER Icon weapon Noble's Slender Sword.png",
@@ -208,7 +208,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_weapon_Cane_Sword.png/300px-ER_Icon_weapon_Cane_Sword.png?64fd05",
       "alt": "ER Icon weapon Cane Sword.png",
@@ -239,7 +239,7 @@
       "primary": "Strike",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ab/ER_Icon_Weapon_Stone-Sheathed_Sword.png/300px-ER_Icon_Weapon_Stone-Sheathed_Sword.png?216630",
       "alt": "ER Icon weapon Stone-Sheathed Sword.png",
@@ -270,7 +270,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Warhawk%27s_Talon.png/300px-ER_Icon_weapon_Warhawk%27s_Talon.png?e534d6",
       "alt": "ER Icon weapon Warhawk's Talon.png",
@@ -303,7 +303,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Lazuli_Glintstone_Sword.png/300px-ER_Icon_weapon_Lazuli_Glintstone_Sword.png?83d775",
       "alt": "ER Icon weapon Lazuli Glintstone Sword.png",
@@ -336,7 +336,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_weapon_Carian_Knight%27s_Sword.png/300px-ER_Icon_weapon_Carian_Knight%27s_Sword.png?230774",
       "alt": "ER Icon weapon Carian Knight's Sword.png",
@@ -369,7 +369,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Crystal_Sword.png/300px-ER_Icon_weapon_Crystal_Sword.png?2cee4c",
       "alt": "ER Icon weapon Crystal Sword.png",
@@ -402,7 +402,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Rotten_Crystal_Sword.png/300px-ER_Icon_weapon_Rotten_Crystal_Sword.png?936e08",
       "alt": "ER Icon weapon Rotten Crystal Sword.png",
@@ -435,7 +435,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d6/ER_Icon_weapon_Miquellan_Knight%27s_Sword.png/300px-ER_Icon_weapon_Miquellan_Knight%27s_Sword.png?64a968",
       "alt": "ER Icon weapon Miquellan Knight's Sword.png",
@@ -466,7 +466,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ee/ER_Icon_weapon_Ornamental_Straight_Sword.png/300px-ER_Icon_weapon_Ornamental_Straight_Sword.png?1663ff",
       "alt": "ER Icon weapon Ornamental Straight Sword.png",
@@ -499,7 +499,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ea/ER_Icon_weapon_Golden_Epitaph.png/300px-ER_Icon_weapon_Golden_Epitaph.png?e3f54a",
       "alt": "ER Icon weapon Golden Epitaph.png",
@@ -532,7 +532,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_weapon_Sword_of_St._Trina.png/300px-ER_Icon_weapon_Sword_of_St._Trina.png?38ed14",
       "alt": "ER Icon weapon Sword of St Trina.png",
@@ -565,7 +565,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "sleep",
+    "status_buildup": "Sleep",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/40/ER_Icon_Weapon_Velvet_Sword_of_St._Trina.png/300px-ER_Icon_Weapon_Velvet_Sword_of_St._Trina.png?7c3536",
       "alt": "ER Icon weapon Velvet Sword of St Trina.png",
@@ -598,7 +598,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3f/ER_Icon_weapon_Regalia_of_Eochaid.png/300px-ER_Icon_weapon_Regalia_of_Eochaid.png?ff3655",
       "alt": "ER Icon weapon Regalia of Eochaid.png",
@@ -629,7 +629,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_weapon_Coded_Sword.png/300px-ER_Icon_weapon_Coded_Sword.png?6eadf1",
       "alt": "ER Icon weapon Coded Sword.png",
@@ -663,7 +663,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bc/ER_Icon_weapon_Sword_of_Night_and_Flame.png/300px-ER_Icon_weapon_Sword_of_Night_and_Flame.png?3555cc",
       "alt": "ER Icon weapon Sword of Night and Flame.png",
@@ -696,7 +696,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0f/ER_Icon_Weapon_Sword_of_Light.png/300px-ER_Icon_Weapon_Sword_of_Light.png?b926aa",
       "alt": "ER Icon weapon Sword of Light.png",
@@ -729,7 +729,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/50/ER_Icon_Weapon_Sword_of_Darkness.png/300px-ER_Icon_Weapon_Sword_of_Darkness.png?329223",
       "alt": "ER Icon weapon Sword of Darkness.png",

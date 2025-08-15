@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Twinblade.png/300px-ER_Icon_weapon_Twinblade.png?ae2749",
       "alt": "ER Icon weapon Twinblade.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/05/ER_Icon_weapon_Twinned_Knight_Swords.png/300px-ER_Icon_weapon_Twinned_Knight_Swords.png?237d3a",
       "alt": "ER Icon weapon Twinned Knight Swords.png",
@@ -86,7 +86,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ab/ER_Icon_Weapon_Black_Steel_Twinblade.png/300px-ER_Icon_Weapon_Black_Steel_Twinblade.png?d6e1d0",
       "alt": "ER Icon weapon Black Steel Twinblade.png",
@@ -117,7 +117,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Godskin_Peeler.png/300px-ER_Icon_weapon_Godskin_Peeler.png?433d9f",
       "alt": "ER Icon weapon Godskin Peeler.png",
@@ -148,7 +148,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ad/ER_Icon_weapon_Gargoyle%27s_Twinblade.png/300px-ER_Icon_weapon_Gargoyle%27s_Twinblade.png?92c106",
       "alt": "ER Icon weapon Gargoyle's Twinblade.png",
@@ -181,7 +181,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Gargoyle%27s_Black_Blades.png/300px-ER_Icon_weapon_Gargoyle%27s_Black_Blades.png?753fa1",
       "alt": "ER Icon weapon Gargoyle's Black Blades.png",
@@ -214,7 +214,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Eleonora%27s_Poleblade.png/300px-ER_Icon_weapon_Eleonora%27s_Poleblade.png?d68b72",
       "alt": "ER Icon weapon Eleonora's Poleblade.png",
@@ -247,7 +247,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_Weapon_Euporia.png/300px-ER_Icon_Weapon_Euporia.png?3b04c7",
       "alt": "ER Icon weapon Euporia.png",

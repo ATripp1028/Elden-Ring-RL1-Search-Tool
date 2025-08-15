@@ -22,7 +22,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/73/ER_Icon_weapon_Astrologer%27s_Staff.png/300px-ER_Icon_weapon_Astrologer%27s_Staff.png?605b78",
       "alt": "ER Icon weapon Astrologer's Staff.png",
@@ -53,7 +53,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/06/ER_Icon_weapon_Glintstone_Staff.png/300px-ER_Icon_weapon_Glintstone_Staff.png?62e7b8",
       "alt": "ER Icon weapon Glintstone Staff.png",
@@ -84,7 +84,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Academy_Glintstone_Staff.png/300px-ER_Icon_weapon_Academy_Glintstone_Staff.png?c3f9ae",
       "alt": "ER Icon weapon Academy Glintstone Staff.png",
@@ -115,7 +115,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_weapon_Digger%27s_Staff.png/300px-ER_Icon_weapon_Digger%27s_Staff.png?3bf5f3",
       "alt": "ER Icon weapon Digger's Staff.png",
@@ -146,7 +146,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/5c/ER_Icon_weapon_Demi-Human_Queen%27s_Staff.png/300px-ER_Icon_weapon_Demi-Human_Queen%27s_Staff.png?3dc3cc",
       "alt": "ER Icon weapon Demi-Human Queen's Staff.png",
@@ -177,7 +177,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_weapon_Azur%27s_Glintstone_Staff.png/300px-ER_Icon_weapon_Azur%27s_Glintstone_Staff.png?9e36bf",
       "alt": "ER Icon weapon Azur's Glintstone Staff.png",
@@ -208,7 +208,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Lusat%27s_Glintstone_Staff.png/300px-ER_Icon_weapon_Lusat%27s_Glintstone_Staff.png?42a6a2",
       "alt": "ER Icon weapon Lusat's Glintstone Staff.png",
@@ -239,7 +239,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Carian_Glintstone_Staff.png/300px-ER_Icon_weapon_Carian_Glintstone_Staff.png?770a76",
       "alt": "ER Icon weapon Carian Glintstone Staff.png",
@@ -270,7 +270,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/87/ER_Icon_weapon_Carian_Glintblade_Staff.png/300px-ER_Icon_weapon_Carian_Glintblade_Staff.png?ca3f8d",
       "alt": "ER Icon weapon Carian Glintblade Staff.png",
@@ -301,7 +301,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/31/ER_Icon_weapon_Carian_Regal_Scepter.png/300px-ER_Icon_weapon_Carian_Regal_Scepter.png?d84614",
       "alt": "ER Icon weapon Carian Regal Scepter.png",
@@ -332,7 +332,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Albinauric_Staff.png/300px-ER_Icon_weapon_Albinauric_Staff.png?ae42d4",
       "alt": "ER Icon weapon Albinauric Staff.png",
@@ -363,7 +363,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c8/ER_Icon_weapon_Staff_of_Loss.png/300px-ER_Icon_weapon_Staff_of_Loss.png?970888",
       "alt": "ER Icon weapon Staff of Loss.png",
@@ -394,7 +394,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/77/ER_Icon_weapon_Gelmir_Glintstone_Staff.png/300px-ER_Icon_weapon_Gelmir_Glintstone_Staff.png?9ff1a3",
       "alt": "ER Icon weapon Gelmir Glintstone Staff.png",
@@ -425,7 +425,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/24/ER_Icon_weapon_Crystal_Staff.png/300px-ER_Icon_weapon_Crystal_Staff.png?883928",
       "alt": "ER Icon weapon Crystal Staff.png",
@@ -456,7 +456,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_weapon_Rotten_Crystal_Staff.png/300px-ER_Icon_weapon_Rotten_Crystal_Staff.png?ce3997",
       "alt": "ER Icon weapon Rotten Crystal Staff.png",
@@ -487,7 +487,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f7/ER_Icon_weapon_Meteorite_Staff.png/300px-ER_Icon_weapon_Meteorite_Staff.png?2d9d31",
       "alt": "ER Icon weapon Meteorite Staff.png",
@@ -518,7 +518,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Staff_of_the_Guilty.png/300px-ER_Icon_weapon_Staff_of_the_Guilty.png?3a1736",
       "alt": "ER Icon weapon Staff of the Guilty.png",
@@ -549,7 +549,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/14/ER_Icon_weapon_Prince_of_Death%27s_Staff.png/300px-ER_Icon_weapon_Prince_of_Death%27s_Staff.png?194965",
       "alt": "ER Icon weapon Prince of Death's Staff.png",
@@ -580,7 +580,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/91/ER_Icon_Weapon_Maternal_Staff.png/300px-ER_Icon_Weapon_Maternal_Staff.png?7bfe3a",
       "alt": "ER Icon weapon Maternal Staff.png",
@@ -611,7 +611,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b3/ER_Icon_Weapon_Staff_of_the_Great_Beyond.png/300px-ER_Icon_Weapon_Staff_of_the_Great_Beyond.png?c78b80",
       "alt": "ER Icon weapon Staff of the Great Beyond.png",

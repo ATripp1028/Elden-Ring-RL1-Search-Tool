@@ -96,6 +96,15 @@ const handleSort = (column: string) => {
             Attack Type
             <span class="sort-indicator">{{ sortIndicator('Attack Type') }}</span>
           </th>
+          <th
+            v-if="uiStore.selectedColumns.includes('Status Buildups')"
+            class="status-buildups-col sortable"
+            title="Status Buildups"
+            @click="handleSort('Status Buildups')"
+          >
+            Status Buildup
+            <span class="sort-indicator">{{ sortIndicator('Status Buildups') }}</span>
+          </th>
           <th v-if="uiStore.selectedColumns.includes('Wiki')" class="wiki-col" title="Wiki">
             Wiki
           </th>
@@ -134,6 +143,15 @@ const handleSort = (column: string) => {
           </td>
           <td v-if="uiStore.selectedColumns.includes('Attack Type')">
             <span>{{ weapon.attackTypes.primary }}</span>
+          </td>
+          <td v-if="uiStore.selectedColumns.includes('Status Buildups')">
+            <span
+              v-if="weapon.statusBuildup && weapon.statusBuildup !== 'none'"
+              class="status-buildup"
+            >
+              {{ weapon.statusBuildup.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()) }}
+            </span>
+            <span v-else class="no-status">—</span>
           </td>
           <td v-if="uiStore.selectedColumns.includes('Wiki')">
             <div class="wiki-links">
@@ -213,6 +231,11 @@ th {
   text-align: center;
 }
 
+.status-buildups-col {
+  width: 12%;
+  text-align: center;
+}
+
 .wiki-col {
   width: 5%;
 }
@@ -268,6 +291,16 @@ tbody td {
 }
 
 .no-secondary {
+  color: #999;
+  font-style: italic;
+}
+
+.status-buildup {
+  color: #d63384;
+  font-weight: 500;
+}
+
+.no-status {
   color: #999;
   font-style: italic;
 }

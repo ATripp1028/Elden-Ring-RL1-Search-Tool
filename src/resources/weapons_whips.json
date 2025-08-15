@@ -22,7 +22,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/76/ER_Icon_weapon_Whip.png/300px-ER_Icon_weapon_Whip.png?41b6aa",
       "alt": "ER Icon weapon Whip.png",
@@ -53,7 +53,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Thorned_Whip.png/300px-ER_Icon_weapon_Thorned_Whip.png?606ae0",
       "alt": "ER Icon weapon Thorned Whip.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/32/ER_Icon_weapon_Urumi.png/300px-ER_Icon_weapon_Urumi.png?ef825e",
       "alt": "ER Icon weapon Urumi.png",
@@ -115,7 +115,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/56/ER_Icon_weapon_Hoslow%27s_Petal_Whip.png/300px-ER_Icon_weapon_Hoslow%27s_Petal_Whip.png?76b445",
       "alt": "ER Icon weapon Hoslow's Petal Whip.png",
@@ -146,7 +146,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_Weapon_Tooth_Whip.png/300px-ER_Icon_Weapon_Tooth_Whip.png?bb1d11",
       "alt": "ER Icon weapon Tooth Whip.png",
@@ -179,7 +179,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b7/ER_Icon_weapon_Magma_Whip_Candlestick.png/300px-ER_Icon_weapon_Magma_Whip_Candlestick.png?d3955f",
       "alt": "ER Icon weapon Magma Whip Candlestick.png",
@@ -212,7 +212,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2b/ER_Icon_weapon_Giant%27s_Red_Braid.png/300px-ER_Icon_weapon_Giant%27s_Red_Braid.png?9c323a",
       "alt": "ER Icon weapon Giant's Red Braid.png",

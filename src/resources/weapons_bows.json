@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/23/ER_Icon_weapon_Longbow.png/300px-ER_Icon_weapon_Longbow.png?3fd2c8",
       "alt": "ER Icon weapon Longbow.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b0/ER_Icon_weapon_Albinauric_Bow.png/300px-ER_Icon_weapon_Albinauric_Bow.png?43c7fe",
       "alt": "ER Icon weapon Albinauric Bow.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Black_Bow.png/300px-ER_Icon_weapon_Black_Bow.png?4fda3e",
       "alt": "ER Icon weapon Black Bow.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d2/ER_Icon_Weapon_Ansbach%27s_Longbow.png/300px-ER_Icon_Weapon_Ansbach%27s_Longbow.png?bd7ac3",
       "alt": "ER Icon weapon Ansbach's Longbow.png",
@@ -146,7 +146,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Pulley_Bow.png/300px-ER_Icon_weapon_Pulley_Bow.png?834d9b",
       "alt": "ER Icon weapon Pulley Bow.png",
@@ -179,7 +179,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/46/ER_Icon_weapon_Horn_Bow.png/300px-ER_Icon_weapon_Horn_Bow.png?ef5145",
       "alt": "ER Icon weapon Horn Bow.png",
@@ -210,7 +210,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b5/ER_Icon_weapon_Serpent_Bow.png/300px-ER_Icon_weapon_Serpent_Bow.png?d7364e",
       "alt": "ER Icon weapon Serpent Bow.png",
@@ -243,7 +243,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e2/ER_Icon_weapon_Erdtree_Bow.png/300px-ER_Icon_weapon_Erdtree_Bow.png?8fce6a",
       "alt": "ER Icon weapon Erdtree Bow.png",

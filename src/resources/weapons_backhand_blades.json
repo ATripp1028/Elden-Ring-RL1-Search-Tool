@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_Weapon_Backhand_Blade.png/300px-ER_Icon_Weapon_Backhand_Blade.png?404b3e",
       "alt": "ER Icon Weapon Backhand Blade.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/37/ER_Icon_Weapon_Smithscript_Cirque.png/300px-ER_Icon_Weapon_Smithscript_Cirque.png?fbdd3e",
       "alt": "ER Icon weapon Smithscript Cirque.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ec/ER_Icon_Weapon_Curseblade%27s_Cirque.png/300px-ER_Icon_Weapon_Curseblade%27s_Cirque.png?a3c001",
       "alt": "ER Icon weapon Smithscript Cirque.png",

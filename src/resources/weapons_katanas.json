@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b3/ER_Icon_weapon_Uchigatana.png/300px-ER_Icon_weapon_Uchigatana.png?d3e900",
       "alt": "ER Icon weapon Uchigatana.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Nagakiba.png/300px-ER_Icon_weapon_Nagakiba.png?696e94",
       "alt": "ER Icon weapon Nagakiba.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Serpentbone_Blade.png/300px-ER_Icon_weapon_Serpentbone_Blade.png?a45ad2",
       "alt": "ER Icon weapon Serpentbone Blade.png",
@@ -117,7 +117,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/38/ER_Icon_weapon_Meteoric_Ore_Blade.png/300px-ER_Icon_weapon_Meteoric_Ore_Blade.png?91ead6",
       "alt": "ER Icon weapon Meteoric Ore Blade.png",
@@ -150,7 +150,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/91/ER_Icon_weapon_Moonveil.png/300px-ER_Icon_weapon_Moonveil.png?305029",
       "alt": "ER Icon weapon Moonveil.png",
@@ -183,7 +183,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ee/ER_Icon_Weapon_Sword_of_Night.png/300px-ER_Icon_Weapon_Sword_of_Night.png?92a30d",
       "alt": "ER Icon weapon Sword of Night.png",
@@ -216,7 +216,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a9/ER_Icon_weapon_Rivers_of_Blood.png/300px-ER_Icon_weapon_Rivers_of_Blood.png?17b0b8",
       "alt": "ER Icon weapon Rivers of Blood.png",
@@ -247,7 +247,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d2/ER_Icon_weapon_Dragonscale_Blade.png/300px-ER_Icon_weapon_Dragonscale_Blade.png?7ab589",
       "alt": "ER Icon weapon Dragonscale Blade.png",
@@ -280,7 +280,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_Weapon_Star-Lined_Sword.png/300px-ER_Icon_Weapon_Star-Lined_Sword.png?2d529d",
       "alt": "ER Icon weapon Star-Lined Sword.png",
@@ -311,7 +311,7 @@
       "primary": "Slash",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2a/ER_Icon_weapon_Hand_of_Malenia.png/300px-ER_Icon_weapon_Hand_of_Malenia.png?1bb87d",
       "alt": "ER Icon weapon Hand of Malenia.png",

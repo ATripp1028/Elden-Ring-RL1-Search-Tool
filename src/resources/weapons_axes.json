@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/29/ER_Icon_weapon_Hand_Axe.png/300px-ER_Icon_weapon_Hand_Axe.png?457195",
       "alt": "ER Icon weapon Hand Axe.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ca/ER_Icon_weapon_Forked_Hatchet.png/300px-ER_Icon_weapon_Forked_Hatchet.png?abfdeb",
       "alt": "ER Icon weapon Forked Hatchet.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/41/ER_Icon_Weapon_Forked-Tongue_Hatchet.png/600px-ER_Icon_Weapon_Forked-Tongue_Hatchet.png?df3499",
       "alt": "ER Icon weapon Forked-Tongue Hatchet.png",
@@ -115,7 +115,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/2e/ER_Icon_weapon_Battle_Axe.png/300px-ER_Icon_weapon_Battle_Axe.png?ff7dc8",
       "alt": "ER Icon weapon Battle Axe.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_Weapon_Messmer_Soldier%27s_Axe.png/300px-ER_Icon_Weapon_Messmer_Soldier%27s_Axe.png?621cf7",
       "alt": "ER Icon weapon Messmer Soldier's Axe.png",
@@ -177,7 +177,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Warped_Axe.png/300px-ER_Icon_weapon_Warped_Axe.png?bca673",
       "alt": "ER Icon weapon Warped Axe.png",
@@ -208,7 +208,7 @@
       "primary": "Strike",
       "secondary": "Strike"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/55/ER_Icon_weapon_Jawbone_Axe.png/300px-ER_Icon_weapon_Jawbone_Axe.png?a72669",
       "alt": "ER Icon weapon Jawbone Axe.png",
@@ -239,7 +239,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d0/ER_Icon_weapon_Iron_Cleaver.png/300px-ER_Icon_weapon_Iron_Cleaver.png?39bc36",
       "alt": "ER Icon weapon Iron Cleaver.png",
@@ -270,7 +270,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/84/ER_Icon_weapon_Highland_Axe.png/300px-ER_Icon_weapon_Highland_Axe.png?609770",
       "alt": "ER Icon weapon Highland Axe.png",
@@ -301,7 +301,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_Weapon_Smithscript_Axe.png/300px-ER_Icon_Weapon_Smithscript_Axe.png?7d8a96",
       "alt": "ER Icon weapon Smithscript Axe.png",
@@ -332,7 +332,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Celebrant%27s_Cleaver.png/300px-ER_Icon_weapon_Celebrant%27s_Cleaver.png?9d366e",
       "alt": "ER Icon weapon Celebrant's Cleaver.png",
@@ -363,7 +363,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/57/ER_Icon_weapon_Sacrificial_Axe.png/300px-ER_Icon_weapon_Sacrificial_Axe.png?9dd0b9",
       "alt": "ER Icon weapon Sacrificial Axe.png",
@@ -394,7 +394,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/81/ER_Icon_weapon_Icerind_Hatchet.png/300px-ER_Icon_weapon_Icerind_Hatchet.png?cd3a10",
       "alt": "ER Icon weapon Icerind Hatchet.png",
@@ -425,7 +425,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1d/ER_Icon_weapon_Ripple_Blade.png/300px-ER_Icon_weapon_Ripple_Blade.png?5c5f2f",
       "alt": "ER Icon weapon Ripple Blade.png",
@@ -456,7 +456,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0b/ER_Icon_weapon_Stormhawk_Axe.png/300px-ER_Icon_weapon_Stormhawk_Axe.png?961bfe",
       "alt": "ER Icon weapon Stormhawk Axe.png",
@@ -487,7 +487,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ce/ER_Icon_weapon_Rosus%27_Axe.png/300px-ER_Icon_weapon_Rosus%27_Axe.png?3c89de",
       "alt": "ER Icon weapon Rosus' Axe.png",
@@ -518,7 +518,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/10/ER_Icon_Weapon_Death_Knight%27s_Twin_Axes.png/300px-ER_Icon_Weapon_Death_Knight%27s_Twin_Axes.png?2106d4",
       "alt": "ER Icon weapon Death Knight's Twin Axes.png",

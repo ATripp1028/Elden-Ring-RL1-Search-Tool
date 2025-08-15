@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/1f/ER_Icon_weapon_Scimitar.png/300px-ER_Icon_weapon_Scimitar.png?9afbfc",
       "alt": "ER Icon weapon Scimitar.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/74/ER_Icon_weapon_Falchion.png/300px-ER_Icon_weapon_Falchion.png?45199f",
       "alt": "ER Icon weapon Falchion.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7f/ER_Icon_weapon_Shamshir.png/300px-ER_Icon_weapon_Shamshir.png?e3d30b",
       "alt": "ER Icon weapon Shamshir.png",
@@ -115,7 +115,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/ff/ER_Icon_weapon_Grossmesser.png/300px-ER_Icon_weapon_Grossmesser.png?3d73a4",
       "alt": "ER Icon weapon Grossmesser.png",
@@ -146,7 +146,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4a/ER_Icon_weapon_Bandit%27s_Curved_Sword.png/300px-ER_Icon_weapon_Bandit%27s_Curved_Sword.png?e9a2ff",
       "alt": "ER Icon weapon Bandit's Curved Sword.png",
@@ -177,7 +177,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/86/ER_Icon_weapon_Shotel.png/300px-ER_Icon_weapon_Shotel.png?d4838a",
       "alt": "ER Icon weapon Shotel.png",
@@ -208,7 +208,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/dd/ER_Icon_weapon_Scavenger%27s_Curved_Sword.png/300px-ER_Icon_weapon_Scavenger%27s_Curved_Sword.png?1bceb5",
       "alt": "ER Icon weapon Scavenger's Curved Sword.png",
@@ -239,7 +239,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9c/ER_Icon_weapon_Mantis_Blade.png/300px-ER_Icon_weapon_Mantis_Blade.png?37487b",
       "alt": "ER Icon weapon Mantis Blade.png",
@@ -270,7 +270,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_weapon_Beastman%27s_Curved_Sword.png/300px-ER_Icon_weapon_Beastman%27s_Curved_Sword.png?aadf00",
       "alt": "ER Icon weapon Beastman's Curved Sword.png",
@@ -301,7 +301,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c7/ER_Icon_weapon_Flowing_Curved_Sword.png/300px-ER_Icon_weapon_Flowing_Curved_Sword.png?180182",
       "alt": "ER Icon weapon Flowing Curved Sword.png",
@@ -332,7 +332,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/35/ER_Icon_weapon_Serpent-God%27s_Curved_Sword.png/300px-ER_Icon_weapon_Serpent-God%27s_Curved_Sword.png?f2dd78",
       "alt": "ER Icon weapon Serpent-God's Curved Sword.png",
@@ -365,7 +365,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Magma_Blade.png/300px-ER_Icon_weapon_Magma_Blade.png?6e0f64",
       "alt": "ER Icon weapon Magma Blade.png",
@@ -398,7 +398,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f5/ER_Icon_Weapon_Spirit_Sword.png/300px-ER_Icon_Weapon_Spirit_Sword.png?cc8ec7",
       "alt": "ER Icon weapon Spirit Sword.png",
@@ -429,7 +429,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/36/ER_Icon_weapon_Nox_Flowing_Sword.png/300px-ER_Icon_weapon_Nox_Flowing_Sword.png?308bf3",
       "alt": "ER Icon weapon Nox Flowing Sword.png",
@@ -462,7 +462,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/65/ER_Icon_weapon_Wing_of_Astel.png/300px-ER_Icon_weapon_Wing_of_Astel.png?49773f",
       "alt": "ER Icon weapon Wing of Astel.png",
@@ -493,7 +493,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ed/ER_Icon_Weapon_Falx.png/300px-ER_Icon_Weapon_Falx.png?f0a0ec",
       "alt": "ER Icon weapon Falx.png",
@@ -524,7 +524,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/eb/ER_Icon_Weapon_Dancing_Blade_of_Ranah.png/300px-ER_Icon_Weapon_Dancing_Blade_of_Ranah.png?30de9d",
       "alt": "ER Icon weapon Dancing Blade of Ranah.png",
@@ -555,7 +555,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f7/ER_Icon_Weapon_Horned_Warrior%27s_Sword.png/300px-ER_Icon_Weapon_Horned_Warrior%27s_Sword.png?21cd17",
       "alt": "ER Icon weapon Horned Warrior's Sword.png",
@@ -588,7 +588,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/39/ER_Icon_weapon_Eclipse_Shotel.png/300px-ER_Icon_weapon_Eclipse_Shotel.png?ad604e",
       "alt": "ER Icon weapon Eclipse Shotel.png",

@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Rapier.png/300px-ER_Icon_weapon_Rapier.png?3b8578",
       "alt": "ER Icon weapon Rapier.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/20/ER_Icon_weapon_Estoc.png/300px-ER_Icon_weapon_Estoc.png?409aa8",
       "alt": "ER Icon weapon Estoc.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/6e/ER_Icon_weapon_Noble%27s_Estoc.png/300px-ER_Icon_weapon_Noble%27s_Estoc.png?c41e23",
       "alt": "ER Icon weapon Noble's Estoc.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/70/ER_Icon_weapon_Cleanrot_Knight%27s_Sword.png/300px-ER_Icon_weapon_Cleanrot_Knight%27s_Sword.png?d3b520",
       "alt": "ER Icon weapon Cleanrot Knight's Sword.png",
@@ -146,7 +146,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_weapon_Rogier%27s_Rapier.png/300px-ER_Icon_weapon_Rogier%27s_Rapier.png?1535ba",
       "alt": "ER Icon weapon Rogier's Rapier.png",
@@ -177,7 +177,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "scarlet_rot",
+    "status_buildup": "Scarlet Rot",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/6f/ER_Icon_weapon_Antspur_Rapier.png/300px-ER_Icon_weapon_Antspur_Rapier.png?c411be",
       "alt": "ER Icon weapon Antspur Rapier.png",
@@ -208,7 +208,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Frozen_Needle.png/300px-ER_Icon_weapon_Frozen_Needle.png?6066ce",
       "alt": "ER Icon weapon Frozen Needle.png",
@@ -241,7 +241,7 @@
       "primary": "Pierce",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/09/ER_Icon_Weapon_Carian_Sorcery_Sword.png/300px-ER_Icon_Weapon_Carian_Sorcery_Sword.png?9f38cc",
       "alt": "ER Icon weapon Carian Sorcery Sword.png",

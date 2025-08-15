@@ -22,7 +22,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9e/ER_Icon_weapon_Finger_Seal.png/300px-ER_Icon_weapon_Finger_Seal.png?85af3c",
       "alt": "ER Icon weapon Finger Seal.png",
@@ -55,7 +55,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fb/ER_Icon_weapon_Erdtree_Seal.png/300px-ER_Icon_weapon_Erdtree_Seal.png?1df133",
       "alt": "ER Icon weapon Erdtree Seal.png",
@@ -86,7 +86,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/61/ER_Icon_weapon_Golden_Order_Seal.png/300px-ER_Icon_weapon_Golden_Order_Seal.png?6ba9de",
       "alt": "ER Icon weapon Golden Order Seal.png",
@@ -117,7 +117,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0c/ER_Icon_Weapon_Dryleaf_Seal.png/300px-ER_Icon_Weapon_Dryleaf_Seal.png?c21bc5",
       "alt": "ER Icon weapon Dryleaf Seal.png",
@@ -148,7 +148,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a0/ER_Icon_Weapon_Fire_Knight%27s_Seal.png/300px-ER_Icon_Weapon_Fire_Knight%27s_Seal.png?5a63fc",
       "alt": "ER Icon weapon Fire Knight's Seal.png",
@@ -179,7 +179,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_Weapon_Spiraltree_Seal.png/300px-ER_Icon_Weapon_Spiraltree_Seal.png?d1aed2",
       "alt": "ER Icon weapon Spiraltree Seal.png",
@@ -210,7 +210,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/98/ER_Icon_weapon_Gravel_Stone_Seal.png/300px-ER_Icon_weapon_Gravel_Stone_Seal.png?7a80c0",
       "alt": "ER Icon weapon Gravel Stone Seal.png",
@@ -241,7 +241,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4c/ER_Icon_weapon_Giant%27s_Seal.png/300px-ER_Icon_weapon_Giant%27s_Seal.png?e23ada",
       "alt": "ER Icon weapon Giant's Seal.png",
@@ -272,7 +272,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9b/ER_Icon_weapon_Godslayer%27s_Seal.png/300px-ER_Icon_weapon_Godslayer%27s_Seal.png?9bfb74",
       "alt": "ER Icon weapon Godslayer's Seal.png",
@@ -303,7 +303,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/71/ER_Icon_weapon_Clawmark_Seal.png/300px-ER_Icon_weapon_Clawmark_Seal.png?cbaeae",
       "alt": "ER Icon weapon Clawmark Seal.png",
@@ -334,7 +334,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "madness",
+    "status_buildup": "Madness",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e5/ER_Icon_weapon_Frenzied_Flame_Seal.png/300px-ER_Icon_weapon_Frenzied_Flame_Seal.png?89e491",
       "alt": "ER Icon weapon Frenzied Flame Seal.png",
@@ -365,7 +365,7 @@
       "primary": "Spell",
       "secondary": "Spell"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bf/ER_Icon_weapon_Dragon_Communion_Seal.png/300px-ER_Icon_weapon_Dragon_Communion_Seal.png?33ddab",
       "alt": "ER Icon weapon Dragon Communion Seal.png",

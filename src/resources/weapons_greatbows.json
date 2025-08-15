@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/2/22/ER_Icon_weapon_Greatbow.png/300px-ER_Icon_weapon_Greatbow.png?f47869",
       "alt": "ER Icon weapon Greatbow.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_weapon_Golem_Greatbow.png/300px-ER_Icon_weapon_Golem_Greatbow.png?b43d21",
       "alt": "ER Icon weapon Golem Greatbow.png",
@@ -86,7 +86,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/53/ER_Icon_weapon_Erdtree_Greatbow.png/300px-ER_Icon_weapon_Erdtree_Greatbow.png?4131fb",
       "alt": "ER Icon weapon Erdtree Greatbow.png",
@@ -117,7 +117,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/51/ER_Icon_Weapon_Igon%27s_Greatbow.png/300px-ER_Icon_Weapon_Igon%27s_Greatbow.png?19d129",
       "alt": "ER Icon weapon Igon's Greatbow.png",
@@ -148,7 +148,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a1/ER_Icon_weapon_Lion_Greatbow.png/300px-ER_Icon_weapon_Lion_Greatbow.png?bc2b21",
       "alt": "ER Icon weapon Lion Greatbow.png",

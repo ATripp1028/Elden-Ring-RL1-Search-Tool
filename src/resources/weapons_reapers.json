@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/97/ER_Icon_weapon_Scythe.png/300px-ER_Icon_weapon_Scythe.png?dbfc5f",
       "alt": "ER Icon weapon Scythe.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/af/ER_Icon_weapon_Grave_Scythe.png/300px-ER_Icon_weapon_Grave_Scythe.png?6fba81",
       "alt": "ER Icon weapon Grave Scythe.png",
@@ -86,7 +86,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Halo_Scythe.png/300px-ER_Icon_weapon_Halo_Scythe.png?af3259",
       "alt": "ER Icon weapon Halo Scythe.png",
@@ -119,7 +119,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d3/ER_Icon_weapon_Winged_Scythe.png/300px-ER_Icon_weapon_Winged_Scythe.png?75c99c",
       "alt": "ER Icon weapon Winged Scythe.png",
@@ -150,7 +150,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_Weapon_Obsidian_Lamina.png/300px-ER_Icon_Weapon_Obsidian_Lamina.png?917bb9",
       "alt": "ER Icon weapon Obsidian Lamina.png",

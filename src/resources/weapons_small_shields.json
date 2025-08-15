@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c9/ER_Icon_shield_Rickety_Shield.png/300px-ER_Icon_shield_Rickety_Shield.png?2415a9",
       "alt": "ER Icon shield Rickety Shield.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_shield_Riveted_Wooden_Shield.png/300px-ER_Icon_shield_Riveted_Wooden_Shield.png?29d966",
       "alt": "ER Icon shield Riveted Wooden Shield.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fd/ER_Icon_shield_Blue-White_Wooden_Shield.png/300px-ER_Icon_shield_Blue-White_Wooden_Shield.png?865481",
       "alt": "ER Icon shield Blue-White Wooden Shield.png",
@@ -115,7 +115,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a7/ER_Icon_shield_Scripture_Wooden_Shield.png/300px-ER_Icon_shield_Scripture_Wooden_Shield.png?dfd1b0",
       "alt": "ER Icon shield Scripture Wooden Shield.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7a/ER_Icon_shield_Red_Thorn_Roundshield.png/300px-ER_Icon_shield_Red_Thorn_Roundshield.png?1cdf11",
       "alt": "ER Icon shield Red Thorn Roundshield.png",
@@ -177,7 +177,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/ca/ER_Icon_shield_Pillory_Shield.png/300px-ER_Icon_shield_Pillory_Shield.png?b74b3b",
       "alt": "ER Icon shield Pillory Shield.png",
@@ -208,7 +208,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/72/ER_Icon_shield_Buckler.png/300px-ER_Icon_shield_Buckler.png?675b35",
       "alt": "ER Icon shield Buckler.png",
@@ -239,7 +239,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/de/ER_Icon_shield_Iron_Roundshield.png/300px-ER_Icon_shield_Iron_Roundshield.png?1e3113",
       "alt": "ER Icon shield Iron Roundshield.png",
@@ -270,7 +270,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/33/ER_Icon_shield_Gilded_Iron_Shield.png/300px-ER_Icon_shield_Gilded_Iron_Shield.png?71d041",
       "alt": "ER Icon shield Gilded Iron Shield.png",
@@ -301,7 +301,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/45/ER_Icon_shield_Man-Serpent%27s_Shield.png/300px-ER_Icon_shield_Man-Serpent%27s_Shield.png?ccf375",
       "alt": "ER Icon shield Man-Serpent's Shield.png",
@@ -332,7 +332,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b3/ER_Icon_shield_Ice_Crest_Shield.png/300px-ER_Icon_shield_Ice_Crest_Shield.png?45f1ce",
       "alt": "ER Icon shield Ice Crest Shield.png",
@@ -363,7 +363,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/15/ER_Icon_shield_Rift_Shield.png/300px-ER_Icon_shield_Rift_Shield.png?582170",
       "alt": "ER Icon shield Rift Shield.png",
@@ -394,7 +394,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_shield_Perfumer%27s_Shield.png/300px-ER_Icon_shield_Perfumer%27s_Shield.png?472bc8",
       "alt": "ER Icon shield Perfumer's Shield.png",
@@ -425,7 +425,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/80/ER_Icon_shield_Shield_of_the_Guilty.png/300px-ER_Icon_shield_Shield_of_the_Guilty.png?fb1ec3",
       "alt": "ER Icon shield Shield of the Guilty.png",
@@ -456,7 +456,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f4/ER_Icon_shield_Spiralhorn_Shield.png/300px-ER_Icon_shield_Spiralhorn_Shield.png?5d0eac",
       "alt": "ER Icon shield Spiralhorn Shield.png",
@@ -489,7 +489,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3c/ER_Icon_shield_Smoldering_Shield.png/300px-ER_Icon_shield_Smoldering_Shield.png?493fc0",
       "alt": "ER Icon shield Smoldering Shield.png",
@@ -520,7 +520,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/4e/ER_Icon_shield_Coil_Shield.png/300px-ER_Icon_shield_Coil_Shield.png?74e418",
       "alt": "ER Icon shield Coil Shield.png",
@@ -551,7 +551,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c2/ER_Icon_Shield_Smithscript_Shield.png/300px-ER_Icon_Shield_Smithscript_Shield.png?c03ce0",
       "alt": "ER Icon shield Smithscript Shield.png",
@@ -584,7 +584,7 @@
       "primary": "Standard",
       "secondary": "Standard"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/ae/ER_Icon_Shield_Shield_of_Night.png/300px-ER_Icon_Shield_Shield_of_Night.png?18bc08",
       "alt": "ER Icon shield Shield of Night.png",

@@ -22,7 +22,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/44/ER_Icon_weapon_Soldier%27s_Crossbow.png/300px-ER_Icon_weapon_Soldier%27s_Crossbow.png?b73f7e",
       "alt": "ER Icon weapon Soldier's Crossbow.png",
@@ -53,7 +53,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/89/ER_Icon_weapon_Light_Crossbow.png/300px-ER_Icon_weapon_Light_Crossbow.png?2a2a69",
       "alt": "ER Icon weapon Light Crossbow.png",
@@ -84,7 +84,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f9/ER_Icon_weapon_Heavy_Crossbow.png/300px-ER_Icon_weapon_Heavy_Crossbow.png?e167aa",
       "alt": "ER Icon weapon Heavy Crossbow.png",
@@ -115,7 +115,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/b4/ER_Icon_weapon_Arbalest.png/300px-ER_Icon_weapon_Arbalest.png?82ad51",
       "alt": "ER Icon weapon Arbalest.png",
@@ -146,7 +146,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3d/ER_Icon_weapon_Crepus%27s_Black-Key_Crossbow.png/300px-ER_Icon_weapon_Crepus%27s_Black-Key_Crossbow.png?431d32",
       "alt": "ER Icon weapon Crepus's Black-Key Crossbow.png",
@@ -177,7 +177,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/85/ER_Icon_weapon_Pulley_Crossbow.png/300px-ER_Icon_weapon_Pulley_Crossbow.png?e4c0a1",
       "alt": "ER Icon weapon Pulley Crossbow.png",
@@ -208,7 +208,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/38/ER_Icon_Weapon_Repeating_Crossbow.png/300px-ER_Icon_Weapon_Repeating_Crossbow.png?bd09cd",
       "alt": "ER Icon weapon Repeating Crossbow.png",
@@ -239,7 +239,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/ef/ER_Icon_Weapon_Spread_Crossbow.png/300px-ER_Icon_Weapon_Spread_Crossbow.png?e3700c",
       "alt": "ER Icon weapon Spread Crossbow.png",
@@ -272,7 +272,7 @@
       "primary": "Pierce",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/0e/ER_Icon_weapon_Full_Moon_Crossbow.png/300px-ER_Icon_weapon_Full_Moon_Crossbow.png?755d08",
       "alt": "ER Icon weapon Full Moon Crossbow.png",

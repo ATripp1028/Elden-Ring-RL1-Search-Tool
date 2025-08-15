@@ -239,6 +239,15 @@ const toggleBuildModeTooltip = () => {
       />
     </div>
 
+    <div class="form-group">
+      <label>Filter by Status Buildups</label>
+      <BaseMultiSelect
+        :options="weaponsStore.statusBuildups"
+        v-model:selected-items="filtersStore.selectedStatusBuildups"
+        placeholder="Select Status Buildups..."
+      />
+    </div>
+
     <button @click="resetStats" :disabled="statsStore.ignoreStats">Reset</button>
     <p class="made-by">Made by MrSporkMan</p>
   </div>

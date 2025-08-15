@@ -22,7 +22,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/fd/ER_Icon_weapon_Hookclaws.png/300px-ER_Icon_weapon_Hookclaws.png?edb790",
       "alt": "ER Icon weapon Hookclaws.png",
@@ -53,7 +53,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bb/ER_Icon_weapon_Bloodhound_Claws.png/300px-ER_Icon_weapon_Bloodhound_Claws.png?c88a92",
       "alt": "ER Icon weapon Bloodhound Claws.png",
@@ -84,7 +84,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "poison",
+    "status_buildup": "Poison",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/17/ER_Icon_weapon_Venomous_Fang.png/300px-ER_Icon_weapon_Venomous_Fang.png?20e0f0",
       "alt": "ER Icon weapon Venomous Fang.png",
@@ -115,7 +115,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/3/3e/ER_Icon_weapon_Raptor_Talons.png/300px-ER_Icon_weapon_Raptor_Talons.png?25b7ad",
       "alt": "ER Icon weapon Raptor Talons.png",
@@ -148,7 +148,7 @@
       "primary": "Slash",
       "secondary": "Slash"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/07/ER_Icon_Weapon_Claws_of_Night.png/300px-ER_Icon_Weapon_Claws_of_Night.png?c85af1",
       "alt": "ER Icon weapon Claws of Night.png",

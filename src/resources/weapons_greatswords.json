@@ -22,7 +22,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c5/ER_Icon_weapon_Bastard_Sword.png/300px-ER_Icon_weapon_Bastard_Sword.png?45c753",
       "alt": "ER Icon weapon Bastard Sword.png",
@@ -53,7 +53,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8e/ER_Icon_weapon_Claymore.png/300px-ER_Icon_weapon_Claymore.png?65cc2c",
       "alt": "ER Icon weapon Claymore.png",
@@ -84,7 +84,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/7e/ER_Icon_weapon_Iron_Greatsword.png/300px-ER_Icon_weapon_Iron_Greatsword.png?f500fe",
       "alt": "ER Icon weapon Iron Greatsword.png",
@@ -115,7 +115,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/eb/ER_Icon_weapon_Lordsworn%27s_Greatsword.png/300px-ER_Icon_weapon_Lordsworn%27s_Greatsword.png?d1a2d9",
       "alt": "ER Icon weapon Lordsworn's Greatsword.png",
@@ -146,7 +146,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/04/ER_Icon_weapon_Knight%27s_Greatsword.png/300px-ER_Icon_weapon_Knight%27s_Greatsword.png?1bf7cd",
       "alt": "ER Icon weapon Knight's Greatsword.png",
@@ -177,7 +177,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/7/78/ER_Icon_weapon_Banished_Knight%27s_Greatsword.png/300px-ER_Icon_weapon_Banished_Knight%27s_Greatsword.png?d136e2",
       "alt": "ER Icon weapon Banished Knight's Greatsword.png",
@@ -208,7 +208,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/09/ER_Icon_weapon_Forked_Greatsword.png/300px-ER_Icon_weapon_Forked_Greatsword.png?fe217c",
       "alt": "ER Icon weapon Forked Greatsword.png",
@@ -239,7 +239,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/90/ER_Icon_Weapon_Lizard_Greatsword.png/300px-ER_Icon_Weapon_Lizard_Greatsword.png?1d8423",
       "alt": "ER Icon weapon Lizard Greatsword.png",
@@ -270,7 +270,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/b/bd/ER_Icon_weapon_Flamberge.png/300px-ER_Icon_weapon_Flamberge.png?fca605",
       "alt": "ER Icon weapon Flamberge.png",
@@ -301,7 +301,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/1/13/ER_Icon_weapon_Gargoyle%27s_Greatsword.png/300px-ER_Icon_weapon_Gargoyle%27s_Greatsword.png?97ebe6",
       "alt": "ER Icon weapon Gargoyle's Greatsword.png",
@@ -334,7 +334,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/d/d7/ER_Icon_weapon_Gargoyle%27s_Blackblade.png/300px-ER_Icon_weapon_Gargoyle%27s_Blackblade.png?d40db5",
       "alt": "ER Icon weapon Gargoyle's Blackblade.png",
@@ -367,7 +367,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/f/f3/ER_Icon_weapon_Inseparable_Sword.png/300px-ER_Icon_weapon_Inseparable_Sword.png?6e29d9",
       "alt": "ER Icon weapon Inseparable Sword.png",
@@ -398,7 +398,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "blood_loss",
+    "status_buildup": "Blood Loss",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8b/ER_Icon_weapon_Sword_of_Milos.png/300px-ER_Icon_weapon_Sword_of_Milos.png?10db87",
       "alt": "ER Icon weapon Sword of Milos.png",
@@ -431,7 +431,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/03/ER_Icon_weapon_Marais_Executioner%27s_Sword.png/300px-ER_Icon_weapon_Marais_Executioner%27s_Sword.png?8cd846",
       "alt": "ER Icon weapon Marais Executioner's Sword.png",
@@ -462,7 +462,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/6/68/ER_Icon_Weapon_Greatsword_of_Solitude.png/300px-ER_Icon_Weapon_Greatsword_of_Solitude.png?35f944",
       "alt": "ER Icon weapon Greatsword of Solitude.png",
@@ -495,7 +495,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/5/52/ER_Icon_weapon_Ordovis%27s_Greatsword.png/300px-ER_Icon_weapon_Ordovis%27s_Greatsword.png?e6a3f1",
       "alt": "ER Icon weapon Ordovis's Greatsword.png",
@@ -528,7 +528,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/4/43/ER_Icon_weapon_Alabaster_Lord%27s_Sword.png/300px-ER_Icon_weapon_Alabaster_Lord%27s_Sword.png?1b1b8d",
       "alt": "ER Icon weapon Alabaster Lord's Sword.png",
@@ -561,7 +561,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/a/a6/ER_Icon_weapon_Death%27s_Poker.png/300px-ER_Icon_weapon_Death%27s_Poker.png?223d4c",
       "alt": "ER Icon weapon Death's Poker.png",
@@ -594,7 +594,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/9/9a/ER_Icon_weapon_Helphen%27s_Steeple.png/300px-ER_Icon_weapon_Helphen%27s_Steeple.png?a0ba20",
       "alt": "ER Icon weapon Helphen's Steeple.png",
@@ -627,7 +627,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/87/ER_Icon_weapon_Blasphemous_Blade.png/300px-ER_Icon_weapon_Blasphemous_Blade.png?48ccda",
       "alt": "ER Icon weapon Blasphemous Blade.png",
@@ -660,7 +660,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/0/08/ER_Icon_weapon_Golden_Order_Greatsword.png/300px-ER_Icon_weapon_Golden_Order_Greatsword.png?a23588",
       "alt": "ER Icon weapon Golden Order Greatsword.png",
@@ -693,7 +693,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "frostbite",
+    "status_buildup": "Frostbite",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/8/8c/ER_Icon_weapon_Dark_Moon_Greatsword.png/300px-ER_Icon_weapon_Dark_Moon_Greatsword.png?aacfca",
       "alt": "ER Icon weapon Dark Moon Greatsword.png",
@@ -726,7 +726,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/c/c3/ER_Icon_Weapon_Greatsword_of_Damnation.png/300px-ER_Icon_Weapon_Greatsword_of_Damnation.png?1dd873",
       "alt": "ER Icon weapon Greatsword of Damnation.png",
@@ -759,7 +759,7 @@
       "primary": "Standard",
       "secondary": "Pierce"
     },
-    "status_buildup": "none",
+    "status_buildup": "None",
     "image": {
       "src": "https://eldenring.wiki.gg/images/thumb/e/e1/ER_Icon_weapon_Sacred_Relic_Sword.png/300px-ER_Icon_weapon_Sacred_Relic_Sword.png?5179de",
       "alt": "ER Icon weapon Sacred Relic Sword.png",
