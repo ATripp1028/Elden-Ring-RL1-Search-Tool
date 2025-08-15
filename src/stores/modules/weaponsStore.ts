@@ -163,6 +163,11 @@ export const useWeaponsStore = defineStore('weapons', () => {
         wikiFextralifeLink: weapon.wikiFextralifeLink,
         damageTypes: weapon.damage_types,
         trackedDamageTypes: (() => {
+          // Remove damage types for staves and sacred seals
+          if (weapon.weapon_type === 'Staves' || weapon.weapon_type === 'Sacred Seals') {
+            return []
+          }
+
           const major = weapon.damage_types?.major
           const minors = weapon.damage_types?.minor || []
           const allTypes = [major, ...minors].filter(Boolean) as string[]
