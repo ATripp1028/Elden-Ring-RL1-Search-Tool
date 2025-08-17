@@ -195,7 +195,7 @@ const shouldShowColumn = computed(() => (column: string) => {
   width: 100%;
   height: 100%;
   overflow: auto;
-  color: black;
+  color: var(--color-text-primary);
   margin: 0;
   padding: 0;
   flex: 1;
@@ -204,8 +204,8 @@ const shouldShowColumn = computed(() => (column: string) => {
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: white;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-bg-elevated);
+  box-shadow: var(--shadow-light);
   table-layout: auto;
   margin: 0;
   padding: 0;
@@ -213,13 +213,13 @@ table {
 
 th,
 td {
-  padding: 12px;
+  padding: var(--space-md);
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-table-border);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: black;
+  color: var(--color-text-primary);
 }
 
 td {
@@ -228,9 +228,9 @@ td {
 }
 
 th {
-  background-color: #f5f5f5;
+  background-color: var(--color-table-header-bg);
   font-weight: 600;
-  color: black;
+  color: var(--color-text-primary);
   position: sticky;
   top: 0;
   z-index: 20;
@@ -277,19 +277,21 @@ th {
 }
 
 .wiki-links a {
-  color: green;
+  color: var(--color-primary);
   text-decoration: none;
   position: relative;
   z-index: 35;
   pointer-events: auto;
+  transition: var(--transition-fast);
 }
 
 .wiki-links a:hover {
   text-decoration: underline;
+  color: var(--color-primary-light);
 }
 
 tr:hover {
-  background-color: #f9f9f9;
+  background-color: var(--color-table-row-hover);
 }
 
 tbody tr {
@@ -310,21 +312,21 @@ tbody td {
 }
 
 .error {
-  color: red;
+  color: var(--color-danger);
 }
 
 .no-secondary {
-  color: #999;
+  color: var(--color-text-muted);
   font-style: italic;
 }
 
 .status-buildup {
-  color: #d63384;
+  color: var(--color-danger);
   font-weight: 500;
 }
 
 .no-status {
-  color: #999;
+  color: var(--color-text-muted);
   font-style: italic;
 }
 

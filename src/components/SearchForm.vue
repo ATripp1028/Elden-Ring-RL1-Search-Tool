@@ -288,13 +288,13 @@ const toggleBuildModeTooltip = () => {
 <style scoped>
 .search-form {
   width: 100%;
-  padding: 20px;
-  background-color: #f5f5f5;
+  padding: var(--space-xl);
+  background-color: var(--color-sidebar-bg);
   height: 100vh;
   position: sticky;
   left: 0;
   top: 0;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--color-sidebar-shadow);
   overflow-y: auto;
 }
 
@@ -302,13 +302,14 @@ const toggleBuildModeTooltip = () => {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: var(--color-text-primary);
+  margin-top: var(--space-2xl);
 }
 
 .subtitle {
   text-align: center;
   font-size: 16px;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 .form-group {
@@ -329,23 +330,26 @@ const toggleBuildModeTooltip = () => {
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: var(--space-xs);
   font-weight: 500;
-  color: #333;
+  color: var(--color-text-primary);
 }
 
 input {
   width: 100%;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-small);
   font-size: 14px;
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+  transition: var(--transition-fast);
 }
 
 input:focus {
   outline: none;
-  border-color: #666;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
 }
 
 .debug-section {
@@ -373,7 +377,7 @@ input:focus {
 .made-by {
   text-align: center;
   font-size: 12px;
-  color: #666;
+  color: var(--color-text-muted);
 }
 
 .checkbox-label {

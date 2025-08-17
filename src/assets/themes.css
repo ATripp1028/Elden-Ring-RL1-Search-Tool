@@ -1,0 +1,452 @@
+/* =================================
+   ELDEN RING THEME SYSTEM
+   ================================= */
+
+/* Base CSS Custom Properties */
+:root {
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.4s ease;
+
+  /* Shadows */
+  --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 4px 16px rgba(0, 0, 0, 0.2);
+
+  /* Border Radius */
+  --radius-small: 4px;
+  --radius-medium: 6px;
+  --radius-large: 8px;
+  --radius-round: 50%;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+}
+
+/* =================================
+   AGE OF FRACTURE - "THE ERDTREE ENDURES"
+   ================================= */
+[data-theme='age-of-fracture'] {
+  /* Primary Colors */
+  --color-primary: #d4af37; /* Erdtree Gold */
+  --color-primary-light: #f5e6a3; /* Grace Light */
+  --color-primary-dark: #8b6914; /* Tarnished Bronze */
+
+  /* Background Colors */
+  --color-bg-primary: #2c2b29; /* Ashen Gray */
+  --color-bg-secondary: #3a3937; /* Charcoal Mist */
+  --color-bg-tertiary: #4a4845; /* Fog Veil */
+  --color-bg-elevated: #525048; /* Elevated surfaces */
+
+  /* Text Colors */
+  --color-text-primary: #e8e6e3; /* Moonlight */
+  --color-text-secondary: #b8b5b0; /* Dusk */
+  --color-text-muted: #6b6865; /* Shadow */
+  --color-text-disabled: #555451;
+
+  /* Border Colors */
+  --color-border-light: #555451;
+  --color-border-medium: #6b6865;
+  --color-border-heavy: #8b8884;
+
+  /* Accent Colors */
+  --color-danger: #dc143c; /* Crimson Rot */
+  --color-success: #32cd32; /* Poison Green */
+  --color-warning: #ffd700; /* Faith Gold */
+  --color-info: #4169e1; /* Magic Blue */
+
+  /* Stat Colors */
+  --color-strength: #dc143c;
+  --color-dexterity: #32cd32;
+  --color-intelligence: #4169e1;
+  --color-faith: #ffd700;
+  --color-arcane: #9932cc;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(212, 175, 55, 0.1);
+  --color-hover-border: var(--color-primary-light);
+  --color-focus-ring: rgba(212, 175, 55, 0.3);
+  --color-active-bg: rgba(212, 175, 55, 0.2);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(212, 175, 55, 0.05);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   AGE OF THE DUSKBORN - "DEATH BECOMES LIFE"
+   ================================= */
+[data-theme='age-of-duskborn'] {
+  /* Primary Colors */
+  --color-primary: #c4b5a0; /* Bone White */
+  --color-primary-light: #e8ddd0; /* Pale Bone */
+  --color-primary-dark: #8a7b6a; /* Weathered Bone */
+
+  /* Background Colors */
+  --color-bg-primary: #f5f3f0; /* Ashen White */
+  --color-bg-secondary: #e8e4e0; /* Pale Gray */
+  --color-bg-tertiary: #d5d1cc; /* Dust */
+  --color-bg-elevated: #ffffff; /* Pure White */
+
+  /* Text Colors */
+  --color-text-primary: #2a2825; /* Dark Charcoal */
+  --color-text-secondary: #4a453f; /* Medium Gray */
+  --color-text-muted: #6b645b; /* Muted Brown */
+  --color-text-disabled: #9b9288;
+
+  /* Border Colors */
+  --color-border-light: #d5d1cc;
+  --color-border-medium: #c4beb5;
+  --color-border-heavy: #a59a8d;
+
+  /* Accent Colors */
+  --color-danger: #8b4a4a; /* Dried Blood */
+  --color-success: #6b7a5a; /* Withered Green */
+  --color-warning: #b8941d; /* Tarnished Gold */
+  --color-info: #5a6b7a; /* Cold Blue */
+
+  /* Stat Colors */
+  --color-strength: #8b4a4a;
+  --color-dexterity: #6b7a5a;
+  --color-intelligence: #5a6b7a;
+  --color-faith: #b8941d;
+  --color-arcane: #7a5a7a;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(196, 181, 160, 0.1);
+  --color-hover-border: var(--color-primary);
+  --color-focus-ring: rgba(196, 181, 160, 0.3);
+  --color-active-bg: rgba(196, 181, 160, 0.15);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(196, 181, 160, 0.05);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   AGE OF ORDER - "PERFECT GOLDEN ORDER"
+   ================================= */
+[data-theme='age-of-order'] {
+  /* Primary Colors */
+  --color-primary: #1a4b8c; /* Deep Order Blue */
+  --color-primary-light: #2d5aa0; /* Lighter Blue */
+  --color-primary-dark: #0f3366; /* Darker Blue */
+
+  /* Background Colors */
+  --color-bg-primary: #faf9f7; /* Pure White */
+  --color-bg-secondary: #f0efec; /* Pristine Gray */
+  --color-bg-tertiary: #e6e4e0; /* Marble */
+  --color-bg-elevated: #ffffff; /* Perfect White */
+
+  /* Text Colors */
+  --color-text-primary: #1a1815; /* Deep Black */
+  --color-text-secondary: #3a352e; /* Dark Gray */
+  --color-text-muted: #5a544a; /* Medium Gray */
+  --color-text-disabled: #8a847a;
+
+  /* Border Colors */
+  --color-border-light: #e6e4e0;
+  --color-border-medium: #d4d0c8;
+  --color-border-heavy: #b8b2a5;
+
+  /* Accent Colors */
+  --color-danger: #c4302b; /* Pure Red */
+  --color-success: #2d7a2d; /* Pure Green */
+  --color-warning: #d4af37; /* Perfect Gold */
+  --color-info: #1a4b8c; /* Order Blue */
+
+  /* Stat Colors */
+  --color-strength: #c4302b;
+  --color-dexterity: #2d7a2d;
+  --color-intelligence: #1a4b8c;
+  --color-faith: #d4af37;
+  --color-arcane: #7a2d7a;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(26, 75, 140, 0.08);
+  --color-hover-border: var(--color-primary);
+  --color-focus-ring: rgba(26, 75, 140, 0.2);
+  --color-active-bg: rgba(26, 75, 140, 0.12);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(26, 75, 140, 0.03);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   BLESSING OF DESPAIR - "THE CURSE SPREADS"
+   ================================= */
+[data-theme='blessing-of-despair'] {
+  /* Primary Colors */
+  --color-primary: #8b6914; /* Putrid Yellow */
+  --color-primary-light: #a67f1a; /* Sickly Yellow */
+  --color-primary-dark: #6b520f; /* Rotten Gold */
+
+  /* Background Colors */
+  --color-bg-primary: #2d2b1f; /* Decay Brown */
+  --color-bg-secondary: #3a3629; /* Festering */
+  --color-bg-tertiary: #453f2e; /* Rot */
+  --color-bg-elevated: #4f4834; /* Corrupted */
+
+  /* Text Colors */
+  --color-text-primary: #d4c4a0; /* Pale Yellow */
+  --color-text-secondary: #b8a888; /* Sickly */
+  --color-text-muted: #8a7a5a; /* Muted */
+  --color-text-disabled: #6b5f42;
+
+  /* Border Colors */
+  --color-border-light: #4f4834;
+  --color-border-medium: #5f5342;
+  --color-border-heavy: #6f6252;
+
+  /* Accent Colors */
+  --color-danger: #7a4a2a; /* Dried Blood */
+  --color-success: #4a5a2a; /* Sickly Green */
+  --color-warning: #a67f1a; /* Putrid Yellow */
+  --color-info: #3a4a5a; /* Murky Blue */
+
+  /* Stat Colors */
+  --color-strength: #7a4a2a;
+  --color-dexterity: #4a5a2a;
+  --color-intelligence: #3a4a5a;
+  --color-faith: #a67f1a;
+  --color-arcane: #5a3a5a;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(139, 105, 20, 0.15);
+  --color-hover-border: var(--color-primary-light);
+  --color-focus-ring: rgba(139, 105, 20, 0.3);
+  --color-active-bg: rgba(139, 105, 20, 0.2);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(139, 105, 20, 0.08);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   AGE OF STARS - "COLD LUNAR LIGHT"
+   ================================= */
+[data-theme='age-of-stars'] {
+  /* Primary Colors */
+  --color-primary: #7fb3d3; /* Moonlight Blue */
+  --color-primary-light: #a5c9e0; /* Pale Starlight */
+  --color-primary-dark: #5a8bb5; /* Deep Cosmic */
+
+  /* Background Colors */
+  --color-bg-primary: #1a1d2e; /* Night Sky */
+  --color-bg-secondary: #262a3f; /* Deep Space */
+  --color-bg-tertiary: #323650; /* Cosmic Void */
+  --color-bg-elevated: #3d4258; /* Stellar */
+
+  /* Text Colors */
+  --color-text-primary: #d3e5f0; /* Starlight */
+  --color-text-secondary: #b3c9d8; /* Moonbeam */
+  --color-text-muted: #8aa3b8; /* Distant Light */
+  --color-text-disabled: #6b7d8a;
+
+  /* Border Colors */
+  --color-border-light: #3d4258;
+  --color-border-medium: #4d5268;
+  --color-border-heavy: #5d6278;
+
+  /* Accent Colors */
+  --color-danger: #b85a7f; /* Cosmic Pink */
+  --color-success: #5ab88a; /* Ethereal Green */
+  --color-warning: #d3b347; /* Distant Star */
+  --color-info: #7fb3d3; /* Lunar Blue */
+
+  /* Stat Colors */
+  --color-strength: #b85a7f;
+  --color-dexterity: #5ab88a;
+  --color-intelligence: #7fb3d3;
+  --color-faith: #d3b347;
+  --color-arcane: #a57fb3;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(127, 179, 211, 0.1);
+  --color-hover-border: var(--color-primary-light);
+  --color-focus-ring: rgba(127, 179, 211, 0.3);
+  --color-active-bg: rgba(127, 179, 211, 0.15);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(127, 179, 211, 0.05);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   LORD OF FRENZIED FLAME - "MAY CHAOS TAKE THE WORLD"
+   ================================= */
+[data-theme='lord-of-frenzied-flame'] {
+  /* Primary Colors */
+  --color-primary: #ff8c00; /* Frenzied Orange */
+  --color-primary-light: #ffb347; /* Bright Flame */
+  --color-primary-dark: #cc7000; /* Deep Fire */
+
+  /* Background Colors */
+  --color-bg-primary: #2e1a0f; /* Burned Earth */
+  --color-bg-secondary: #3d2318; /* Smoldering */
+  --color-bg-tertiary: #4a2b1f; /* Charred */
+  --color-bg-elevated: #573324; /* Ember */
+
+  /* Text Colors */
+  --color-text-primary: #ffb347; /* Flame Light */
+  --color-text-secondary: #e69500; /* Orange Glow */
+  --color-text-muted: #b8751a; /* Dimmed Fire */
+  --color-text-disabled: #8a5a15;
+
+  /* Border Colors */
+  --color-border-light: #573324;
+  --color-border-medium: #6b3f2d;
+  --color-border-heavy: #7f4b36;
+
+  /* Accent Colors */
+  --color-danger: #ff4500; /* Intense Fire */
+  --color-success: #ff8c00; /* Chaos Orange */
+  --color-warning: #ffd700; /* Mad Gold */
+  --color-info: #ff6b47; /* Burning Red */
+
+  /* Stat Colors */
+  --color-strength: #ff4500;
+  --color-dexterity: #ff8c00;
+  --color-intelligence: #ff6b47;
+  --color-faith: #ffd700;
+  --color-arcane: #ff7f50;
+
+  /* Interactive States */
+  --color-hover-bg: rgba(255, 140, 0, 0.15);
+  --color-hover-border: var(--color-primary-light);
+  --color-focus-ring: rgba(255, 140, 0, 0.4);
+  --color-active-bg: rgba(255, 140, 0, 0.25);
+
+  /* Sidebar specific */
+  --color-sidebar-bg: var(--color-bg-secondary);
+  --color-sidebar-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+
+  /* Table specific */
+  --color-table-header-bg: var(--color-bg-tertiary);
+  --color-table-row-hover: rgba(255, 140, 0, 0.08);
+  --color-table-border: var(--color-border-light);
+}
+
+/* =================================
+   THEME TRANSITION ANIMATIONS
+   ================================= */
+* {
+  transition:
+    background-color var(--transition-medium),
+    color var(--transition-medium),
+    border-color var(--transition-medium),
+    box-shadow var(--transition-medium);
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* =================================
+   GLOBAL THEME STYLES
+   ================================= */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition:
+    background-color var(--transition-medium),
+    color var(--transition-medium);
+}
+
+/* Theme Toggle Button Base Styles */
+.theme-toggle {
+  position: fixed;
+  top: var(--space-lg);
+  left: var(--space-lg);
+  z-index: 1000;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-medium);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: var(--shadow-medium);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.theme-toggle:hover {
+  background-color: var(--color-hover-bg);
+  border-color: var(--color-hover-border);
+  box-shadow: var(--shadow-heavy);
+  transform: translateY(-1px);
+}
+
+.theme-toggle:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-light);
+}
+
+.theme-toggle-icon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Legacy theme compatibility - remove when all components updated */
+[data-theme='age-of-fracture'] .theme-toggle-icon.moon,
+[data-theme='blessing-of-despair'] .theme-toggle-icon.moon,
+[data-theme='age-of-stars'] .theme-toggle-icon.moon,
+[data-theme='lord-of-frenzied-flame'] .theme-toggle-icon.moon {
+  display: inline;
+}
+
+[data-theme='age-of-duskborn'] .theme-toggle-icon.sun,
+[data-theme='age-of-order'] .theme-toggle-icon.sun {
+  display: inline;
+}
+
+[data-theme='age-of-fracture'] .theme-toggle-icon.sun,
+[data-theme='blessing-of-despair'] .theme-toggle-icon.sun,
+[data-theme='age-of-stars'] .theme-toggle-icon.sun,
+[data-theme='lord-of-frenzied-flame'] .theme-toggle-icon.sun {
+  display: none;
+}
+
+[data-theme='age-of-duskborn'] .theme-toggle-icon.moon,
+[data-theme='age-of-order'] .theme-toggle-icon.moon {
+  display: none;
+}

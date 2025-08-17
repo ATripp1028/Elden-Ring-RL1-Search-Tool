@@ -1,35 +1,40 @@
 @import './base.css';
+@import './themes.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: none;
+  margin: 0;
+  padding: 0;
   font-weight: normal;
+  width: 100vw;
+  height: 100vh;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  color: var(--color-primary);
+  transition: var(--transition-fast);
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: var(--color-hover-bg);
+    color: var(--color-primary-light);
   }
 }
 
+/* Remove the conflicting grid layout for larger screens */
 @media (min-width: 1024px) {
   body {
-    display: flex;
-    place-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
   }
 }

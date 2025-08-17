@@ -57,44 +57,50 @@ const updateItemsPerPage = (event: Event) => {
 .pagination {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.75rem;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
 }
 
 .result-count {
   font-weight: 500;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 .items-per-page {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
 }
 
 .items-per-page-label {
   font-weight: 500;
-  color: #666;
+  color: var(--color-text-secondary);
 }
 
 .items-per-page select {
-  padding: 0.2rem 0.4rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: var(--space-xs) var(--space-xs);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-small);
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+  transition: var(--transition-fast);
 }
 
 .page-navigation {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-sm);
 }
 
 .page-navigation button {
-  padding: 0.35rem 0.75rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-small);
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
   cursor: pointer;
+  transition: var(--transition-fast);
+  font-size: 13px;
 }
 
 .page-navigation button:disabled {
@@ -103,11 +109,14 @@ const updateItemsPerPage = (event: Event) => {
 }
 
 .page-navigation button:hover:not(:disabled) {
-  background-color: #f5f5f5;
+  background-color: var(--color-hover-bg);
+  border-color: var(--color-hover-border);
+  transform: translateY(-1px);
 }
 
 .page-number {
   font-weight: 500;
-  color: #666;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
 }
 </style>

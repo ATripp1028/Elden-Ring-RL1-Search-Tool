@@ -45,17 +45,17 @@ const paginationStore = usePaginationStore()
 .results-filter {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  padding: 8px 10px;
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #ddd;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-sm);
+  background-color: var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border-medium);
   width: 100%;
   flex-shrink: 0;
 }
 
 .filter-row {
   display: flex;
-  gap: 12px;
+  gap: var(--space-md);
   align-items: center;
   width: 100%;
 }
@@ -63,30 +63,33 @@ const paginationStore = usePaginationStore()
 .filter-group {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-sm);
   flex: 1;
   min-width: 0;
 }
 
 label {
   font-weight: 500;
-  color: #333;
+  color: var(--color-text-primary);
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 input {
-  padding: 4px 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-small);
   font-size: 13px;
   flex: 1;
   min-width: 0;
+  background-color: var(--color-bg-elevated);
+  color: var(--color-text-primary);
+  transition: var(--transition-fast);
 }
 
 input:focus {
   outline: none;
-  border-color: #666;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
 }
 </style>

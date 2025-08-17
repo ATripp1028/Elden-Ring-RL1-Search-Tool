@@ -88,22 +88,24 @@ const { isOpen, multiselectRef, toggleOption, isSelected } = useMultiSelect({
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 6px 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border-medium);
+  border-radius: var(--radius-small);
+  background-color: var(--color-bg-elevated);
   cursor: pointer;
   font-size: 14px;
   min-height: 32px;
+  transition: var(--transition-fast);
 }
 
 .multiselect-trigger:hover {
-  border-color: #666;
+  border-color: var(--color-hover-border);
+  background-color: var(--color-hover-bg);
 }
 
 .multiselect-trigger.open {
-  border-color: #666;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-focus-ring);
 }
 
 .multiselect-display {
@@ -111,14 +113,14 @@ const { isOpen, multiselectRef, toggleOption, isSelected } = useMultiSelect({
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #666;
+  color: var(--color-text-primary);
 }
 
 .multiselect-arrow {
   font-size: 10px;
-  color: #666;
-  transition: transform 0.2s;
-  margin-left: 8px;
+  color: var(--color-text-secondary);
+  transition: transform var(--transition-fast);
+  margin-left: var(--space-sm);
 }
 
 .multiselect-trigger.open .multiselect-arrow {
@@ -130,58 +132,60 @@ const { isOpen, multiselectRef, toggleOption, isSelected } = useMultiSelect({
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-medium);
   border-top: none;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 var(--radius-small) var(--radius-small);
+  box-shadow: var(--shadow-medium);
   z-index: 30;
   max-height: 200px;
   overflow-y: auto;
 }
 
 .multiselect-options {
-  padding: 4px 0;
+  padding: var(--space-xs) 0;
 }
 
 .multiselect-option {
   display: flex;
   align-items: center;
-  padding: 8px 12px;
+  padding: var(--space-sm) var(--space-md);
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: var(--transition-fast);
+  color: var(--color-text-primary);
 }
 
 .multiselect-option:hover {
-  background-color: #f5f5f5;
+  background-color: var(--color-hover-bg);
 }
 
 .multiselect-option.selected {
-  background-color: #e3f2fd;
+  background-color: var(--color-active-bg);
+  color: var(--color-primary);
 }
 
 .checkbox {
   width: 16px;
   height: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border-medium);
   border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 8px;
+  margin-right: var(--space-sm);
   font-size: 12px;
-  color: #2196f3;
-  background-color: white;
+  color: var(--color-primary);
+  background-color: var(--color-bg-elevated);
 }
 
 .multiselect-option.selected .checkbox {
-  background-color: #2196f3;
-  border-color: #2196f3;
-  color: white;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-bg-primary);
 }
 
 .option-text {
   flex: 1;
-  color: #666;
+  color: var(--color-text-primary);
 }
 </style>
