@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { usePaginationStore, useUIStore, useFiltersStore } from '../stores'
+import { usePaginationStore, useUIStore, useFiltersStore, useStatsStore } from '../stores'
 import { DataType } from '../model/types'
 
 const paginationStore = usePaginationStore()
 const uiStore = useUIStore()
 const filtersStore = useFiltersStore()
+const statsStore = useStatsStore()
 
 const sortIndicator = computed(() => (column: string) => {
   if (uiStore.sortBy !== column) return ''
@@ -135,7 +136,7 @@ const shouldShowColumn = computed(() => (column: string) => {
             <div v-if="weapon.type === 'weapon'">
               One Hand: {{ weapon.requiredAttributes.strengthOneHand }}
             </div>
-            <div v-if="weapon.type === 'weapon'">
+            <div v-if="weapon.type === 'weapon' && statsStore.accountForTwoHanded">
               Two Hand: {{ weapon.requiredAttributes.strengthTwoHand }}
             </div>
             <span v-else class="no-secondary">—</span>
