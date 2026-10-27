@@ -22,10 +22,11 @@ const shouldShowColumn = computed(() => (column: string) => {
   if (!uiStore.selectedColumns.includes(column)) return false
 
   // For spells only, hide certain weapon-specific columns
-  if (filtersStore.selectedDataType === DataType.SpellsOnly) {
-    if (column === 'Strength' || column === 'Dexterity' || column === 'Attack Type') {
-      return false
-    }
+  if (
+    filtersStore.selectedDataType === DataType.SpellsOnly &&
+    (column === 'Strength' || column === 'Dexterity' || column === 'Attack Type')
+  ) {
+    return false
   }
 
   return true
